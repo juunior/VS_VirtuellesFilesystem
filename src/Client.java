@@ -14,6 +14,8 @@ public class Client {
             Test stub2 = (Test) registry.lookup("Test");
             String response = stub.sayHello();
             System.out.println("response: " + response);
+            response = stub.sayHello2();
+            System.out.println("response: " + response);
             response = stub2.sayTest();
             System.out.println("response: " + response);
         } catch (Exception e) {

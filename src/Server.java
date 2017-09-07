@@ -11,6 +11,8 @@ public class Server implements Hello, Test {
         return "Hello, world!";
     }
 
+    public String sayHello2() { return "Hello, world2!"; }
+
     public String sayTest() {
         return "Hello, Test!";
     }
