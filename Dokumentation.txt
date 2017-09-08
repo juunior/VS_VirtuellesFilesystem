@@ -1,0 +1,32 @@
+Ergänzung: Prezi von der Projektpräsentation 1:  https://prezi.com/view/g8GqP3H1RMj1Z0yya8eg/
+
+05.09.Themen: Arbeitsgruppenbesprechung ~1h
+
+Arbeitsteilung
+-Robert,Christian,Kai:
+-Logik und Methoden schreiben, weitestgehend in Eigenregie
+
+-Jan:
+-Kommunikation via RMI
+-Rücksprache mit den anderen bei Feststellungen
+
+-Thomas:
+-GUI, Suchfeld Implementieren (ähnlich Windows Explorer)
+
+
+-Marc:
+- Doku & Präsentation
+- Projektstatements zusammenfassen und festhalten: Grundlage für die anderen
+- Doku zentral im Discord
+
+Branches fürs Projekt anlegen, Christian macht ein GitRepo auf.
+
+6.9. Themen:
+Diverse Herausforderungen mit IntelliJ und Github
+
+8.9. Themen:
+Client und zugleich Server sind doch nicht so einfach zu implementieren Besprechung mit Lösungsfindung dazu~3h
+Orientierung an XML, das hierarchisch aufgebaut ist und als Referenzdatei für die Struktur verwendet werden kann.
+Kai macht delete Funktion,
+Christian macht rename Funktion
+Säuberungsaktion auf den GitBranches
