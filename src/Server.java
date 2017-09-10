@@ -1,14 +1,32 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
+import com.google.common.hash.*;
+
+
+import static com.google.common.io.Files.asByteSource;
+
 
 public class Server implements Hello, Test {
-
-    public Server() {}
-
+    private Server() {}
     public String sayHello() {
         return "Hello, world!";
+    }
+    public boolean hash(HashCode message) {
+        File file = new File("Testhash.java");
+        HashFunction hf = Hashing.sha512();
+        HashCode hc = null;
+        try {
+            hc = asByteSource(file).hash(hf);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return message.equals(hc);
+
     }
 
     public String sayHello2() { return "Hello, world2!"; }

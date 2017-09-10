@@ -1,5 +1,13 @@
+import com.google.common.hash.HashCode;
+import com.google.common.hash.HashFunction;
+import com.google.common.hash.Hashing;
+
+import java.io.File;
+import java.io.IOException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+
+import static com.google.common.io.Files.asByteSource;
 
 public class Client {
 
@@ -18,9 +26,30 @@ public class Client {
             System.out.println("response: " + response);
             response = stub2.sayTest();
             System.out.println("response: " + response);
+            if(stub.hash(hashC())){
+                System.out.println("True");
+            }
+            else{
+                System.out.println("False or error");
+            }
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
             e.printStackTrace();
         }
     }
+
+    private static HashCode hashC() {
+        File fileC = new File("Testhash.java");
+        HashFunction hfC = Hashing.sha512();
+        HashCode hcC = null;
+        try {
+            hcC = asByteSource(fileC).hash(hfC);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return hcC;
+
+    }
+
 }
