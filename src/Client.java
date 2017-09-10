@@ -39,7 +39,7 @@ public class Client {
     }
 
     private static HashCode hashC() {
-        File fileC = new File("Testhash.java");
+        File fileC = new File("TesthashC.java");
         HashFunction hfC = Hashing.sha512();
         HashCode hcC = null;
         try {
