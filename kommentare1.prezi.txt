@@ -1,0 +1,13 @@
+- Schrift war zu dünn - hinten nicht lesbar
+- Sockets (C oder Java) Wenn Java vielleicht besser RMI - komfortabler zu implementieren
+- delete/rename -> add auf dem Server realisieren
+- search/browse -funktion Umsetzung -> Serverliste weist IP etc zu
+   - optional P2P / Client2Client
+- Prezi?! - zu wenig Grafiken (gerade Architekturaspekte etwas Anschaulicher gestalten)
+- Zuhörer Visuell anregen - weniger Abstraktion mehr Diagramme
+- Laserpointer
+- 2 Funktionen je Client/Server - GUI angezeigt
+- Client Stecker ziehen -> Server macht Listenänderung (war damit Redundanz gemeint???)
+- Redundanz doppelte Dateien und Ordner
+- Synchronisierungsintervalle
+- Upload (Prezi.pdf +link)
