@@ -1,8 +1,0 @@
-StundenZettelVS1.txt
-Was ich übertragen habe lösche ich hier wieder raus und das taucht dann in der PDF-Datei auf. Eine bessere Lösung via Github ist mir nicht eingefallen. Sry. 
-(Github frisst keine Tabellendateien die ich getestet habe... ods, xls, xml. Und Up-und Downloads endet sicherlich im Chaos.)
-
-Beispiel zum Eintragen: 
-
-28.3. Marc 2h
-29.3. Christian 2h
