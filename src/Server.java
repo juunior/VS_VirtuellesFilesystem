@@ -1,6 +1,5 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.RemoteException;
@@ -9,31 +8,11 @@ import com.google.common.hash.*;
 
 
 import static com.google.common.io.Files.asByteSource;
+import static com.google.common.io.Files.newReader;
 
 
 public class Server implements Hello, Test {
     private Server() {}
-    public String sayHello() {
-        return "Hello, world!";
-    }
-    public boolean hash(HashCode message) {
-        File file = new File("Testhash.java");
-        HashFunction hf = Hashing.sha512();
-        HashCode hc = null;
-        try {
-            hc = asByteSource(file).hash(hf);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return message.equals(hc);
-
-    }
-
-    public String sayHello2() { return "Hello, world2!"; }
-
-    public String sayTest() {
-        return "Hello, Test!";
-    }
 
     public static void main(String args[]) {
 
@@ -53,5 +32,47 @@ public class Server implements Hello, Test {
             System.err.println("Server exception: " + e.toString());
             e.printStackTrace();
         }
+    }
+
+    /* public FileInputStream updateXML() {
+        BufferedInputStream bis = null;
+        FileInputStream in = null;
+        File file = new File("remoteFiles\\Testhash.java");
+        try {
+            in = new FileInputStream(file);
+            in.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        return in;
+    }*/
+
+    /*  Funktion zum Bilden des hash über die serverseitige Datei sowie den Vergleich.
+        Antwort: boolean.
+     */
+    public boolean hash(HashCode message) {
+        File file = new File("remoteFiles\\Testhash.java");
+        HashFunction hf = Hashing.sha256();
+        HashCode hc = null;
+        try {
+            hc = asByteSource(file).hash(hf);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return message.equals(hc);
+    }
+
+    public String sayHello() {
+        return "Hello, world!";
+    }
+
+    public String sayHello2() {
+        return "Hello, world2!";
+    }
+
+    public String sayTest() {
+        return "Hello, Test!";
     }
 }

@@ -4,10 +4,13 @@ import com.google.common.hash.Hashing;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.nio.file.Files;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 import static com.google.common.io.Files.asByteSource;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 public class Client {
 
@@ -31,6 +34,8 @@ public class Client {
             }
             else{
                 System.out.println("False or error");
+                /*String local = "localFiles\\TesthashC.java";
+                Files.copy(stub.updateXML();local;REPLACE_EXISTING);*/
             }
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());
@@ -39,8 +44,8 @@ public class Client {
     }
 
     private static HashCode hashC() {
-        File fileC = new File("TesthashC.java");
-        HashFunction hfC = Hashing.sha512();
+        File fileC = new File("localFiles\\TesthashC.java");
+        HashFunction hfC = Hashing.sha256();
         HashCode hcC = null;
         try {
             hcC = asByteSource(fileC).hash(hfC);
