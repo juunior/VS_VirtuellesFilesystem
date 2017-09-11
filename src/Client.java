@@ -3,11 +3,15 @@ import com.google.common.hash.HashFunction;
 import com.google.common.hash.Hashing;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.file.Files;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+
+import com.healthmarketscience.rmiio.*;
+
 
 import static com.google.common.io.Files.asByteSource;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
@@ -34,8 +38,17 @@ public class Client {
             }
             else{
                 System.out.println("False or error");
-                /*String local = "localFiles\\TesthashC.java";
-                Files.copy(stub.updateXML();local;REPLACE_EXISTING);*/
+                //For Updating from Client to server. i.E. after renaming.
+                String local = "localFiles\\TesthashC.java";
+                try (SimpleRemoteInputStream istream = new SimpleRemoteInputStream(new FileInputStream(local))) {
+                    // call the remote method on the server.  the server will actually
+                    // interact with the RMI "server" we started above to retrieve the
+                    // file data
+                    stub.sendXML(istream.export());
+                }
+                // always make a best attempt to shutdown RemoteInputStream
+
+                //ends here
             }
         } catch (Exception e) {
             System.err.println("Client exception: " + e.toString());

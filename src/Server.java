@@ -5,6 +5,8 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import com.google.common.hash.*;
+import com.healthmarketscience.rmiio.RemoteInputStream;
+import com.healthmarketscience.rmiio.RemoteInputStreamClient;
 
 
 import static com.google.common.io.Files.asByteSource;
@@ -34,20 +36,32 @@ public class Server implements Hello, Test {
         }
     }
 
-    /* public FileInputStream updateXML() {
-        BufferedInputStream bis = null;
-        FileInputStream in = null;
-        File file = new File("remoteFiles\\Testhash.java");
+    //For updating from Client to Server i.E. after renaming
+    public void sendXML(RemoteInputStream ristream) throws IOException {
+        InputStream istream = RemoteInputStreamClient.wrap(ristream);
+        FileOutputStream ostream = null;
         try {
-            in = new FileInputStream(file);
-            in.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e){
-            e.printStackTrace();
+            File XML = new File("remoteFiles\\Testhash2.java");
+            ostream = new FileOutputStream(XML);
+            System.out.println("Writing file " + XML);
+            byte[] buf = new byte[1024];
+            int bytesRead;
+            while ((bytesRead = istream.read(buf)) >= 0) {
+                ostream.write(buf, 0, bytesRead);
+            }
+            ostream.flush();
+            System.out.println("Finished writing file " + XML);
+        } finally {
+            try {
+                istream.close();
+            } finally {
+                if (ostream != null) {
+                    ostream.close();
+                }
+            }
         }
-        return in;
-    }*/
+    }
+    //ends here TODO: in this context delete serverside file first (safely)
 
     /*  Funktion zum Bilden des hash über die serverseitige Datei sowie den Vergleich.
         Antwort: boolean.
