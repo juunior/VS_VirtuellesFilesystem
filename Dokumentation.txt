@@ -1,4 +1,34 @@
-Ergänzung: Prezi von der Projektpräsentation 1:  https://prezi.com/view/g8GqP3H1RMj1Z0yya8eg/
+Vorm 9.7. kleinere Besprechungen zur Ideenfindung,
+am 9.7. erste konkrete Sitzung "Wie gehen wir das Projekt an"
+Stichpunkte:
+- Dateien bleiben nur auf dem jeweiligen Rechner
+- Shadow-Datei wird zum Bearbeiten kopiert
+- Dateien werden überall angezeigt
+- gleiche Dateien mit Hash prüfen
+- C++ Wege 00 
+11.07./12.07.
+ - Thomas macht GUI
+ - Diskussion Marc-Robert zentraler/dezentraler Ansatz, jeweils Vor- und Nachteile herausfiltern.
+    - Robert
+      - zentralisiert (Aussage Herr Esch: erlaubt)
+      - Clients führen Dateien lokal
+      - Server fragt bei den Clients die Daten an und führt eine Liste(Zugriffsteuerung)
+      - Clients greifen über Server auf die Dateien zu (schliesst Race Conditions aus)
+      - Vorgehensweise bei Dateianfragen: Dateianfrage beim Server durch den Client A; Server organisiert Datei von Client B; 
+      Server sperrt Dateiressource auf Rechner B;Server übergibt Datei; Danach Datei zurück an den Server,; bei Client A sperren 
+      und auf Client B transferrieren und wieder freigeben.
+    - Marc
+      - Dateiübertragung von Client A zu Client B. Nach erfolgrreichem Checksummenvergleich wird die Datei bei Client A gelöscht.
+      Sperrbit schützt vor Mehrfachzugriffen bzw. Mehrfachanfragen. 
+      - Programmierung CPP einfacher, Java allerdings Plattformunabhängiger und GUI einfacher zu prgrammiern.
+    - Rücksprachen mit Prof Esch: Präsentationsinhalte nicht in Stein gemeisselt, Inhalte der Präsentation: Arbeitspakete,    
+      Lösungsidee(~ansatz), Funktionaler Zusammenhang (von Komponenten).Veranstaltung dient zum Tippgeben durch Prof Esch und 
+      Herr Sauer.Nicht Notenrelevant.
+13.07. Christian legt Repo an und lädt alle ein. Jan hatte ersten Quellcode in Java - wir satteln um auf Cpp.
+15.07. Die Erstellung der ersten Prezi wird begonnen und dient zugleich als Zusammenfassung und Strukturierung der besprochenen       
+    Programmabläufe und Funktionen.
+17.07. Präsentation  durch Robert vor Prof Esch und Herr Sauer, Feedback wurde notiert und wird hier zeitnah eingefügt.
+      Link zur Präsentation:  https://prezi.com/view/g8GqP3H1RMj1Z0yya8eg/
 
 05.09.Themen: Arbeitsgruppenbesprechung ~1h
 
