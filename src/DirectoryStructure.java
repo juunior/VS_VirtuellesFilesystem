@@ -1,9 +1,12 @@
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 import java.nio.file.*;
+import java.util.Collection;
 
 public class DirectoryStructure {
 
@@ -38,27 +41,29 @@ public class DirectoryStructure {
         }
     }
 
-    public static void listf(String rootPath) {
+    public static void createTxt(String rootPath, String txtPath) {
         File directory = new File(rootPath);
-        File[] fList = directory.listFiles();
+        File txtFile = new File(txtPath);
+        Collection<File> collection = org.apache.commons.io.FileUtils.listFilesAndDirs(directory,TrueFileFilter.INSTANCE,TrueFileFilter.INSTANCE);
         String list = "";
-        for (File file : fList) {
+        for (File file : collection) {
             if (file.isFile()) {
                 list += "FIL" + (file.getAbsolutePath()) + ";";
             } else if (file.isDirectory()) {
                 list += "DIR" + (file.getAbsolutePath()) + ";";
             }
         }
-        System.out.println(fList);
-
-       // FileUtils.writeStringToFile(new File("C:\\VS1\\Paths.txt"), list);
-
+        try {
+            FileUtils.writeStringToFile(txtFile,list);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args){
         String txtPath = "C:\\VS1\\Paths.txt";
         String rootPath = "C:\\VS1";
-      //  DirectoryStructure.createPaths(txtPath);
-        listf(rootPath);
+        //DirectoryStructure.createPaths(txtPath);
+        //createTxt(rootPath,txtPath);
     }
 }
