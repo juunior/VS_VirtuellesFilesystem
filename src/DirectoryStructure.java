@@ -1,10 +1,7 @@
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.*;
 import java.util.Collection;
 
@@ -17,7 +14,7 @@ public class DirectoryStructure {
             String part = "";
             String[] uri = null;
             part = br.readLine();
-            uri = part.split(";");
+            uri = part.split(";\n");
             for (String u : uri) {
                 if (u.startsWith("DIR")) {
                     u = u.substring(3);
@@ -60,10 +57,23 @@ public class DirectoryStructure {
         }
     }
 
+    public static String askPaths(){
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        String rootPath = null;
+        System.out.println("Geben Sie den root-Ordner fuer die interne Ordnerstruktur an. Verwenden Sie zur Trennung der Hierarchie-ebenen zwei Backslashs.");
+        try {
+            rootPath = br.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return rootPath;
+    }
+
     public static void main(String[] args){
-        String txtPath = "C:\\VS1\\Paths.txt";
-        String rootPath = "C:\\VS1";
-        //DirectoryStructure.createPaths(txtPath);
+        String rootPath = askPaths();
+        String txtPath = rootPath + "\\Paths.txt";
+        //createPaths(txtPath);
         //createTxt(rootPath,txtPath);
     }
 }
