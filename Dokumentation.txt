@@ -91,3 +91,19 @@ Säuberungsaktion auf den GitBranches
   entsprechende Befehle sind teils geschrieben und müssen noch weiterentwickelt werden.
 - Dokumentation erreicht vorraussichtlich Donnerstag Status Quo.
 - Nächste Besprechung Donnerstag 21 Uhr
+
+12.9.:
+ Roberst hat die Klasse zur Erstellung von Ordnerstrukturen funktionsbereit (ohne Ausnahmebehandlungen) und hochgeladen
+
+13.9.Themen:
+ - Kai noch keinen Branch erstellt. Kai soll sich auch mit den anderen (Christian und Jan) Zusammensetzen und dort unterstützen.
+ - Filewatcher implementrieren und das Programm effektiver gestalten?
+ - Programm so gestalten das das Minimum erfüllt wird, oder "Verwendbar" ist- Persönliche Nutzung, folgeprojekte,...?
+ - tägliche Meetings 21:00 jeweils 15minuten.
+ - Marc lädt Stundenliste hoch und teilt die Links
+ - Thomas setzt sich an die GUI
+ - Bitte von Jan an alle: 2 Tage vor den Meetings absagen, nichterscheinen sonst bitte nur mit triftigem Grund. 
+    Hintergrund: Die gezeigte Projektbeteiligung lässt bei manchen im Team zu Wünschen übrig, wodurch die anfallende Arbeit 
+    unvorteilhaft und unausgeglichen verteilt ist. (Robert und Jan machen gerade sehr viel der Rest macht im Vergleich dazu 
+    wenig-gar nichts, was die Beteiligung an Besprechungen mit einschliesst.)
+ - Die Stimmung im Team ist "gereizt" morgige Besprechung, >2 Tage im Voraus angekündigt, gleichzeitig Krisenbesprechung. 
