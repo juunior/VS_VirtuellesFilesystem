@@ -100,10 +100,14 @@ Säuberungsaktion auf den GitBranches
  - Filewatcher implementrieren und das Programm effektiver gestalten?
  - Programm so gestalten das das Minimum erfüllt wird, oder "Verwendbar" ist- Persönliche Nutzung, folgeprojekte,...?
  - tägliche Meetings 21:00 jeweils 15minuten.
- - Marc lädt Stundenliste hoch und teilt die Links
+ - Marc lädt Stundenliste hoch und teilt die Links: https://docs.google.com/spreadsheets/d/1Y-NdT8_gWzaZD2NccGHoLxS7KAwDpxTK9GyOBBn9WOg/edit?usp=sharing
  - Thomas setzt sich an die GUI
  - Bitte von Jan an alle: 2 Tage vor den Meetings absagen, nichterscheinen sonst bitte nur mit triftigem Grund. 
     Hintergrund: Die gezeigte Projektbeteiligung lässt bei manchen im Team zu Wünschen übrig, wodurch die anfallende Arbeit 
     unvorteilhaft und unausgeglichen verteilt ist. (Robert und Jan machen gerade sehr viel der Rest macht im Vergleich dazu 
     wenig-gar nichts, was die Beteiligung an Besprechungen mit einschliesst.)
  - Die Stimmung im Team ist "gereizt" morgige Besprechung, >2 Tage im Voraus angekündigt, gleichzeitig Krisenbesprechung. 
+ 
+ //Stundenzettellink; jeder darf kommentieren, der den Link hat. (Sicherheitsmaßnahme das die Tabelle nicht durch Dritte 
+ //verwüstet wird.
+ https://docs.google.com/spreadsheets/d/1Y-NdT8_gWzaZD2NccGHoLxS7KAwDpxTK9GyOBBn9WOg/edit?usp=sharing
