@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="315.0" prefHeight="600.0" prefWidth="800.0" stylesheets="@../Documents/Projects/VS1/src/htw/vs1/filesystem/GUI/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htw.vs1.filesystem.GUI.Controller">
+   <children>
+      <MenuBar fx:id="menuBar" VBox.vgrow="ALWAYS">
+        <menus>
+            <Menu fx:id="MenuSystem" mnemonicParsing="false" text="System">
+              <items>
+                  <MenuItem fx:id="menuItemHome" mnemonicParsing="false" text="Home" />
+                  <MenuItem fx:id="menuItemRefresh" mnemonicParsing="false" text="Refresh" />
+                  <MenuItem fx:id="menuItemClose" mnemonicParsing="false" onAction="#close" text="Close" />
+              </items>
+            </Menu>
+          <Menu fx:id="MenuEdit" mnemonicParsing="false" text="Edit">
+            <items>
+                  <MenuItem fx:id="menuItemRename1" mnemonicParsing="false" onAction="#rename" text="Browse" />
+                  <MenuItem fx:id="menuItemRename" mnemonicParsing="false" onAction="#rename" text="Rename" />
+              <MenuItem fx:id="menuItemDelete" mnemonicParsing="false" onAction="#delete" text="Delete" />
+            </items>
+          </Menu>
+          <Menu fx:id="MenuHelp" mnemonicParsing="false" text="Help">
+            <items>
+                  <MenuItem fx:id="menuItemHelp" mnemonicParsing="false" onAction="#openHelp" text="Help" />
+              <MenuItem fx:id="menuItemAbout" mnemonicParsing="false" onAction="#showAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="1.0" />
+         </padding>
+      </MenuBar>
+      <ToolBar fx:id="toolBarButtons">
+         <items>
+            <Button mnemonicParsing="false" text="Placeholder" />
+            <Separator orientation="VERTICAL" prefHeight="20.0">
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Separator>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Placeholder" />
+            <Separator orientation="VERTICAL" prefHeight="20.0">
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Separator>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Placeholder" />
+            <Separator orientation="VERTICAL" prefHeight="20.0">
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Separator>
+            <Button layoutX="174.0" layoutY="10.0" mnemonicParsing="false" text="Placeholder" />
+            <Separator layoutX="282.0" layoutY="10.0" orientation="VERTICAL" prefHeight="20.0">
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Separator>
+            <Button layoutX="174.0" layoutY="10.0" mnemonicParsing="false" text="Placeholder" />
+            <Separator layoutX="377.0" layoutY="10.0" orientation="VERTICAL" prefHeight="20.0">
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+            </Separator>
+            <Button layoutX="256.0" layoutY="10.0" mnemonicParsing="false" text="Placeholder" />
+         </items>
+      </ToolBar>
+      <Separator prefWidth="200.0" />
+      <HBox>
+         <children>
+            <Label fx:id="labelDirectory" minWidth="50.0" prefHeight="21.0" prefWidth="71.0" text="Search:">
+               <padding>
+                  <Insets bottom="2.0" left="5.0" top="2.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="textFieldSearch" layoutX="653.0" maxHeight="20.0" minHeight="20.0" minWidth="150.0" onAction="#search" prefHeight="20.0" prefWidth="727.0">
+               <HBox.margin>
+                  <Insets left="2.0" right="2.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <SplitPane fx:id="splitPane" dividerPositions="0.6" orientation="VERTICAL" VBox.vgrow="ALWAYS">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView fx:id="tableView" layoutX="144.0" layoutY="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                        <TableColumn fx:id="tableColumnIcon" minWidth="30.0" prefWidth="30.0" text="" />
+                      <TableColumn fx:id="tableColumnName" minWidth="650.0" prefWidth="650.0" text="Name" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TabPane fx:id="tabPane" layoutX="48.0" layoutY="-70.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <tabs>
+                      <Tab fx:id="tabLog" text="Log">
+                        <content>
+                          <AnchorPane>
+                                 <children>
+                                    <ListView fx:id="listViewTabLog" layoutX="122.0" layoutY="-44.0" prefHeight="156.0" prefWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <HBox alignment="CENTER_LEFT" prefHeight="27.0" prefWidth="800.0">
+         <children>
+            <Region fx:id="region" prefHeight="27.0" prefWidth="514.0" HBox.hgrow="ALWAYS" />
+            <Label fx:id="serverRunnigLabel" alignment="CENTER" prefHeight="17.0" prefWidth="105.0" text="Server running:">
+               <HBox.margin>
+                  <Insets right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Aqua-Ball-Red-icon.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="4.0" right="15.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</VBox>
