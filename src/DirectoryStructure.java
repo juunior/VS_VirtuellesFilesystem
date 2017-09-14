@@ -13,7 +13,9 @@ public class DirectoryStructure {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         String rootPath = null;
-        System.out.println("Geben Sie den root-Ordner fuer die interne Ordnerstruktur an. Verwenden Sie zur Trennung der Hierarchie-ebenen zwei Backslashs.");
+        System.out.println("Geben Sie den root-Ordner fuer die interne Ordnerstruktur an.");
+        System.out.println("Verwenden Sie zur Trennung der Hierarchie-ebenen zwei Backslashs (Win), ein Slash (Unix).");
+        System.out.println("Beenden Sie Ihre Eingabe mit diesem Trennzeichen.");
         try {
             rootPath = br.readLine();
         } catch (IOException e) {
@@ -86,7 +88,7 @@ public class DirectoryStructure {
     public static void main(String[] args) {
 
         rootPath = askPaths();
-        String txtPath = rootPath + "\\Paths.txt";
+        String txtPath = rootPath + "Paths.txt";
         //Eine der nachfolgenden zwei Funktionen zum Verwenden auskommentieren
         //createPaths(txtPath);
         //createTxt(rootPath,txtPath);
