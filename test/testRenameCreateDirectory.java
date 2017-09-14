@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import htw.vs.virtuellesFileSystem.*;
 
 
-public class testOperations {
+public class testRenameCreateDirectory {
 
 
     public static void main(String[] args) {
@@ -39,6 +39,7 @@ public class testOperations {
         Path outfile = Paths.get( "./testOrdner/testOrdner/testKopie.txt" );
 
         rename.rename(infile, outfile);
+
 
     }
 }

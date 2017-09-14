@@ -13,13 +13,4 @@ public class rename {
         }
     }
 
-
-    public static void main (String[] args) {
-        //Path infile = Paths.get( "/home/werkstatt/IdeaProjects/rename/src/neuerOrdner/test.txt" );
-        //Path outfile = Paths.get( "/home/werkstatt/IdeaProjects/rename/src/neuerOrdner/testKopie.txt" );
-        Path infile = Paths.get( "src/neuerOrdner/test.txt" );
-        Path outfile = Paths.get( "src/neuerOrdner/testKopie.txt" );
-
-        rename(infile, outfile);
-    }
 }

@@ -19,24 +19,23 @@ public class createDirectory {
     }
 
     public static void createFile(File f) {
-        if (!f.exists()) {
-            try {
-                f.createNewFile();
-            } catch (IOException e) {
-                System.err.println("Error creating " + f);
+        try {
+            if (f.createNewFile()) {
+                System.out.println("Datei " + f + " wurde angelegt.");
+            } else {
+                System.out.println("Datei " + f + " existiert bereits.");
             }
-
-            System.out.println("Datei " + f + " wurde angelegt.");
-        } else {
-            System.out.println("Datei " + f + " existiert bereits.");
+        } catch (IOException e) {
+            System.err.println("Error creating " + f);
         }
-
     }
 
     public static void rename(File old, File RN) {
         //Egal ob Directory oder File
         //Ist auch gleichzeitig verschieben
-        old.renameTo(RN);
+        if (old.renameTo(RN)) {
+            System.out.println("Umbennenung erfolgreich");
+        }
     }
 
 
