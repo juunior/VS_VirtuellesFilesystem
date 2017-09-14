@@ -28,6 +28,22 @@ Stichpunkte:
       
 13.07. Christian legt Repo an und lädt alle ein. Jan hatte ersten Quellcode in Java - wir satteln um auf Cpp.
 
+14.07.Zusammenfassung der Strategie:
+      "Konzept: virtuelles Filesystem
+      Aufbau: mehrere Clients, ein Server zusammen in einem LAN
+      Freigegebene Dateien mehrerer Clients sollen logisch unter einem Dateisystem zusammengefasst dargestellt werden. 
+      Der Server fragt bei den Clients an, welche Dateien in einem vordefinierten Verzeichnis liegen, sammelt diese 
+      Informationen, stellt sie in Listenform zur Verfügung und verteilt diese an die Clients.
+      Die Clients sind dem Server per Konfigurationsdatei per IP- oder MAC-Adresse bekannt. Die Kommunikation erfolgt über 
+      Sockets.
+      Die Zugriffssteuerung erfolgt über den Server.
+      Browse- und Search-Befehl: [Christian und Kai]
+      Bei Delete und Rename führt der Server den Befehl selbst durch, er aktualisiert die Liste und verteilt diese 
+      daraufhin wieder an alle Clients, damit alle immer auf demselben aktuellen Stand arbeiten können. Sollte ein Client 
+      sich noch innerhalb eines gelöschten Verzeichnisses befinden, so wird er über die Änderung informiert.
+      Die GUI besteht aus einer Exploreransicht, einem Suchfeld (oder einem Suchbutton), der den darin eingetragenen Wert 
+      an die Search-Funktion übergibt und Buttons zum Löschen und Umbenennen von Einträgen."
+
 15.07. Die Erstellung der ersten Prezi wird begonnen und dient zugleich als Zusammenfassung und Strukturierung der besprochenen       
     Programmabläufe und Funktionen.
     
