@@ -7,6 +7,21 @@ import java.util.Collection;
 
 public class DirectoryStructure {
 
+    public static String rootPath = null;
+
+    public static String askPaths() {
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        String rootPath = null;
+        System.out.println("Geben Sie den root-Ordner fuer die interne Ordnerstruktur an. Verwenden Sie zur Trennung der Hierarchie-ebenen zwei Backslashs.");
+        try {
+            rootPath = br.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return rootPath;
+    }
+
     public static void createPaths(String txtPath) {
         BufferedReader br = null;
         try {
@@ -63,26 +78,18 @@ public class DirectoryStructure {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(txtFile.getAbsolutePath() + " erfolgreich erstellt.\n");
     }
 
-    public static String askPaths() {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
-        String rootPath = null;
-        System.out.println("Geben Sie den root-Ordner fuer die interne Ordnerstruktur an. Verwenden Sie zur Trennung der Hierarchie-ebenen zwei Backslashs.");
-        try {
-            rootPath = br.readLine();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return rootPath;
-    }
+
 
     public static void main(String[] args) {
-        String rootPath = askPaths();
+
+        rootPath = askPaths();
         String txtPath = rootPath + "\\Paths.txt";
-        //Eine der nachfolgenden Funktionen zum Verwenden auskommentieren
+        //Eine der nachfolgenden zwei Funktionen zum Verwenden auskommentieren
         //createPaths(txtPath);
         //createTxt(rootPath,txtPath);
+        DirWatchService.startWatcher();
     }
 }
