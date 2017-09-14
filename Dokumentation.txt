@@ -125,3 +125,10 @@ Säuberungsaktion auf den GitBranches
  //Stundenzettellink; jeder darf kommentieren, der den Link hat. (Sicherheitsmaßnahme das die Tabelle nicht durch Dritte 
  //verwüstet wird.
  https://docs.google.com/spreadsheets/d/1Y-NdT8_gWzaZD2NccGHoLxS7KAwDpxTK9GyOBBn9WOg/edit?usp=sharing
+
+14.9.17 Themen:
+ - Jeder will weiter machen.
+ - Strukturen sind angelegt sie muessen allerdings noch an die Kommunikation und die GUI (existent) angepasst werden
+ - Nächste Besprechung morgen 21 Uhr.
+ - keine XML Datei mehr als Hierarchiefile sondern TXT File - wird eventuell auch wieder revidiert.
+ 
