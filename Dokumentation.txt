@@ -132,3 +132,9 @@ Säuberungsaktion auf den GitBranches
  - Nächste Besprechung morgen 21 Uhr.
  - keine XML Datei mehr als Hierarchiefile sondern TXT File - wird eventuell auch wieder revidiert.
  
+15.9.17 Themen: 
+- Thomas & Jan RMI in Soap 
+- Christian und Kai Ordnersturktur Hierarchisch in XML.
+- Robert plant, koordiniert und überwacht weiter.
+- Marc beginnt mit der Prezi
+- Der Link zum Stundenzettel wurde an alle gesendet; der Link oben ist nicht mehr zugänglich.
