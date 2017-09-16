@@ -41,7 +41,9 @@ public class Server implements Hello, Test {
         InputStream istream = RemoteInputStreamClient.wrap(ristream);
         FileOutputStream ostream = null;
         try {
+            //windows or unix?
             File XML = new File("remoteFiles\\Testhash2.java");
+            //File XML = new File("remoteFiles/Testhash2.java");
             ostream = new FileOutputStream(XML);
             System.out.println("Writing file " + XML);
             byte[] buf = new byte[1024];
@@ -67,7 +69,9 @@ public class Server implements Hello, Test {
         Antwort: boolean.
      */
     public boolean hash(HashCode message) {
+        //windows or unix?
         File file = new File("remoteFiles\\Testhash.java");
+        //File file = new File("remoteFiles/Testhash.java");
         HashFunction hf = Hashing.sha256();
         HashCode hc = null;
         try {

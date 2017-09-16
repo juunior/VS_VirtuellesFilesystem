@@ -39,7 +39,10 @@ public class Client {
             else{
                 System.out.println("False or error");
                 //For Updating from Client to server. i.E. after renaming.
+
+                //windows or unix?
                 String local = "localFiles\\TesthashC.java";
+                //String local = "localFiles/TesthashC.java";
                 try (SimpleRemoteInputStream istream = new SimpleRemoteInputStream(new FileInputStream(local))) {
                     // call the remote method on the server.  the server will actually
                     // interact with the RMI "server" we started above to retrieve the
@@ -57,7 +60,9 @@ public class Client {
     }
 
     private static HashCode hashC() {
+        //windows or unix?
         File fileC = new File("localFiles\\TesthashC.java");
+        //File fileC = new File("localFiles/TesthashC.java");
         HashFunction hfC = Hashing.sha256();
         HashCode hcC = null;
         try {
