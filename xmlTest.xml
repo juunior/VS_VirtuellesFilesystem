@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-    <ICE-unix name=".ICE-unix" dotfile="yes" />
-    <font-unix name=".font-unix" dotfile="yes" />
-    <sni-qt_kmix_3172-X7P0iw name="sni-qt_kmix_3172-X7P0iw" />
-    <Test-unix name=".Test-unix" dotfile="yes" />
-    <hsperfdata_kai name="hsperfdata_kai" />
-    <systemd-private-37c389fcc51a42ceab6ebef632af6813-apache2.service-MLmklW name="systemd-private-37c389fcc51a42ceab6ebef632af6813-apache2.service-MLmklW" />
-    <pulse-2L9K88eMlGn7 name="pulse-2L9K88eMlGn7" />
-    <XIM-unix name=".XIM-unix" dotfile="yes" />
-    <com.google.Chrome.ScEvjh name=".com.google.Chrome.ScEvjh" dotfile="yes" />
-    <kde-kai name="kde-kai" />
-    <mozilla_kai0 name="mozilla_kai0" />
-    <Discord-_-Crashes name="Discord Crashes" />
-    <systemd-private-37c389fcc51a42ceab6ebef632af6813-colord.service-AqPABO name="systemd-private-37c389fcc51a42ceab6ebef632af6813-colord.service-AqPABO" />
-    <thunderbird_kai name="thunderbird_kai" />
-    <X11-unix name=".X11-unix" dotfile="yes" />
-    <firefox-esr_kai name="firefox-esr_kai" />
-    <systemd-private-37c389fcc51a42ceab6ebef632af6813-rtkit-daemon.service-nuxdGT name="systemd-private-37c389fcc51a42ceab6ebef632af6813-rtkit-daemon.service-nuxdGT" />
-    <ssh-2o9fDjMyMqqV name="ssh-2o9fDjMyMqqV" />
-    <systemd-private-37c389fcc51a42ceab6ebef632af6813-ntp.service-2rCgZx name="systemd-private-37c389fcc51a42ceab6ebef632af6813-ntp.service-2rCgZx" />
-    <cvcd name="cvcd" />
+	<ICE-unix name=".ICE-unix" dotdir="yes" />
+	<font-unix name=".font-unix" dotdir="yes" />
+	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-apache2.service-Auurht name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-apache2.service-Auurht" />
+	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-rtkit-daemon.service-mMJ42K name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-rtkit-daemon.service-mMJ42K" />
+	<Test-unix name=".Test-unix" dotdir="yes" />
+	<hsperfdata_kai name="hsperfdata_kai" />
+	<com.google.Chrome.jicHPa name=".com.google.Chrome.jicHPa" dotdir="yes" />
+	<XIM-unix name=".XIM-unix" dotdir="yes" />
+	<kde-kai name="kde-kai" />
+	<pulse-PKdhtXMmr18n name="pulse-PKdhtXMmr18n" />
+	<Discord-_-Crashes name="Discord Crashes" />
+	<ssh-ho5y3IHNeXcw name="ssh-ho5y3IHNeXcw" />
+	<thunderbird_kai name="thunderbird_kai" />
+	<X11-unix name=".X11-unix" dotdir="yes" />
+	<sni-qt_kmix_3219-EqGJR7 name="sni-qt_kmix_3219-EqGJR7" />
+	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-systemd-timesyncd.service-SnfMdT name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-systemd-timesyncd.service-SnfMdT" />
+	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-colord.service-JroAJC name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-colord.service-JroAJC" />
+	<cvcd name="cvcd" />
+	<org.chromium.Chromium.9kSxUQ name=".org.chromium.Chromium.9kSxUQ" dotfile="yes" file="true" />
+	<kotlin-idea-668427344251362513-is-running name="kotlin-idea-668427344251362513-is-running" file="true" />
+	<qipc_sharedmemory_qtsingleapplicationbfde75a5bf91e5179df8ee7ad4556d71fef8ca2ca6aa name="qipc_sharedmemory_qtsingleapplicationbfde75a5bf91e5179df8ee7ad4556d71fef8ca2ca6aa" file="true" />
+	<qtsingleapplication-58f5-3e8-lockfile name="qtsingleapplication-58f5-3e8-lockfile" file="true" />
 </VSFS>

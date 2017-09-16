@@ -26,50 +26,60 @@ public class JDOMSchreiben {
         return doc;
     }
 
+
+    private void readDir(Document doc, String[] directories, String []files) {
+        for (String dir : directories) {
+            String eDir = dir;
+            Element e1;
+            if (dir.contains(" ")) {
+                eDir = dir.replace(" ", "-_-");
+            }
+            if (dir.startsWith(".")) {
+                e1 = new Element(eDir.substring(1));
+                e1.setAttribute("name", dir);
+                e1.setAttribute("dotdir", "yes");
+            } else {
+                e1 = new Element(eDir);
+                e1.setAttribute("name", dir);
+            }
+            doc.getRootElement().addContent(e1);
+        }
+        for (String file : files) {
+            String eDir = file;
+            Element e1;
+            if (file.contains(" ")) {
+                eDir = file.replace(" ", "-_-");
+            }
+            if (file.startsWith(".")) {
+                e1 = new Element(eDir.substring(1));
+                e1.setAttribute("name", file);
+                e1.setAttribute("dotfile", "yes");
+            } else {
+                e1 = new Element(eDir);
+                e1.setAttribute("name", file);
+            }
+            e1.setAttribute("file", "true");
+            doc.getRootElement().addContent(e1);
+        }
+    }
+
+
     private void writeDoc(Document doc) {
 
 
         File rootDir = new File("/tmp/");
-            String[] directories = rootDir.list(new FilenameFilter() {
-                @Override
-                public boolean accept(File current, String name) {
-                    return new File(current, name).isDirectory();
-                }
-            });
-            for (String dir:directories) {
-                String eDir = dir;
-                if(dir.contains(" ")){
-                    eDir = dir.replace(" ", "-_-");
-                }
-                if(dir.startsWith(".")){
-                    Element e1 = new Element(eDir.substring(1));
-                    e1.setAttribute("name", dir);
-                    e1.setAttribute("dotfile", "yes");
-                    doc.getRootElement().addContent(e1);
-                }else {
-                    Element e1 = new Element(eDir);
-                    e1.setAttribute("name", dir);
-                    doc.getRootElement().addContent(e1);
-                }
-            }
-//            Element e1 = new Element(rootDir.getName());
-//            e1.setAttribute("name", e1.getName());
-//            doc.getRootElement().addContent(e1);
+        String[] directories = rootDir.list((current, name) -> new File(current, name).isDirectory());
+        String[] files = rootDir.list((current, name) -> new File(current, name).isFile());
+
+        readDir(doc,directories,files);
 
 
-//        Element e2 = new Element("e2");
-//        Element n2 = new Element("name");
-//        n2.setText("e2");
-//        Element v2 = new Element("value");
-//        v2.setText("Wert 2");
-//        e2.addContent(n2);
-//        e2.addContent(v2);
-//        doc.getRootElement().addContent(e2);
+
     }
 
     private void writeXML(Document doc) {
         Format format = Format.getPrettyFormat();
-        format.setIndent("    ");
+        format.setIndent("\t");
         try (FileOutputStream fos = new FileOutputStream(FILE)) {
             XMLOutputter op = new XMLOutputter(format);
             op.output(doc, fos);
@@ -85,3 +95,20 @@ public class JDOMSchreiben {
         jds.writeXML(doc);
     }
 }
+
+
+
+
+//            Element e1 = new Element(rootDir.getName());
+//            e1.setAttribute("name", e1.getName());
+//            doc.getRootElement().addContent(e1);
+
+
+//        Element e2 = new Element("e2");
+//        Element n2 = new Element("name");
+//        n2.setText("e2");
+//        Element v2 = new Element("value");
+//        v2.setText("Wert 2");
+//        e2.addContent(n2);
+//        e2.addContent(v2);
+//        doc.getRootElement().addContent(e2);
