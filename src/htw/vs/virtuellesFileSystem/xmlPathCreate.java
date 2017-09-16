@@ -2,7 +2,6 @@ package htw.vs.virtuellesFileSystem;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FilenameFilter;
 import java.io.IOException;
 
 import org.jdom2.Document;
@@ -11,7 +10,7 @@ import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
 
-public class JDOMSchreiben {
+public class xmlPathCreate {
 
     private final static String DATNAM = "xmlTest.xml";
 
@@ -71,7 +70,11 @@ public class JDOMSchreiben {
         String[] directories = rootDir.list((current, name) -> new File(current, name).isDirectory());
         String[] files = rootDir.list((current, name) -> new File(current, name).isFile());
 
+
         readDir(doc,directories,files);
+
+        File subroot = new File(directories[1]);
+        System.out.println(subroot.getAbsolutePath());
 
 
 
@@ -89,7 +92,7 @@ public class JDOMSchreiben {
     }
 
     public static void main(String[] args) {
-        JDOMSchreiben jds = new JDOMSchreiben();
+        xmlPathCreate jds = new xmlPathCreate();
         Document doc = jds.createDoc("VSFS");
         jds.writeDoc(doc);
         jds.writeXML(doc);
