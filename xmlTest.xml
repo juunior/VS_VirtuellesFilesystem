@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<prog1 name="prog1" />
-	<Prog_wichtig name="Prog_wichtig" />
-	<PTG name="PTG" />
-	<rechnerarchi name="rechnerarchi" />
-	<BWL name="BWL" />
-	<swt2 name="swt2" />
-	<Vorlesung name="Vorlesung" />
-	<Informatik_1 name="Informatik_1" />
-	<Datenbanken name="Datenbanken" />
-	<Rechnernetze name="Rechnernetze" />
-	<owncloudsync.log name=".owncloudsync.log" dotfile="yes" file="true" />
-	<_sync_a7aa8dc44fd7.db name="._sync_a7aa8dc44fd7.db" dotfile="yes" file="true" />
-	<DB15_04_ASPO.pdf name="DB15_04_ASPO.pdf" file="true" />
-	<Prfungsordnung.pdf name="Prfungsordnung.pdf" file="true" />
-	<struct.h name="struct.h" file="true" />
-	<auswertung.h name="auswertung.h" file="true" />
-	<Musterdatei.txt name="Musterdatei.txt" file="true" />
-	<output name="output" file="true" />
-	<auswertung.c name="auswertung.c" file="true" />
-	<Ueb8.zip name="Ueb8.zip" file="true" />
-	<makefile name="makefile" file="true" />
-	<ausgabe.c name="ausgabe.c" file="true" />
-	<hilfe.h name="hilfe.h" file="true" />
-	<hilfe.c name="hilfe.c" file="true" />
-	<ausgabe.h name="ausgabe.h" file="true" />
+	<Abgabe name="Abgabe">
+		<struct.h name="struct.h" file="true" />
+		<auswertung.h name="auswertung.h" file="true" />
+		<Musterdatei.txt name="Musterdatei.txt" file="true" />
+		<output name="output" file="true" />
+		<auswertung.c name="auswertung.c" file="true" />
+		<Ueb8.zip name="Ueb8.zip" file="true" />
+		<makefile name="makefile" file="true" />
+		<ausgabe.c name="ausgabe.c" file="true" />
+		<hilfe.h name="hilfe.h" file="true" />
+		<hilfe.c name="hilfe.c" file="true" />
+		<ausgabe.h name="ausgabe.h" file="true" />
+	</Abgabe>
 </VSFS>

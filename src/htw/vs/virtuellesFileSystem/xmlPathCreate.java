@@ -9,6 +9,8 @@ import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
+import javax.print.Doc;
+
 
 public class xmlPathCreate {
 
@@ -26,10 +28,26 @@ public class xmlPathCreate {
     }
 
 
-    private void readDir(Document doc, String[] directories, String []files) {
+    private void readDir(Document doc, String[] directories, String []files, String dirName) {
+        Element p;
+        String eDir = dirName; //eDir ist XML conform
+        if (dirName.contains(" ")) {
+            eDir = dirName.replace(" ", "-_-");
+        }
+        if (dirName.startsWith(".")) {
+            p = new Element(eDir.substring(1));
+            p.setAttribute("name", dirName);
+            p.setAttribute("dotdir", "yes");
+        } else {
+            p = new Element(eDir);
+            p.setAttribute("name", dirName);
+        }
+
+
+        //TODO braucht man das Listing der Ordner noch wenn man jeden betreten muss, eigentlich nein weil man diese auch betreten muss
         if(directories != null) {
             for (String dir : directories) {
-                String eDir = dir;
+                eDir = dir;
                 Element e1;
                 if (dir.contains(" ")) {
                     eDir = dir.replace(" ", "-_-");
@@ -42,12 +60,12 @@ public class xmlPathCreate {
                     e1 = new Element(eDir);
                     e1.setAttribute("name", dir);
                 }
-                doc.getRootElement().addContent(e1);
+                p.addContent(e1);
             }
         }
         if(files != null) {
             for (String file : files) {
-                String eDir = file;
+                eDir = file;
                 Element e1;
                 if (file.contains(" ")) {
                     eDir = file.replace(" ", "-_-");
@@ -61,9 +79,11 @@ public class xmlPathCreate {
                     e1.setAttribute("name", file);
                 }
                 e1.setAttribute("file", "true");
-                doc.getRootElement().addContent(e1);
+                p.addContent(e1);
             }
+
         }
+        doc.getRootElement().addContent(p);
     }
 
 
@@ -81,9 +101,10 @@ public class xmlPathCreate {
 //        directories = subroot.list((current, name) -> new File(current, name).isDirectory());
 //        files = subroot.list((current, name) -> new File(current, name).isFile());
 //        System.out.println(subroot.getAbsolutePath());
-        readDir(doc,directories,files);
+
 
         System.out.println(getLastSubDir(rootDir, doc));
+//        readDir(doc,directories,files);
     }
 
     String getLastSubDir(File file,Document doc){
@@ -98,13 +119,19 @@ public class xmlPathCreate {
                 subroot = new File(file.getAbsoluteFile() + "/" + directories[0]);
             }
             directories = subroot.list((current, name) -> new File(current, name).isDirectory());
+//            buildParent(doc,directories);
         }
         String[] files = subroot.list((current, name) -> new File(current, name).isFile());
-        readDir(doc, directories,files);
+        readDir(doc, directories,files, subroot.getName());
         System.out.println(subroot.getAbsolutePath());
 
-        return subroot.getPath();
+
+        return subroot.getName();
     }
+
+//    Element buildParent(Document doc,String[] directories, Element parent){
+//
+//    }
 
     private void writeXML(Document doc) {
         Format format = Format.getPrettyFormat();
