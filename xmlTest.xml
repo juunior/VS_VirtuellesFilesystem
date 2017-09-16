@@ -12,5 +12,24 @@
 		<hilfe.h name="hilfe.h" file="true" />
 		<hilfe.c name="hilfe.c" file="true" />
 		<ausgabe.h name="ausgabe.h" file="true" />
+		<ueb08 name="ueb08">
+			<ausgabe.o name="ausgabe.o" file="true" />
+			<struct.h name="struct.h" file="true" />
+			<a.out name="a.out" file="true" />
+			<auswertung.o name="auswertung.o" file="true" />
+			<auswertung name="auswertung" file="true" />
+			<auswertung.h name="auswertung.h" file="true" />
+			<Musterdatei.txt name="Musterdatei.txt" file="true" />
+			<auswertung.c name="auswertung.c" file="true" />
+			<makefile name="makefile" file="true" />
+			<ausgabe.c name="ausgabe.c" file="true" />
+			<hilfe.h name="hilfe.h" file="true" />
+			<testtarget.txt name="testtarget.txt" file="true" />
+			<hilfe.o name="hilfe.o" file="true" />
+			<hilfe.c name="hilfe.c" file="true" />
+			<ausgabe.h name="ausgabe.h" file="true" />
+			<Ausgabedatei.txt name="Ausgabedatei.txt" file="true" />
+			<UebungenfuerUebung8.c name="UebungenfuerUebung8.c" file="true" />
+		</ueb08>
 	</Abgabe>
 </VSFS>
