@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<ICE-unix name=".ICE-unix" dotdir="yes" />
-	<font-unix name=".font-unix" dotdir="yes" />
-	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-apache2.service-Auurht name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-apache2.service-Auurht" />
-	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-rtkit-daemon.service-mMJ42K name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-rtkit-daemon.service-mMJ42K" />
-	<Test-unix name=".Test-unix" dotdir="yes" />
-	<hsperfdata_kai name="hsperfdata_kai" />
-	<com.google.Chrome.jicHPa name=".com.google.Chrome.jicHPa" dotdir="yes" />
-	<XIM-unix name=".XIM-unix" dotdir="yes" />
-	<kde-kai name="kde-kai" />
-	<pulse-PKdhtXMmr18n name="pulse-PKdhtXMmr18n" />
-	<Discord-_-Crashes name="Discord Crashes" />
-	<ssh-ho5y3IHNeXcw name="ssh-ho5y3IHNeXcw" />
-	<thunderbird_kai name="thunderbird_kai" />
-	<X11-unix name=".X11-unix" dotdir="yes" />
-	<sni-qt_kmix_3219-EqGJR7 name="sni-qt_kmix_3219-EqGJR7" />
-	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-systemd-timesyncd.service-SnfMdT name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-systemd-timesyncd.service-SnfMdT" />
-	<systemd-private-68cd60d9940a4369a4c94a858354b2a2-colord.service-JroAJC name="systemd-private-68cd60d9940a4369a4c94a858354b2a2-colord.service-JroAJC" />
-	<cvcd name="cvcd" />
-	<org.chromium.Chromium.9kSxUQ name=".org.chromium.Chromium.9kSxUQ" dotfile="yes" file="true" />
-	<kotlin-idea-668427344251362513-is-running name="kotlin-idea-668427344251362513-is-running" file="true" />
-	<qipc_sharedmemory_qtsingleapplicationbfde75a5bf91e5179df8ee7ad4556d71fef8ca2ca6aa name="qipc_sharedmemory_qtsingleapplicationbfde75a5bf91e5179df8ee7ad4556d71fef8ca2ca6aa" file="true" />
-	<org.chromium.Chromium.lB4w1c name=".org.chromium.Chromium.lB4w1c" dotfile="yes" file="true" />
-	<qtsingleapplication-58f5-3e8-lockfile name="qtsingleapplication-58f5-3e8-lockfile" file="true" />
+	<prog1 name="prog1" />
+	<Prog_wichtig name="Prog_wichtig" />
+	<PTG name="PTG" />
+	<rechnerarchi name="rechnerarchi" />
+	<BWL name="BWL" />
+	<swt2 name="swt2" />
+	<Vorlesung name="Vorlesung" />
+	<Informatik_1 name="Informatik_1" />
+	<Datenbanken name="Datenbanken" />
+	<Rechnernetze name="Rechnernetze" />
+	<owncloudsync.log name=".owncloudsync.log" dotfile="yes" file="true" />
+	<_sync_a7aa8dc44fd7.db name="._sync_a7aa8dc44fd7.db" dotfile="yes" file="true" />
+	<DB15_04_ASPO.pdf name="DB15_04_ASPO.pdf" file="true" />
+	<Prfungsordnung.pdf name="Prfungsordnung.pdf" file="true" />
+	<struct.h name="struct.h" file="true" />
+	<auswertung.h name="auswertung.h" file="true" />
+	<Musterdatei.txt name="Musterdatei.txt" file="true" />
+	<output name="output" file="true" />
+	<auswertung.c name="auswertung.c" file="true" />
+	<Ueb8.zip name="Ueb8.zip" file="true" />
+	<makefile name="makefile" file="true" />
+	<ausgabe.c name="ausgabe.c" file="true" />
+	<hilfe.h name="hilfe.h" file="true" />
+	<hilfe.c name="hilfe.c" file="true" />
+	<ausgabe.h name="ausgabe.h" file="true" />
 </VSFS>

@@ -27,38 +27,42 @@ public class xmlPathCreate {
 
 
     private void readDir(Document doc, String[] directories, String []files) {
-        for (String dir : directories) {
-            String eDir = dir;
-            Element e1;
-            if (dir.contains(" ")) {
-                eDir = dir.replace(" ", "-_-");
+        if(directories != null) {
+            for (String dir : directories) {
+                String eDir = dir;
+                Element e1;
+                if (dir.contains(" ")) {
+                    eDir = dir.replace(" ", "-_-");
+                }
+                if (dir.startsWith(".")) {
+                    e1 = new Element(eDir.substring(1));
+                    e1.setAttribute("name", dir);
+                    e1.setAttribute("dotdir", "yes");
+                } else {
+                    e1 = new Element(eDir);
+                    e1.setAttribute("name", dir);
+                }
+                doc.getRootElement().addContent(e1);
             }
-            if (dir.startsWith(".")) {
-                e1 = new Element(eDir.substring(1));
-                e1.setAttribute("name", dir);
-                e1.setAttribute("dotdir", "yes");
-            } else {
-                e1 = new Element(eDir);
-                e1.setAttribute("name", dir);
-            }
-            doc.getRootElement().addContent(e1);
         }
-        for (String file : files) {
-            String eDir = file;
-            Element e1;
-            if (file.contains(" ")) {
-                eDir = file.replace(" ", "-_-");
+        if(files != null) {
+            for (String file : files) {
+                String eDir = file;
+                Element e1;
+                if (file.contains(" ")) {
+                    eDir = file.replace(" ", "-_-");
+                }
+                if (file.startsWith(".")) {
+                    e1 = new Element(eDir.substring(1));
+                    e1.setAttribute("name", file);
+                    e1.setAttribute("dotfile", "yes");
+                } else {
+                    e1 = new Element(eDir);
+                    e1.setAttribute("name", file);
+                }
+                e1.setAttribute("file", "true");
+                doc.getRootElement().addContent(e1);
             }
-            if (file.startsWith(".")) {
-                e1 = new Element(eDir.substring(1));
-                e1.setAttribute("name", file);
-                e1.setAttribute("dotfile", "yes");
-            } else {
-                e1 = new Element(eDir);
-                e1.setAttribute("name", file);
-            }
-            e1.setAttribute("file", "true");
-            doc.getRootElement().addContent(e1);
         }
     }
 
@@ -66,18 +70,40 @@ public class xmlPathCreate {
     private void writeDoc(Document doc) {
 
 
-        File rootDir = new File("/tmp/");
+        File rootDir = new File("/home/kai/studium/");
         String[] directories = rootDir.list((current, name) -> new File(current, name).isDirectory());
         String[] files = rootDir.list((current, name) -> new File(current, name).isFile());
 
 
+//        readDir(doc,directories,files);
+//
+//        File subroot = new File(directories[0]);
+//        directories = subroot.list((current, name) -> new File(current, name).isDirectory());
+//        files = subroot.list((current, name) -> new File(current, name).isFile());
+//        System.out.println(subroot.getAbsolutePath());
         readDir(doc,directories,files);
 
-        File subroot = new File(directories[1]);
+        System.out.println(getLastSubDir(rootDir, doc));
+    }
+
+    String getLastSubDir(File file,Document doc){
+        String[] directories = file.list((current, name) -> new File(current, name).isDirectory());
+        File subroot = null;
+
+
+        while((directories != null) && (directories.length != 0)){
+            if(subroot != null){
+                subroot = new File(subroot.getAbsoluteFile() + "/" + directories[0]);
+            }else {
+                subroot = new File(file.getAbsoluteFile() + "/" + directories[0]);
+            }
+            directories = subroot.list((current, name) -> new File(current, name).isDirectory());
+        }
+        String[] files = subroot.list((current, name) -> new File(current, name).isFile());
+        readDir(doc, directories,files);
         System.out.println(subroot.getAbsolutePath());
 
-
-
+        return subroot.getPath();
     }
 
     private void writeXML(Document doc) {
