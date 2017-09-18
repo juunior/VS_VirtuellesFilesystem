@@ -83,14 +83,14 @@ public class xmlPathCreate {
         return p;
     }
 
-    private String readDir(Document doc, String[] files, String dirName) {
+    private void readDir(Document doc, String[] files, String dirName) {
         if (files != null) {
             Arrays.sort(files);
         }
         Element p = buildElement(files, dirName);
         doc.getRootElement().addContent(p);
 
-        return p.getName();
+
     }
 
     private void readParentDir(Document doc, String[] files, String dirName, File file) {
