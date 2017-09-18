@@ -26,57 +26,52 @@ public class xmlPathCreate {
         return doc;
     }
 
-    private Element buildElement(String[] files, String dirName, String eDir) {
-        Boolean allowed = true;
+    private Element buildElement(String[] files, String dirName) {
+        String eDir = dirName; // eDir ist XML Konform
         if (files != null) {
             Arrays.sort(files);
         }
-        Element p = null;
-        if (dirName.contains(" ")) {
-            eDir = dirName.replace(" ", "-_-");
-            p = new Element(eDir);
-            allowed = false;
+        Element p = new Element("tmp");
+        if (eDir.contains(" ")) {
+            eDir = eDir.replace(" ", "-_-");
         }
-        if (dirName.startsWith(".")) {
-            p = new Element(eDir.substring(1));
+        if (eDir.startsWith(".")) {
+            eDir = eDir.substring(1);
             p.setAttribute("dotdir", "yes");
-            allowed = false;
         }
-        if (Character.isDigit(dirName.charAt(0))) {
-            p = new Element("_" + eDir);
-            allowed = false;
+        if (Character.isDigit(eDir.charAt(0))) {
+            eDir = "_" + eDir;
         }
-        if (allowed) {
+
             p = new Element(eDir);
-        }
+
         p.setAttribute("name", dirName);
+
 
         if (files != null) {
             for (String file : files) {
-                allowed = true;
                 eDir = file;
-                Element e1 = null;
-                if (file.contains(" ")) {
+                Element e1 = new Element("tmp");
+                if (eDir.contains(" ")) {
                     eDir = file.replace(" ", "-_-");
-                    e1 = new Element(eDir);
-                    allowed = false;
                 }
-                if (file.startsWith(".")) {
-                    e1 = new Element(eDir.substring(1));
+                if (eDir.startsWith(".")) {
+                    eDir = eDir.substring(1);
                     e1.setAttribute("dotfile", "yes");
-                    allowed = false;
                 }
-                if (file.contains("+")) {
-                    e1 = new Element(file.replace("+", "_plus_"));
-                    allowed = false;
+                if (eDir.contains("+")) {
+                    eDir = eDir.replace("+", "_plus_");
                 }
-                if (Character.isDigit(file.charAt(0))) {
-                    e1 = new Element("_" + eDir);
-                    allowed = false;
+                if (eDir.contains("~")) {
+                    eDir = eDir.replace("~","_tilde_");
+                    e1.setAttribute("tempFile","yes");
                 }
-                if (allowed) {
-                    e1 = new Element(eDir);
+                if (Character.isDigit(eDir.charAt(0))) {
+                    eDir = "_" + eDir;
                 }
+
+                e1 = new Element(eDir);
+
 
 //                System.out.println(file);
                 e1.setAttribute("name", file);
@@ -92,16 +87,14 @@ public class xmlPathCreate {
         if (files != null) {
             Arrays.sort(files);
         }
-        String eDir = dirName; //eDir ist XML conform
-        Element p = buildElement(files, dirName, eDir);
+        Element p = buildElement(files, dirName);
         doc.getRootElement().addContent(p);
 
         return p.getName();
     }
 
     private void readParentDir(Document doc, String[] files, String dirName, File file) {
-        String eDir = dirName; //eDir ist XML conform
-        Element p = buildElement(files, dirName, eDir);
+        Element p = buildElement(files, dirName);
 
             Element xml = doc.getRootElement();
             xml = insertChild(file, xml);
@@ -184,7 +177,7 @@ public class xmlPathCreate {
     public static void main(String[] args) {
         xmlPathCreate jds = new xmlPathCreate();
         Document doc = jds.createDoc("VSFS");
-        jds.writeDoc(doc, "/home/kai/studium/");
+        jds.writeDoc(doc, "/home/kai/");
         jds.writeXML(doc);
 
 //        try (Stream<Path> paths = Files.walk(Paths.get("/home/kai/studium/"))) {
