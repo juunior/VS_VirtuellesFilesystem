@@ -1,35 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<Abgabe name="Abgabe">
-		<struct.h name="struct.h" file="true" />
-		<auswertung.h name="auswertung.h" file="true" />
-		<Musterdatei.txt name="Musterdatei.txt" file="true" />
-		<output name="output" file="true" />
-		<auswertung.c name="auswertung.c" file="true" />
-		<Ueb8.zip name="Ueb8.zip" file="true" />
-		<makefile name="makefile" file="true" />
-		<ausgabe.c name="ausgabe.c" file="true" />
-		<hilfe.h name="hilfe.h" file="true" />
-		<hilfe.c name="hilfe.c" file="true" />
-		<ausgabe.h name="ausgabe.h" file="true" />
-		<ueb08 name="ueb08">
-			<ausgabe.o name="ausgabe.o" file="true" />
-			<struct.h name="struct.h" file="true" />
+	<studium name="studium">
+		<_sync_a7aa8dc44fd7.db dotfile="yes" name="._sync_a7aa8dc44fd7.db" file="true" />
+		<owncloudsync.log dotfile="yes" name=".owncloudsync.log" file="true" />
+		<sieb.c.swp dotfile="yes" name=".sieb.c.swp" file="true" />
+		<DB15_04_ASPO.pdf name="DB15_04_ASPO.pdf" file="true" />
+		<Prfungsordnung.pdf name="Prfungsordnung.pdf" file="true" />
+		<BWL name="BWL">
+			<_03_BWL1_Unternehmen_09112015.pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" />
+			<_01_BWL1_Einführung_26102015.pdf name="01_BWL1_Einführung_26102015.pdf" file="true" />
+			<_05_Wissensmanagement_13072016.pdf name="05_Wissensmanagement_13072016.pdf" file="true" />
+			<_10_BWL1_Kostenrechnung_18012016.pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" />
+			<_01_BWL2_Einführung_20042016.pdf name="01_BWL2_Einführung_20042016.pdf" file="true" />
+			<_04_BWL1_Wirtschaftskreislauf_16112015.pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" />
+			<Bestelldaten-_-_MyFavoriteBookExpress.com_.pdf name="Bestelldaten _MyFavoriteBookExpress.com_.pdf" file="true" />
+			<_09_BWL1_Leisungserstellung_04012016.pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" />
+			<_07_BWL1_Ziele_30112015.pdf name="07_BWL1_Ziele_30112015.pdf" file="true" />
+			<_04_BWL2_Geschäftsprozesse_04052016.pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" />
+			<_00_BWL1_Organisation_19102015.pdf name="00_BWL1_Organisation_19102015.pdf" file="true" />
+			<_02_BWL1_Produktionsfaktoren_02112015.pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" />
+			<_04_Spezielle_ITSysteme_15062016.pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" />
+			<BWL_NachKlausur11022010.pdf name="BWL_NachKlausur11022010.pdf" file="true" />
+			<_08_BWL1_Personalwirtschaft_07122015.pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" />
+			<IT-Infrastruktur-_-_MyFavoriteBookExpress.com_.pdf name="IT-Infrastruktur _MyFavoriteBookExpress.com_.pdf" file="true" />
+			<_06_BWL1_Organisationsstrukturen_30112015.pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" />
+			<BWL_Small.pdf name="BWL_Small.pdf" file="true" />
+			<_02_BWL2_Rechnungswesen_27042016.pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" />
+			<_05_BWL1_Rechtsformen23112015.pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" />
+		</BWL>
+		<Datenbanken name="Datenbanken">
+			<_065_tx-make.sql name="065_tx-make.sql" file="true" />
+			<_026_RelAlg-06.gif name="026_RelAlg-06.gif" file="true" />
+			<_022_RelAlg-02.gif name="022_RelAlg-02.gif" file="true" />
+			<_045_CREATE-TABLE-table_constraint.gif name="045_CREATE-TABLE-table_constraint.gif" file="true" />
+			<_047_Tabelle-EMP.gif name="047_Tabelle-EMP.gif" file="true" />
+			<_066_tx-run.sql name="066_tx-run.sql" file="true" />
+			<Ueb-sqlplus-script-mit-accept.sql name="Ueb-sqlplus-script-mit-accept.sql" file="true" />
+			<Ueb-sqlplus-script-mit-fehler-und-abbruch.sql name="Ueb-sqlplus-script-mit-fehler-und-abbruch.sql" file="true" />
+			<_044_CREATE-TABLE-relational_properties.gif name="044_CREATE-TABLE-relational_properties.gif" file="true" />
+			<_023_RelAlg-03.gif name="023_RelAlg-03.gif" file="true" />
+			<_046_CREATE-TABLE-column_constraint.gif name="046_CREATE-TABLE-column_constraint.gif" file="true" />
+			<_005_Intro-03.gif name="005_Intro-03.gif" file="true" />
+			<_006_Intro-04.gif name="006_Intro-04.gif" file="true" />
+			<_029_RelAlg-09.gif name="029_RelAlg-09.gif" file="true" />
+			<_033_RelAlg-13.gif name="033_RelAlg-13.gif" file="true" />
+			<_032_RelAlg-12.gif name="032_RelAlg-12.gif" file="true" />
+			<_031_RelAlg-11.gif name="031_RelAlg-11.gif" file="true" />
+			<_011_SOL--GruPu-Einführung.gif name="011_SOL--GruPu-Einführung.gif" file="true" />
+			<_010_RelAlg--AdvanceOrganizer.png name="010_RelAlg--AdvanceOrganizer.png" file="true" />
+			<_064_tx.sql name="064_tx.sql" file="true" />
+			<_030_RelAlg-10.gif name="030_RelAlg-10.gif" file="true" />
+			<_024_RelAlg-04.gif name="024_RelAlg-04.gif" file="true" />
+			<_021_RelAlg-01.gif name="021_RelAlg-01.gif" file="true" />
+			<_025_RelAlg-05.gif name="025_RelAlg-05.gif" file="true" />
+			<_043_CREATE-TABLE-relational_table.gif name="043_CREATE-TABLE-relational_table.gif" file="true" />
+			<_027_RelAlg-07.gif name="027_RelAlg-07.gif" file="true" />
+			<_008_Intro-06.gif name="008_Intro-06.gif" file="true" />
+			<_001_Intro--AdvanceOrganizer-Skizze.png name="001_Intro--AdvanceOrganizer-Skizze.png" file="true" />
+			<_034_RelAlg-14.gif name="034_RelAlg-14.gif" file="true" />
+			<_007_Intro-05.gif name="007_Intro-05.gif" file="true" />
+			<_028_RelAlg-08.gif name="028_RelAlg-08.gif" file="true" />
+		</Datenbanken>
+		<Informatik_1 name="Informatik_1" />
+		<PTG name="PTG">
+			<doc00686720160817125637.pdf name="doc00686720160817125637.pdf" file="true" />
+			<doc00686820160817125721.pdf name="doc00686820160817125721.pdf" file="true" />
+			<doc00686620160817125516.pdf name="doc00686620160817125516.pdf" file="true" />
+			<doc00687020160817125806.pdf name="doc00687020160817125806.pdf" file="true" />
+			<doc00686320160817125107.pdf name="doc00686320160817125107.pdf" file="true" />
+			<doc00686920160817125746.pdf name="doc00686920160817125746.pdf" file="true" />
+			<doc00686420160817125238.pdf name="doc00686420160817125238.pdf" file="true" />
+		</PTG>
+		<Prog_wichtig name="Prog_wichtig">
+			<pointer name="pointer" file="true" />
+			<speicherklassen2 name="speicherklassen2" file="true" />
+			<Data4 name="Data4" file="true" />
+			<Data2 name="Data2" file="true" />
+			<Data3 name="Data3" file="true" />
+			<array2 name="array2" file="true" />
+			<Assoziativität name="Assoziativität" file="true" />
+			<Dataa1 name="Dataa1" file="true" />
+			<undOderNicht name="undOderNicht" file="true" />
+			<Data8 name="Data8" file="true" />
+			<Ausdruck name="Ausdruck" file="true" />
+			<Strukturen2 name="Strukturen2" file="true" />
+			<Data6 name="Data6" file="true" />
+			<Data1 name="Data1" file="true" />
+			<printf name="printf" file="true" />
+			<Strukturen3 name="Strukturen3" file="true" />
+			<InkDekrement name="InkDekrement" file="true" />
+			<speicherklassen3 name="speicherklassen3" file="true" />
+			<Strukturen4 name="Strukturen4" file="true" />
+			<Data7 name="Data7" file="true" />
+			<array4 name="array4" file="true" />
+			<enums name="enums" file="true" />
+			<array1 name="array1" file="true" />
+			<Strukturen5 name="Strukturen5" file="true" />
+			<beispiel-_-max-_-drei name="beispiel max drei" file="true" />
+			<foliennummer name="foliennummer" file="true" />
+			<enums2 name="enums2" file="true" />
+			<Data5 name="Data5" file="true" />
+			<Data9 name="Data9" file="true" />
+			<array3 name="array3" file="true" />
+			<while-_-example name="while example" file="true" />
+			<Strukturen name="Strukturen" file="true" />
+			<speicherklassen name="speicherklassen" file="true" />
+		</Prog_wichtig>
+		<Rechnernetze name="Rechnernetze" />
+		<Vorlesung name="Vorlesung">
 			<a.out name="a.out" file="true" />
-			<auswertung.o name="auswertung.o" file="true" />
-			<auswertung name="auswertung" file="true" />
-			<auswertung.h name="auswertung.h" file="true" />
-			<Musterdatei.txt name="Musterdatei.txt" file="true" />
-			<auswertung.c name="auswertung.c" file="true" />
-			<makefile name="makefile" file="true" />
-			<ausgabe.c name="ausgabe.c" file="true" />
-			<hilfe.h name="hilfe.h" file="true" />
-			<testtarget.txt name="testtarget.txt" file="true" />
-			<hilfe.o name="hilfe.o" file="true" />
-			<hilfe.c name="hilfe.c" file="true" />
-			<ausgabe.h name="ausgabe.h" file="true" />
-			<Ausgabedatei.txt name="Ausgabedatei.txt" file="true" />
-			<UebungenfuerUebung8.c name="UebungenfuerUebung8.c" file="true" />
-		</ueb08>
-	</Abgabe>
+			<mittelwert name="mittelwert" file="true" />
+			<summe.c.swp dotfile="yes" name=".summe.c.swp" file="true" />
+			<mittelwert.c name="mittelwert.c" file="true" />
+			<eimaleins.c name="eimaleins.c" file="true" />
+			<getchar.c name="getchar.c" file="true" />
+			<getchar name="getchar" file="true" />
+			<summe.c name="summe.c" file="true" />
+			<eimaleins name="eimaleins" file="true" />
+		</Vorlesung>
+		<prog1 name="prog1">
+			<head.sh name="head.sh" file="true" />
+			<test.c name="test.c" file="true" />
+			<HalloWelt.c name="HalloWelt.c" file="true" />
+			<head.everything name="head.everything" file="true" />
+		</prog1>
+		<rechnerarchi name="rechnerarchi">
+			<RA_Handout.pdf name="RA_Handout.pdf" file="true" />
+		</rechnerarchi>
+		<swt2 name="swt2" />
+	</studium>
 </VSFS>
