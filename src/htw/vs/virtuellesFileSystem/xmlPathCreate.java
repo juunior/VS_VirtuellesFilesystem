@@ -12,12 +12,12 @@ import java.util.Arrays;
 
 
 public class xmlPathCreate {
+    private String ROOTDIR;
 
     private final static String DATNAM = "xmlTest.xml";
 
     private final static File FILE = new File(DATNAM);
 
-//    private final static String NAMESPACE = "";
 
     private Document createDoc(String rootElement) {
         Document doc = new Document();
@@ -27,32 +27,58 @@ public class xmlPathCreate {
     }
 
     private Element buildElement(String[] files, String dirName, String eDir) {
-        Element p;
+        Boolean allowed = true;
+        if (files != null) {
+            Arrays.sort(files);
+        }
+        Element p = null;
+        if (dirName.contains(" ")) {
+            eDir = dirName.replace(" ", "-_-");
+            p = new Element(eDir);
+            allowed = false;
+        }
         if (dirName.startsWith(".")) {
             p = new Element(eDir.substring(1));
             p.setAttribute("dotdir", "yes");
-        } else if (Character.isDigit(dirName.charAt(0))) {
+            allowed = false;
+        }
+        if (Character.isDigit(dirName.charAt(0))) {
             p = new Element("_" + eDir);
-        } else {
+            allowed = false;
+        }
+        if (allowed) {
             p = new Element(eDir);
         }
         p.setAttribute("name", dirName);
 
         if (files != null) {
             for (String file : files) {
+                allowed = true;
                 eDir = file;
-                Element e1;
+                Element e1 = null;
                 if (file.contains(" ")) {
                     eDir = file.replace(" ", "-_-");
+                    e1 = new Element(eDir);
+                    allowed = false;
                 }
                 if (file.startsWith(".")) {
                     e1 = new Element(eDir.substring(1));
                     e1.setAttribute("dotfile", "yes");
-                } else if (Character.isDigit(file.charAt(0))) {
+                    allowed = false;
+                }
+                if (file.contains("+")) {
+                    e1 = new Element(file.replace("+", "_plus_"));
+                    allowed = false;
+                }
+                if (Character.isDigit(file.charAt(0))) {
                     e1 = new Element("_" + eDir);
-                } else {
+                    allowed = false;
+                }
+                if (allowed) {
                     e1 = new Element(eDir);
                 }
+
+//                System.out.println(file);
                 e1.setAttribute("name", file);
                 e1.setAttribute("file", "true");
                 p.addContent(e1);
@@ -63,51 +89,61 @@ public class xmlPathCreate {
     }
 
     private String readDir(Document doc, String[] files, String dirName) {
-        Arrays.sort(files);
-        String eDir = dirName; //eDir ist XML conform
-        if (dirName.contains(" ")) {
-            eDir = dirName.replace(" ", "-_-");
+        if (files != null) {
+            Arrays.sort(files);
         }
+        String eDir = dirName; //eDir ist XML conform
         Element p = buildElement(files, dirName, eDir);
         doc.getRootElement().addContent(p);
 
         return p.getName();
     }
 
-    private void readParentDir(Document doc, String[] files, String dirName, String child) {
+    private void readParentDir(Document doc, String[] files, String dirName, String child, File file) {
         String eDir = dirName; //eDir ist XML conform
-        if (dirName.contains(" ")) {
-            eDir = dirName.replace(" ", "-_-");
-        }
         Element p = buildElement(files, dirName, eDir);
 
-        doc.getRootElement().getChild(child).addContent(p);
+            Element xml = doc.getRootElement();
+            xml = insertChild(file, xml);
 
+            xml.addContent(p);
+
+
+        File subroot = new File(file.getAbsolutePath() + "/" + dirName);
+        String[] directories = subroot.list((current, name) -> new File(current, name).isDirectory());
+        buildRec(directories, doc, subroot, subroot.getName());
 
     }
 
 
-    private void writeDoc(Document doc) {
+    private Element insertChild(File file, Element xml) {
+        String real = org.apache.commons.lang3.StringUtils.difference(ROOTDIR, file.getAbsolutePath());
+        String[] childs = real.split("/");
+        if (childs.length != 0 ) {
+            if(!childs[0].isEmpty()) {
+                for (String child : childs) {
+                    xml = xml.getChild(child);
+                }
+            }
+        }else {
+            xml = xml.getChild(file.getName());
+        }
+        System.out.println("REAL :::  " + real + "\t" + Arrays.toString(childs));
 
-        File rootDir = new File("/home/kai/studium/");
-
-        getDir(rootDir, doc);
+        return xml;
     }
+
 
     private void buildRec(String[] directories, Document doc, File file, String child) {
         File file_tmp = null;
         for (String dir : directories) {
             file_tmp = new File(file.getAbsolutePath() + "/" + dir);
             String[] files = file_tmp.list((current, name) -> new File(current, name).isFile());
-            readParentDir(doc, files, dir, child);
-        }
-        if (directories.length != 0) {
-            for (String dir : directories) {
-                file = new File(file.getAbsolutePath() + "/" + dir);
-                buildRec(directories, doc, file, child);
-            }
+            readParentDir(doc, files, dir, child, file);
+
         }
     }
+
 
 
     private void getDir(File file, Document doc) {
@@ -135,25 +171,24 @@ public class xmlPathCreate {
         }
     }
 
+    private void writeDoc(Document doc, String dir) {
+
+        File rootDir = new File(dir);
+        ROOTDIR = dir;
+
+        getDir(rootDir, doc);
+    }
+
     public static void main(String[] args) {
         xmlPathCreate jds = new xmlPathCreate();
         Document doc = jds.createDoc("VSFS");
-        jds.writeDoc(doc);
+        jds.writeDoc(doc, "/home/kai/studium/");
         jds.writeXML(doc);
+
+//        try (Stream<Path> paths = Files.walk(Paths.get("/home/kai/studium/"))) {
+//            paths.forEach(System.out::println);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 }
-
-
-//            Element e1 = new Element(rootDir.getName());
-//            e1.setAttribute("name", e1.getName());
-//            doc.getRootElement().addContent(e1);
-
-
-//        Element e2 = new Element("e2");
-//        Element n2 = new Element("name");
-//        n2.setText("e2");
-//        Element v2 = new Element("value");
-//        v2.setText("Wert 2");
-//        e2.addContent(n2);
-//        e2.addContent(v2);
-//        doc.getRootElement().addContent(e2);
