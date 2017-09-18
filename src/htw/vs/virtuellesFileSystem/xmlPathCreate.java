@@ -104,7 +104,7 @@ public class xmlPathCreate {
 
         File subroot = new File(file.getAbsolutePath() + "/" + dirName);
         String[] directories = subroot.list((current, name) -> new File(current, name).isDirectory());
-        buildDirectoryWalk(directories, doc, subroot, subroot.getName());
+        buildDirectoryWalk(directories, doc, subroot);
 
     }
 
@@ -127,8 +127,8 @@ public class xmlPathCreate {
     }
 
 
-    private void buildDirectoryWalk(String[] directories, Document doc, File file, String child) {
-        File file_tmp = null;
+    private void buildDirectoryWalk(String[] directories, Document doc, File file) {
+        File file_tmp;
         for (String dir : directories) {
             file_tmp = new File(file.getAbsolutePath() + "/" + dir);
             String[] files = file_tmp.list((current, name) -> new File(current, name).isFile());
@@ -142,9 +142,9 @@ public class xmlPathCreate {
     private void getDir(File file, Document doc) {
         String[] directories = file.list((current, name) -> new File(current, name).isDirectory());
         String[] files = file.list((current, name) -> new File(current, name).isFile());
-        String child = readDir(doc, files, file.getName());
+        readDir(doc, files, file.getName());
 
-        buildDirectoryWalk(directories, doc, file, child);
+        buildDirectoryWalk(directories, doc, file);
 
 
         if (directories != null) {
@@ -177,7 +177,7 @@ public class xmlPathCreate {
     public static void main(String[] args) {
         xmlPathCreate jds = new xmlPathCreate();
         Document doc = jds.createDoc("VSFS");
-        jds.writeDoc(doc, "/home/kai/");
+        jds.writeDoc(doc, "/home/kai/studium/");
         jds.writeXML(doc);
 
 //        try (Stream<Path> paths = Files.walk(Paths.get("/home/kai/studium/"))) {
