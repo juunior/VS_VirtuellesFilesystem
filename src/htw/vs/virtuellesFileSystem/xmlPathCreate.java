@@ -99,7 +99,7 @@ public class xmlPathCreate {
         return p.getName();
     }
 
-    private void readParentDir(Document doc, String[] files, String dirName, String child, File file) {
+    private void readParentDir(Document doc, String[] files, String dirName, File file) {
         String eDir = dirName; //eDir ist XML conform
         Element p = buildElement(files, dirName, eDir);
 
@@ -111,7 +111,7 @@ public class xmlPathCreate {
 
         File subroot = new File(file.getAbsolutePath() + "/" + dirName);
         String[] directories = subroot.list((current, name) -> new File(current, name).isDirectory());
-        buildRec(directories, doc, subroot, subroot.getName());
+        buildDirectoryWalk(directories, doc, subroot, subroot.getName());
 
     }
 
@@ -134,12 +134,12 @@ public class xmlPathCreate {
     }
 
 
-    private void buildRec(String[] directories, Document doc, File file, String child) {
+    private void buildDirectoryWalk(String[] directories, Document doc, File file, String child) {
         File file_tmp = null;
         for (String dir : directories) {
             file_tmp = new File(file.getAbsolutePath() + "/" + dir);
             String[] files = file_tmp.list((current, name) -> new File(current, name).isFile());
-            readParentDir(doc, files, dir, child, file);
+            readParentDir(doc, files, dir, file);
 
         }
     }
@@ -148,15 +148,16 @@ public class xmlPathCreate {
 
     private void getDir(File file, Document doc) {
         String[] directories = file.list((current, name) -> new File(current, name).isDirectory());
+        String[] files = file.list((current, name) -> new File(current, name).isFile());
+        String child = readDir(doc, files, file.getName());
+
+        buildDirectoryWalk(directories, doc, file, child);
+
 
         if (directories != null) {
             Arrays.sort(directories);
         }
 
-        String[] files = file.list((current, name) -> new File(current, name).isFile());
-        String child = readDir(doc, files, file.getName());
-
-        buildRec(directories, doc, file, child);
 
     }
 
@@ -174,7 +175,8 @@ public class xmlPathCreate {
     private void writeDoc(Document doc, String dir) {
 
         File rootDir = new File(dir);
-        ROOTDIR = dir;
+        String[] root = dir.split("/");
+        ROOTDIR = dir.replace("/" + root[root.length - 1] + "/","/");
 
         getDir(rootDir, doc);
     }
