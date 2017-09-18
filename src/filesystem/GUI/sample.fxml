@@ -5,7 +5,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
-<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="315.0" prefHeight="600.0" prefWidth="800.0" stylesheets="@../Documents/Projects/VS1/src/htw/vs1/filesystem/GUI/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="htw.vs1.filesystem.GUI.Controller">
+<VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="315.0" prefHeight="600.0" prefWidth="800.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="filesystem.GUI.Controller">
    <children>
       <MenuBar fx:id="menuBar" VBox.vgrow="ALWAYS">
         <menus>
@@ -18,15 +18,15 @@
             </Menu>
           <Menu fx:id="MenuEdit" mnemonicParsing="false" text="Edit">
             <items>
-                  <MenuItem fx:id="menuItemRename1" mnemonicParsing="false" onAction="#rename" text="Browse" />
+                  <!--<MenuItem fx:id="menuItemRename1" mnemonicParsing="false" onAction="#rename" text="Browse" />
                   <MenuItem fx:id="menuItemRename" mnemonicParsing="false" onAction="#rename" text="Rename" />
-              <MenuItem fx:id="menuItemDelete" mnemonicParsing="false" onAction="#delete" text="Delete" />
+              <MenuItem fx:id="menuItemDelete" mnemonicParsing="false" onAction="#delete" text="Delete" /> -->
             </items>
           </Menu>
           <Menu fx:id="MenuHelp" mnemonicParsing="false" text="Help">
             <items>
-                  <MenuItem fx:id="menuItemHelp" mnemonicParsing="false" onAction="#openHelp" text="Help" />
-              <MenuItem fx:id="menuItemAbout" mnemonicParsing="false" onAction="#showAbout" text="About" />
+                  <!-- <MenuItem fx:id="menuItemHelp" mnemonicParsing="false" onAction="#openHelp" text="Help" />
+              <MenuItem fx:id="menuItemAbout" mnemonicParsing="false" onAction="#showAbout" text="About" /> -->
             </items>
           </Menu>
         </menus>
@@ -83,11 +83,11 @@
                   <Insets />
                </HBox.margin>
             </Label>
-            <TextField fx:id="textFieldSearch" layoutX="653.0" maxHeight="20.0" minHeight="20.0" minWidth="150.0" onAction="#search" prefHeight="20.0" prefWidth="727.0">
+            <!-- <TextField fx:id="textFieldSearch" layoutX="653.0" maxHeight="20.0" minHeight="20.0" minWidth="150.0" onAction="#search" prefHeight="20.0" prefWidth="727.0">
                <HBox.margin>
                   <Insets left="2.0" right="2.0" />
                </HBox.margin>
-            </TextField>
+            </TextField> -->
          </children>
       </HBox>
       <SplitPane fx:id="splitPane" dividerPositions="0.6" orientation="VERTICAL" VBox.vgrow="ALWAYS">
@@ -131,7 +131,7 @@
             </Label>
             <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Aqua-Ball-Red-icon.png" />
+                  <!-- <Image url="@Aqua-Ball-Red-icon.png" /> -->
                </image>
                <HBox.margin>
                   <Insets left="4.0" right="15.0" />
