@@ -115,13 +115,16 @@ public class xmlPathCreate {
         if (childs.length != 0 ) {
             if(!childs[0].isEmpty()) {
                 for (String child : childs) {
+                    if (child.startsWith(".")) {
+                        child = child.substring(1);
+                    }
                     xml = xml.getChild(child);
                 }
             }
         }else {
             xml = xml.getChild(file.getName());
         }
-        System.out.println("REAL :::  " + real + "\t" + Arrays.toString(childs));
+        System.out.println("REAL :::  " + real + "\t" +"CHILD::::" +  Arrays.toString(childs) + "\t FILE::::" +file.getName());
 
         return xml;
     }
@@ -177,13 +180,7 @@ public class xmlPathCreate {
     public static void main(String[] args) {
         xmlPathCreate jds = new xmlPathCreate();
         Document doc = jds.createDoc("VSFS");
-        jds.writeDoc(doc, "/home/kai/studium/");
+        jds.writeDoc(doc, "/home/kai/vstest/");
         jds.writeXML(doc);
-
-//        try (Stream<Path> paths = Files.walk(Paths.get("/home/kai/studium/"))) {
-//            paths.forEach(System.out::println);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
     }
 }
