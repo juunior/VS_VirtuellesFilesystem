@@ -1,16 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VSFS>
-	<vstest name="vstest">
-		<test1 name="test1">
-			<test2 name="test2">
-				<_punkt_git name=".git">
-					<ordner name="ordner">
-						<asdf name="asdf">
-							<aweasv name="aweasv" />
-						</asdf>
-					</ordner>
-				</_punkt_git>
-			</test2>
-		</test1>
-	</vstest>
-</VSFS>
+<VSFS />

@@ -7,20 +7,24 @@ import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.file.NotDirectoryException;
 import java.util.Arrays;
 
 
 public class xmlPathCreate {
     private String ROOTDIR;
 
+    private String DELIMITER;
+
     private final static String DATNAM = "xmlTest.xml";
 
     private final static File FILE = new File(DATNAM);
 
 
-    private Document createDoc(String rootElement) {
+    public Document createDoc(String rootElement) {
         Document doc = new Document();
         Element root = new Element(rootElement);
         doc.setRootElement(root);
@@ -37,14 +41,14 @@ public class xmlPathCreate {
             eDir = eDir.replace(" ", "-_-");
         }
         if (eDir.startsWith(".")) {
-            eDir = eDir.replace(".","_punkt_");
+            eDir = eDir.replace(".", "_punkt_");
             p.setAttribute("dotdir", "yes");
         }
         if (Character.isDigit(eDir.charAt(0))) {
             eDir = "_" + eDir;
         }
 
-            p = new Element(eDir);
+        p = new Element(eDir);
 
         p.setAttribute("name", dirName);
 
@@ -57,15 +61,15 @@ public class xmlPathCreate {
                     eDir = eDir.replace(" ", "-_-");
                 }
                 if (eDir.startsWith(".")) {
-                    eDir = eDir.replace(".","_punkt_");
+                    eDir = eDir.replace(".", "_punkt_");
                     e1.setAttribute("dotfile", "yes");
                 }
                 if (eDir.contains("+")) {
                     eDir = eDir.replace("+", "_plus_");
                 }
                 if (eDir.contains("~")) {
-                    eDir = eDir.replace("~","_tilde_");
-                    e1.setAttribute("tempFile","yes");
+                    eDir = eDir.replace("~", "_tilde_");
+                    e1.setAttribute("tempFile", "yes");
                 }
                 if (Character.isDigit(eDir.charAt(0))) {
                     eDir = "_" + eDir;
@@ -97,13 +101,13 @@ public class xmlPathCreate {
     private void readParentDir(Document doc, String[] files, String dirName, File file) {
         Element p = buildElement(files, dirName);
 
-            Element xml = doc.getRootElement();
-            xml = insertChild(file, xml);
+        Element xml = doc.getRootElement();
+        xml = insertChild(file, xml);
 
-            xml.addContent(p);
+        xml.addContent(p);
 
 
-        File subroot = new File(file.getAbsolutePath() + "/" + dirName);
+        File subroot = new File(file.getAbsolutePath() + DELIMITER + dirName);
         String[] directories = subroot.list((current, name) -> new File(current, name).isDirectory());
         buildDirectoryWalk(directories, doc, subroot);
 
@@ -112,22 +116,22 @@ public class xmlPathCreate {
 
     private Element insertChild(File file, Element xml) {
         String real = StringUtils.difference(ROOTDIR, file.getAbsolutePath());
-        String[] childs = real.split("/");
-        if (childs.length != 0 ) {
-            if(!childs[0].isEmpty()) {
+        String[] childs = real.split(DELIMITER);
+        if (childs.length != 0) {
+            if (!childs[0].isEmpty()) {
                 for (String child : childs) {
                     //gleiches Ersetzungsmuster wie in den Filtern
                     if (child.contains(" ")) {
                         child = child.replace(" ", "-_-");
                     }
                     if (child.startsWith(".")) {
-                        child = child.replace(".","_punkt_");
+                        child = child.replace(".", "_punkt_");
                     }
                     if (child.contains("+")) {
                         child = child.replace("+", "_plus_");
                     }
                     if (child.contains("~")) {
-                        child = child.replace("~","_tilde_");
+                        child = child.replace("~", "_tilde_");
                     }
                     if (Character.isDigit(child.charAt(0))) {
                         child = "_" + child;
@@ -135,10 +139,10 @@ public class xmlPathCreate {
                     xml = xml.getChild(child);
                 }
             }
-        }else {
+        } else {
             xml = xml.getChild(file.getName());
         }
-        System.out.println("REAL :::  " + real + "\t" +"CHILD::::" +  Arrays.toString(childs) + "\t FILE::::" +file.getName());
+        System.out.println("REAL :::  " + real + "\t" + "CHILD::::" + Arrays.toString(childs) + "\t FILE::::" + file.getName());
 
         return xml;
     }
@@ -153,7 +157,6 @@ public class xmlPathCreate {
 
         }
     }
-
 
 
     private void getDir(File file, Document doc) {
@@ -171,7 +174,7 @@ public class xmlPathCreate {
 
     }
 
-    private void writeXML(Document doc) {
+    public void writeXML(Document doc) {
         Format format = Format.getPrettyFormat();
         format.setIndent("\t");
         try (FileOutputStream fos = new FileOutputStream(FILE)) {
@@ -182,19 +185,33 @@ public class xmlPathCreate {
         }
     }
 
-    private void writeDoc(Document doc, String dir) {
+    public void writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
+        String os = System.getProperty("os.name");
+        if (os.contains("windows")){
+            DELIMITER = "\\";
+        }else {
+            DELIMITER = "/";
+        }
 
+        if (!dir.endsWith(DELIMITER)){
+            dir = dir.concat(DELIMITER);
+        }
+
+        if (!new File(dir).exists()){
+            throw new FileNotFoundException();
+        }
+        if (!new File(dir).isDirectory()){
+            throw new NotDirectoryException(dir);
+        }
         File rootDir = new File(dir);
-        String[] root = dir.split("/");
-        ROOTDIR = dir.replace("/" + root[root.length - 1] + "/","/");
+
+        String[] root = dir.split(DELIMITER);
+        ROOTDIR = dir.replace(DELIMITER + root[root.length - 1] + DELIMITER, DELIMITER);
+
+
 
         getDir(rootDir, doc);
     }
 
-    public static void main(String[] args) {
-        xmlPathCreate jds = new xmlPathCreate();
-        Document doc = jds.createDoc("VSFS");
-        jds.writeDoc(doc, "/home/kai/vstest/");
-        jds.writeXML(doc);
-    }
+
 }
