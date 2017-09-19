@@ -144,3 +144,12 @@ Säuberungsaktion auf den GitBranches
 - Trennung durch Netzwerke ->Personenkreise
 - Änderung der Präsentation
 - Dienstag: Fortschritte bei Kai und Jan hochgeladen
+
+18.9. Themen:
+- Kommunikation Up/Download und jeweils funktionierende Version im Github
+- GUI steht, diverse Dateien werden noch optimiert damit die Größe schrumpft
+- XML Erzeuger fertig, diverse Bugs wurden gefixt, suche muss noch fertiggestellt werden
+- Präsentation Stand Sonntag
+- Checksumme über die XML Datei - kleiner und schneller.
+- Robert testet die  XML
+- Kai&Christian implementieren die Suche
