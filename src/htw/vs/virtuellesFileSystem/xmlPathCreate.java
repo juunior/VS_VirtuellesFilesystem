@@ -1,5 +1,6 @@
 package htw.vs.virtuellesFileSystem;
 
+import org.apache.commons.lang3.StringUtils;
 import org.jdom2.Document;
 import org.jdom2.Element;
 import org.jdom2.output.Format;
@@ -36,7 +37,7 @@ public class xmlPathCreate {
             eDir = eDir.replace(" ", "-_-");
         }
         if (eDir.startsWith(".")) {
-            eDir = eDir.substring(1);
+            eDir = eDir.replace(".","_punkt_");
             p.setAttribute("dotdir", "yes");
         }
         if (Character.isDigit(eDir.charAt(0))) {
@@ -53,10 +54,10 @@ public class xmlPathCreate {
                 eDir = file;
                 Element e1 = new Element("tmp");
                 if (eDir.contains(" ")) {
-                    eDir = file.replace(" ", "-_-");
+                    eDir = eDir.replace(" ", "-_-");
                 }
                 if (eDir.startsWith(".")) {
-                    eDir = eDir.substring(1);
+                    eDir = eDir.replace(".","_punkt_");
                     e1.setAttribute("dotfile", "yes");
                 }
                 if (eDir.contains("+")) {
@@ -110,13 +111,26 @@ public class xmlPathCreate {
 
 
     private Element insertChild(File file, Element xml) {
-        String real = org.apache.commons.lang3.StringUtils.difference(ROOTDIR, file.getAbsolutePath());
+        String real = StringUtils.difference(ROOTDIR, file.getAbsolutePath());
         String[] childs = real.split("/");
         if (childs.length != 0 ) {
             if(!childs[0].isEmpty()) {
                 for (String child : childs) {
+                    //gleiches Ersetzungsmuster wie in den Filtern
+                    if (child.contains(" ")) {
+                        child = child.replace(" ", "-_-");
+                    }
                     if (child.startsWith(".")) {
-                        child = child.substring(1);
+                        child = child.replace(".","_punkt_");
+                    }
+                    if (child.contains("+")) {
+                        child = child.replace("+", "_plus_");
+                    }
+                    if (child.contains("~")) {
+                        child = child.replace("~","_tilde_");
+                    }
+                    if (Character.isDigit(child.charAt(0))) {
+                        child = "_" + child;
                     }
                     xml = xml.getChild(child);
                 }

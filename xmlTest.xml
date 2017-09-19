@@ -3,13 +3,13 @@
 	<vstest name="vstest">
 		<test1 name="test1">
 			<test2 name="test2">
-				<git name=".git">
+				<_punkt_git name=".git">
 					<ordner name="ordner">
 						<asdf name="asdf">
 							<aweasv name="aweasv" />
 						</asdf>
 					</ordner>
-				</git>
+				</_punkt_git>
 			</test2>
 		</test1>
 	</vstest>
