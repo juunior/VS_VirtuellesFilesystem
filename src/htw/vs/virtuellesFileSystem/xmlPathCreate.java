@@ -49,6 +49,9 @@ public class xmlPathCreate {
         if (eDir.contains("]")) {
             eDir = eDir.replace("]", "_sbracc_");
         }
+        if (eDir.contains("\\")) {
+            eDir = eDir.replace("\\", "_backsl_");
+        }
         if (eDir.startsWith(".")) {
             eDir = eDir.replace(".", "_punkt_");
             p.setAttribute("dotdir", "yes");
@@ -81,6 +84,9 @@ public class xmlPathCreate {
                 }
                 if (eDir.contains("+")) {
                     eDir = eDir.replace("+", "_plus_");
+                }
+                if (eDir.contains("\\")) {
+                    eDir = eDir.replace("\\", "_backsl_");
                 }
                 if (eDir.contains("~")) {
                     eDir = eDir.replace("~", "_tilde_");
@@ -147,6 +153,15 @@ public class xmlPathCreate {
                     }
                     if (child.contains("~")) {
                         child = child.replace("~", "_tilde_");
+                    }
+                    if (child.contains("]")) {
+                        child = child.replace("]", "_sbracc_");
+                    }
+                    if (child.contains("[")) {
+                        child = child.replace("[", "_sbraco_");
+                    }
+                    if (child.contains("\\")) {
+                        child = child.replace("\\", "_backsl_");
                     }
                     if (Character.isDigit(child.charAt(0))) {
                         child = "_" + child;
