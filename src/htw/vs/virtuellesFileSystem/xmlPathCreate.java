@@ -40,6 +40,9 @@ public class xmlPathCreate {
         if (eDir.contains(" ")) {
             eDir = eDir.replace(" ", "-_-");
         }
+        if (eDir.contains("+")) {
+            eDir = eDir.replace("+", "_plus_");
+        }
         if (eDir.startsWith(".")) {
             eDir = eDir.replace(".", "_punkt_");
             p.setAttribute("dotdir", "yes");

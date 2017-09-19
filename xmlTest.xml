@@ -1,2 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VSFS />
+<VSFS>
+	<studium name="studium">
+		<_punkt__sync_a7aa8dc44fd7_punkt_db name="._sync_a7aa8dc44fd7.db" file="true" />
+		<_punkt_owncloudsync_punkt_log name=".owncloudsync.log" file="true" />
+		<DB15_04_ASPO.pdf name="DB15_04_ASPO.pdf" file="true" />
+		<Prfungsordnung.pdf name="Prfungsordnung.pdf" file="true" />
+		<prog1 name="prog1">
+			<HalloWelt.c name="HalloWelt.c" file="true" />
+			<head.everything name="head.everything" file="true" />
+			<head.sh name="head.sh" file="true" />
+			<test.c name="test.c" file="true" />
+			<ueb08 name="ueb08">
+				<Ausgabedatei.txt name="Ausgabedatei.txt" file="true" />
+				<Musterdatei.txt name="Musterdatei.txt" file="true" />
+				<UebungenfuerUebung8.c name="UebungenfuerUebung8.c" file="true" />
+				<a.out name="a.out" file="true" />
+				<ausgabe.c name="ausgabe.c" file="true" />
+				<ausgabe.h name="ausgabe.h" file="true" />
+				<ausgabe.o name="ausgabe.o" file="true" />
+				<auswertung name="auswertung" file="true" />
+				<auswertung.c name="auswertung.c" file="true" />
+				<auswertung.h name="auswertung.h" file="true" />
+				<auswertung.o name="auswertung.o" file="true" />
+				<hilfe.c name="hilfe.c" file="true" />
+				<hilfe.h name="hilfe.h" file="true" />
+				<hilfe.o name="hilfe.o" file="true" />
+				<makefile name="makefile" file="true" />
+				<struct.h name="struct.h" file="true" />
+				<testtarget.txt name="testtarget.txt" file="true" />
+				<Abgabe name="Abgabe">
+					<Musterdatei.txt name="Musterdatei.txt" file="true" />
+					<Ueb8.zip name="Ueb8.zip" file="true" />
+					<ausgabe.c name="ausgabe.c" file="true" />
+					<ausgabe.h name="ausgabe.h" file="true" />
+					<auswertung.c name="auswertung.c" file="true" />
+					<auswertung.h name="auswertung.h" file="true" />
+					<hilfe.c name="hilfe.c" file="true" />
+					<hilfe.h name="hilfe.h" file="true" />
+					<makefile name="makefile" file="true" />
+					<output name="output" file="true" />
+					<struct.h name="struct.h" file="true" />
+				</Abgabe>
+			</ueb08>
+			<ueb02 name="ueb02">
+				<a.out name="a.out" file="true" />
+				<collatz-arg-read.c name="collatz-arg-read.c" file="true" />
+				<collatz.c name="collatz.c" file="true" />
+				<collatz.txt name="collatz.txt" file="true" />
+				<dreieck.c name="dreieck.c" file="true" />
+				<pythagora.c name="pythagora.c" file="true" />
+				<waehrungrechner-extend.c name="waehrungrechner-extend.c" file="true" />
+				<waehrungrechner.c name="waehrungrechner.c" file="true" />
+				<Abgabe name="Abgabe">
+					<collatz.c name="collatz.c" file="true" />
+					<dreieck.c name="dreieck.c" file="true" />
+					<pythagora.c name="pythagora.c" file="true" />
+					<ueb02.zip name="ueb02.zip" file="true" />
+					<waehrungrechner-extend.c name="waehrungrechner-extend.c" file="true" />
+					<waehrungrechner.c name="waehrungrechner.c" file="true" />
+				</Abgabe>
+			</ueb02>
+			<ueb06 name="ueb06">
+				<Abgabe.zip name="Abgabe.zip" file="true" />
+				<a.out name="a.out" file="true" />
+				<analyse.c name="analyse.c" file="true" />
+				<berechnung.c name="berechnung.c" file="true" />
+				<Abgabe name="Abgabe">
+					<a.out name="a.out" file="true" />
+					<analyse.c name="analyse.c" file="true" />
+					<berechnung.c name="berechnung.c" file="true" />
+					<ueb06.zip name="ueb06.zip" file="true" />
+				</Abgabe>
+			</ueb06>
+			<ueb01 name="ueb01">
+				<a.out name="a.out" file="true" />
+				<benzinKosten name="benzinKosten" file="true" />
+				<benzinKosten.c name="benzinKosten.c" file="true" />
+				<head.everything name="head.everything" file="true" />
+				<kmToMile name="kmToMile" file="true" />
+				<kmToMile.c name="kmToMile.c" file="true" />
+				<mileToKm name="mileToKm" file="true" />
+				<mileToKm.c name="mileToKm.c" file="true" />
+				<teiler name="teiler" file="true" />
+				<teiler.c name="teiler.c" file="true" />
+				<tempRechner name="tempRechner" file="true" />
+				<tempRechner.c name="tempRechner.c" file="true" />
+				<umrechnung name="umrechnung" file="true" />
+				<umrechnung.c name="umrechnung.c" file="true" />
+				<waehrungrechner name="waehrungrechner" file="true" />
+				<waehrungrechner.c name="waehrungrechner.c" file="true" />
+				<abgabe name="abgabe">
+					<_punkt_swp name=".swp" file="true" />
+					<benzinKosten.c name="benzinKosten.c" file="true" />
+					<kmToMile.c name="kmToMile.c" file="true" />
+					<mileToKm.c name="mileToKm.c" file="true" />
+					<teiler.c name="teiler.c" file="true" />
+					<tempRechner.c name="tempRechner.c" file="true" />
+					<ueb01.pdf name="ueb01.pdf" file="true" />
+					<uebung1.tar name="uebung1.tar" file="true" />
+					<umrechnung.c name="umrechnung.c" file="true" />
+					<waehrungrechner.c name="waehrungrechner.c" file="true" />
+				</abgabe>
+			</ueb01>
+			<ueb04 name="ueb04">
+				<a.out name="a.out" file="true" />
+				<a_conflict-20151214-085817.out name="a_conflict-20151214-085817.out" file="true" />
+				<feldmin name="feldmin" file="true" />
+				<feldmin.c name="feldmin.c" file="true" />
+				<feldmin_2.c name="feldmin_2.c" file="true" />
+				<feldmin_conflict-20151214-113020.c name="feldmin_conflict-20151214-113020.c" file="true" />
+				<geheim name="geheim" file="true" />
+				<geheim.c name="geheim.c" file="true" />
+				<geheim.c_scurity.c name="geheim.c_scurity.c" file="true" />
+				<geheim_conflict-20151214-101109.c name="geheim_conflict-20151214-101109.c" file="true" />
+				<makefile name="makefile" file="true" />
+				<test.c name="test.c" file="true" />
+				<test_conflict-20151214-082148.c name="test_conflict-20151214-082148.c" file="true" />
+				<Abgabe name="Abgabe">
+					<_4ueb.zip name="4ueb.zip" file="true" />
+					<feldmin.c name="feldmin.c" file="true" />
+					<geheim.c name="geheim.c" file="true" />
+				</Abgabe>
+			</ueb04>
+			<ueb03 name="ueb03">
+				<a.out name="a.out" file="true" />
+				<ascii name="ascii" file="true" />
+				<ascii_tabelle.c name="ascii_tabelle.c" file="true" />
+				<ascii_tabelle.c.exec name="ascii_tabelle.c.exec" file="true" />
+				<compile.sh name="compile.sh" file="true" />
+				<gcc-log.txt name="gcc-log.txt" file="true" />
+				<makefile name="makefile" file="true" />
+				<sizeof name="sizeof" file="true" />
+				<sizeof.c name="sizeof.c" file="true" />
+				<sizeof.c.exec name="sizeof.c.exec" file="true" />
+				<ueberlauf name="ueberlauf" file="true" />
+				<ueberlauf.c name="ueberlauf.c" file="true" />
+				<ueberlauf.c.exec name="ueberlauf.c.exec" file="true" />
+				<Abgabe name="Abgabe">
+					<ascii_tabelle.c name="ascii_tabelle.c" file="true" />
+					<compile.sh name="compile.sh" file="true" />
+					<makefile name="makefile" file="true" />
+					<sizeof.c name="sizeof.c" file="true" />
+					<ueb03.zip name="ueb03.zip" file="true" />
+					<ueberlauf.c name="ueberlauf.c" file="true" />
+				</Abgabe>
+				<compiled name="compiled">
+					<ascii_tabelle.c.exec name="ascii_tabelle.c.exec" file="true" />
+					<sizeof.c.exec name="sizeof.c.exec" file="true" />
+					<ueberlauf.c.exec name="ueberlauf.c.exec" file="true" />
+				</compiled>
+			</ueb03>
+			<ueb07 name="ueb07">
+				<bruchrechnen.c name="bruchrechnen.c" file="true" />
+				<kuerzen.c name="kuerzen.c" file="true" />
+				<kuerzen.h name="kuerzen.h" file="true" />
+				<kuerzen.o name="kuerzen.o" file="true" />
+				<makefile name="makefile" file="true" />
+				<operationen.c name="operationen.c" file="true" />
+				<operationen.h name="operationen.h" file="true" />
+				<operationen.o name="operationen.o" file="true" />
+				<r1.out name="r1.out" file="true" />
+				<r2.out name="r2.out" file="true" />
+				<r3.out name="r3.out" file="true" />
+				<r4.out name="r4.out" file="true" />
+				<rechner.c name="rechner.c" file="true" />
+				<rechner.h name="rechner.h" file="true" />
+				<rechner3.c name="rechner3.c" file="true" />
+				<rechner3.h name="rechner3.h" file="true" />
+				<rechner3.o name="rechner3.o" file="true" />
+				<rechner4.c name="rechner4.c" file="true" />
+				<rechner4.h name="rechner4.h" file="true" />
+				<rechner4.o name="rechner4.o" file="true" />
+				<Abgabe name="Abgabe">
+					<bruchrechnen.c name="bruchrechnen.c" file="true" />
+					<kuerzen.c name="kuerzen.c" file="true" />
+					<kuerzen.h name="kuerzen.h" file="true" />
+					<makefile name="makefile" file="true" />
+					<operationen.c name="operationen.c" file="true" />
+					<operationen.h name="operationen.h" file="true" />
+					<rechner.c name="rechner.c" file="true" />
+					<rechner.h name="rechner.h" file="true" />
+					<rechner3.c name="rechner3.c" file="true" />
+					<rechner3.h name="rechner3.h" file="true" />
+					<rechner4.c name="rechner4.c" file="true" />
+					<rechner4.h name="rechner4.h" file="true" />
+					<ueb07kschultz.zip name="ueb07kschultz.zip" file="true" />
+				</Abgabe>
+			</ueb07>
+			<ueb05 name="ueb05">
+				<a.out name="a.out" file="true" />
+				<functions-case.c name="functions-case.c" file="true" />
+				<functions.c name="functions.c" file="true" />
+				<Abgabe name="Abgabe">
+					<a.out name="a.out" file="true" />
+					<functions-linux.c name="functions-linux.c" file="true" />
+					<functions-mac.c name="functions-mac.c" file="true" />
+					<ueb5.zip name="ueb5.zip" file="true" />
+					<new name="new">
+						<functions-linux.c name="functions-linux.c" file="true" />
+						<functions-mac.c name="functions-mac.c" file="true" />
+						<ueb5.zip name="ueb5.zip" file="true" />
+					</new>
+				</Abgabe>
+			</ueb05>
+		</prog1>
+		<Prog_wichtig name="Prog_wichtig">
+			<Assoziativität name="Assoziativität" file="true" />
+			<Ausdruck name="Ausdruck" file="true" />
+			<Data1 name="Data1" file="true" />
+			<Data2 name="Data2" file="true" />
+			<Data3 name="Data3" file="true" />
+			<Data4 name="Data4" file="true" />
+			<Data5 name="Data5" file="true" />
+			<Data6 name="Data6" file="true" />
+			<Data7 name="Data7" file="true" />
+			<Data8 name="Data8" file="true" />
+			<Data9 name="Data9" file="true" />
+			<Dataa1 name="Dataa1" file="true" />
+			<InkDekrement name="InkDekrement" file="true" />
+			<Strukturen name="Strukturen" file="true" />
+			<Strukturen2 name="Strukturen2" file="true" />
+			<Strukturen3 name="Strukturen3" file="true" />
+			<Strukturen4 name="Strukturen4" file="true" />
+			<Strukturen5 name="Strukturen5" file="true" />
+			<array1 name="array1" file="true" />
+			<array2 name="array2" file="true" />
+			<array3 name="array3" file="true" />
+			<array4 name="array4" file="true" />
+			<beispiel-_-max-_-drei name="beispiel max drei" file="true" />
+			<enums name="enums" file="true" />
+			<enums2 name="enums2" file="true" />
+			<foliennummer name="foliennummer" file="true" />
+			<pointer name="pointer" file="true" />
+			<printf name="printf" file="true" />
+			<speicherklassen name="speicherklassen" file="true" />
+			<speicherklassen2 name="speicherklassen2" file="true" />
+			<speicherklassen3 name="speicherklassen3" file="true" />
+			<undOderNicht name="undOderNicht" file="true" />
+			<while-_-example name="while example" file="true" />
+		</Prog_wichtig>
+		<PTG name="PTG">
+			<doc00686320160817125107.pdf name="doc00686320160817125107.pdf" file="true" />
+			<doc00686420160817125238.pdf name="doc00686420160817125238.pdf" file="true" />
+			<doc00686620160817125516.pdf name="doc00686620160817125516.pdf" file="true" />
+			<doc00686720160817125637.pdf name="doc00686720160817125637.pdf" file="true" />
+			<doc00686820160817125721.pdf name="doc00686820160817125721.pdf" file="true" />
+			<doc00686920160817125746.pdf name="doc00686920160817125746.pdf" file="true" />
+			<doc00687020160817125806.pdf name="doc00687020160817125806.pdf" file="true" />
+			<Klausur name="Klausur">
+				<Klausur-_-PTG_II_Probe.pdf name="Klausur PTG_II_Probe.pdf" file="true" />
+				<Klausur-_-PTG_II_Probe1.doc name="Klausur PTG_II_Probe1.doc" file="true" />
+				<Klausur-_-PTG_II_Probe2.doc name="Klausur PTG_II_Probe2.doc" file="true" />
+				<Klausur-_-PTG_II_Probe3.doc name="Klausur PTG_II_Probe3.doc" file="true" />
+				<Klausur-ptg.rar name="Klausur-ptg.rar" file="true" />
+				<Loesung-_-2 name="Loesung 2" file="true" />
+				<Musterloesung-_-Probeklausur-_-PTG-_-II.pdf name="Musterloesung Probeklausur PTG II.pdf" file="true" />
+				<ProbeKlausur-_-PTG-_-II.pdf name="ProbeKlausur PTG II.pdf" file="true" />
+			</Klausur>
+		</PTG>
+		<rechnerarchi name="rechnerarchi">
+			<RA_Handout.pdf name="RA_Handout.pdf" file="true" />
+		</rechnerarchi>
+		<BWL name="BWL">
+			<_00_BWL1_Organisation_19102015.pdf name="00_BWL1_Organisation_19102015.pdf" file="true" />
+			<_01_BWL1_Einführung_26102015.pdf name="01_BWL1_Einführung_26102015.pdf" file="true" />
+			<_01_BWL2_Einführung_20042016.pdf name="01_BWL2_Einführung_20042016.pdf" file="true" />
+			<_02_BWL1_Produktionsfaktoren_02112015.pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" />
+			<_02_BWL2_Rechnungswesen_27042016.pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" />
+			<_03_BWL1_Unternehmen_09112015.pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" />
+			<_04_BWL1_Wirtschaftskreislauf_16112015.pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" />
+			<_04_BWL2_Geschäftsprozesse_04052016.pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" />
+			<_04_Spezielle_ITSysteme_15062016.pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" />
+			<_05_BWL1_Rechtsformen23112015.pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" />
+			<_05_Wissensmanagement_13072016.pdf name="05_Wissensmanagement_13072016.pdf" file="true" />
+			<_06_BWL1_Organisationsstrukturen_30112015.pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" />
+			<_07_BWL1_Ziele_30112015.pdf name="07_BWL1_Ziele_30112015.pdf" file="true" />
+			<_08_BWL1_Personalwirtschaft_07122015.pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" />
+			<_09_BWL1_Leisungserstellung_04012016.pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" />
+			<_10_BWL1_Kostenrechnung_18012016.pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" />
+			<BWL_NachKlausur11022010.pdf name="BWL_NachKlausur11022010.pdf" file="true" />
+			<BWL_Small.pdf name="BWL_Small.pdf" file="true" />
+		</BWL>
+		<swt2 name="swt2">
+			<SWT2StuPro2017 name="SWT2StuPro2017">
+				<README.md name="README.md" file="true" />
+				<makefile name="makefile" file="true" />
+				<menu.c name="menu.c" file="true" />
+				<scanflib.c name="scanflib.c" file="true" />
+				<scanflib.h name="scanflib.h" file="true" />
+			</SWT2StuPro2017>
+			<SWT2StuPro2016 name="SWT2StuPro2016">
+				<LICENSE name="LICENSE" file="true" />
+				<README.md name="README.md" file="true" />
+				<out name="out">
+					<production name="production">
+						<Hanse-Kontor2016 name="Hanse-Kontor2016" />
+					</production>
+				</out>
+				<Hanse-Kontor2016 name="Hanse-Kontor2016">
+					<Hanse-Kontor2016.iml name="Hanse-Kontor2016.iml" file="true" />
+					<src name="src">
+						<hanse name="hanse">
+							<kontor2016 name="kontor2016">
+								<Definitionen.java name="Definitionen.java" file="true" />
+								<HanseKontor2016.java name="HanseKontor2016.java" file="true" />
+								<Schiff.java name="Schiff.java" file="true" />
+								<SpielKontor.java name="SpielKontor.java" file="true" />
+								<Ware.java name="Ware.java" file="true" />
+								<kaufmann name="kaufmann">
+									<Kaufmann.java name="Kaufmann.java" file="true" />
+									<Konto.java name="Konto.java" file="true" />
+								</kaufmann>
+								<schiff name="schiff">
+									<Schiff-GruppeSchiff.java name="Schiff-GruppeSchiff.java" file="true" />
+									<Schiff.java name="Schiff.java" file="true" />
+									<Schiffstyp.java name="Schiffstyp.java" file="true" />
+									<Ware-GruppeSchiff.java name="Ware-GruppeSchiff.java" file="true" />
+								</schiff>
+								<kontor name="kontor">
+									<Kontor.java name="Kontor.java" file="true" />
+									<Lager.java name="Lager.java" file="true" />
+									<LagerException.java name="LagerException.java" file="true" />
+									<Ware.java name="Ware.java" file="true" />
+								</kontor>
+								<lokalitaeten name="lokalitaeten">
+									<GeoObjekt.java name="GeoObjekt.java" file="true" />
+									<Hafen.java name="Hafen.java" file="true" />
+									<Route.java name="Route.java" file="true" />
+									<Weg.java name="Weg.java" file="true" />
+									<Werft.java name="Werft.java" file="true" />
+								</lokalitaeten>
+							</kontor2016>
+						</hanse>
+					</src>
+				</Hanse-Kontor2016>
+			</SWT2StuPro2016>
+			<mandelbrot name="mandelbrot">
+				<Fraktal.class name="Fraktal.class" file="true" />
+				<MANIFEST.MF name="MANIFEST.MF" file="true" />
+				<MeinFraktal.class name="MeinFraktal.class" file="true" />
+				<MeinFraktal.java name="MeinFraktal.java" file="true" />
+				<SimpleImage.class name="SimpleImage.class" file="true" />
+				<apfel.jar name="apfel.jar" file="true" />
+				<apfelKschultz.jar name="apfelKschultz.jar" file="true" />
+				<mandelbrot.iml name="mandelbrot.iml" file="true" />
+				<out name="out">
+					<production name="production">
+						<mandelbrot name="mandelbrot">
+							<apfel.jar name="apfel.jar" file="true" />
+							<mandelbrot.iml name="mandelbrot.iml" file="true" />
+							<META-INF name="META-INF">
+								<MANIFEST.MF name="MANIFEST.MF" file="true" />
+							</META-INF>
+							<Mandelbrot.html name="Mandelbrot.html">
+								<Fraktal.html name="Fraktal.html" file="true" />
+								<SimpleImage.html name="SimpleImage.html" file="true" />
+								<allclasses-frame.html name="allclasses-frame.html" file="true" />
+								<allclasses-noframe.html name="allclasses-noframe.html" file="true" />
+								<constant-values.html name="constant-values.html" file="true" />
+								<deprecated-list.html name="deprecated-list.html" file="true" />
+								<help-doc.html name="help-doc.html" file="true" />
+								<index-all.html name="index-all.html" file="true" />
+								<index.html name="index.html" file="true" />
+								<overview-tree.html name="overview-tree.html" file="true" />
+								<package-frame.html name="package-frame.html" file="true" />
+								<package-list name="package-list" file="true" />
+								<package-summary.html name="package-summary.html" file="true" />
+								<package-tree.html name="package-tree.html" file="true" />
+								<script.js name="script.js" file="true" />
+								<serialized-form.html name="serialized-form.html" file="true" />
+								<stylesheet.css name="stylesheet.css" file="true" />
+							</Mandelbrot.html>
+						</mandelbrot>
+					</production>
+				</out>
+				<META-INF name="META-INF">
+					<MANIFEST.MF name="MANIFEST.MF" file="true" />
+				</META-INF>
+				<kschultz name="kschultz">
+					<MeinFraktal.class name="MeinFraktal.class" file="true" />
+					<apfelKschultz.jar name="apfelKschultz.jar" file="true" />
+					<META-INF name="META-INF">
+						<MANIFEST.MF name="MANIFEST.MF" file="true" />
+					</META-INF>
+				</kschultz>
+				<Mandelbrot.html name="Mandelbrot.html">
+					<Fraktal.html name="Fraktal.html" file="true" />
+					<SimpleImage.html name="SimpleImage.html" file="true" />
+					<allclasses-frame.html name="allclasses-frame.html" file="true" />
+					<allclasses-noframe.html name="allclasses-noframe.html" file="true" />
+					<constant-values.html name="constant-values.html" file="true" />
+					<deprecated-list.html name="deprecated-list.html" file="true" />
+					<help-doc.html name="help-doc.html" file="true" />
+					<index-all.html name="index-all.html" file="true" />
+					<index.html name="index.html" file="true" />
+					<overview-tree.html name="overview-tree.html" file="true" />
+					<package-frame.html name="package-frame.html" file="true" />
+					<package-list name="package-list" file="true" />
+					<package-summary.html name="package-summary.html" file="true" />
+					<package-tree.html name="package-tree.html" file="true" />
+					<script.js name="script.js" file="true" />
+					<serialized-form.html name="serialized-form.html" file="true" />
+					<stylesheet.css name="stylesheet.css" file="true" />
+				</Mandelbrot.html>
+			</mandelbrot>
+			<VS3_Primzahlen name="VS3_Primzahlen" />
+		</swt2>
+		<Vorlesung name="Vorlesung">
+			<_punkt_summe_punkt_c_punkt_swp name=".summe.c.swp" file="true" />
+			<a.out name="a.out" file="true" />
+			<eimaleins name="eimaleins" file="true" />
+			<eimaleins.c name="eimaleins.c" file="true" />
+			<getchar name="getchar" file="true" />
+			<getchar.c name="getchar.c" file="true" />
+			<mittelwert name="mittelwert" file="true" />
+			<mittelwert.c name="mittelwert.c" file="true" />
+			<summe.c name="summe.c" file="true" />
+			<audit_dialog name="audit_dialog">
+				<a.out name="a.out" file="true" />
+				<taschenrechner.c name="taschenrechner.c" file="true" />
+			</audit_dialog>
+			<dateibearbeitung name="dateibearbeitung">
+				<a.out name="a.out" file="true" />
+				<datei.txt name="datei.txt" file="true" />
+				<dateiinfo.c name="dateiinfo.c" file="true" />
+				<dateiinfo1.c name="dateiinfo1.c" file="true" />
+			</dateibearbeitung>
+		</Vorlesung>
+		<Informatik_1 name="Informatik_1">
+			<ueb07 name="ueb07" />
+		</Informatik_1>
+		<Rechnernetze name="Rechnernetze">
+			<ueb02 name="ueb02">
+				<ueb02.txt name="ueb02.txt" file="true" />
+				<loesung02-daten-aufgabe_2 name="loesung02-daten-aufgabe_2">
+					<HOME-LAN-Stud-tcp_plus_STL-VPN name="HOME-LAN-Stud-tcp+STL-VPN" file="true" />
+					<HOME-LAN-Stud-udp_plus_STL-VPN name="HOME-LAN-Stud-udp+STL-VPN" file="true" />
+					<HOME-WLAN-Stud-tcp_plus_STL-VPN name="HOME-WLAN-Stud-tcp+STL-VPN" file="true" />
+					<HOME-WLAN-Stud-udp_plus_STL-VPN name="HOME-WLAN-Stud-udp+STL-VPN" file="true" />
+				</loesung02-daten-aufgabe_2>
+				<loesung02-daten-aufgabe_1 name="loesung02-daten-aufgabe_1">
+					<Eduroam-Stud_plus_STL-VPN name="Eduroam-Stud+STL-VPN" file="true" />
+					<GELBE-DOSEN-STL-Stud_plus_STL-VPN name="GELBE-DOSEN-STL-Stud+STL-VPN" file="true" />
+					<GELBE-DOSEN-STL-Stud-tcp name="GELBE-DOSEN-STL-Stud-tcp" file="true" />
+					<GELBE-DOSEN-STL-Stud-udp name="GELBE-DOSEN-STL-Stud-udp" file="true" />
+					<hiz-saarland-Stud-tcp name="hiz-saarland-Stud-tcp" file="true" />
+					<hiz-saarland-Stud-tcp_plus_STL-VPN name="hiz-saarland-Stud-tcp+STL-VPN" file="true" />
+					<hiz-saarland-Stud-udp_plus_STL-VPN name="hiz-saarland-Stud-udp+STL-VPN" file="true" />
+					<htwintern-Stud-tcp name="htwintern-Stud-tcp" file="true" />
+					<htwintern-Stud-tcp_plus_STL-VPN name="htwintern-Stud-tcp+STL-VPN" file="true" />
+					<htwintern-Stud-udp_plus_STL-VPN name="htwintern-Stud-udp+STL-VPN" file="true" />
+				</loesung02-daten-aufgabe_1>
+			</ueb02>
+			<ueb06 name="ueb06">
+				<ueb06.txt name="ueb06.txt" file="true" />
+				<Solaris-daten name="Solaris-daten">
+					<Solaris-10_netstat-r name="Solaris-10_netstat-r" file="true" />
+					<Solaris-10_netstat-rn name="Solaris-10_netstat-rn" file="true" />
+				</Solaris-daten>
+			</ueb06>
+			<ueb01 name="ueb01">
+				<loesung01.txt name="loesung01.txt" file="true" />
+				<netio132.zip name="netio132.zip" file="true" />
+				<ueb01.txt name="ueb01.txt" file="true" />
+				<netio132 name="netio132">
+					<FILE_ID.DIZ name="FILE_ID.DIZ" file="true" />
+					<Makefile name="Makefile" file="true" />
+					<getopt name="getopt" file="true" />
+					<getopt.c name="getopt.c" file="true" />
+					<getopt.h name="getopt.h" file="true" />
+					<getopt.o name="getopt.o" file="true" />
+					<netio.c name="netio.c" file="true" />
+					<netio.doc name="netio.doc" file="true" />
+					<netio.o name="netio.o" file="true" />
+					<wpy-bin name="wpy-bin">
+						<netio-CentOS name="netio-CentOS" file="true" />
+						<netio-Redhat name="netio-Redhat" file="true" />
+						<netio-Solaris-Sparc name="netio-Solaris-Sparc" file="true" />
+						<netio-XUbuntu name="netio-XUbuntu" file="true" />
+						<netio-win.exe name="netio-win.exe" file="true" />
+					</wpy-bin>
+					<bin name="bin">
+						<aix-ppc64 name="aix-ppc64" file="true" />
+						<freebsd-i386 name="freebsd-i386" file="true" />
+						<linux-i386 name="linux-i386" file="true" />
+						<linux-x86_64 name="linux-x86_64" file="true" />
+						<mac-osx-10.5.tar.gz name="mac-osx-10.5.tar.gz" file="true" />
+						<os2-i386.exe name="os2-i386.exe" file="true" />
+						<sol10-i386 name="sol10-i386" file="true" />
+						<sol9-sparc name="sol9-sparc" file="true" />
+						<win32-i386.exe name="win32-i386.exe" file="true" />
+					</bin>
+				</netio132>
+				<X11 name="X11">
+					<_punkt_dmrc name=".dmrc" file="true" />
+					<_punkt_esd_auth name=".esd_auth" file="true" />
+					<_punkt_recently-used_punkt_xbel name=".recently-used.xbel" file="true" />
+					<_punkt_recently-used_punkt_xbel-vubun name=".recently-used.xbel-vubun" file="true" />
+					<stl-s-stud.dtterm name="stl-s-stud.dtterm" file="true" />
+					<stl-s-stud.xterm name="stl-s-stud.xterm" file="true" />
+					<stl-s-ubu.xfce4 name="stl-s-ubu.xfce4" file="true" />
+					<stl-s-ubu.xterm name="stl-s-ubu.xterm" file="true" />
+					<_punkt_mozilla-vubun name=".mozilla-vubun" />
+					<_punkt_gnome2 name=".gnome2" />
+					<_punkt_tarantella name=".tarantella" />
+					<_punkt_thumbnails-vubun name=".thumbnails-vubun" />
+					<_punkt_gnome name=".gnome" />
+					<_punkt_nautilus-vubun name=".nautilus-vubun" />
+					<_punkt_config-vubun name=".config-vubun" />
+					<_punkt_thunderbird name=".thunderbird" />
+					<_punkt_gconfd-vubun name=".gconfd-vubun" />
+					<_punkt_mozilla name=".mozilla" />
+					<_punkt_gstreamer-0_punkt_10 name=".gstreamer-0.10" />
+					<_punkt_iiim-vubun name=".iiim-vubun" />
+					<_punkt_gnome-vubun name=".gnome-vubun" />
+					<_punkt_dbus name=".dbus" />
+					<_punkt_local-vubun name=".local-vubun" />
+					<_punkt_icons-vubun name=".icons-vubun" />
+					<_punkt_tarantella-vubun name=".tarantella-vubun" />
+					<_punkt_pulse name=".pulse" />
+					<_punkt_local name=".local" />
+					<_punkt_gstreamer-0_punkt_10-vubun name=".gstreamer-0.10-vubun" />
+					<_punkt_thunderbird-vubun name=".thunderbird-vubun" />
+					<_punkt_gconf name=".gconf" />
+					<_punkt_config name=".config" />
+				</X11>
+			</ueb01>
+			<ueb04 name="ueb04">
+				<ueb04.txt name="ueb04.txt" file="true" />
+				<Linux-Netzwerk-Kommandos name="Linux-Netzwerk-Kommandos">
+					<Deprecated_Linux_networking_commands.docx name="Deprecated_Linux_networking_commands.docx" file="true" />
+					<Deprecated_Linux_networking_commands.pdf name="Deprecated_Linux_networking_commands.pdf" file="true" />
+				</Linux-Netzwerk-Kommandos>
+				<HTW-WLAN-Daten name="HTW-WLAN-Daten">
+					<HTW-WLAN-Eduroam-2015 name="HTW-WLAN-Eduroam-2015" file="true" />
+					<HTW-WLAN-hiz-saarland_plus_HTWDS-VPN-2014 name="HTW-WLAN-hiz-saarland+HTWDS-VPN-2014" file="true" />
+					<HTW-WLAN-hiz-saarland_plus_STL-VPN-2014 name="HTW-WLAN-hiz-saarland+STL-VPN-2014" file="true" />
+					<HTW-WLAN-hiz-saarland-2014 name="HTW-WLAN-hiz-saarland-2014" file="true" />
+					<HTW-WLAN-htwintern-2014 name="HTW-WLAN-htwintern-2014" file="true" />
+					<win7_HTW-LAN_ipconfig-all-neu name="win7_HTW-LAN_ipconfig-all-neu" file="true" />
+				</HTW-WLAN-Daten>
+				<Hausaufgabe name="Hausaufgabe">
+					<Subnetting-1.gif name="Subnetting-1.gif" file="true" />
+					<Subnetting-1.pdf name="Subnetting-1.pdf" file="true" />
+					<Subnetting-2.gif name="Subnetting-2.gif" file="true" />
+					<Subnetting-2.pdf name="Subnetting-2.pdf" file="true" />
+				</Hausaufgabe>
+			</ueb04>
+			<ueb03 name="ueb03">
+				<loesung03.txt name="loesung03.txt" file="true" />
+				<ueb03.txt name="ueb03.txt" file="true" />
+				<loesung03-daten name="loesung03-daten">
+					<HOME-LAN-ping name="HOME-LAN-ping" file="true" />
+					<HOME-WLAN-ping name="HOME-WLAN-ping" file="true" />
+					<HTW-LAN-STL-VLAN-ping name="HTW-LAN-STL-VLAN-ping" file="true" />
+					<HTW-LAN-ping name="HTW-LAN-ping" file="true" />
+					<HTW-WLAN-Eduroam-STL-VLAN-ping name="HTW-WLAN-Eduroam-STL-VLAN-ping" file="true" />
+					<HTW-WLAN-Eduroam-ping name="HTW-WLAN-Eduroam-ping" file="true" />
+					<proz.bat name="proz.bat" file="true" />
+					<proz.bat_real_protokoll_2016_05_19 name="proz.bat_real_protokoll_2016_05_19" file="true" />
+					<wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24" file="true" />
+					<wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24" file="true" />
+					<wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09" file="true" />
+					<wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24" file="true" />
+					<wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02" file="true" />
+					<wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24" file="true" />
+					<wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02" file="true" />
+					<wpy_pinge_rechnerliste_win10_protokoll_2016_11_24 name="wpy_pinge_rechnerliste_win10_protokoll_2016_11_24" file="true" />
+				</loesung03-daten>
+			</ueb03>
+			<Vorlesung name="Vorlesung">
+				<Rechnernetze-Skript.pdf name="Rechnernetze-Skript.pdf" file="true" />
+			</Vorlesung>
+			<ueb05 name="ueb05">
+				<ueb05.txt name="ueb05.txt" file="true" />
+				<HTW-WLAN-Daten name="HTW-WLAN-Daten">
+					<Win7-HTW-WLAN-Eduroam-netstat-r name="Win7-HTW-WLAN-Eduroam-netstat-r" file="true" />
+					<Win7-HTW-WLAN-Eduroam-netstat-r-2014 name="Win7-HTW-WLAN-Eduroam-netstat-r-2014" file="true" />
+					<Win7-HTW-WLAN-hiz-saarland-netstat-r name="Win7-HTW-WLAN-hiz-saarland-netstat-r" file="true" />
+					<Win7-HTW-WLAN-htwintern-netstat-r name="Win7-HTW-WLAN-htwintern-netstat-r" file="true" />
+					<Win7_HTW-LAN_netstat-r name="Win7_HTW-LAN_netstat-r" file="true" />
+				</HTW-WLAN-Daten>
+			</ueb05>
+		</Rechnernetze>
+	</studium>
+</VSFS>
