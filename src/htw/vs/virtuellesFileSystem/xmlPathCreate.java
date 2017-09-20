@@ -47,14 +47,62 @@ public class xmlPathCreate {
         if (tag.contains("\\")) {
             tag = tag.replace("\\", "_backsl_");
         }
+        if (tag.contains("(")) {
+            tag = tag.replace("(", "_braco_");
+        }
+        if (tag.contains(")")) {
+            tag = tag.replace(")", "_bracc_");
+        }
+        if (tag.contains("=")) {
+            tag = tag.replace("=", "_eq_");
+        }
+        if (tag.contains("!")) {
+            tag = tag.replace("!", "_exc_");
+        }
+        if (tag.contains("#")) {
+            tag = tag.replace("#", "_hash_");
+        }
+        if (tag.contains(",")) {
+            tag = tag.replace(",", "_komma_");
+        }
+        if (tag.contains("$")) {
+            tag = tag.replace("$", "_dollar_");
+        }
+        if (tag.contains("~")) {
+            tag = tag.replace("~", "_tilde_");
+        }
+        if (tag.contains("{")) {
+            tag = tag.replace("{", "_cbraco_");
+        }
+        if (tag.contains("}")) {
+            tag = tag.replace("}", "_cbracc_");
+        }
+        if (tag.contains("&")) {
+            tag = tag.replace("&", "_and_");
+        }
         if (tag.startsWith(".")) {
             tag = tag.replace(".", "_punkt_");
         }
+        if (tag.contains("®")) {
+            tag = tag.replace("®", "_copyRight_");
+        }
+        if (tag.contains("@")) {
+            tag = tag.replace("@", "_atat_");
+        }
+        if (tag.contains(":")) {
+            tag = tag.replace(":", "_dPoint_");
+        }
+        if (tag.contains("'")) {
+            tag = tag.replace("'", "_hochkomma_");
+        }
+        if (tag.contains("\"")) {
+            tag = tag.replace("\"", "_gansFuss_");
+        }
+        if (tag.contains("|")) {
+            tag = tag.replace("|", "_pipe_");
+        }
         if (Character.isDigit(tag.charAt(0))) {
             tag = "_" + tag;
-        }
-        if (tag.contains("~")){
-            tag = tag.replace("~", "_tilde_");
         }
 
         return tag;
