@@ -19,10 +19,11 @@ public class searchXML {
 
         // File Name aendern
         String str = "test";
-        System.out.println(suche(str));
+        suche(str);
     }
 
-    public static String suche(String str) throws ParserConfigurationException, IOException, SAXException {
+
+    public static void suche(String str) throws ParserConfigurationException, IOException, SAXException {
 
         String inv = "nicht gefunden.";
 
@@ -36,10 +37,8 @@ public class searchXML {
             Node node = nodeList.item(i);
             if (node.getNodeType() == Node.ELEMENT_NODE) {
 
-//                System.out.println(node.getNodeName());
-                return node.getNodeName();
-            } else return (inv);
+                System.out.println(node.getNodeName());
+            }
         }
-        return String.valueOf(inv);
     }
 }
