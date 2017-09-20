@@ -10,8 +10,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.*;
 import java.nio.file.NotDirectoryException;
 import java.util.Arrays;
+import java.util.Enumeration;
 
 
 public class xmlPathCreate {
@@ -117,6 +119,7 @@ public class xmlPathCreate {
         Element p = new Element(removeIllegalCharacter(eDir));
 
         p.setAttribute("directory", "true");
+        p.setAttribute("Host", solveIP());
         p.setAttribute("name", dirName);
 
 
@@ -128,12 +131,37 @@ public class xmlPathCreate {
 
                 e1.setAttribute("name", file);
                 e1.setAttribute("file", "true");
+                e1.setAttribute("Host", solveIP());
                 p.addContent(e1);
             }
 
         }
         return p;
     }
+    private String solveIP(){
+        Enumeration<NetworkInterface> n = null;
+        try {
+            n = NetworkInterface.getNetworkInterfaces();
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+        for (; n.hasMoreElements();)
+        {
+            NetworkInterface e = n.nextElement();
+
+            Enumeration<InetAddress> a = e.getInetAddresses();
+            for (; a.hasMoreElements();)
+            {
+                InetAddress addr = a.nextElement();
+                if (addr.getHostAddress().length() <=16) {
+                    if (!addr.getHostAddress().contains("0"))
+                    return addr.getHostAddress();
+                }
+            }
+        }
+        return "IP_not_solved";
+    }
+
 
     private void readDir(Document doc, String[] files, String dirName) {
         if (files != null) {
@@ -244,6 +272,7 @@ public class xmlPathCreate {
 
 
         getDir(rootDir, doc);
+        solveIP();
     }
 
 
