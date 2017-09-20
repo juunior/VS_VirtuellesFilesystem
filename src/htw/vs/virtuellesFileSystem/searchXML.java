@@ -14,21 +14,20 @@ import java.io.IOException;
 
 public class searchXML {
 
-    public static void  main(String[] args) throws org.xml.sax.SAXException, IOException,
+    public static void main(String[] args) throws org.xml.sax.SAXException, IOException,
             ParserConfigurationException, TransformerException {
+
+        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+        Document document = docBuilder.parse(new File("xmlTest.xml"));
 
         // File Name aendern
         String str = "test";
-        suche(str);
+        suche(str, document);
     }
 
 
-    public static void suche(String str) throws ParserConfigurationException, IOException, SAXException {
-
-        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory
-                .newInstance();
-        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        Document document = docBuilder.parse(new File("xmlTest.xml"));
+    public static void suche(String str, Document document) throws ParserConfigurationException, IOException, SAXException {
 
         NodeList nodeList = document.getElementsByTagName(str);
         for (int i = 0; i < nodeList.getLength(); i++) {
@@ -36,7 +35,21 @@ public class searchXML {
             if (node.getNodeType() == Node.ELEMENT_NODE) {
 
                 System.out.println(node.getNodeName());
+                parent(node);
             }
         }
+    }
+
+    public static void parent(Node node) {
+        Node tmp = node;
+//        System.out.println(node.getParentNode());
+//        System.out.println(node.getParentNode().getParentNode());
+
+        do {
+            tmp = tmp.getParentNode();
+            System.out.print(tmp.getNodeName() + "/");
+
+        } while (tmp.getParentNode() != null);
+        System.out.println();
     }
 }
