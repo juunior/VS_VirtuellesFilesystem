@@ -25,8 +25,6 @@ public class searchXML {
 
     public static void suche(String str) throws ParserConfigurationException, IOException, SAXException {
 
-        String inv = "nicht gefunden.";
-
         DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory
                 .newInstance();
         DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
