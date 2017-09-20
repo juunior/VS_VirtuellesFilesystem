@@ -31,75 +31,53 @@ public class xmlPathCreate {
         return doc;
     }
 
+    private String removeIllegalCharacter(String tag){
+        if (tag.contains(" ")) {
+            tag = tag.replace(" ", "-_-");
+        }
+        if (tag.contains("+")) {
+            tag = tag.replace("+", "_plus_");
+        }
+        if (tag.contains("[")) {
+            tag = tag.replace("[", "_sbraco_");
+        }
+        if (tag.contains("]")) {
+            tag = tag.replace("]", "_sbracc_");
+        }
+        if (tag.contains("\\")) {
+            tag = tag.replace("\\", "_backsl_");
+        }
+        if (tag.startsWith(".")) {
+            tag = tag.replace(".", "_punkt_");
+        }
+        if (Character.isDigit(tag.charAt(0))) {
+            tag = "_" + tag;
+        }
+        if (tag.contains("~")){
+            tag = tag.replace("~", "_tilde_");
+        }
+
+        return tag;
+    }
+
     private Element buildElement(String[] files, String dirName) {
         String eDir = dirName; // eDir ist XML Konform
         if (files != null) {
             Arrays.sort(files);
         }
-        Element p = new Element("tmp");
-        if (eDir.contains(" ")) {
-            eDir = eDir.replace(" ", "-_-");
-        }
-        if (eDir.contains("+")) {
-            eDir = eDir.replace("+", "_plus_");
-        }
-        if (eDir.contains("[")) {
-            eDir = eDir.replace("[", "_sbraco_");
-        }
-        if (eDir.contains("]")) {
-            eDir = eDir.replace("]", "_sbracc_");
-        }
-        if (eDir.contains("\\")) {
-            eDir = eDir.replace("\\", "_backsl_");
-        }
-        if (eDir.startsWith(".")) {
-            eDir = eDir.replace(".", "_punkt_");
-            p.setAttribute("dotdir", "yes");
-        }
-        if (Character.isDigit(eDir.charAt(0))) {
-            eDir = "_" + eDir;
-        }
 
-        p = new Element(eDir);
+        Element p = new Element(removeIllegalCharacter(eDir));
 
+        p.setAttribute("directory", "true");
         p.setAttribute("name", dirName);
 
 
         if (files != null) {
             for (String file : files) {
                 eDir = file;
-                Element e1 = new Element("tmp");
-                if (eDir.contains(" ")) {
-                    eDir = eDir.replace(" ", "-_-");
-                }
-                if (eDir.startsWith(".")) {
-                    eDir = eDir.replace(".", "_punkt_");
-                    e1.setAttribute("dotfile", "yes");
-                }
-                if (eDir.contains("[")) {
-                    eDir = eDir.replace("[", "_sbraco_");
-                }
-                if (eDir.contains("]")) {
-                    eDir = eDir.replace("]", "_sbracc_");
-                }
-                if (eDir.contains("+")) {
-                    eDir = eDir.replace("+", "_plus_");
-                }
-                if (eDir.contains("\\")) {
-                    eDir = eDir.replace("\\", "_backsl_");
-                }
-                if (eDir.contains("~")) {
-                    eDir = eDir.replace("~", "_tilde_");
-                    e1.setAttribute("tempFile", "yes");
-                }
-                if (Character.isDigit(eDir.charAt(0))) {
-                    eDir = "_" + eDir;
-                }
-
-                e1 = new Element(eDir);
+                Element e1 = new Element(removeIllegalCharacter(eDir));
 
 
-//                System.out.println(file);
                 e1.setAttribute("name", file);
                 e1.setAttribute("file", "true");
                 p.addContent(e1);
@@ -142,30 +120,7 @@ public class xmlPathCreate {
             if (!childs[0].isEmpty()) {
                 for (String child : childs) {
                     //gleiches Ersetzungsmuster wie in den Filtern
-                    if (child.contains(" ")) {
-                        child = child.replace(" ", "-_-");
-                    }
-                    if (child.startsWith(".")) {
-                        child = child.replace(".", "_punkt_");
-                    }
-                    if (child.contains("+")) {
-                        child = child.replace("+", "_plus_");
-                    }
-                    if (child.contains("~")) {
-                        child = child.replace("~", "_tilde_");
-                    }
-                    if (child.contains("]")) {
-                        child = child.replace("]", "_sbracc_");
-                    }
-                    if (child.contains("[")) {
-                        child = child.replace("[", "_sbraco_");
-                    }
-                    if (child.contains("\\")) {
-                        child = child.replace("\\", "_backsl_");
-                    }
-                    if (Character.isDigit(child.charAt(0))) {
-                        child = "_" + child;
-                    }
+                    child = removeIllegalCharacter(child);
                     xml = xml.getChild(child);
                 }
             }
