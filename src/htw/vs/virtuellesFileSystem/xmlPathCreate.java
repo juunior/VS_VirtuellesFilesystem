@@ -59,6 +59,8 @@ public class xmlPathCreate {
         illegalCharaterAndReplacement.put("|","_pipe_");
         illegalCharaterAndReplacement.put("%","_proz_");
         illegalCharaterAndReplacement.put("*","_star_");
+        illegalCharaterAndReplacement.put("(","_braco_");
+        illegalCharaterAndReplacement.put(")","_bracc_");
 
 
 
