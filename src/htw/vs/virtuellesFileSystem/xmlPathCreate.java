@@ -12,8 +12,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.*;
 import java.nio.file.NotDirectoryException;
-import java.util.Arrays;
-import java.util.Enumeration;
+import java.util.*;
 
 
 public class xmlPathCreate {
@@ -34,77 +33,46 @@ public class xmlPathCreate {
     }
 
     private String removeIllegalCharacter(String tag){
-        if (tag.contains(" ")) {
-            tag = tag.replace(" ", "-_-");
-        }
-        if (tag.contains("+")) {
-            tag = tag.replace("+", "_plus_");
-        }
-        if (tag.contains("[")) {
-            tag = tag.replace("[", "_sbraco_");
-        }
-        if (tag.contains("]")) {
-            tag = tag.replace("]", "_sbracc_");
-        }
-        if (tag.contains("\\")) {
-            tag = tag.replace("\\", "_backsl_");
-        }
-        if (tag.contains("(")) {
-            tag = tag.replace("(", "_braco_");
-        }
-        if (tag.contains(")")) {
-            tag = tag.replace(")", "_bracc_");
-        }
-        if (tag.contains("=")) {
-            tag = tag.replace("=", "_eq_");
-        }
-        if (tag.contains("!")) {
-            tag = tag.replace("!", "_exc_");
-        }
-        if (tag.contains("#")) {
-            tag = tag.replace("#", "_hash_");
-        }
-        if (tag.contains(",")) {
-            tag = tag.replace(",", "_komma_");
-        }
-        if (tag.contains("$")) {
-            tag = tag.replace("$", "_dollar_");
-        }
-        if (tag.contains("~")) {
-            tag = tag.replace("~", "_tilde_");
-        }
-        if (tag.contains("{")) {
-            tag = tag.replace("{", "_cbraco_");
-        }
-        if (tag.contains("}")) {
-            tag = tag.replace("}", "_cbracc_");
-        }
-        if (tag.contains("&")) {
-            tag = tag.replace("&", "_and_");
-        }
-        if (tag.startsWith(".")) {
-            tag = tag.replace(".", "_punkt_");
-        }
-        if (tag.contains("®")) {
-            tag = tag.replace("®", "_copyRight_");
-        }
-        if (tag.contains("@")) {
-            tag = tag.replace("@", "_atat_");
-        }
-        if (tag.contains(":")) {
-            tag = tag.replace(":", "_dPoint_");
-        }
-        if (tag.contains("'")) {
-            tag = tag.replace("'", "_hochkomma_");
-        }
-        if (tag.contains("\"")) {
-            tag = tag.replace("\"", "_gansFuss_");
-        }
-        if (tag.contains("|")) {
-            tag = tag.replace("|", "_pipe_");
-        }
-        if (Character.isDigit(tag.charAt(0))) {
+
+        int i = 0;
+        LinkedHashMap<String,String> illegalCharaterAndReplacement = new LinkedHashMap<>();
+
+        illegalCharaterAndReplacement.put(" ","-_-");
+        illegalCharaterAndReplacement.put("+","_plus_");
+        illegalCharaterAndReplacement.put("[","_sbracc_");
+        illegalCharaterAndReplacement.put("]","_sbraco_");
+        illegalCharaterAndReplacement.put("=","_eq_");
+        illegalCharaterAndReplacement.put("!","_exc_");
+        illegalCharaterAndReplacement.put("#","_hash_");
+        illegalCharaterAndReplacement.put(",","_komma_");
+        illegalCharaterAndReplacement.put("$","_dollar_");
+        illegalCharaterAndReplacement.put("~","_tilde_");
+        illegalCharaterAndReplacement.put("{","_cbracoo_");
+        illegalCharaterAndReplacement.put("}","_cbracoc_");
+        illegalCharaterAndReplacement.put("&","_and_");
+        illegalCharaterAndReplacement.put(".","_punk_");
+        illegalCharaterAndReplacement.put("®","_copyRight_");
+        illegalCharaterAndReplacement.put("@","_atat_");
+        illegalCharaterAndReplacement.put(":","_dPoint_");
+        illegalCharaterAndReplacement.put("'","_hochkomma_");
+        illegalCharaterAndReplacement.put("\"","gansFuss");
+        illegalCharaterAndReplacement.put("|","_pipe_");
+        illegalCharaterAndReplacement.put("%","_proz_");
+
+
+
+
+        ArrayList<String> illegal = new ArrayList<>(illegalCharaterAndReplacement.keySet());
+        ArrayList<String> replacement = new ArrayList<>(illegalCharaterAndReplacement.values());
+
+        for (String symbol :illegal){
+            if (tag.contains(symbol)){
+                tag = tag.replace(symbol, replacement.get(i));
+            }
+            if (Character.isDigit(tag.charAt(0))) {
             tag = "_" + tag;
+            }
+            i++;
         }
 
         return tag;
