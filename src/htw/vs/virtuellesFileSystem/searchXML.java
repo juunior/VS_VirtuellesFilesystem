@@ -48,8 +48,7 @@ public class searchXML {
                 str = "/" + tmp.getNodeName() + str;
             }
         } while (tmp.getParentNode() != null);
-
+        str = str.substring(10);// cut first #document
         return(str);
     }
-
 }
