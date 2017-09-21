@@ -61,8 +61,7 @@ public class xmlPathCreate {
         illegalCharaterAndReplacement.put("*","_star_");
         illegalCharaterAndReplacement.put("(","_braco_");
         illegalCharaterAndReplacement.put(")","_bracc_");
-
-
+        illegalCharaterAndReplacement.put("-","_minus_");
 
 
         ArrayList<String> illegal = new ArrayList<>(illegalCharaterAndReplacement.keySet());
@@ -162,7 +161,12 @@ public class xmlPathCreate {
 
     private Element insertChild(File file, Element xml) {
         String real = StringUtils.difference(ROOTDIR, file.getAbsolutePath());
-        String[] childs = real.split(DELIMITER);
+        String[] childs;
+        if (Objects.equals(DELIMITER, "\\")){
+            childs = real.split("\\\\");
+        } else {
+            childs = real.split("/");
+        }
         if (childs.length != 0) {
             if (!childs[0].isEmpty()) {
                 for (String child : childs) {
@@ -219,7 +223,7 @@ public class xmlPathCreate {
 
     public void writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
         String os = System.getProperty("os.name");
-        if (os.contains("windows")){
+        if (os.toLowerCase().contains("windows")){
             DELIMITER = "\\";
         }else {
             DELIMITER = "/";
@@ -237,10 +241,14 @@ public class xmlPathCreate {
         }
         File rootDir = new File(dir);
 
-        String[] root = dir.split(DELIMITER);
+        String[] root;
+
+        if (Objects.equals(DELIMITER, "\\")){
+            root = dir.split("\\\\");
+        } else {
+            root = dir.split("/");
+        }
         ROOTDIR = dir.replace(DELIMITER + root[root.length - 1] + DELIMITER, DELIMITER);
-
-
 
         getDir(rootDir, doc);
         solveIP();
