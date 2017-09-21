@@ -58,6 +58,7 @@ public class xmlPathCreate {
         illegalCharaterAndReplacement.put("\"","gansFuss");
         illegalCharaterAndReplacement.put("|","_pipe_");
         illegalCharaterAndReplacement.put("%","_proz_");
+        illegalCharaterAndReplacement.put("*","_star_");
 
 
 
