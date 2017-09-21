@@ -52,6 +52,8 @@ public class xmlPathCreate {
         illegalCharaterAndReplacement.put("&","_and_");
         illegalCharaterAndReplacement.put(".","_punk_");
         illegalCharaterAndReplacement.put("®","_copyRight_");
+        illegalCharaterAndReplacement.put("℗","_popyRight_");  //Wie heißt das wirklich
+        illegalCharaterAndReplacement.put("①","_circ1_");
         illegalCharaterAndReplacement.put("@","_atat_");
         illegalCharaterAndReplacement.put(":","_dPoint_");
         illegalCharaterAndReplacement.put("'","_hochkomma_");
@@ -62,6 +64,9 @@ public class xmlPathCreate {
         illegalCharaterAndReplacement.put("(","_braco_");
         illegalCharaterAndReplacement.put(")","_bracc_");
         illegalCharaterAndReplacement.put("-","_minus_");
+        illegalCharaterAndReplacement.put("?","_ask_");
+        illegalCharaterAndReplacement.put("¶","_newL_");
+        illegalCharaterAndReplacement.put("`","_backtick_");
 
 
         ArrayList<String> illegal = new ArrayList<>(illegalCharaterAndReplacement.keySet());
