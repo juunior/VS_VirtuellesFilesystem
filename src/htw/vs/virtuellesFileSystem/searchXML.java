@@ -33,23 +33,23 @@ public class searchXML {
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
             if (node.getNodeType() == Node.ELEMENT_NODE) {
-
-                System.out.println(node.getNodeName());
-                parent(node);
+                System.out.println(nodeToString(node));
             }
         }
     }
 
-    public static void parent(Node node) {
+    public static String nodeToString(Node node) {
         Node tmp = node;
-//        System.out.println(node.getParentNode());
-//        System.out.println(node.getParentNode().getParentNode());
+        String str = "/" + node.getNodeName();
 
         do {
             tmp = tmp.getParentNode();
-            System.out.print(tmp.getNodeName() + "/");
-
+            if (tmp != null) {
+                str = "/" + tmp.getNodeName() + str;
+            }
         } while (tmp.getParentNode() != null);
-        System.out.println();
+
+        return(str);
     }
+
 }
