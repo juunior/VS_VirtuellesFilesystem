@@ -9,7 +9,7 @@ public class xmlCreateTest {
         xmlPathCreate jds = new xmlPathCreate();
         Document doc = jds.createDoc("VSFS");
         try {
-            jds.writeDoc(doc, "C:\\Users\\kai\\Desktop\\netio132");
+            jds.writeDoc(doc, "/home/kai/studium/");
         } catch (FileNotFoundException e) {
             System.out.println("File nicht gefunden");
         } catch (NotDirectoryException e) {
