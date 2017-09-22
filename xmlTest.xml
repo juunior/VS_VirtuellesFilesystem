@@ -1,585 +1,589 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<studium directory="true" Host="IP_not_solved" name="studium">
-		<_punk__sync_a7aa8dc44fd7_punk_db name="._sync_a7aa8dc44fd7.db" file="true" Host="IP_not_solved" />
-		<_punk_owncloudsync_punk_log name=".owncloudsync.log" file="true" Host="IP_not_solved" />
-		<DB15_04_ASPO_punk_pdf name="DB15_04_ASPO.pdf" file="true" Host="IP_not_solved" />
-		<Prfungsordnung_punk_pdf name="Prfungsordnung.pdf" file="true" Host="IP_not_solved" />
-		<prog1 directory="true" Host="IP_not_solved" name="prog1">
-			<HalloWelt_punk_c name="HalloWelt.c" file="true" Host="IP_not_solved" />
-			<head_punk_everything name="head.everything" file="true" Host="IP_not_solved" />
-			<head_punk_sh name="head.sh" file="true" Host="IP_not_solved" />
-			<test_punk_c name="test.c" file="true" Host="IP_not_solved" />
-			<ueb08 directory="true" Host="IP_not_solved" name="ueb08">
-				<Ausgabedatei_punk_txt name="Ausgabedatei.txt" file="true" Host="IP_not_solved" />
-				<Musterdatei_punk_txt name="Musterdatei.txt" file="true" Host="IP_not_solved" />
-				<UebungenfuerUebung8_punk_c name="UebungenfuerUebung8.c" file="true" Host="IP_not_solved" />
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<ausgabe_punk_c name="ausgabe.c" file="true" Host="IP_not_solved" />
-				<ausgabe_punk_h name="ausgabe.h" file="true" Host="IP_not_solved" />
-				<ausgabe_punk_o name="ausgabe.o" file="true" Host="IP_not_solved" />
-				<auswertung name="auswertung" file="true" Host="IP_not_solved" />
-				<auswertung_punk_c name="auswertung.c" file="true" Host="IP_not_solved" />
-				<auswertung_punk_h name="auswertung.h" file="true" Host="IP_not_solved" />
-				<auswertung_punk_o name="auswertung.o" file="true" Host="IP_not_solved" />
-				<hilfe_punk_c name="hilfe.c" file="true" Host="IP_not_solved" />
-				<hilfe_punk_h name="hilfe.h" file="true" Host="IP_not_solved" />
-				<hilfe_punk_o name="hilfe.o" file="true" Host="IP_not_solved" />
-				<makefile name="makefile" file="true" Host="IP_not_solved" />
-				<struct_punk_h name="struct.h" file="true" Host="IP_not_solved" />
-				<testtarget_punk_txt name="testtarget.txt" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<Musterdatei_punk_txt name="Musterdatei.txt" file="true" Host="IP_not_solved" />
-					<Ueb8_punk_zip name="Ueb8.zip" file="true" Host="IP_not_solved" />
-					<ausgabe_punk_c name="ausgabe.c" file="true" Host="IP_not_solved" />
-					<ausgabe_punk_h name="ausgabe.h" file="true" Host="IP_not_solved" />
-					<auswertung_punk_c name="auswertung.c" file="true" Host="IP_not_solved" />
-					<auswertung_punk_h name="auswertung.h" file="true" Host="IP_not_solved" />
-					<hilfe_punk_c name="hilfe.c" file="true" Host="IP_not_solved" />
-					<hilfe_punk_h name="hilfe.h" file="true" Host="IP_not_solved" />
-					<makefile name="makefile" file="true" Host="IP_not_solved" />
-					<output name="output" file="true" Host="IP_not_solved" />
-					<struct_punk_h name="struct.h" file="true" Host="IP_not_solved" />
+	<studium directory="true" Host="192.168.0.3" name="studium">
+		<_punk__sync_a7aa8dc44fd7_punk_db name="._sync_a7aa8dc44fd7.db" file="true" Host="192.168.0.3" />
+		<_punk_owncloudsync_punk_log name=".owncloudsync.log" file="true" Host="192.168.0.3" />
+		<DB15_04_ASPO_punk_pdf name="DB15_04_ASPO.pdf" file="true" Host="192.168.0.3" />
+		<Prfungsordnung_punk_pdf name="Prfungsordnung.pdf" file="true" Host="192.168.0.3" />
+		<prog1 directory="true" Host="192.168.0.3" name="prog1">
+			<HalloWelt_punk_c name="HalloWelt.c" file="true" Host="192.168.0.3" />
+			<head_punk_everything name="head.everything" file="true" Host="192.168.0.3" />
+			<head_punk_sh name="head.sh" file="true" Host="192.168.0.3" />
+			<test_punk_c name="test.c" file="true" Host="192.168.0.3" />
+			<ueb08 directory="true" Host="192.168.0.3" name="ueb08">
+				<Ausgabedatei_punk_txt name="Ausgabedatei.txt" file="true" Host="192.168.0.3" />
+				<Musterdatei_punk_txt name="Musterdatei.txt" file="true" Host="192.168.0.3" />
+				<UebungenfuerUebung8_punk_c name="UebungenfuerUebung8.c" file="true" Host="192.168.0.3" />
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<ausgabe_punk_c name="ausgabe.c" file="true" Host="192.168.0.3" />
+				<ausgabe_punk_h name="ausgabe.h" file="true" Host="192.168.0.3" />
+				<ausgabe_punk_o name="ausgabe.o" file="true" Host="192.168.0.3" />
+				<auswertung name="auswertung" file="true" Host="192.168.0.3" />
+				<auswertung_punk_c name="auswertung.c" file="true" Host="192.168.0.3" />
+				<auswertung_punk_h name="auswertung.h" file="true" Host="192.168.0.3" />
+				<auswertung_punk_o name="auswertung.o" file="true" Host="192.168.0.3" />
+				<hilfe_punk_c name="hilfe.c" file="true" Host="192.168.0.3" />
+				<hilfe_punk_h name="hilfe.h" file="true" Host="192.168.0.3" />
+				<hilfe_punk_o name="hilfe.o" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<struct_punk_h name="struct.h" file="true" Host="192.168.0.3" />
+				<testtarget_punk_txt name="testtarget.txt" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<Musterdatei_punk_txt name="Musterdatei.txt" file="true" Host="192.168.0.3" />
+					<Ueb8_punk_zip name="Ueb8.zip" file="true" Host="192.168.0.3" />
+					<ausgabe_punk_c name="ausgabe.c" file="true" Host="192.168.0.3" />
+					<ausgabe_punk_h name="ausgabe.h" file="true" Host="192.168.0.3" />
+					<auswertung_punk_c name="auswertung.c" file="true" Host="192.168.0.3" />
+					<auswertung_punk_h name="auswertung.h" file="true" Host="192.168.0.3" />
+					<hilfe_punk_c name="hilfe.c" file="true" Host="192.168.0.3" />
+					<hilfe_punk_h name="hilfe.h" file="true" Host="192.168.0.3" />
+					<makefile name="makefile" file="true" Host="192.168.0.3" />
+					<output name="output" file="true" Host="192.168.0.3" />
+					<struct_punk_h name="struct.h" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb08>
-			<ueb02 directory="true" Host="IP_not_solved" name="ueb02">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<collatz_minus_arg_minus_read_punk_c name="collatz-arg-read.c" file="true" Host="IP_not_solved" />
-				<collatz_punk_c name="collatz.c" file="true" Host="IP_not_solved" />
-				<collatz_punk_txt name="collatz.txt" file="true" Host="IP_not_solved" />
-				<dreieck_punk_c name="dreieck.c" file="true" Host="IP_not_solved" />
-				<pythagora_punk_c name="pythagora.c" file="true" Host="IP_not_solved" />
-				<waehrungrechner_minus_extend_punk_c name="waehrungrechner-extend.c" file="true" Host="IP_not_solved" />
-				<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<collatz_punk_c name="collatz.c" file="true" Host="IP_not_solved" />
-					<dreieck_punk_c name="dreieck.c" file="true" Host="IP_not_solved" />
-					<pythagora_punk_c name="pythagora.c" file="true" Host="IP_not_solved" />
-					<ueb02_punk_zip name="ueb02.zip" file="true" Host="IP_not_solved" />
-					<waehrungrechner_minus_extend_punk_c name="waehrungrechner-extend.c" file="true" Host="IP_not_solved" />
-					<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="IP_not_solved" />
+			<ueb02 directory="true" Host="192.168.0.3" name="ueb02">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<collatz_minus_arg_minus_read_punk_c name="collatz-arg-read.c" file="true" Host="192.168.0.3" />
+				<collatz_punk_c name="collatz.c" file="true" Host="192.168.0.3" />
+				<collatz_punk_txt name="collatz.txt" file="true" Host="192.168.0.3" />
+				<dreieck_punk_c name="dreieck.c" file="true" Host="192.168.0.3" />
+				<pythagora_punk_c name="pythagora.c" file="true" Host="192.168.0.3" />
+				<waehrungrechner_minus_extend_punk_c name="waehrungrechner-extend.c" file="true" Host="192.168.0.3" />
+				<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<collatz_punk_c name="collatz.c" file="true" Host="192.168.0.3" />
+					<dreieck_punk_c name="dreieck.c" file="true" Host="192.168.0.3" />
+					<pythagora_punk_c name="pythagora.c" file="true" Host="192.168.0.3" />
+					<ueb02_punk_zip name="ueb02.zip" file="true" Host="192.168.0.3" />
+					<waehrungrechner_minus_extend_punk_c name="waehrungrechner-extend.c" file="true" Host="192.168.0.3" />
+					<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb02>
-			<ueb06 directory="true" Host="IP_not_solved" name="ueb06">
-				<Abgabe_punk_zip name="Abgabe.zip" file="true" Host="IP_not_solved" />
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<analyse_punk_c name="analyse.c" file="true" Host="IP_not_solved" />
-				<berechnung_punk_c name="berechnung.c" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-					<analyse_punk_c name="analyse.c" file="true" Host="IP_not_solved" />
-					<berechnung_punk_c name="berechnung.c" file="true" Host="IP_not_solved" />
-					<ueb06_punk_zip name="ueb06.zip" file="true" Host="IP_not_solved" />
+			<ueb06 directory="true" Host="192.168.0.3" name="ueb06">
+				<Abgabe_punk_zip name="Abgabe.zip" file="true" Host="192.168.0.3" />
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<analyse_punk_c name="analyse.c" file="true" Host="192.168.0.3" />
+				<berechnung_punk_c name="berechnung.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+					<analyse_punk_c name="analyse.c" file="true" Host="192.168.0.3" />
+					<berechnung_punk_c name="berechnung.c" file="true" Host="192.168.0.3" />
+					<ueb06_punk_zip name="ueb06.zip" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb06>
-			<ueb01 directory="true" Host="IP_not_solved" name="ueb01">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<benzinKosten name="benzinKosten" file="true" Host="IP_not_solved" />
-				<benzinKosten_punk_c name="benzinKosten.c" file="true" Host="IP_not_solved" />
-				<head_punk_everything name="head.everything" file="true" Host="IP_not_solved" />
-				<kmToMile name="kmToMile" file="true" Host="IP_not_solved" />
-				<kmToMile_punk_c name="kmToMile.c" file="true" Host="IP_not_solved" />
-				<mileToKm name="mileToKm" file="true" Host="IP_not_solved" />
-				<mileToKm_punk_c name="mileToKm.c" file="true" Host="IP_not_solved" />
-				<teiler name="teiler" file="true" Host="IP_not_solved" />
-				<teiler_punk_c name="teiler.c" file="true" Host="IP_not_solved" />
-				<tempRechner name="tempRechner" file="true" Host="IP_not_solved" />
-				<tempRechner_punk_c name="tempRechner.c" file="true" Host="IP_not_solved" />
-				<umrechnung name="umrechnung" file="true" Host="IP_not_solved" />
-				<umrechnung_punk_c name="umrechnung.c" file="true" Host="IP_not_solved" />
-				<waehrungrechner name="waehrungrechner" file="true" Host="IP_not_solved" />
-				<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="IP_not_solved" />
-				<abgabe directory="true" Host="IP_not_solved" name="abgabe">
-					<_punk_swp name=".swp" file="true" Host="IP_not_solved" />
-					<benzinKosten_punk_c name="benzinKosten.c" file="true" Host="IP_not_solved" />
-					<kmToMile_punk_c name="kmToMile.c" file="true" Host="IP_not_solved" />
-					<mileToKm_punk_c name="mileToKm.c" file="true" Host="IP_not_solved" />
-					<teiler_punk_c name="teiler.c" file="true" Host="IP_not_solved" />
-					<tempRechner_punk_c name="tempRechner.c" file="true" Host="IP_not_solved" />
-					<ueb01_punk_pdf name="ueb01.pdf" file="true" Host="IP_not_solved" />
-					<uebung1_punk_tar name="uebung1.tar" file="true" Host="IP_not_solved" />
-					<umrechnung_punk_c name="umrechnung.c" file="true" Host="IP_not_solved" />
-					<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="IP_not_solved" />
+			<ueb01 directory="true" Host="192.168.0.3" name="ueb01">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<benzinKosten name="benzinKosten" file="true" Host="192.168.0.3" />
+				<benzinKosten_punk_c name="benzinKosten.c" file="true" Host="192.168.0.3" />
+				<head_punk_everything name="head.everything" file="true" Host="192.168.0.3" />
+				<kmToMile name="kmToMile" file="true" Host="192.168.0.3" />
+				<kmToMile_punk_c name="kmToMile.c" file="true" Host="192.168.0.3" />
+				<mileToKm name="mileToKm" file="true" Host="192.168.0.3" />
+				<mileToKm_punk_c name="mileToKm.c" file="true" Host="192.168.0.3" />
+				<teiler name="teiler" file="true" Host="192.168.0.3" />
+				<teiler_punk_c name="teiler.c" file="true" Host="192.168.0.3" />
+				<tempRechner name="tempRechner" file="true" Host="192.168.0.3" />
+				<tempRechner_punk_c name="tempRechner.c" file="true" Host="192.168.0.3" />
+				<umrechnung name="umrechnung" file="true" Host="192.168.0.3" />
+				<umrechnung_punk_c name="umrechnung.c" file="true" Host="192.168.0.3" />
+				<waehrungrechner name="waehrungrechner" file="true" Host="192.168.0.3" />
+				<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
+				<abgabe directory="true" Host="192.168.0.3" name="abgabe">
+					<_punk_swp name=".swp" file="true" Host="192.168.0.3" />
+					<benzinKosten_punk_c name="benzinKosten.c" file="true" Host="192.168.0.3" />
+					<kmToMile_punk_c name="kmToMile.c" file="true" Host="192.168.0.3" />
+					<mileToKm_punk_c name="mileToKm.c" file="true" Host="192.168.0.3" />
+					<teiler_punk_c name="teiler.c" file="true" Host="192.168.0.3" />
+					<tempRechner_punk_c name="tempRechner.c" file="true" Host="192.168.0.3" />
+					<ueb01_punk_pdf name="ueb01.pdf" file="true" Host="192.168.0.3" />
+					<uebung1_punk_tar name="uebung1.tar" file="true" Host="192.168.0.3" />
+					<umrechnung_punk_c name="umrechnung.c" file="true" Host="192.168.0.3" />
+					<waehrungrechner_punk_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
 				</abgabe>
 			</ueb01>
-			<ueb04 directory="true" Host="IP_not_solved" name="ueb04">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<a_conflict_minus_20151214_minus_085817_punk_out name="a_conflict-20151214-085817.out" file="true" Host="IP_not_solved" />
-				<feldmin name="feldmin" file="true" Host="IP_not_solved" />
-				<feldmin_punk_c name="feldmin.c" file="true" Host="IP_not_solved" />
-				<feldmin_2_punk_c name="feldmin_2.c" file="true" Host="IP_not_solved" />
-				<feldmin_conflict_minus_20151214_minus_113020_punk_c name="feldmin_conflict-20151214-113020.c" file="true" Host="IP_not_solved" />
-				<geheim name="geheim" file="true" Host="IP_not_solved" />
-				<geheim_punk_c name="geheim.c" file="true" Host="IP_not_solved" />
-				<geheim_punk_c_scurity_punk_c name="geheim.c_scurity.c" file="true" Host="IP_not_solved" />
-				<geheim_conflict_minus_20151214_minus_101109_punk_c name="geheim_conflict-20151214-101109.c" file="true" Host="IP_not_solved" />
-				<makefile name="makefile" file="true" Host="IP_not_solved" />
-				<test_punk_c name="test.c" file="true" Host="IP_not_solved" />
-				<test_conflict_minus_20151214_minus_082148_punk_c name="test_conflict-20151214-082148.c" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<_4ueb_punk_zip name="4ueb.zip" file="true" Host="IP_not_solved" />
-					<feldmin_punk_c name="feldmin.c" file="true" Host="IP_not_solved" />
-					<geheim_punk_c name="geheim.c" file="true" Host="IP_not_solved" />
+			<ueb04 directory="true" Host="192.168.0.3" name="ueb04">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<a_conflict_minus_20151214_minus_085817_punk_out name="a_conflict-20151214-085817.out" file="true" Host="192.168.0.3" />
+				<feldmin name="feldmin" file="true" Host="192.168.0.3" />
+				<feldmin_punk_c name="feldmin.c" file="true" Host="192.168.0.3" />
+				<feldmin_2_punk_c name="feldmin_2.c" file="true" Host="192.168.0.3" />
+				<feldmin_conflict_minus_20151214_minus_113020_punk_c name="feldmin_conflict-20151214-113020.c" file="true" Host="192.168.0.3" />
+				<geheim name="geheim" file="true" Host="192.168.0.3" />
+				<geheim_punk_c name="geheim.c" file="true" Host="192.168.0.3" />
+				<geheim_punk_c_scurity_punk_c name="geheim.c_scurity.c" file="true" Host="192.168.0.3" />
+				<geheim_conflict_minus_20151214_minus_101109_punk_c name="geheim_conflict-20151214-101109.c" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<test_punk_c name="test.c" file="true" Host="192.168.0.3" />
+				<test_conflict_minus_20151214_minus_082148_punk_c name="test_conflict-20151214-082148.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<_4ueb_punk_zip name="4ueb.zip" file="true" Host="192.168.0.3" />
+					<feldmin_punk_c name="feldmin.c" file="true" Host="192.168.0.3" />
+					<geheim_punk_c name="geheim.c" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb04>
-			<ueb03 directory="true" Host="IP_not_solved" name="ueb03">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<ascii name="ascii" file="true" Host="IP_not_solved" />
-				<ascii_tabelle_punk_c name="ascii_tabelle.c" file="true" Host="IP_not_solved" />
-				<ascii_tabelle_punk_c_punk_exec name="ascii_tabelle.c.exec" file="true" Host="IP_not_solved" />
-				<compile_punk_sh name="compile.sh" file="true" Host="IP_not_solved" />
-				<gcc_minus_log_punk_txt name="gcc-log.txt" file="true" Host="IP_not_solved" />
-				<makefile name="makefile" file="true" Host="IP_not_solved" />
-				<sizeof name="sizeof" file="true" Host="IP_not_solved" />
-				<sizeof_punk_c name="sizeof.c" file="true" Host="IP_not_solved" />
-				<sizeof_punk_c_punk_exec name="sizeof.c.exec" file="true" Host="IP_not_solved" />
-				<ueberlauf name="ueberlauf" file="true" Host="IP_not_solved" />
-				<ueberlauf_punk_c name="ueberlauf.c" file="true" Host="IP_not_solved" />
-				<ueberlauf_punk_c_punk_exec name="ueberlauf.c.exec" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<ascii_tabelle_punk_c name="ascii_tabelle.c" file="true" Host="IP_not_solved" />
-					<compile_punk_sh name="compile.sh" file="true" Host="IP_not_solved" />
-					<makefile name="makefile" file="true" Host="IP_not_solved" />
-					<sizeof_punk_c name="sizeof.c" file="true" Host="IP_not_solved" />
-					<ueb03_punk_zip name="ueb03.zip" file="true" Host="IP_not_solved" />
-					<ueberlauf_punk_c name="ueberlauf.c" file="true" Host="IP_not_solved" />
+			<ueb03 directory="true" Host="192.168.0.3" name="ueb03">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<ascii name="ascii" file="true" Host="192.168.0.3" />
+				<ascii_tabelle_punk_c name="ascii_tabelle.c" file="true" Host="192.168.0.3" />
+				<ascii_tabelle_punk_c_punk_exec name="ascii_tabelle.c.exec" file="true" Host="192.168.0.3" />
+				<compile_punk_sh name="compile.sh" file="true" Host="192.168.0.3" />
+				<gcc_minus_log_punk_txt name="gcc-log.txt" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<sizeof name="sizeof" file="true" Host="192.168.0.3" />
+				<sizeof_punk_c name="sizeof.c" file="true" Host="192.168.0.3" />
+				<sizeof_punk_c_punk_exec name="sizeof.c.exec" file="true" Host="192.168.0.3" />
+				<ueberlauf name="ueberlauf" file="true" Host="192.168.0.3" />
+				<ueberlauf_punk_c name="ueberlauf.c" file="true" Host="192.168.0.3" />
+				<ueberlauf_punk_c_punk_exec name="ueberlauf.c.exec" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<ascii_tabelle_punk_c name="ascii_tabelle.c" file="true" Host="192.168.0.3" />
+					<compile_punk_sh name="compile.sh" file="true" Host="192.168.0.3" />
+					<makefile name="makefile" file="true" Host="192.168.0.3" />
+					<sizeof_punk_c name="sizeof.c" file="true" Host="192.168.0.3" />
+					<ueb03_punk_zip name="ueb03.zip" file="true" Host="192.168.0.3" />
+					<ueberlauf_punk_c name="ueberlauf.c" file="true" Host="192.168.0.3" />
 				</Abgabe>
-				<compiled directory="true" Host="IP_not_solved" name="compiled">
-					<ascii_tabelle_punk_c_punk_exec name="ascii_tabelle.c.exec" file="true" Host="IP_not_solved" />
-					<sizeof_punk_c_punk_exec name="sizeof.c.exec" file="true" Host="IP_not_solved" />
-					<ueberlauf_punk_c_punk_exec name="ueberlauf.c.exec" file="true" Host="IP_not_solved" />
+				<compiled directory="true" Host="192.168.0.3" name="compiled">
+					<ascii_tabelle_punk_c_punk_exec name="ascii_tabelle.c.exec" file="true" Host="192.168.0.3" />
+					<sizeof_punk_c_punk_exec name="sizeof.c.exec" file="true" Host="192.168.0.3" />
+					<ueberlauf_punk_c_punk_exec name="ueberlauf.c.exec" file="true" Host="192.168.0.3" />
 				</compiled>
 			</ueb03>
-			<ueb07 directory="true" Host="IP_not_solved" name="ueb07">
-				<bruchrechnen_punk_c name="bruchrechnen.c" file="true" Host="IP_not_solved" />
-				<kuerzen_punk_c name="kuerzen.c" file="true" Host="IP_not_solved" />
-				<kuerzen_punk_h name="kuerzen.h" file="true" Host="IP_not_solved" />
-				<kuerzen_punk_o name="kuerzen.o" file="true" Host="IP_not_solved" />
-				<makefile name="makefile" file="true" Host="IP_not_solved" />
-				<operationen_punk_c name="operationen.c" file="true" Host="IP_not_solved" />
-				<operationen_punk_h name="operationen.h" file="true" Host="IP_not_solved" />
-				<operationen_punk_o name="operationen.o" file="true" Host="IP_not_solved" />
-				<r1_punk_out name="r1.out" file="true" Host="IP_not_solved" />
-				<r2_punk_out name="r2.out" file="true" Host="IP_not_solved" />
-				<r3_punk_out name="r3.out" file="true" Host="IP_not_solved" />
-				<r4_punk_out name="r4.out" file="true" Host="IP_not_solved" />
-				<rechner_punk_c name="rechner.c" file="true" Host="IP_not_solved" />
-				<rechner_punk_h name="rechner.h" file="true" Host="IP_not_solved" />
-				<rechner3_punk_c name="rechner3.c" file="true" Host="IP_not_solved" />
-				<rechner3_punk_h name="rechner3.h" file="true" Host="IP_not_solved" />
-				<rechner3_punk_o name="rechner3.o" file="true" Host="IP_not_solved" />
-				<rechner4_punk_c name="rechner4.c" file="true" Host="IP_not_solved" />
-				<rechner4_punk_h name="rechner4.h" file="true" Host="IP_not_solved" />
-				<rechner4_punk_o name="rechner4.o" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<bruchrechnen_punk_c name="bruchrechnen.c" file="true" Host="IP_not_solved" />
-					<kuerzen_punk_c name="kuerzen.c" file="true" Host="IP_not_solved" />
-					<kuerzen_punk_h name="kuerzen.h" file="true" Host="IP_not_solved" />
-					<makefile name="makefile" file="true" Host="IP_not_solved" />
-					<operationen_punk_c name="operationen.c" file="true" Host="IP_not_solved" />
-					<operationen_punk_h name="operationen.h" file="true" Host="IP_not_solved" />
-					<rechner_punk_c name="rechner.c" file="true" Host="IP_not_solved" />
-					<rechner_punk_h name="rechner.h" file="true" Host="IP_not_solved" />
-					<rechner3_punk_c name="rechner3.c" file="true" Host="IP_not_solved" />
-					<rechner3_punk_h name="rechner3.h" file="true" Host="IP_not_solved" />
-					<rechner4_punk_c name="rechner4.c" file="true" Host="IP_not_solved" />
-					<rechner4_punk_h name="rechner4.h" file="true" Host="IP_not_solved" />
-					<ueb07kschultz_punk_zip name="ueb07kschultz.zip" file="true" Host="IP_not_solved" />
+			<ueb07 directory="true" Host="192.168.0.3" name="ueb07">
+				<bruchrechnen_punk_c name="bruchrechnen.c" file="true" Host="192.168.0.3" />
+				<kuerzen_punk_c name="kuerzen.c" file="true" Host="192.168.0.3" />
+				<kuerzen_punk_h name="kuerzen.h" file="true" Host="192.168.0.3" />
+				<kuerzen_punk_o name="kuerzen.o" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<operationen_punk_c name="operationen.c" file="true" Host="192.168.0.3" />
+				<operationen_punk_h name="operationen.h" file="true" Host="192.168.0.3" />
+				<operationen_punk_o name="operationen.o" file="true" Host="192.168.0.3" />
+				<r1_punk_out name="r1.out" file="true" Host="192.168.0.3" />
+				<r2_punk_out name="r2.out" file="true" Host="192.168.0.3" />
+				<r3_punk_out name="r3.out" file="true" Host="192.168.0.3" />
+				<r4_punk_out name="r4.out" file="true" Host="192.168.0.3" />
+				<rechner_punk_c name="rechner.c" file="true" Host="192.168.0.3" />
+				<rechner_punk_h name="rechner.h" file="true" Host="192.168.0.3" />
+				<rechner3_punk_c name="rechner3.c" file="true" Host="192.168.0.3" />
+				<rechner3_punk_h name="rechner3.h" file="true" Host="192.168.0.3" />
+				<rechner3_punk_o name="rechner3.o" file="true" Host="192.168.0.3" />
+				<rechner4_punk_c name="rechner4.c" file="true" Host="192.168.0.3" />
+				<rechner4_punk_h name="rechner4.h" file="true" Host="192.168.0.3" />
+				<rechner4_punk_o name="rechner4.o" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<bruchrechnen_punk_c name="bruchrechnen.c" file="true" Host="192.168.0.3" />
+					<kuerzen_punk_c name="kuerzen.c" file="true" Host="192.168.0.3" />
+					<kuerzen_punk_h name="kuerzen.h" file="true" Host="192.168.0.3" />
+					<makefile name="makefile" file="true" Host="192.168.0.3" />
+					<operationen_punk_c name="operationen.c" file="true" Host="192.168.0.3" />
+					<operationen_punk_h name="operationen.h" file="true" Host="192.168.0.3" />
+					<rechner_punk_c name="rechner.c" file="true" Host="192.168.0.3" />
+					<rechner_punk_h name="rechner.h" file="true" Host="192.168.0.3" />
+					<rechner3_punk_c name="rechner3.c" file="true" Host="192.168.0.3" />
+					<rechner3_punk_h name="rechner3.h" file="true" Host="192.168.0.3" />
+					<rechner4_punk_c name="rechner4.c" file="true" Host="192.168.0.3" />
+					<rechner4_punk_h name="rechner4.h" file="true" Host="192.168.0.3" />
+					<ueb07kschultz_punk_zip name="ueb07kschultz.zip" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb07>
-			<ueb05 directory="true" Host="IP_not_solved" name="ueb05">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<functions_minus_case_punk_c name="functions-case.c" file="true" Host="IP_not_solved" />
-				<functions_punk_c name="functions.c" file="true" Host="IP_not_solved" />
-				<Abgabe directory="true" Host="IP_not_solved" name="Abgabe">
-					<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-					<functions_minus_linux_punk_c name="functions-linux.c" file="true" Host="IP_not_solved" />
-					<functions_minus_mac_punk_c name="functions-mac.c" file="true" Host="IP_not_solved" />
-					<ueb5_punk_zip name="ueb5.zip" file="true" Host="IP_not_solved" />
-					<new directory="true" Host="IP_not_solved" name="new">
-						<functions_minus_linux_punk_c name="functions-linux.c" file="true" Host="IP_not_solved" />
-						<functions_minus_mac_punk_c name="functions-mac.c" file="true" Host="IP_not_solved" />
-						<ueb5_punk_zip name="ueb5.zip" file="true" Host="IP_not_solved" />
+			<ueb05 directory="true" Host="192.168.0.3" name="ueb05">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<functions_minus_case_punk_c name="functions-case.c" file="true" Host="192.168.0.3" />
+				<functions_punk_c name="functions.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+					<functions_minus_linux_punk_c name="functions-linux.c" file="true" Host="192.168.0.3" />
+					<functions_minus_mac_punk_c name="functions-mac.c" file="true" Host="192.168.0.3" />
+					<ueb5_punk_zip name="ueb5.zip" file="true" Host="192.168.0.3" />
+					<new directory="true" Host="192.168.0.3" name="new">
+						<functions_minus_linux_punk_c name="functions-linux.c" file="true" Host="192.168.0.3" />
+						<functions_minus_mac_punk_c name="functions-mac.c" file="true" Host="192.168.0.3" />
+						<ueb5_punk_zip name="ueb5.zip" file="true" Host="192.168.0.3" />
 					</new>
 				</Abgabe>
 			</ueb05>
 		</prog1>
-		<Prog_wichtig directory="true" Host="IP_not_solved" name="Prog_wichtig">
-			<Assoziativität name="Assoziativität" file="true" Host="IP_not_solved" />
-			<Ausdruck name="Ausdruck" file="true" Host="IP_not_solved" />
-			<Data1 name="Data1" file="true" Host="IP_not_solved" />
-			<Data2 name="Data2" file="true" Host="IP_not_solved" />
-			<Data3 name="Data3" file="true" Host="IP_not_solved" />
-			<Data4 name="Data4" file="true" Host="IP_not_solved" />
-			<Data5 name="Data5" file="true" Host="IP_not_solved" />
-			<Data6 name="Data6" file="true" Host="IP_not_solved" />
-			<Data7 name="Data7" file="true" Host="IP_not_solved" />
-			<Data8 name="Data8" file="true" Host="IP_not_solved" />
-			<Data9 name="Data9" file="true" Host="IP_not_solved" />
-			<Dataa1 name="Dataa1" file="true" Host="IP_not_solved" />
-			<InkDekrement name="InkDekrement" file="true" Host="IP_not_solved" />
-			<Strukturen name="Strukturen" file="true" Host="IP_not_solved" />
-			<Strukturen2 name="Strukturen2" file="true" Host="IP_not_solved" />
-			<Strukturen3 name="Strukturen3" file="true" Host="IP_not_solved" />
-			<Strukturen4 name="Strukturen4" file="true" Host="IP_not_solved" />
-			<Strukturen5 name="Strukturen5" file="true" Host="IP_not_solved" />
-			<array1 name="array1" file="true" Host="IP_not_solved" />
-			<array2 name="array2" file="true" Host="IP_not_solved" />
-			<array3 name="array3" file="true" Host="IP_not_solved" />
-			<array4 name="array4" file="true" Host="IP_not_solved" />
-			<beispiel_minus___minus_max_minus___minus_drei name="beispiel max drei" file="true" Host="IP_not_solved" />
-			<enums name="enums" file="true" Host="IP_not_solved" />
-			<enums2 name="enums2" file="true" Host="IP_not_solved" />
-			<foliennummer name="foliennummer" file="true" Host="IP_not_solved" />
-			<pointer name="pointer" file="true" Host="IP_not_solved" />
-			<printf name="printf" file="true" Host="IP_not_solved" />
-			<speicherklassen name="speicherklassen" file="true" Host="IP_not_solved" />
-			<speicherklassen2 name="speicherklassen2" file="true" Host="IP_not_solved" />
-			<speicherklassen3 name="speicherklassen3" file="true" Host="IP_not_solved" />
-			<undOderNicht name="undOderNicht" file="true" Host="IP_not_solved" />
-			<while_minus___minus_example name="while example" file="true" Host="IP_not_solved" />
+		<Prog_wichtig directory="true" Host="192.168.0.3" name="Prog_wichtig">
+			<Assoziativität name="Assoziativität" file="true" Host="192.168.0.3" />
+			<Ausdruck name="Ausdruck" file="true" Host="192.168.0.3" />
+			<Data1 name="Data1" file="true" Host="192.168.0.3" />
+			<Data2 name="Data2" file="true" Host="192.168.0.3" />
+			<Data3 name="Data3" file="true" Host="192.168.0.3" />
+			<Data4 name="Data4" file="true" Host="192.168.0.3" />
+			<Data5 name="Data5" file="true" Host="192.168.0.3" />
+			<Data6 name="Data6" file="true" Host="192.168.0.3" />
+			<Data7 name="Data7" file="true" Host="192.168.0.3" />
+			<Data8 name="Data8" file="true" Host="192.168.0.3" />
+			<Data9 name="Data9" file="true" Host="192.168.0.3" />
+			<Dataa1 name="Dataa1" file="true" Host="192.168.0.3" />
+			<InkDekrement name="InkDekrement" file="true" Host="192.168.0.3" />
+			<Strukturen name="Strukturen" file="true" Host="192.168.0.3" />
+			<Strukturen2 name="Strukturen2" file="true" Host="192.168.0.3" />
+			<Strukturen3 name="Strukturen3" file="true" Host="192.168.0.3" />
+			<Strukturen4 name="Strukturen4" file="true" Host="192.168.0.3" />
+			<Strukturen5 name="Strukturen5" file="true" Host="192.168.0.3" />
+			<array1 name="array1" file="true" Host="192.168.0.3" />
+			<array2 name="array2" file="true" Host="192.168.0.3" />
+			<array3 name="array3" file="true" Host="192.168.0.3" />
+			<array4 name="array4" file="true" Host="192.168.0.3" />
+			<beispiel_minus___minus_max_minus___minus_drei name="beispiel max drei" file="true" Host="192.168.0.3" />
+			<enums name="enums" file="true" Host="192.168.0.3" />
+			<enums2 name="enums2" file="true" Host="192.168.0.3" />
+			<foliennummer name="foliennummer" file="true" Host="192.168.0.3" />
+			<pointer name="pointer" file="true" Host="192.168.0.3" />
+			<printf name="printf" file="true" Host="192.168.0.3" />
+			<speicherklassen name="speicherklassen" file="true" Host="192.168.0.3" />
+			<speicherklassen2 name="speicherklassen2" file="true" Host="192.168.0.3" />
+			<speicherklassen3 name="speicherklassen3" file="true" Host="192.168.0.3" />
+			<undOderNicht name="undOderNicht" file="true" Host="192.168.0.3" />
+			<while_minus___minus_example name="while example" file="true" Host="192.168.0.3" />
 		</Prog_wichtig>
-		<PTG directory="true" Host="IP_not_solved" name="PTG">
-			<doc00686320160817125107_punk_pdf name="doc00686320160817125107.pdf" file="true" Host="IP_not_solved" />
-			<doc00686420160817125238_punk_pdf name="doc00686420160817125238.pdf" file="true" Host="IP_not_solved" />
-			<doc00686620160817125516_punk_pdf name="doc00686620160817125516.pdf" file="true" Host="IP_not_solved" />
-			<doc00686720160817125637_punk_pdf name="doc00686720160817125637.pdf" file="true" Host="IP_not_solved" />
-			<doc00686820160817125721_punk_pdf name="doc00686820160817125721.pdf" file="true" Host="IP_not_solved" />
-			<doc00686920160817125746_punk_pdf name="doc00686920160817125746.pdf" file="true" Host="IP_not_solved" />
-			<doc00687020160817125806_punk_pdf name="doc00687020160817125806.pdf" file="true" Host="IP_not_solved" />
-			<Klausur directory="true" Host="IP_not_solved" name="Klausur">
-				<Klausur_minus___minus_PTG_II_Probe_punk_pdf name="Klausur PTG_II_Probe.pdf" file="true" Host="IP_not_solved" />
-				<Klausur_minus___minus_PTG_II_Probe1_punk_doc name="Klausur PTG_II_Probe1.doc" file="true" Host="IP_not_solved" />
-				<Klausur_minus___minus_PTG_II_Probe2_punk_doc name="Klausur PTG_II_Probe2.doc" file="true" Host="IP_not_solved" />
-				<Klausur_minus___minus_PTG_II_Probe3_punk_doc name="Klausur PTG_II_Probe3.doc" file="true" Host="IP_not_solved" />
-				<Klausur_minus_ptg_punk_rar name="Klausur-ptg.rar" file="true" Host="IP_not_solved" />
-				<Loesung_minus___minus_2 name="Loesung 2" file="true" Host="IP_not_solved" />
-				<Musterloesung_minus___minus_Probeklausur_minus___minus_PTG_minus___minus_II_punk_pdf name="Musterloesung Probeklausur PTG II.pdf" file="true" Host="IP_not_solved" />
-				<ProbeKlausur_minus___minus_PTG_minus___minus_II_punk_pdf name="ProbeKlausur PTG II.pdf" file="true" Host="IP_not_solved" />
+		<PTG directory="true" Host="192.168.0.3" name="PTG">
+			<doc00686320160817125107_punk_pdf name="doc00686320160817125107.pdf" file="true" Host="192.168.0.3" />
+			<doc00686420160817125238_punk_pdf name="doc00686420160817125238.pdf" file="true" Host="192.168.0.3" />
+			<doc00686620160817125516_punk_pdf name="doc00686620160817125516.pdf" file="true" Host="192.168.0.3" />
+			<doc00686720160817125637_punk_pdf name="doc00686720160817125637.pdf" file="true" Host="192.168.0.3" />
+			<doc00686820160817125721_punk_pdf name="doc00686820160817125721.pdf" file="true" Host="192.168.0.3" />
+			<doc00686920160817125746_punk_pdf name="doc00686920160817125746.pdf" file="true" Host="192.168.0.3" />
+			<doc00687020160817125806_punk_pdf name="doc00687020160817125806.pdf" file="true" Host="192.168.0.3" />
+			<Klausur directory="true" Host="192.168.0.3" name="Klausur">
+				<Klausur_minus___minus_PTG_II_Probe_punk_pdf name="Klausur PTG_II_Probe.pdf" file="true" Host="192.168.0.3" />
+				<Klausur_minus___minus_PTG_II_Probe1_punk_doc name="Klausur PTG_II_Probe1.doc" file="true" Host="192.168.0.3" />
+				<Klausur_minus___minus_PTG_II_Probe2_punk_doc name="Klausur PTG_II_Probe2.doc" file="true" Host="192.168.0.3" />
+				<Klausur_minus___minus_PTG_II_Probe3_punk_doc name="Klausur PTG_II_Probe3.doc" file="true" Host="192.168.0.3" />
+				<Klausur_minus_ptg_punk_rar name="Klausur-ptg.rar" file="true" Host="192.168.0.3" />
+				<Loesung_minus___minus_2 name="Loesung 2" file="true" Host="192.168.0.3" />
+				<Musterloesung_minus___minus_Probeklausur_minus___minus_PTG_minus___minus_II_punk_pdf name="Musterloesung Probeklausur PTG II.pdf" file="true" Host="192.168.0.3" />
+				<ProbeKlausur_minus___minus_PTG_minus___minus_II_punk_pdf name="ProbeKlausur PTG II.pdf" file="true" Host="192.168.0.3" />
 			</Klausur>
 		</PTG>
-		<rechnerarchi directory="true" Host="IP_not_solved" name="rechnerarchi">
-			<RA_Handout_punk_pdf name="RA_Handout.pdf" file="true" Host="IP_not_solved" />
+		<rechnerarchi directory="true" Host="192.168.0.3" name="rechnerarchi">
+			<RA_Handout_punk_pdf name="RA_Handout.pdf" file="true" Host="192.168.0.3" />
 		</rechnerarchi>
-		<BWL directory="true" Host="IP_not_solved" name="BWL">
-			<_00_BWL1_Organisation_19102015_punk_pdf name="00_BWL1_Organisation_19102015.pdf" file="true" Host="IP_not_solved" />
-			<_01_BWL1_Einführung_26102015_punk_pdf name="01_BWL1_Einführung_26102015.pdf" file="true" Host="IP_not_solved" />
-			<_01_BWL2_Einführung_20042016_punk_pdf name="01_BWL2_Einführung_20042016.pdf" file="true" Host="IP_not_solved" />
-			<_02_BWL1_Produktionsfaktoren_02112015_punk_pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" Host="IP_not_solved" />
-			<_02_BWL2_Rechnungswesen_27042016_punk_pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" Host="IP_not_solved" />
-			<_03_BWL1_Unternehmen_09112015_punk_pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" Host="IP_not_solved" />
-			<_04_BWL1_Wirtschaftskreislauf_16112015_punk_pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" Host="IP_not_solved" />
-			<_04_BWL2_Geschäftsprozesse_04052016_punk_pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" Host="IP_not_solved" />
-			<_04_Spezielle_ITSysteme_15062016_punk_pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" Host="IP_not_solved" />
-			<_05_BWL1_Rechtsformen23112015_punk_pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" Host="IP_not_solved" />
-			<_05_Wissensmanagement_13072016_punk_pdf name="05_Wissensmanagement_13072016.pdf" file="true" Host="IP_not_solved" />
-			<_06_BWL1_Organisationsstrukturen_30112015_punk_pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" Host="IP_not_solved" />
-			<_07_BWL1_Ziele_30112015_punk_pdf name="07_BWL1_Ziele_30112015.pdf" file="true" Host="IP_not_solved" />
-			<_08_BWL1_Personalwirtschaft_07122015_punk_pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" Host="IP_not_solved" />
-			<_09_BWL1_Leisungserstellung_04012016_punk_pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" Host="IP_not_solved" />
-			<_10_BWL1_Kostenrechnung_18012016_punk_pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" Host="IP_not_solved" />
-			<BWL_NachKlausur11022010_punk_pdf name="BWL_NachKlausur11022010.pdf" file="true" Host="IP_not_solved" />
-			<BWL_Small_punk_pdf name="BWL_Small.pdf" file="true" Host="IP_not_solved" />
+		<BWL directory="true" Host="192.168.0.3" name="BWL">
+			<_00_BWL1_Organisation_19102015_punk_pdf name="00_BWL1_Organisation_19102015.pdf" file="true" Host="192.168.0.3" />
+			<_01_BWL1_Einführung_26102015_punk_pdf name="01_BWL1_Einführung_26102015.pdf" file="true" Host="192.168.0.3" />
+			<_01_BWL2_Einführung_20042016_punk_pdf name="01_BWL2_Einführung_20042016.pdf" file="true" Host="192.168.0.3" />
+			<_02_BWL1_Produktionsfaktoren_02112015_punk_pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" Host="192.168.0.3" />
+			<_02_BWL2_Rechnungswesen_27042016_punk_pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" Host="192.168.0.3" />
+			<_03_BWL1_Unternehmen_09112015_punk_pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" Host="192.168.0.3" />
+			<_04_BWL1_Wirtschaftskreislauf_16112015_punk_pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" Host="192.168.0.3" />
+			<_04_BWL2_Geschäftsprozesse_04052016_punk_pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" Host="192.168.0.3" />
+			<_04_Spezielle_ITSysteme_15062016_punk_pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" Host="192.168.0.3" />
+			<_05_BWL1_Rechtsformen23112015_punk_pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" Host="192.168.0.3" />
+			<_05_Wissensmanagement_13072016_punk_pdf name="05_Wissensmanagement_13072016.pdf" file="true" Host="192.168.0.3" />
+			<_06_BWL1_Organisationsstrukturen_30112015_punk_pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" Host="192.168.0.3" />
+			<_07_BWL1_Ziele_30112015_punk_pdf name="07_BWL1_Ziele_30112015.pdf" file="true" Host="192.168.0.3" />
+			<_08_BWL1_Personalwirtschaft_07122015_punk_pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" Host="192.168.0.3" />
+			<_09_BWL1_Leisungserstellung_04012016_punk_pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" Host="192.168.0.3" />
+			<_10_BWL1_Kostenrechnung_18012016_punk_pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" Host="192.168.0.3" />
+			<BWL_NachKlausur11022010_punk_pdf name="BWL_NachKlausur11022010.pdf" file="true" Host="192.168.0.3" />
+			<BWL_Small_punk_pdf name="BWL_Small.pdf" file="true" Host="192.168.0.3" />
 		</BWL>
-		<swt2 directory="true" Host="IP_not_solved" name="swt2">
-			<SWT2StuPro2017 directory="true" Host="IP_not_solved" name="SWT2StuPro2017">
-				<README_punk_md name="README.md" file="true" Host="IP_not_solved" />
-				<makefile name="makefile" file="true" Host="IP_not_solved" />
-				<menu_punk_c name="menu.c" file="true" Host="IP_not_solved" />
-				<scanflib_punk_c name="scanflib.c" file="true" Host="IP_not_solved" />
-				<scanflib_punk_h name="scanflib.h" file="true" Host="IP_not_solved" />
+		<swt2 directory="true" Host="192.168.0.3" name="swt2">
+			<SWT2StuPro2017 directory="true" Host="192.168.0.3" name="SWT2StuPro2017">
+				<README_punk_md name="README.md" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<menu_punk_c name="menu.c" file="true" Host="192.168.0.3" />
+				<scanflib_punk_c name="scanflib.c" file="true" Host="192.168.0.3" />
+				<scanflib_punk_h name="scanflib.h" file="true" Host="192.168.0.3" />
 			</SWT2StuPro2017>
-			<SWT2StuPro2016 directory="true" Host="IP_not_solved" name="SWT2StuPro2016">
-				<LICENSE name="LICENSE" file="true" Host="IP_not_solved" />
-				<README_punk_md name="README.md" file="true" Host="IP_not_solved" />
-				<out directory="true" Host="IP_not_solved" name="out">
-					<production directory="true" Host="IP_not_solved" name="production">
-						<Hanse_minus_Kontor2016 directory="true" Host="IP_not_solved" name="Hanse-Kontor2016" />
+			<SWT2StuPro2016 directory="true" Host="192.168.0.3" name="SWT2StuPro2016">
+				<LICENSE name="LICENSE" file="true" Host="192.168.0.3" />
+				<README_punk_md name="README.md" file="true" Host="192.168.0.3" />
+				<out directory="true" Host="192.168.0.3" name="out">
+					<production directory="true" Host="192.168.0.3" name="production">
+						<Hanse_minus_Kontor2016 directory="true" Host="192.168.0.3" name="Hanse-Kontor2016" />
 					</production>
 				</out>
-				<Hanse_minus_Kontor2016 directory="true" Host="IP_not_solved" name="Hanse-Kontor2016">
-					<Hanse_minus_Kontor2016_punk_iml name="Hanse-Kontor2016.iml" file="true" Host="IP_not_solved" />
-					<src directory="true" Host="IP_not_solved" name="src">
-						<hanse directory="true" Host="IP_not_solved" name="hanse">
-							<kontor2016 directory="true" Host="IP_not_solved" name="kontor2016">
-								<Definitionen_punk_java name="Definitionen.java" file="true" Host="IP_not_solved" />
-								<HanseKontor2016_punk_java name="HanseKontor2016.java" file="true" Host="IP_not_solved" />
-								<Schiff_punk_java name="Schiff.java" file="true" Host="IP_not_solved" />
-								<SpielKontor_punk_java name="SpielKontor.java" file="true" Host="IP_not_solved" />
-								<Ware_punk_java name="Ware.java" file="true" Host="IP_not_solved" />
-								<kaufmann directory="true" Host="IP_not_solved" name="kaufmann">
-									<Kaufmann_punk_java name="Kaufmann.java" file="true" Host="IP_not_solved" />
-									<Konto_punk_java name="Konto.java" file="true" Host="IP_not_solved" />
+				<Hanse_minus_Kontor2016 directory="true" Host="192.168.0.3" name="Hanse-Kontor2016">
+					<Hanse_minus_Kontor2016_punk_iml name="Hanse-Kontor2016.iml" file="true" Host="192.168.0.3" />
+					<src directory="true" Host="192.168.0.3" name="src">
+						<hanse directory="true" Host="192.168.0.3" name="hanse">
+							<kontor2016 directory="true" Host="192.168.0.3" name="kontor2016">
+								<Definitionen_punk_java name="Definitionen.java" file="true" Host="192.168.0.3" />
+								<HanseKontor2016_punk_java name="HanseKontor2016.java" file="true" Host="192.168.0.3" />
+								<Schiff_punk_java name="Schiff.java" file="true" Host="192.168.0.3" />
+								<SpielKontor_punk_java name="SpielKontor.java" file="true" Host="192.168.0.3" />
+								<Ware_punk_java name="Ware.java" file="true" Host="192.168.0.3" />
+								<kaufmann directory="true" Host="192.168.0.3" name="kaufmann">
+									<Kaufmann_punk_java name="Kaufmann.java" file="true" Host="192.168.0.3" />
+									<Konto_punk_java name="Konto.java" file="true" Host="192.168.0.3" />
 								</kaufmann>
-								<schiff directory="true" Host="IP_not_solved" name="schiff">
-									<Schiff_minus_GruppeSchiff_punk_java name="Schiff-GruppeSchiff.java" file="true" Host="IP_not_solved" />
-									<Schiff_punk_java name="Schiff.java" file="true" Host="IP_not_solved" />
-									<Schiffstyp_punk_java name="Schiffstyp.java" file="true" Host="IP_not_solved" />
-									<Ware_minus_GruppeSchiff_punk_java name="Ware-GruppeSchiff.java" file="true" Host="IP_not_solved" />
+								<schiff directory="true" Host="192.168.0.3" name="schiff">
+									<Schiff_minus_GruppeSchiff_punk_java name="Schiff-GruppeSchiff.java" file="true" Host="192.168.0.3" />
+									<Schiff_punk_java name="Schiff.java" file="true" Host="192.168.0.3" />
+									<Schiffstyp_punk_java name="Schiffstyp.java" file="true" Host="192.168.0.3" />
+									<Ware_minus_GruppeSchiff_punk_java name="Ware-GruppeSchiff.java" file="true" Host="192.168.0.3" />
 								</schiff>
-								<kontor directory="true" Host="IP_not_solved" name="kontor">
-									<Kontor_punk_java name="Kontor.java" file="true" Host="IP_not_solved" />
-									<Lager_punk_java name="Lager.java" file="true" Host="IP_not_solved" />
-									<LagerException_punk_java name="LagerException.java" file="true" Host="IP_not_solved" />
-									<Ware_punk_java name="Ware.java" file="true" Host="IP_not_solved" />
+								<kontor directory="true" Host="192.168.0.3" name="kontor">
+									<Kontor_punk_java name="Kontor.java" file="true" Host="192.168.0.3" />
+									<Lager_punk_java name="Lager.java" file="true" Host="192.168.0.3" />
+									<LagerException_punk_java name="LagerException.java" file="true" Host="192.168.0.3" />
+									<Ware_punk_java name="Ware.java" file="true" Host="192.168.0.3" />
 								</kontor>
-								<lokalitaeten directory="true" Host="IP_not_solved" name="lokalitaeten">
-									<GeoObjekt_punk_java name="GeoObjekt.java" file="true" Host="IP_not_solved" />
-									<Hafen_punk_java name="Hafen.java" file="true" Host="IP_not_solved" />
-									<Route_punk_java name="Route.java" file="true" Host="IP_not_solved" />
-									<Weg_punk_java name="Weg.java" file="true" Host="IP_not_solved" />
-									<Werft_punk_java name="Werft.java" file="true" Host="IP_not_solved" />
+								<lokalitaeten directory="true" Host="192.168.0.3" name="lokalitaeten">
+									<GeoObjekt_punk_java name="GeoObjekt.java" file="true" Host="192.168.0.3" />
+									<Hafen_punk_java name="Hafen.java" file="true" Host="192.168.0.3" />
+									<Route_punk_java name="Route.java" file="true" Host="192.168.0.3" />
+									<Weg_punk_java name="Weg.java" file="true" Host="192.168.0.3" />
+									<Werft_punk_java name="Werft.java" file="true" Host="192.168.0.3" />
 								</lokalitaeten>
 							</kontor2016>
 						</hanse>
 					</src>
 				</Hanse_minus_Kontor2016>
 			</SWT2StuPro2016>
-			<mandelbrot directory="true" Host="IP_not_solved" name="mandelbrot">
-				<Fraktal_punk_class name="Fraktal.class" file="true" Host="IP_not_solved" />
-				<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="IP_not_solved" />
-				<MeinFraktal_punk_class name="MeinFraktal.class" file="true" Host="IP_not_solved" />
-				<MeinFraktal_punk_java name="MeinFraktal.java" file="true" Host="IP_not_solved" />
-				<SimpleImage_punk_class name="SimpleImage.class" file="true" Host="IP_not_solved" />
-				<apfel_punk_jar name="apfel.jar" file="true" Host="IP_not_solved" />
-				<apfelKschultz_punk_jar name="apfelKschultz.jar" file="true" Host="IP_not_solved" />
-				<mandelbrot_punk_iml name="mandelbrot.iml" file="true" Host="IP_not_solved" />
-				<out directory="true" Host="IP_not_solved" name="out">
-					<production directory="true" Host="IP_not_solved" name="production">
-						<mandelbrot directory="true" Host="IP_not_solved" name="mandelbrot">
-							<apfel_punk_jar name="apfel.jar" file="true" Host="IP_not_solved" />
-							<mandelbrot_punk_iml name="mandelbrot.iml" file="true" Host="IP_not_solved" />
-							<META_minus_INF directory="true" Host="IP_not_solved" name="META-INF">
-								<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="IP_not_solved" />
+			<mandelbrot directory="true" Host="192.168.0.3" name="mandelbrot">
+				<Fraktal_punk_class name="Fraktal.class" file="true" Host="192.168.0.3" />
+				<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
+				<MeinFraktal_punk_class name="MeinFraktal.class" file="true" Host="192.168.0.3" />
+				<MeinFraktal_punk_java name="MeinFraktal.java" file="true" Host="192.168.0.3" />
+				<SimpleImage_punk_class name="SimpleImage.class" file="true" Host="192.168.0.3" />
+				<apfel_punk_jar name="apfel.jar" file="true" Host="192.168.0.3" />
+				<apfelKschultz_punk_jar name="apfelKschultz.jar" file="true" Host="192.168.0.3" />
+				<mandelbrot_punk_iml name="mandelbrot.iml" file="true" Host="192.168.0.3" />
+				<out directory="true" Host="192.168.0.3" name="out">
+					<production directory="true" Host="192.168.0.3" name="production">
+						<mandelbrot directory="true" Host="192.168.0.3" name="mandelbrot">
+							<apfel_punk_jar name="apfel.jar" file="true" Host="192.168.0.3" />
+							<mandelbrot_punk_iml name="mandelbrot.iml" file="true" Host="192.168.0.3" />
+							<META_minus_INF directory="true" Host="192.168.0.3" name="META-INF">
+								<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
 							</META_minus_INF>
-							<Mandelbrot_punk_html directory="true" Host="IP_not_solved" name="Mandelbrot.html">
-								<Fraktal_punk_html name="Fraktal.html" file="true" Host="IP_not_solved" />
-								<SimpleImage_punk_html name="SimpleImage.html" file="true" Host="IP_not_solved" />
-								<allclasses_minus_frame_punk_html name="allclasses-frame.html" file="true" Host="IP_not_solved" />
-								<allclasses_minus_noframe_punk_html name="allclasses-noframe.html" file="true" Host="IP_not_solved" />
-								<constant_minus_values_punk_html name="constant-values.html" file="true" Host="IP_not_solved" />
-								<deprecated_minus_list_punk_html name="deprecated-list.html" file="true" Host="IP_not_solved" />
-								<help_minus_doc_punk_html name="help-doc.html" file="true" Host="IP_not_solved" />
-								<index_minus_all_punk_html name="index-all.html" file="true" Host="IP_not_solved" />
-								<index_punk_html name="index.html" file="true" Host="IP_not_solved" />
-								<overview_minus_tree_punk_html name="overview-tree.html" file="true" Host="IP_not_solved" />
-								<package_minus_frame_punk_html name="package-frame.html" file="true" Host="IP_not_solved" />
-								<package_minus_list name="package-list" file="true" Host="IP_not_solved" />
-								<package_minus_summary_punk_html name="package-summary.html" file="true" Host="IP_not_solved" />
-								<package_minus_tree_punk_html name="package-tree.html" file="true" Host="IP_not_solved" />
-								<script_punk_js name="script.js" file="true" Host="IP_not_solved" />
-								<serialized_minus_form_punk_html name="serialized-form.html" file="true" Host="IP_not_solved" />
-								<stylesheet_punk_css name="stylesheet.css" file="true" Host="IP_not_solved" />
+							<Mandelbrot_punk_html directory="true" Host="192.168.0.3" name="Mandelbrot.html">
+								<Fraktal_punk_html name="Fraktal.html" file="true" Host="192.168.0.3" />
+								<SimpleImage_punk_html name="SimpleImage.html" file="true" Host="192.168.0.3" />
+								<allclasses_minus_frame_punk_html name="allclasses-frame.html" file="true" Host="192.168.0.3" />
+								<allclasses_minus_noframe_punk_html name="allclasses-noframe.html" file="true" Host="192.168.0.3" />
+								<constant_minus_values_punk_html name="constant-values.html" file="true" Host="192.168.0.3" />
+								<deprecated_minus_list_punk_html name="deprecated-list.html" file="true" Host="192.168.0.3" />
+								<help_minus_doc_punk_html name="help-doc.html" file="true" Host="192.168.0.3" />
+								<index_minus_all_punk_html name="index-all.html" file="true" Host="192.168.0.3" />
+								<index_punk_html name="index.html" file="true" Host="192.168.0.3" />
+								<overview_minus_tree_punk_html name="overview-tree.html" file="true" Host="192.168.0.3" />
+								<package_minus_frame_punk_html name="package-frame.html" file="true" Host="192.168.0.3" />
+								<package_minus_list name="package-list" file="true" Host="192.168.0.3" />
+								<package_minus_summary_punk_html name="package-summary.html" file="true" Host="192.168.0.3" />
+								<package_minus_tree_punk_html name="package-tree.html" file="true" Host="192.168.0.3" />
+								<script_punk_js name="script.js" file="true" Host="192.168.0.3" />
+								<serialized_minus_form_punk_html name="serialized-form.html" file="true" Host="192.168.0.3" />
+								<stylesheet_punk_css name="stylesheet.css" file="true" Host="192.168.0.3" />
 							</Mandelbrot_punk_html>
 						</mandelbrot>
 					</production>
 				</out>
-				<META_minus_INF directory="true" Host="IP_not_solved" name="META-INF">
-					<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="IP_not_solved" />
+				<META_minus_INF directory="true" Host="192.168.0.3" name="META-INF">
+					<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
 				</META_minus_INF>
-				<kschultz directory="true" Host="IP_not_solved" name="kschultz">
-					<MeinFraktal_punk_class name="MeinFraktal.class" file="true" Host="IP_not_solved" />
-					<apfelKschultz_punk_jar name="apfelKschultz.jar" file="true" Host="IP_not_solved" />
-					<META_minus_INF directory="true" Host="IP_not_solved" name="META-INF">
-						<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="IP_not_solved" />
+				<kschultz directory="true" Host="192.168.0.3" name="kschultz">
+					<MeinFraktal_punk_class name="MeinFraktal.class" file="true" Host="192.168.0.3" />
+					<apfelKschultz_punk_jar name="apfelKschultz.jar" file="true" Host="192.168.0.3" />
+					<META_minus_INF directory="true" Host="192.168.0.3" name="META-INF">
+						<MANIFEST_punk_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
 					</META_minus_INF>
 				</kschultz>
-				<Mandelbrot_punk_html directory="true" Host="IP_not_solved" name="Mandelbrot.html">
-					<Fraktal_punk_html name="Fraktal.html" file="true" Host="IP_not_solved" />
-					<SimpleImage_punk_html name="SimpleImage.html" file="true" Host="IP_not_solved" />
-					<allclasses_minus_frame_punk_html name="allclasses-frame.html" file="true" Host="IP_not_solved" />
-					<allclasses_minus_noframe_punk_html name="allclasses-noframe.html" file="true" Host="IP_not_solved" />
-					<constant_minus_values_punk_html name="constant-values.html" file="true" Host="IP_not_solved" />
-					<deprecated_minus_list_punk_html name="deprecated-list.html" file="true" Host="IP_not_solved" />
-					<help_minus_doc_punk_html name="help-doc.html" file="true" Host="IP_not_solved" />
-					<index_minus_all_punk_html name="index-all.html" file="true" Host="IP_not_solved" />
-					<index_punk_html name="index.html" file="true" Host="IP_not_solved" />
-					<overview_minus_tree_punk_html name="overview-tree.html" file="true" Host="IP_not_solved" />
-					<package_minus_frame_punk_html name="package-frame.html" file="true" Host="IP_not_solved" />
-					<package_minus_list name="package-list" file="true" Host="IP_not_solved" />
-					<package_minus_summary_punk_html name="package-summary.html" file="true" Host="IP_not_solved" />
-					<package_minus_tree_punk_html name="package-tree.html" file="true" Host="IP_not_solved" />
-					<script_punk_js name="script.js" file="true" Host="IP_not_solved" />
-					<serialized_minus_form_punk_html name="serialized-form.html" file="true" Host="IP_not_solved" />
-					<stylesheet_punk_css name="stylesheet.css" file="true" Host="IP_not_solved" />
+				<Mandelbrot_punk_html directory="true" Host="192.168.0.3" name="Mandelbrot.html">
+					<Fraktal_punk_html name="Fraktal.html" file="true" Host="192.168.0.3" />
+					<SimpleImage_punk_html name="SimpleImage.html" file="true" Host="192.168.0.3" />
+					<allclasses_minus_frame_punk_html name="allclasses-frame.html" file="true" Host="192.168.0.3" />
+					<allclasses_minus_noframe_punk_html name="allclasses-noframe.html" file="true" Host="192.168.0.3" />
+					<constant_minus_values_punk_html name="constant-values.html" file="true" Host="192.168.0.3" />
+					<deprecated_minus_list_punk_html name="deprecated-list.html" file="true" Host="192.168.0.3" />
+					<help_minus_doc_punk_html name="help-doc.html" file="true" Host="192.168.0.3" />
+					<index_minus_all_punk_html name="index-all.html" file="true" Host="192.168.0.3" />
+					<index_punk_html name="index.html" file="true" Host="192.168.0.3" />
+					<overview_minus_tree_punk_html name="overview-tree.html" file="true" Host="192.168.0.3" />
+					<package_minus_frame_punk_html name="package-frame.html" file="true" Host="192.168.0.3" />
+					<package_minus_list name="package-list" file="true" Host="192.168.0.3" />
+					<package_minus_summary_punk_html name="package-summary.html" file="true" Host="192.168.0.3" />
+					<package_minus_tree_punk_html name="package-tree.html" file="true" Host="192.168.0.3" />
+					<script_punk_js name="script.js" file="true" Host="192.168.0.3" />
+					<serialized_minus_form_punk_html name="serialized-form.html" file="true" Host="192.168.0.3" />
+					<stylesheet_punk_css name="stylesheet.css" file="true" Host="192.168.0.3" />
 				</Mandelbrot_punk_html>
 			</mandelbrot>
-			<VS3_Primzahlen directory="true" Host="IP_not_solved" name="VS3_Primzahlen" />
+			<VS3_Primzahlen directory="true" Host="192.168.0.3" name="VS3_Primzahlen" />
 		</swt2>
-		<Vorlesung directory="true" Host="IP_not_solved" name="Vorlesung">
-			<_punk_summe_punk_c_punk_swp name=".summe.c.swp" file="true" Host="IP_not_solved" />
-			<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-			<eimaleins name="eimaleins" file="true" Host="IP_not_solved" />
-			<eimaleins_punk_c name="eimaleins.c" file="true" Host="IP_not_solved" />
-			<getchar name="getchar" file="true" Host="IP_not_solved" />
-			<getchar_punk_c name="getchar.c" file="true" Host="IP_not_solved" />
-			<mittelwert name="mittelwert" file="true" Host="IP_not_solved" />
-			<mittelwert_punk_c name="mittelwert.c" file="true" Host="IP_not_solved" />
-			<summe_punk_c name="summe.c" file="true" Host="IP_not_solved" />
-			<audit_dialog directory="true" Host="IP_not_solved" name="audit_dialog">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<taschenrechner_punk_c name="taschenrechner.c" file="true" Host="IP_not_solved" />
+		<Vorlesung directory="true" Host="192.168.0.3" name="Vorlesung">
+			<_punk_summe_punk_c_punk_swp name=".summe.c.swp" file="true" Host="192.168.0.3" />
+			<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+			<eimaleins name="eimaleins" file="true" Host="192.168.0.3" />
+			<eimaleins_punk_c name="eimaleins.c" file="true" Host="192.168.0.3" />
+			<getchar name="getchar" file="true" Host="192.168.0.3" />
+			<getchar_punk_c name="getchar.c" file="true" Host="192.168.0.3" />
+			<mittelwert name="mittelwert" file="true" Host="192.168.0.3" />
+			<mittelwert_punk_c name="mittelwert.c" file="true" Host="192.168.0.3" />
+			<summe_punk_c name="summe.c" file="true" Host="192.168.0.3" />
+			<audit_dialog directory="true" Host="192.168.0.3" name="audit_dialog">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<taschenrechner_punk_c name="taschenrechner.c" file="true" Host="192.168.0.3" />
 			</audit_dialog>
-			<dateibearbeitung directory="true" Host="IP_not_solved" name="dateibearbeitung">
-				<a_punk_out name="a.out" file="true" Host="IP_not_solved" />
-				<datei_punk_txt name="datei.txt" file="true" Host="IP_not_solved" />
-				<dateiinfo_punk_c name="dateiinfo.c" file="true" Host="IP_not_solved" />
-				<dateiinfo1_punk_c name="dateiinfo1.c" file="true" Host="IP_not_solved" />
+			<dateibearbeitung directory="true" Host="192.168.0.3" name="dateibearbeitung">
+				<a_punk_out name="a.out" file="true" Host="192.168.0.3" />
+				<datei_punk_txt name="datei.txt" file="true" Host="192.168.0.3" />
+				<dateiinfo_punk_c name="dateiinfo.c" file="true" Host="192.168.0.3" />
+				<dateiinfo1_punk_c name="dateiinfo1.c" file="true" Host="192.168.0.3" />
 			</dateibearbeitung>
 		</Vorlesung>
-		<Informatik_1 directory="true" Host="IP_not_solved" name="Informatik_1">
-			<ueb07 directory="true" Host="IP_not_solved" name="ueb07" />
+		<Informatik_1 directory="true" Host="192.168.0.3" name="Informatik_1">
+			<ueb07 directory="true" Host="192.168.0.3" name="ueb07" />
 		</Informatik_1>
-		<Rechnernetze directory="true" Host="IP_not_solved" name="Rechnernetze">
-			<ueb02 directory="true" Host="IP_not_solved" name="ueb02">
-				<ueb02_punk_txt name="ueb02.txt" file="true" Host="IP_not_solved" />
-				<loesung02_minus_daten_minus_aufgabe_2 directory="true" Host="IP_not_solved" name="loesung02-daten-aufgabe_2">
-					<HOME_minus_LAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-LAN-Stud-tcp+STL-VPN" file="true" Host="IP_not_solved" />
-					<HOME_minus_LAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-LAN-Stud-udp+STL-VPN" file="true" Host="IP_not_solved" />
-					<HOME_minus_WLAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-WLAN-Stud-tcp+STL-VPN" file="true" Host="IP_not_solved" />
-					<HOME_minus_WLAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-WLAN-Stud-udp+STL-VPN" file="true" Host="IP_not_solved" />
+		<m2 directory="true" Host="192.168.0.3" name="m2">
+			<Mathematik2mit_punk_pdf name="Mathematik2mit.pdf" file="true" Host="192.168.0.3" />
+			<s_punk_pdf name="s.pdf" file="true" Host="192.168.0.3" />
+		</m2>
+		<Rechnernetze directory="true" Host="192.168.0.3" name="Rechnernetze">
+			<ueb02 directory="true" Host="192.168.0.3" name="ueb02">
+				<ueb02_punk_txt name="ueb02.txt" file="true" Host="192.168.0.3" />
+				<loesung02_minus_daten_minus_aufgabe_2 directory="true" Host="192.168.0.3" name="loesung02-daten-aufgabe_2">
+					<HOME_minus_LAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-LAN-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<HOME_minus_LAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-LAN-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
+					<HOME_minus_WLAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-WLAN-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<HOME_minus_WLAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-WLAN-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
 				</loesung02_minus_daten_minus_aufgabe_2>
-				<loesung02_minus_daten_minus_aufgabe_1 directory="true" Host="IP_not_solved" name="loesung02-daten-aufgabe_1">
-					<Eduroam_minus_Stud_plus_STL_minus_VPN name="Eduroam-Stud+STL-VPN" file="true" Host="IP_not_solved" />
-					<GELBE_minus_DOSEN_minus_STL_minus_Stud_plus_STL_minus_VPN name="GELBE-DOSEN-STL-Stud+STL-VPN" file="true" Host="IP_not_solved" />
-					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_tcp name="GELBE-DOSEN-STL-Stud-tcp" file="true" Host="IP_not_solved" />
-					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_udp name="GELBE-DOSEN-STL-Stud-udp" file="true" Host="IP_not_solved" />
-					<hiz_minus_saarland_minus_Stud_minus_tcp name="hiz-saarland-Stud-tcp" file="true" Host="IP_not_solved" />
-					<hiz_minus_saarland_minus_Stud_minus_tcp_plus_STL_minus_VPN name="hiz-saarland-Stud-tcp+STL-VPN" file="true" Host="IP_not_solved" />
-					<hiz_minus_saarland_minus_Stud_minus_udp_plus_STL_minus_VPN name="hiz-saarland-Stud-udp+STL-VPN" file="true" Host="IP_not_solved" />
-					<htwintern_minus_Stud_minus_tcp name="htwintern-Stud-tcp" file="true" Host="IP_not_solved" />
-					<htwintern_minus_Stud_minus_tcp_plus_STL_minus_VPN name="htwintern-Stud-tcp+STL-VPN" file="true" Host="IP_not_solved" />
-					<htwintern_minus_Stud_minus_udp_plus_STL_minus_VPN name="htwintern-Stud-udp+STL-VPN" file="true" Host="IP_not_solved" />
+				<loesung02_minus_daten_minus_aufgabe_1 directory="true" Host="192.168.0.3" name="loesung02-daten-aufgabe_1">
+					<Eduroam_minus_Stud_plus_STL_minus_VPN name="Eduroam-Stud+STL-VPN" file="true" Host="192.168.0.3" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_plus_STL_minus_VPN name="GELBE-DOSEN-STL-Stud+STL-VPN" file="true" Host="192.168.0.3" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_tcp name="GELBE-DOSEN-STL-Stud-tcp" file="true" Host="192.168.0.3" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_udp name="GELBE-DOSEN-STL-Stud-udp" file="true" Host="192.168.0.3" />
+					<hiz_minus_saarland_minus_Stud_minus_tcp name="hiz-saarland-Stud-tcp" file="true" Host="192.168.0.3" />
+					<hiz_minus_saarland_minus_Stud_minus_tcp_plus_STL_minus_VPN name="hiz-saarland-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<hiz_minus_saarland_minus_Stud_minus_udp_plus_STL_minus_VPN name="hiz-saarland-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
+					<htwintern_minus_Stud_minus_tcp name="htwintern-Stud-tcp" file="true" Host="192.168.0.3" />
+					<htwintern_minus_Stud_minus_tcp_plus_STL_minus_VPN name="htwintern-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<htwintern_minus_Stud_minus_udp_plus_STL_minus_VPN name="htwintern-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
 				</loesung02_minus_daten_minus_aufgabe_1>
 			</ueb02>
-			<ueb06 directory="true" Host="IP_not_solved" name="ueb06">
-				<ueb06_punk_txt name="ueb06.txt" file="true" Host="IP_not_solved" />
-				<Solaris_minus_daten directory="true" Host="IP_not_solved" name="Solaris-daten">
-					<Solaris_minus_10_netstat_minus_r name="Solaris-10_netstat-r" file="true" Host="IP_not_solved" />
-					<Solaris_minus_10_netstat_minus_rn name="Solaris-10_netstat-rn" file="true" Host="IP_not_solved" />
+			<ueb06 directory="true" Host="192.168.0.3" name="ueb06">
+				<ueb06_punk_txt name="ueb06.txt" file="true" Host="192.168.0.3" />
+				<Solaris_minus_daten directory="true" Host="192.168.0.3" name="Solaris-daten">
+					<Solaris_minus_10_netstat_minus_r name="Solaris-10_netstat-r" file="true" Host="192.168.0.3" />
+					<Solaris_minus_10_netstat_minus_rn name="Solaris-10_netstat-rn" file="true" Host="192.168.0.3" />
 				</Solaris_minus_daten>
 			</ueb06>
-			<ueb01 directory="true" Host="IP_not_solved" name="ueb01">
-				<loesung01_punk_txt name="loesung01.txt" file="true" Host="IP_not_solved" />
-				<netio132_punk_zip name="netio132.zip" file="true" Host="IP_not_solved" />
-				<ueb01_punk_txt name="ueb01.txt" file="true" Host="IP_not_solved" />
-				<netio132 directory="true" Host="IP_not_solved" name="netio132">
-					<FILE_ID_punk_DIZ name="FILE_ID.DIZ" file="true" Host="IP_not_solved" />
-					<Makefile name="Makefile" file="true" Host="IP_not_solved" />
-					<getopt name="getopt" file="true" Host="IP_not_solved" />
-					<getopt_punk_c name="getopt.c" file="true" Host="IP_not_solved" />
-					<getopt_punk_h name="getopt.h" file="true" Host="IP_not_solved" />
-					<getopt_punk_o name="getopt.o" file="true" Host="IP_not_solved" />
-					<netio_punk_c name="netio.c" file="true" Host="IP_not_solved" />
-					<netio_punk_doc name="netio.doc" file="true" Host="IP_not_solved" />
-					<netio_punk_o name="netio.o" file="true" Host="IP_not_solved" />
-					<wpy_minus_bin directory="true" Host="IP_not_solved" name="wpy-bin">
-						<netio_minus_CentOS name="netio-CentOS" file="true" Host="IP_not_solved" />
-						<netio_minus_Redhat name="netio-Redhat" file="true" Host="IP_not_solved" />
-						<netio_minus_Solaris_minus_Sparc name="netio-Solaris-Sparc" file="true" Host="IP_not_solved" />
-						<netio_minus_XUbuntu name="netio-XUbuntu" file="true" Host="IP_not_solved" />
-						<netio_minus_win_punk_exe name="netio-win.exe" file="true" Host="IP_not_solved" />
+			<ueb01 directory="true" Host="192.168.0.3" name="ueb01">
+				<loesung01_punk_txt name="loesung01.txt" file="true" Host="192.168.0.3" />
+				<netio132_punk_zip name="netio132.zip" file="true" Host="192.168.0.3" />
+				<ueb01_punk_txt name="ueb01.txt" file="true" Host="192.168.0.3" />
+				<netio132 directory="true" Host="192.168.0.3" name="netio132">
+					<FILE_ID_punk_DIZ name="FILE_ID.DIZ" file="true" Host="192.168.0.3" />
+					<Makefile name="Makefile" file="true" Host="192.168.0.3" />
+					<getopt name="getopt" file="true" Host="192.168.0.3" />
+					<getopt_punk_c name="getopt.c" file="true" Host="192.168.0.3" />
+					<getopt_punk_h name="getopt.h" file="true" Host="192.168.0.3" />
+					<getopt_punk_o name="getopt.o" file="true" Host="192.168.0.3" />
+					<netio_punk_c name="netio.c" file="true" Host="192.168.0.3" />
+					<netio_punk_doc name="netio.doc" file="true" Host="192.168.0.3" />
+					<netio_punk_o name="netio.o" file="true" Host="192.168.0.3" />
+					<wpy_minus_bin directory="true" Host="192.168.0.3" name="wpy-bin">
+						<netio_minus_CentOS name="netio-CentOS" file="true" Host="192.168.0.3" />
+						<netio_minus_Redhat name="netio-Redhat" file="true" Host="192.168.0.3" />
+						<netio_minus_Solaris_minus_Sparc name="netio-Solaris-Sparc" file="true" Host="192.168.0.3" />
+						<netio_minus_XUbuntu name="netio-XUbuntu" file="true" Host="192.168.0.3" />
+						<netio_minus_win_punk_exe name="netio-win.exe" file="true" Host="192.168.0.3" />
 					</wpy_minus_bin>
-					<bin directory="true" Host="IP_not_solved" name="bin">
-						<aix_minus_ppc64 name="aix-ppc64" file="true" Host="IP_not_solved" />
-						<freebsd_minus_i386 name="freebsd-i386" file="true" Host="IP_not_solved" />
-						<linux_minus_i386 name="linux-i386" file="true" Host="IP_not_solved" />
-						<linux_minus_x86_64 name="linux-x86_64" file="true" Host="IP_not_solved" />
-						<mac_minus_osx_minus_10_punk_5_punk_tar_punk_gz name="mac-osx-10.5.tar.gz" file="true" Host="IP_not_solved" />
-						<os2_minus_i386_punk_exe name="os2-i386.exe" file="true" Host="IP_not_solved" />
-						<sol10_minus_i386 name="sol10-i386" file="true" Host="IP_not_solved" />
-						<sol9_minus_sparc name="sol9-sparc" file="true" Host="IP_not_solved" />
-						<win32_minus_i386_punk_exe name="win32-i386.exe" file="true" Host="IP_not_solved" />
+					<bin directory="true" Host="192.168.0.3" name="bin">
+						<aix_minus_ppc64 name="aix-ppc64" file="true" Host="192.168.0.3" />
+						<freebsd_minus_i386 name="freebsd-i386" file="true" Host="192.168.0.3" />
+						<linux_minus_i386 name="linux-i386" file="true" Host="192.168.0.3" />
+						<linux_minus_x86_64 name="linux-x86_64" file="true" Host="192.168.0.3" />
+						<mac_minus_osx_minus_10_punk_5_punk_tar_punk_gz name="mac-osx-10.5.tar.gz" file="true" Host="192.168.0.3" />
+						<os2_minus_i386_punk_exe name="os2-i386.exe" file="true" Host="192.168.0.3" />
+						<sol10_minus_i386 name="sol10-i386" file="true" Host="192.168.0.3" />
+						<sol9_minus_sparc name="sol9-sparc" file="true" Host="192.168.0.3" />
+						<win32_minus_i386_punk_exe name="win32-i386.exe" file="true" Host="192.168.0.3" />
 					</bin>
 				</netio132>
-				<X11 directory="true" Host="IP_not_solved" name="X11">
-					<_punk_dmrc name=".dmrc" file="true" Host="IP_not_solved" />
-					<_punk_esd_auth name=".esd_auth" file="true" Host="IP_not_solved" />
-					<_punk_recently_minus_used_punk_xbel name=".recently-used.xbel" file="true" Host="IP_not_solved" />
-					<_punk_recently_minus_used_punk_xbel_minus_vubun name=".recently-used.xbel-vubun" file="true" Host="IP_not_solved" />
-					<stl_minus_s_minus_stud_punk_dtterm name="stl-s-stud.dtterm" file="true" Host="IP_not_solved" />
-					<stl_minus_s_minus_stud_punk_xterm name="stl-s-stud.xterm" file="true" Host="IP_not_solved" />
-					<stl_minus_s_minus_ubu_punk_xfce4 name="stl-s-ubu.xfce4" file="true" Host="IP_not_solved" />
-					<stl_minus_s_minus_ubu_punk_xterm name="stl-s-ubu.xterm" file="true" Host="IP_not_solved" />
-					<_punk_mozilla_minus_vubun directory="true" Host="IP_not_solved" name=".mozilla-vubun" />
-					<_punk_gnome2 directory="true" Host="IP_not_solved" name=".gnome2" />
-					<_punk_tarantella directory="true" Host="IP_not_solved" name=".tarantella" />
-					<_punk_thumbnails_minus_vubun directory="true" Host="IP_not_solved" name=".thumbnails-vubun" />
-					<_punk_gnome directory="true" Host="IP_not_solved" name=".gnome" />
-					<_punk_nautilus_minus_vubun directory="true" Host="IP_not_solved" name=".nautilus-vubun" />
-					<_punk_config_minus_vubun directory="true" Host="IP_not_solved" name=".config-vubun" />
-					<_punk_thunderbird directory="true" Host="IP_not_solved" name=".thunderbird" />
-					<_punk_gconfd_minus_vubun directory="true" Host="IP_not_solved" name=".gconfd-vubun" />
-					<_punk_mozilla directory="true" Host="IP_not_solved" name=".mozilla" />
-					<_punk_gstreamer_minus_0_punk_10 directory="true" Host="IP_not_solved" name=".gstreamer-0.10" />
-					<_punk_iiim_minus_vubun directory="true" Host="IP_not_solved" name=".iiim-vubun" />
-					<_punk_gnome_minus_vubun directory="true" Host="IP_not_solved" name=".gnome-vubun" />
-					<_punk_dbus directory="true" Host="IP_not_solved" name=".dbus" />
-					<_punk_local_minus_vubun directory="true" Host="IP_not_solved" name=".local-vubun" />
-					<_punk_icons_minus_vubun directory="true" Host="IP_not_solved" name=".icons-vubun" />
-					<_punk_tarantella_minus_vubun directory="true" Host="IP_not_solved" name=".tarantella-vubun" />
-					<_punk_pulse directory="true" Host="IP_not_solved" name=".pulse" />
-					<_punk_local directory="true" Host="IP_not_solved" name=".local" />
-					<_punk_gstreamer_minus_0_punk_10_minus_vubun directory="true" Host="IP_not_solved" name=".gstreamer-0.10-vubun" />
-					<_punk_thunderbird_minus_vubun directory="true" Host="IP_not_solved" name=".thunderbird-vubun" />
-					<_punk_gconf directory="true" Host="IP_not_solved" name=".gconf" />
-					<_punk_config directory="true" Host="IP_not_solved" name=".config" />
+				<X11 directory="true" Host="192.168.0.3" name="X11">
+					<_punk_dmrc name=".dmrc" file="true" Host="192.168.0.3" />
+					<_punk_esd_auth name=".esd_auth" file="true" Host="192.168.0.3" />
+					<_punk_recently_minus_used_punk_xbel name=".recently-used.xbel" file="true" Host="192.168.0.3" />
+					<_punk_recently_minus_used_punk_xbel_minus_vubun name=".recently-used.xbel-vubun" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_stud_punk_dtterm name="stl-s-stud.dtterm" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_stud_punk_xterm name="stl-s-stud.xterm" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_ubu_punk_xfce4 name="stl-s-ubu.xfce4" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_ubu_punk_xterm name="stl-s-ubu.xterm" file="true" Host="192.168.0.3" />
+					<_punk_mozilla_minus_vubun directory="true" Host="192.168.0.3" name=".mozilla-vubun" />
+					<_punk_gnome2 directory="true" Host="192.168.0.3" name=".gnome2" />
+					<_punk_tarantella directory="true" Host="192.168.0.3" name=".tarantella" />
+					<_punk_thumbnails_minus_vubun directory="true" Host="192.168.0.3" name=".thumbnails-vubun" />
+					<_punk_gnome directory="true" Host="192.168.0.3" name=".gnome" />
+					<_punk_nautilus_minus_vubun directory="true" Host="192.168.0.3" name=".nautilus-vubun" />
+					<_punk_config_minus_vubun directory="true" Host="192.168.0.3" name=".config-vubun" />
+					<_punk_thunderbird directory="true" Host="192.168.0.3" name=".thunderbird" />
+					<_punk_gconfd_minus_vubun directory="true" Host="192.168.0.3" name=".gconfd-vubun" />
+					<_punk_mozilla directory="true" Host="192.168.0.3" name=".mozilla" />
+					<_punk_gstreamer_minus_0_punk_10 directory="true" Host="192.168.0.3" name=".gstreamer-0.10" />
+					<_punk_iiim_minus_vubun directory="true" Host="192.168.0.3" name=".iiim-vubun" />
+					<_punk_gnome_minus_vubun directory="true" Host="192.168.0.3" name=".gnome-vubun" />
+					<_punk_dbus directory="true" Host="192.168.0.3" name=".dbus" />
+					<_punk_local_minus_vubun directory="true" Host="192.168.0.3" name=".local-vubun" />
+					<_punk_icons_minus_vubun directory="true" Host="192.168.0.3" name=".icons-vubun" />
+					<_punk_tarantella_minus_vubun directory="true" Host="192.168.0.3" name=".tarantella-vubun" />
+					<_punk_pulse directory="true" Host="192.168.0.3" name=".pulse" />
+					<_punk_local directory="true" Host="192.168.0.3" name=".local" />
+					<_punk_gstreamer_minus_0_punk_10_minus_vubun directory="true" Host="192.168.0.3" name=".gstreamer-0.10-vubun" />
+					<_punk_thunderbird_minus_vubun directory="true" Host="192.168.0.3" name=".thunderbird-vubun" />
+					<_punk_gconf directory="true" Host="192.168.0.3" name=".gconf" />
+					<_punk_config directory="true" Host="192.168.0.3" name=".config" />
 				</X11>
 			</ueb01>
-			<ueb04 directory="true" Host="IP_not_solved" name="ueb04">
-				<ueb04_punk_txt name="ueb04.txt" file="true" Host="IP_not_solved" />
-				<Linux_minus_Netzwerk_minus_Kommandos directory="true" Host="IP_not_solved" name="Linux-Netzwerk-Kommandos">
-					<Deprecated_Linux_networking_commands_punk_docx name="Deprecated_Linux_networking_commands.docx" file="true" Host="IP_not_solved" />
-					<Deprecated_Linux_networking_commands_punk_pdf name="Deprecated_Linux_networking_commands.pdf" file="true" Host="IP_not_solved" />
+			<ueb04 directory="true" Host="192.168.0.3" name="ueb04">
+				<ueb04_punk_txt name="ueb04.txt" file="true" Host="192.168.0.3" />
+				<Linux_minus_Netzwerk_minus_Kommandos directory="true" Host="192.168.0.3" name="Linux-Netzwerk-Kommandos">
+					<Deprecated_Linux_networking_commands_punk_docx name="Deprecated_Linux_networking_commands.docx" file="true" Host="192.168.0.3" />
+					<Deprecated_Linux_networking_commands_punk_pdf name="Deprecated_Linux_networking_commands.pdf" file="true" Host="192.168.0.3" />
 				</Linux_minus_Netzwerk_minus_Kommandos>
-				<HTW_minus_WLAN_minus_Daten directory="true" Host="IP_not_solved" name="HTW-WLAN-Daten">
-					<HTW_minus_WLAN_minus_Eduroam_minus_2015 name="HTW-WLAN-Eduroam-2015" file="true" Host="IP_not_solved" />
-					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_HTWDS_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+HTWDS-VPN-2014" file="true" Host="IP_not_solved" />
-					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_STL_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+STL-VPN-2014" file="true" Host="IP_not_solved" />
-					<HTW_minus_WLAN_minus_hiz_minus_saarland_minus_2014 name="HTW-WLAN-hiz-saarland-2014" file="true" Host="IP_not_solved" />
-					<HTW_minus_WLAN_minus_htwintern_minus_2014 name="HTW-WLAN-htwintern-2014" file="true" Host="IP_not_solved" />
-					<win7_HTW_minus_LAN_ipconfig_minus_all_minus_neu name="win7_HTW-LAN_ipconfig-all-neu" file="true" Host="IP_not_solved" />
+				<HTW_minus_WLAN_minus_Daten directory="true" Host="192.168.0.3" name="HTW-WLAN-Daten">
+					<HTW_minus_WLAN_minus_Eduroam_minus_2015 name="HTW-WLAN-Eduroam-2015" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_HTWDS_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+HTWDS-VPN-2014" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_STL_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+STL-VPN-2014" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_minus_2014 name="HTW-WLAN-hiz-saarland-2014" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_htwintern_minus_2014 name="HTW-WLAN-htwintern-2014" file="true" Host="192.168.0.3" />
+					<win7_HTW_minus_LAN_ipconfig_minus_all_minus_neu name="win7_HTW-LAN_ipconfig-all-neu" file="true" Host="192.168.0.3" />
 				</HTW_minus_WLAN_minus_Daten>
-				<Hausaufgabe directory="true" Host="IP_not_solved" name="Hausaufgabe">
-					<Subnetting_minus_1_punk_gif name="Subnetting-1.gif" file="true" Host="IP_not_solved" />
-					<Subnetting_minus_1_punk_pdf name="Subnetting-1.pdf" file="true" Host="IP_not_solved" />
-					<Subnetting_minus_2_punk_gif name="Subnetting-2.gif" file="true" Host="IP_not_solved" />
-					<Subnetting_minus_2_punk_pdf name="Subnetting-2.pdf" file="true" Host="IP_not_solved" />
+				<Hausaufgabe directory="true" Host="192.168.0.3" name="Hausaufgabe">
+					<Subnetting_minus_1_punk_gif name="Subnetting-1.gif" file="true" Host="192.168.0.3" />
+					<Subnetting_minus_1_punk_pdf name="Subnetting-1.pdf" file="true" Host="192.168.0.3" />
+					<Subnetting_minus_2_punk_gif name="Subnetting-2.gif" file="true" Host="192.168.0.3" />
+					<Subnetting_minus_2_punk_pdf name="Subnetting-2.pdf" file="true" Host="192.168.0.3" />
 				</Hausaufgabe>
 			</ueb04>
-			<ueb03 directory="true" Host="IP_not_solved" name="ueb03">
-				<loesung03_punk_txt name="loesung03.txt" file="true" Host="IP_not_solved" />
-				<ueb03_punk_txt name="ueb03.txt" file="true" Host="IP_not_solved" />
-				<loesung03_minus_daten directory="true" Host="IP_not_solved" name="loesung03-daten">
-					<HOME_minus_LAN_minus_ping name="HOME-LAN-ping" file="true" Host="IP_not_solved" />
-					<HOME_minus_WLAN_minus_ping name="HOME-WLAN-ping" file="true" Host="IP_not_solved" />
-					<HTW_minus_LAN_minus_STL_minus_VLAN_minus_ping name="HTW-LAN-STL-VLAN-ping" file="true" Host="IP_not_solved" />
-					<HTW_minus_LAN_minus_ping name="HTW-LAN-ping" file="true" Host="IP_not_solved" />
-					<HTW_minus_WLAN_minus_Eduroam_minus_STL_minus_VLAN_minus_ping name="HTW-WLAN-Eduroam-STL-VLAN-ping" file="true" Host="IP_not_solved" />
-					<HTW_minus_WLAN_minus_Eduroam_minus_ping name="HTW-WLAN-Eduroam-ping" file="true" Host="IP_not_solved" />
-					<proz_punk_bat name="proz.bat" file="true" Host="IP_not_solved" />
-					<proz_punk_bat_real_protokoll_2016_05_19 name="proz.bat_real_protokoll_2016_05_19" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv4_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_12_09 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02" file="true" Host="IP_not_solved" />
-					<wpy_pinge_rechnerliste_win10_protokoll_2016_11_24 name="wpy_pinge_rechnerliste_win10_protokoll_2016_11_24" file="true" Host="IP_not_solved" />
+			<ueb03 directory="true" Host="192.168.0.3" name="ueb03">
+				<loesung03_punk_txt name="loesung03.txt" file="true" Host="192.168.0.3" />
+				<ueb03_punk_txt name="ueb03.txt" file="true" Host="192.168.0.3" />
+				<loesung03_minus_daten directory="true" Host="192.168.0.3" name="loesung03-daten">
+					<HOME_minus_LAN_minus_ping name="HOME-LAN-ping" file="true" Host="192.168.0.3" />
+					<HOME_minus_WLAN_minus_ping name="HOME-WLAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_LAN_minus_STL_minus_VLAN_minus_ping name="HTW-LAN-STL-VLAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_LAN_minus_ping name="HTW-LAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_Eduroam_minus_STL_minus_VLAN_minus_ping name="HTW-WLAN-Eduroam-STL-VLAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_Eduroam_minus_ping name="HTW-WLAN-Eduroam-ping" file="true" Host="192.168.0.3" />
+					<proz_punk_bat name="proz.bat" file="true" Host="192.168.0.3" />
+					<proz_punk_bat_real_protokoll_2016_05_19 name="proz.bat_real_protokoll_2016_05_19" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv4_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_12_09 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_win10_protokoll_2016_11_24 name="wpy_pinge_rechnerliste_win10_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
 				</loesung03_minus_daten>
 			</ueb03>
-			<Vorlesung directory="true" Host="IP_not_solved" name="Vorlesung">
-				<Rechnernetze_minus_Skript_punk_pdf name="Rechnernetze-Skript.pdf" file="true" Host="IP_not_solved" />
+			<Vorlesung directory="true" Host="192.168.0.3" name="Vorlesung">
+				<Rechnernetze_minus_Skript_punk_pdf name="Rechnernetze-Skript.pdf" file="true" Host="192.168.0.3" />
 			</Vorlesung>
-			<ueb05 directory="true" Host="IP_not_solved" name="ueb05">
-				<ueb05_punk_txt name="ueb05.txt" file="true" Host="IP_not_solved" />
-				<HTW_minus_WLAN_minus_Daten directory="true" Host="IP_not_solved" name="HTW-WLAN-Daten">
-					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r name="Win7-HTW-WLAN-Eduroam-netstat-r" file="true" Host="IP_not_solved" />
-					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r_minus_2014 name="Win7-HTW-WLAN-Eduroam-netstat-r-2014" file="true" Host="IP_not_solved" />
-					<Win7_minus_HTW_minus_WLAN_minus_hiz_minus_saarland_minus_netstat_minus_r name="Win7-HTW-WLAN-hiz-saarland-netstat-r" file="true" Host="IP_not_solved" />
-					<Win7_minus_HTW_minus_WLAN_minus_htwintern_minus_netstat_minus_r name="Win7-HTW-WLAN-htwintern-netstat-r" file="true" Host="IP_not_solved" />
-					<Win7_HTW_minus_LAN_netstat_minus_r name="Win7_HTW-LAN_netstat-r" file="true" Host="IP_not_solved" />
+			<ueb05 directory="true" Host="192.168.0.3" name="ueb05">
+				<ueb05_punk_txt name="ueb05.txt" file="true" Host="192.168.0.3" />
+				<HTW_minus_WLAN_minus_Daten directory="true" Host="192.168.0.3" name="HTW-WLAN-Daten">
+					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r name="Win7-HTW-WLAN-Eduroam-netstat-r" file="true" Host="192.168.0.3" />
+					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r_minus_2014 name="Win7-HTW-WLAN-Eduroam-netstat-r-2014" file="true" Host="192.168.0.3" />
+					<Win7_minus_HTW_minus_WLAN_minus_hiz_minus_saarland_minus_netstat_minus_r name="Win7-HTW-WLAN-hiz-saarland-netstat-r" file="true" Host="192.168.0.3" />
+					<Win7_minus_HTW_minus_WLAN_minus_htwintern_minus_netstat_minus_r name="Win7-HTW-WLAN-htwintern-netstat-r" file="true" Host="192.168.0.3" />
+					<Win7_HTW_minus_LAN_netstat_minus_r name="Win7_HTW-LAN_netstat-r" file="true" Host="192.168.0.3" />
 				</HTW_minus_WLAN_minus_Daten>
 			</ueb05>
 		</Rechnernetze>

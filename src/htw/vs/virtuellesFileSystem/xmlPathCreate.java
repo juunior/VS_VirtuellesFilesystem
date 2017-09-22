@@ -17,7 +17,6 @@ import java.util.*;
 
 public class xmlPathCreate {
     private String ROOTDIR;
-
     private String DELIMITER;
 
     private final static String DATNAM = "xmlTest.xml";
@@ -32,52 +31,52 @@ public class xmlPathCreate {
         return doc;
     }
 
-    private String removeIllegalCharacter(String tag){
+    private String removeIllegalCharacter(String tag) {
 
         int i = 0;
-        LinkedHashMap<String,String> illegalCharacterAndReplacement = new LinkedHashMap<>();
+        LinkedHashMap<String, String> illegalCharacterAndReplacement = new LinkedHashMap<>();
 
-        illegalCharacterAndReplacement.put(" ","-_-");
-        illegalCharacterAndReplacement.put("+","_plus_");
-        illegalCharacterAndReplacement.put("[","_sbracc_");
-        illegalCharacterAndReplacement.put("]","_sbraco_");
-        illegalCharacterAndReplacement.put("=","_eq_");
-        illegalCharacterAndReplacement.put("!","_exc_");
-        illegalCharacterAndReplacement.put("#","_hash_");
-        illegalCharacterAndReplacement.put(",","_komma_");
-        illegalCharacterAndReplacement.put("$","_dollar_");
-        illegalCharacterAndReplacement.put("~","_tilde_");
-        illegalCharacterAndReplacement.put("{","_cbracoo_");
-        illegalCharacterAndReplacement.put("}","_cbracoc_");
-        illegalCharacterAndReplacement.put("&","_and_");
-        illegalCharacterAndReplacement.put(".","_punk_");
-        illegalCharacterAndReplacement.put("®","_copyRight_");
-        illegalCharacterAndReplacement.put("℗","_popyRight_");  //Wie heißt das wirklich
-        illegalCharacterAndReplacement.put("①","_circ1_");
-        illegalCharacterAndReplacement.put("@","_atat_");
-        illegalCharacterAndReplacement.put(":","_dPoint_");
-        illegalCharacterAndReplacement.put("'","_hochkomma_");
-        illegalCharacterAndReplacement.put("\"","gansFuss");
-        illegalCharacterAndReplacement.put("|","_pipe_");
-        illegalCharacterAndReplacement.put("%","_proz_");
-        illegalCharacterAndReplacement.put("*","_star_");
-        illegalCharacterAndReplacement.put("(","_braco_");
-        illegalCharacterAndReplacement.put(")","_bracc_");
-        illegalCharacterAndReplacement.put("-","_minus_");
-        illegalCharacterAndReplacement.put("?","_ask_");
-        illegalCharacterAndReplacement.put("¶","_newL_");
-        illegalCharacterAndReplacement.put("`","_backtick_");
+        illegalCharacterAndReplacement.put(" ", "-_-");
+        illegalCharacterAndReplacement.put("+", "_plus_");
+        illegalCharacterAndReplacement.put("[", "_sbracc_");
+        illegalCharacterAndReplacement.put("]", "_sbraco_");
+        illegalCharacterAndReplacement.put("=", "_eq_");
+        illegalCharacterAndReplacement.put("!", "_exc_");
+        illegalCharacterAndReplacement.put("#", "_hash_");
+        illegalCharacterAndReplacement.put(",", "_komma_");
+        illegalCharacterAndReplacement.put("$", "_dollar_");
+        illegalCharacterAndReplacement.put("~", "_tilde_");
+        illegalCharacterAndReplacement.put("{", "_cbracoo_");
+        illegalCharacterAndReplacement.put("}", "_cbracoc_");
+        illegalCharacterAndReplacement.put("&", "_and_");
+        illegalCharacterAndReplacement.put(".", "_punk_");
+        illegalCharacterAndReplacement.put("®", "_copyRight_");
+        illegalCharacterAndReplacement.put("℗", "_scopyRight_");
+        illegalCharacterAndReplacement.put("①", "_circ1_");
+        illegalCharacterAndReplacement.put("@", "_atat_");
+        illegalCharacterAndReplacement.put(":", "_dPoint_");
+        illegalCharacterAndReplacement.put("'", "_hochkomma_");
+        illegalCharacterAndReplacement.put("\"", "gansFuss");
+        illegalCharacterAndReplacement.put("|", "_pipe_");
+        illegalCharacterAndReplacement.put("%", "_proz_");
+        illegalCharacterAndReplacement.put("*", "_star_");
+        illegalCharacterAndReplacement.put("(", "_braco_");
+        illegalCharacterAndReplacement.put(")", "_bracc_");
+        illegalCharacterAndReplacement.put("-", "_minus_");
+        illegalCharacterAndReplacement.put("?", "_ask_");
+        illegalCharacterAndReplacement.put("¶", "_newL_");
+        illegalCharacterAndReplacement.put("`", "_backtick_");
 
 
         ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
         ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
 
-        for (String symbol :illegal){
-            if (tag.contains(symbol)){
+        for (String symbol : illegal) {
+            if (tag.contains(symbol)) {
                 tag = tag.replace(symbol, replacement.get(i));
             }
             if (Character.isDigit(tag.charAt(0))) {
-            tag = "_" + tag;
+                tag = "_" + tag;
             }
             i++;
         }
@@ -113,24 +112,23 @@ public class xmlPathCreate {
         }
         return p;
     }
-    private String solveIP(){
+
+    private String solveIP() {
         Enumeration<NetworkInterface> n = null;
         try {
             n = NetworkInterface.getNetworkInterfaces();
         } catch (SocketException e) {
             e.printStackTrace();
         }
-        for (; n.hasMoreElements();)
-        {
+        for (; n.hasMoreElements(); ) {
             NetworkInterface e = n.nextElement();
 
             Enumeration<InetAddress> a = e.getInetAddresses();
-            for (; a.hasMoreElements();)
-            {
+            for (; a.hasMoreElements(); ) {
                 InetAddress addr = a.nextElement();
-                if (addr.getHostAddress().length() <=16) {
-                    if (!addr.getHostAddress().contains("0"))
-                    return addr.getHostAddress();
+                if (addr.getHostAddress().length() <= 16) {
+                    if (!addr.getHostAddress().contains("127"))
+                        return addr.getHostAddress();
                 }
             }
         }
@@ -167,7 +165,7 @@ public class xmlPathCreate {
     private Element insertChild(File file, Element xml) {
         String real = StringUtils.difference(ROOTDIR, file.getAbsolutePath());
         String[] childs;
-        if (Objects.equals(DELIMITER, "\\")){
+        if (Objects.equals(DELIMITER, "\\")) {
             childs = real.split("\\\\");
         } else {
             childs = real.split("/");
@@ -183,7 +181,7 @@ public class xmlPathCreate {
         } else {
             xml = xml.getChild(file.getName());
         }
-        System.out.println("REAL :::  " + real + "\t" + "CHILD::::" + Arrays.toString(childs) + "\t FILE::::" + file.getName());
+//        System.out.println("REAL :::  " + real + "\t" + "CHILD::::" + Arrays.toString(childs) + "\t FILE::::" + file.getName());
 
         return xml;
     }
@@ -228,27 +226,27 @@ public class xmlPathCreate {
 
     public void writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
         String os = System.getProperty("os.name");
-        if (os.toLowerCase().contains("windows")){
+        if (os.toLowerCase().contains("windows")) {
             DELIMITER = "\\";
-        }else {
+        } else {
             DELIMITER = "/";
         }
 
-        if (!dir.endsWith(DELIMITER)){
+        if (!dir.endsWith(DELIMITER)) {
             dir = dir.concat(DELIMITER);
         }
 
-        if (!new File(dir).exists()){
+        if (!new File(dir).exists()) {
             throw new FileNotFoundException();
         }
-        if (!new File(dir).isDirectory()){
+        if (!new File(dir).isDirectory()) {
             throw new NotDirectoryException(dir);
         }
         File rootDir = new File(dir);
 
         String[] root;
 
-        if (Objects.equals(DELIMITER, "\\")){
+        if (Objects.equals(DELIMITER, "\\")) {
             root = dir.split("\\\\");
         } else {
             root = dir.split("/");
