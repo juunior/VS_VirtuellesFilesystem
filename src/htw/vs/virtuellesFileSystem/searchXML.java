@@ -14,17 +14,7 @@ import java.io.IOException;
 
 public class searchXML {
 
-    public static void main(String[] args) throws org.xml.sax.SAXException, IOException,
-            ParserConfigurationException, TransformerException {
 
-        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        Document document = docBuilder.parse(new File("xmlTest.xml"));
-
-        // File Name aendern
-        String str = "test";
-        suche(str, document);
-    }
 
 
     public static void suche(String str, Document document) throws ParserConfigurationException, IOException, SAXException {

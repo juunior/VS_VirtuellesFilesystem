@@ -35,42 +35,42 @@ public class xmlPathCreate {
     private String removeIllegalCharacter(String tag){
 
         int i = 0;
-        LinkedHashMap<String,String> illegalCharaterAndReplacement = new LinkedHashMap<>();
+        LinkedHashMap<String,String> illegalCharacterAndReplacement = new LinkedHashMap<>();
 
-        illegalCharaterAndReplacement.put(" ","-_-");
-        illegalCharaterAndReplacement.put("+","_plus_");
-        illegalCharaterAndReplacement.put("[","_sbracc_");
-        illegalCharaterAndReplacement.put("]","_sbraco_");
-        illegalCharaterAndReplacement.put("=","_eq_");
-        illegalCharaterAndReplacement.put("!","_exc_");
-        illegalCharaterAndReplacement.put("#","_hash_");
-        illegalCharaterAndReplacement.put(",","_komma_");
-        illegalCharaterAndReplacement.put("$","_dollar_");
-        illegalCharaterAndReplacement.put("~","_tilde_");
-        illegalCharaterAndReplacement.put("{","_cbracoo_");
-        illegalCharaterAndReplacement.put("}","_cbracoc_");
-        illegalCharaterAndReplacement.put("&","_and_");
-        illegalCharaterAndReplacement.put(".","_punk_");
-        illegalCharaterAndReplacement.put("®","_copyRight_");
-        illegalCharaterAndReplacement.put("℗","_popyRight_");  //Wie heißt das wirklich
-        illegalCharaterAndReplacement.put("①","_circ1_");
-        illegalCharaterAndReplacement.put("@","_atat_");
-        illegalCharaterAndReplacement.put(":","_dPoint_");
-        illegalCharaterAndReplacement.put("'","_hochkomma_");
-        illegalCharaterAndReplacement.put("\"","gansFuss");
-        illegalCharaterAndReplacement.put("|","_pipe_");
-        illegalCharaterAndReplacement.put("%","_proz_");
-        illegalCharaterAndReplacement.put("*","_star_");
-        illegalCharaterAndReplacement.put("(","_braco_");
-        illegalCharaterAndReplacement.put(")","_bracc_");
-        illegalCharaterAndReplacement.put("-","_minus_");
-        illegalCharaterAndReplacement.put("?","_ask_");
-        illegalCharaterAndReplacement.put("¶","_newL_");
-        illegalCharaterAndReplacement.put("`","_backtick_");
+        illegalCharacterAndReplacement.put(" ","-_-");
+        illegalCharacterAndReplacement.put("+","_plus_");
+        illegalCharacterAndReplacement.put("[","_sbracc_");
+        illegalCharacterAndReplacement.put("]","_sbraco_");
+        illegalCharacterAndReplacement.put("=","_eq_");
+        illegalCharacterAndReplacement.put("!","_exc_");
+        illegalCharacterAndReplacement.put("#","_hash_");
+        illegalCharacterAndReplacement.put(",","_komma_");
+        illegalCharacterAndReplacement.put("$","_dollar_");
+        illegalCharacterAndReplacement.put("~","_tilde_");
+        illegalCharacterAndReplacement.put("{","_cbracoo_");
+        illegalCharacterAndReplacement.put("}","_cbracoc_");
+        illegalCharacterAndReplacement.put("&","_and_");
+        illegalCharacterAndReplacement.put(".","_punk_");
+        illegalCharacterAndReplacement.put("®","_copyRight_");
+        illegalCharacterAndReplacement.put("℗","_popyRight_");  //Wie heißt das wirklich
+        illegalCharacterAndReplacement.put("①","_circ1_");
+        illegalCharacterAndReplacement.put("@","_atat_");
+        illegalCharacterAndReplacement.put(":","_dPoint_");
+        illegalCharacterAndReplacement.put("'","_hochkomma_");
+        illegalCharacterAndReplacement.put("\"","gansFuss");
+        illegalCharacterAndReplacement.put("|","_pipe_");
+        illegalCharacterAndReplacement.put("%","_proz_");
+        illegalCharacterAndReplacement.put("*","_star_");
+        illegalCharacterAndReplacement.put("(","_braco_");
+        illegalCharacterAndReplacement.put(")","_bracc_");
+        illegalCharacterAndReplacement.put("-","_minus_");
+        illegalCharacterAndReplacement.put("?","_ask_");
+        illegalCharacterAndReplacement.put("¶","_newL_");
+        illegalCharacterAndReplacement.put("`","_backtick_");
 
 
-        ArrayList<String> illegal = new ArrayList<>(illegalCharaterAndReplacement.keySet());
-        ArrayList<String> replacement = new ArrayList<>(illegalCharaterAndReplacement.values());
+        ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
+        ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
 
         for (String symbol :illegal){
             if (tag.contains(symbol)){
