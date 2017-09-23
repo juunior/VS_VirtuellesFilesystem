@@ -13,12 +13,14 @@ public class searchXML {
 
     public static void suche(String str, Document document) throws ParserConfigurationException, IOException, SAXException {
 
+        str = xmlPathCreate.removeIllegalCharacter(str);
+
         NodeList nodeList = document.getElementsByTagName(str);
 
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
             if (node.getNodeType() == Node.ELEMENT_NODE) {
-                System.out.println(nodeToString(node));
+                System.out.println(xmlPathCreate.rewertIllegalCharacter(nodeToString(node)));
             }
         }
     }

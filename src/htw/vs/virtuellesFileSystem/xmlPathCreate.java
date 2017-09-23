@@ -18,6 +18,7 @@ import java.util.*;
 public class xmlPathCreate {
     private String ROOTDIR;
     private String DELIMITER;
+    private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
 
     private final static String DATNAM = "xmlTest.xml";
 
@@ -31,10 +32,8 @@ public class xmlPathCreate {
         return doc;
     }
 
-    static String removeIllegalCharacter(String tag) {
-
-        int i = 0;
-        LinkedHashMap<String, String> illegalCharacterAndReplacement = new LinkedHashMap<>();
+    private static void setIllegalCharacter(){
+        illegalCharacterAndReplacement = new LinkedHashMap<>();
 
         illegalCharacterAndReplacement.put(" ", "-_-");
         illegalCharacterAndReplacement.put("+", "_plus_");
@@ -49,7 +48,7 @@ public class xmlPathCreate {
         illegalCharacterAndReplacement.put("{", "_cbracoo_");
         illegalCharacterAndReplacement.put("}", "_cbracoc_");
         illegalCharacterAndReplacement.put("&", "_and_");
-        illegalCharacterAndReplacement.put(".", "_punk_");
+        illegalCharacterAndReplacement.put(".", "_punkt_");
         illegalCharacterAndReplacement.put("®", "_copyRight_");
         illegalCharacterAndReplacement.put("℗", "_scopyRight_");
         illegalCharacterAndReplacement.put("①", "_circ1_");
@@ -66,8 +65,12 @@ public class xmlPathCreate {
         illegalCharacterAndReplacement.put("?", "_ask_");
         illegalCharacterAndReplacement.put("¶", "_newL_");
         illegalCharacterAndReplacement.put("`", "_backtick_");
+    }
 
+    static String removeIllegalCharacter(String tag) {
 
+        setIllegalCharacter();
+        int i = 0;
         ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
         ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
 
@@ -83,6 +86,28 @@ public class xmlPathCreate {
 
         return tag;
     }
+
+    static String rewertIllegalCharacter(String tag) {
+
+        setIllegalCharacter();
+        int i = 0;
+        ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
+        ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
+
+        for (String symbol : replacement) {
+            if (tag.contains(symbol)) {
+                tag = tag.replace(symbol, illegal.get(i));
+            }
+            if (Character.isDigit(tag.charAt(1))) {
+                tag = tag.substring(1,tag.length());
+            }
+            i++;
+        }
+
+        return tag;
+    }
+
+
 
     private Element buildElement(String[] files, String dirName) {
         String eDir = dirName; // eDir ist XML Konform
