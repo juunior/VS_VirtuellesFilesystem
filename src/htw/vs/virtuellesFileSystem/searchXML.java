@@ -20,7 +20,7 @@ public class searchXML {
         for (int i = 0; i < nodeList.getLength(); i++) {
             Node node = nodeList.item(i);
             if (node.getNodeType() == Node.ELEMENT_NODE) {
-                System.out.println(xmlPathCreate.rewertIllegalCharacter(nodeToString(node)));
+                System.out.println(xmlPathCreate.revertIllegalCharacter(nodeToString(node)));
             }
         }
     }

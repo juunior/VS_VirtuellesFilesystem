@@ -87,7 +87,7 @@ public class xmlPathCreate {
         return tag;
     }
 
-    static String rewertIllegalCharacter(String tag) {
+    static String revertIllegalCharacter(String tag) {
 
         setIllegalCharacter();
         int i = 0;
