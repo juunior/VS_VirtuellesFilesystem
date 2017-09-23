@@ -12,6 +12,7 @@ public class searchXML {
 
 
     public static void suche(String str, Document document) throws ParserConfigurationException, IOException, SAXException {
+        str = xmlPathCreate.removeIllegalCharacter(str);
 
         str = xmlPathCreate.removeIllegalCharacter(str);
 
