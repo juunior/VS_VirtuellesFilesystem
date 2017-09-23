@@ -23,6 +23,8 @@ public class searchXML {
         }
     }
 
+
+
     private static String nodeToString(Node node) {
         Node tmp = node;
         String str = "/" + node.getNodeName();

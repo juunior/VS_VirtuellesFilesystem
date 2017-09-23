@@ -31,7 +31,7 @@ public class xmlPathCreate {
         return doc;
     }
 
-    private String removeIllegalCharacter(String tag) {
+    static String removeIllegalCharacter(String tag) {
 
         int i = 0;
         LinkedHashMap<String, String> illegalCharacterAndReplacement = new LinkedHashMap<>();
