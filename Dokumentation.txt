@@ -153,3 +153,10 @@ Säuberungsaktion auf den GitBranches
 - Checksumme über die XML Datei - kleiner und schneller.
 - Robert testet die  XML
 - Kai&Christian implementieren die Suche
+
+24.9. Themen:
+- Implementierung in den letzten Zügen
+- Stundenzettel wird Mittwoch gegen 15 Uhr ausgelinkt -> Diagramme für Präsentation erstellen, drucken
+  bitte vorher noch ergänzen.
+- Prezi überholt
+- nächste Besprechung Dienstag
