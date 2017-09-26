@@ -10,14 +10,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.*;
 import java.nio.file.NotDirectoryException;
-import java.util.Arrays;
+import java.util.*;
 
 
 public class xmlPathCreate {
     private String ROOTDIR;
-
     private String DELIMITER;
+    private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
 
     private final static String DATNAM = "xmlTest.xml";
 
@@ -31,83 +32,134 @@ public class xmlPathCreate {
         return doc;
     }
 
+    private static void setIllegalCharacter(){
+        illegalCharacterAndReplacement = new LinkedHashMap<>();
+
+        illegalCharacterAndReplacement.put(" ", "-_-");
+        illegalCharacterAndReplacement.put("+", "_plus_");
+        illegalCharacterAndReplacement.put("[", "_sbracc_");
+        illegalCharacterAndReplacement.put("]", "_sbraco_");
+        illegalCharacterAndReplacement.put("=", "_eq_");
+        illegalCharacterAndReplacement.put("!", "_exc_");
+        illegalCharacterAndReplacement.put("#", "_hash_");
+        illegalCharacterAndReplacement.put(",", "_komma_");
+        illegalCharacterAndReplacement.put("$", "_dollar_");
+        illegalCharacterAndReplacement.put("~", "_tilde_");
+        illegalCharacterAndReplacement.put("{", "_cbracoo_");
+        illegalCharacterAndReplacement.put("}", "_cbracoc_");
+        illegalCharacterAndReplacement.put("&", "_and_");
+        illegalCharacterAndReplacement.put(".", "_punkt_");
+        illegalCharacterAndReplacement.put("®", "_copyRight_");
+        illegalCharacterAndReplacement.put("℗", "_scopyRight_");
+        illegalCharacterAndReplacement.put("①", "_circ1_");
+        illegalCharacterAndReplacement.put("@", "_atat_");
+        illegalCharacterAndReplacement.put(":", "_dPoint_");
+        illegalCharacterAndReplacement.put("'", "_hochkomma_");
+        illegalCharacterAndReplacement.put("\"", "gansFuss");
+        illegalCharacterAndReplacement.put("|", "_pipe_");
+        illegalCharacterAndReplacement.put("%", "_proz_");
+        illegalCharacterAndReplacement.put("*", "_star_");
+        illegalCharacterAndReplacement.put("(", "_braco_");
+        illegalCharacterAndReplacement.put(")", "_bracc_");
+        illegalCharacterAndReplacement.put("-", "_minus_");
+        illegalCharacterAndReplacement.put("?", "_ask_");
+        illegalCharacterAndReplacement.put("¶", "_newL_");
+        illegalCharacterAndReplacement.put("`", "_backtick_");
+    }
+
+    static String removeIllegalCharacter(String tag) {
+
+        setIllegalCharacter();
+        int i = 0;
+        ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
+        ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
+
+        for (String symbol : illegal) {
+            if (tag.contains(symbol)) {
+                tag = tag.replace(symbol, replacement.get(i));
+            }
+            if (Character.isDigit(tag.charAt(0))) {
+                tag = "_" + tag;
+            }
+            i++;
+        }
+
+        return tag;
+    }
+
+    static String revertIllegalCharacter(String tag) {
+
+        setIllegalCharacter();
+        int i = 0;
+        ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
+        ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
+
+        for (String symbol : replacement) {
+            if (tag.contains(symbol)) {
+                tag = tag.replace(symbol, illegal.get(i));
+            }
+            if (Character.isDigit(tag.charAt(1))) {
+                tag = tag.substring(1,tag.length());
+            }
+            i++;
+        }
+
+        return tag;
+    }
+
+
+
     private Element buildElement(String[] files, String dirName) {
         String eDir = dirName; // eDir ist XML Konform
         if (files != null) {
             Arrays.sort(files);
         }
-        Element p = new Element("tmp");
-        if (eDir.contains(" ")) {
-            eDir = eDir.replace(" ", "-_-");
-        }
-        if (eDir.contains("+")) {
-            eDir = eDir.replace("+", "_plus_");
-        }
-        if (eDir.contains("[")) {
-            eDir = eDir.replace("[", "_sbraco_");
-        }
-        if (eDir.contains("]")) {
-            eDir = eDir.replace("]", "_sbracc_");
-        }
-        if (eDir.contains("\\")) {
-            eDir = eDir.replace("\\", "_backsl_");
-        }
-        if (eDir.startsWith(".")) {
-            eDir = eDir.replace(".", "_punkt_");
-            p.setAttribute("dotdir", "yes");
-        }
-        if (Character.isDigit(eDir.charAt(0))) {
-            eDir = "_" + eDir;
-        }
 
-        p = new Element(eDir);
+        Element p = new Element(removeIllegalCharacter(eDir));
 
+        p.setAttribute("directory", "true");
+        p.setAttribute("Host", solveIP());
         p.setAttribute("name", dirName);
 
 
         if (files != null) {
             for (String file : files) {
                 eDir = file;
-                Element e1 = new Element("tmp");
-                if (eDir.contains(" ")) {
-                    eDir = eDir.replace(" ", "-_-");
-                }
-                if (eDir.startsWith(".")) {
-                    eDir = eDir.replace(".", "_punkt_");
-                    e1.setAttribute("dotfile", "yes");
-                }
-                if (eDir.contains("[")) {
-                    eDir = eDir.replace("[", "_sbraco_");
-                }
-                if (eDir.contains("]")) {
-                    eDir = eDir.replace("]", "_sbracc_");
-                }
-                if (eDir.contains("+")) {
-                    eDir = eDir.replace("+", "_plus_");
-                }
-                if (eDir.contains("\\")) {
-                    eDir = eDir.replace("\\", "_backsl_");
-                }
-                if (eDir.contains("~")) {
-                    eDir = eDir.replace("~", "_tilde_");
-                    e1.setAttribute("tempFile", "yes");
-                }
-                if (Character.isDigit(eDir.charAt(0))) {
-                    eDir = "_" + eDir;
-                }
-
-                e1 = new Element(eDir);
+                Element e1 = new Element(removeIllegalCharacter(eDir));
 
 
-//                System.out.println(file);
                 e1.setAttribute("name", file);
                 e1.setAttribute("file", "true");
+                e1.setAttribute("Host", solveIP());
                 p.addContent(e1);
             }
 
         }
         return p;
     }
+
+    private String solveIP() {
+        Enumeration<NetworkInterface> n = null;
+        try {
+            n = NetworkInterface.getNetworkInterfaces();
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+        for (; n.hasMoreElements(); ) {
+            NetworkInterface e = n.nextElement();
+
+            Enumeration<InetAddress> a = e.getInetAddresses();
+            for (; a.hasMoreElements(); ) {
+                InetAddress addr = a.nextElement();
+                if (addr.getHostAddress().length() <= 16) {
+                    if (!addr.getHostAddress().contains("127"))
+                        return addr.getHostAddress();
+                }
+            }
+        }
+        return "IP_not_solved";
+    }
+
 
     private void readDir(Document doc, String[] files, String dirName) {
         if (files != null) {
@@ -137,42 +189,24 @@ public class xmlPathCreate {
 
     private Element insertChild(File file, Element xml) {
         String real = StringUtils.difference(ROOTDIR, file.getAbsolutePath());
-        String[] childs = real.split(DELIMITER);
+        String[] childs;
+        if (Objects.equals(DELIMITER, "\\")) {
+            childs = real.split("\\\\");
+        } else {
+            childs = real.split("/");
+        }
         if (childs.length != 0) {
             if (!childs[0].isEmpty()) {
                 for (String child : childs) {
                     //gleiches Ersetzungsmuster wie in den Filtern
-                    if (child.contains(" ")) {
-                        child = child.replace(" ", "-_-");
-                    }
-                    if (child.startsWith(".")) {
-                        child = child.replace(".", "_punkt_");
-                    }
-                    if (child.contains("+")) {
-                        child = child.replace("+", "_plus_");
-                    }
-                    if (child.contains("~")) {
-                        child = child.replace("~", "_tilde_");
-                    }
-                    if (child.contains("]")) {
-                        child = child.replace("]", "_sbracc_");
-                    }
-                    if (child.contains("[")) {
-                        child = child.replace("[", "_sbraco_");
-                    }
-                    if (child.contains("\\")) {
-                        child = child.replace("\\", "_backsl_");
-                    }
-                    if (Character.isDigit(child.charAt(0))) {
-                        child = "_" + child;
-                    }
+                    child = removeIllegalCharacter(child);
                     xml = xml.getChild(child);
                 }
             }
         } else {
             xml = xml.getChild(file.getName());
         }
-        System.out.println("REAL :::  " + real + "\t" + "CHILD::::" + Arrays.toString(childs) + "\t FILE::::" + file.getName());
+//        System.out.println("REAL :::  " + real + "\t" + "CHILD::::" + Arrays.toString(childs) + "\t FILE::::" + file.getName());
 
         return xml;
     }
@@ -217,30 +251,35 @@ public class xmlPathCreate {
 
     public void writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
         String os = System.getProperty("os.name");
-        if (os.contains("windows")){
+        if (os.toLowerCase().contains("windows")) {
             DELIMITER = "\\";
-        }else {
+        } else {
             DELIMITER = "/";
         }
 
-        if (!dir.endsWith(DELIMITER)){
+        if (!dir.endsWith(DELIMITER)) {
             dir = dir.concat(DELIMITER);
         }
 
-        if (!new File(dir).exists()){
+        if (!new File(dir).exists()) {
             throw new FileNotFoundException();
         }
-        if (!new File(dir).isDirectory()){
+        if (!new File(dir).isDirectory()) {
             throw new NotDirectoryException(dir);
         }
         File rootDir = new File(dir);
 
-        String[] root = dir.split(DELIMITER);
+        String[] root;
+
+        if (Objects.equals(DELIMITER, "\\")) {
+            root = dir.split("\\\\");
+        } else {
+            root = dir.split("/");
+        }
         ROOTDIR = dir.replace(DELIMITER + root[root.length - 1] + DELIMITER, DELIMITER);
 
-
-
         getDir(rootDir, doc);
+        solveIP();
     }
 
 

@@ -1,586 +1,590 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<studium name="studium">
-		<_punkt__sync_a7aa8dc44fd7_punkt_db name="._sync_a7aa8dc44fd7.db" file="true" />
-		<_punkt_owncloudsync_punkt_log name=".owncloudsync.log" file="true" />
-		<DB15_04_ASPO.pdf name="DB15_04_ASPO.pdf" file="true" />
-		<Prfungsordnung.pdf name="Prfungsordnung.pdf" file="true" />
-		<prog1 name="prog1">
-			<HalloWelt.c name="HalloWelt.c" file="true" />
-			<head.everything name="head.everything" file="true" />
-			<head.sh name="head.sh" file="true" />
-			<test.c name="test.c" file="true" />
-			<ueb08 name="ueb08">
-				<Ausgabedatei.txt name="Ausgabedatei.txt" file="true" />
-				<Musterdatei.txt name="Musterdatei.txt" file="true" />
-				<UebungenfuerUebung8.c name="UebungenfuerUebung8.c" file="true" />
-				<a.out name="a.out" file="true" />
-				<ausgabe.c name="ausgabe.c" file="true" />
-				<ausgabe.h name="ausgabe.h" file="true" />
-				<ausgabe.o name="ausgabe.o" file="true" />
-				<auswertung name="auswertung" file="true" />
-				<auswertung.c name="auswertung.c" file="true" />
-				<auswertung.h name="auswertung.h" file="true" />
-				<auswertung.o name="auswertung.o" file="true" />
-				<hilfe.c name="hilfe.c" file="true" />
-				<hilfe.h name="hilfe.h" file="true" />
-				<hilfe.o name="hilfe.o" file="true" />
-				<makefile name="makefile" file="true" />
-				<struct.h name="struct.h" file="true" />
-				<testtarget.txt name="testtarget.txt" file="true" />
-				<Abgabe name="Abgabe">
-					<Musterdatei.txt name="Musterdatei.txt" file="true" />
-					<Ueb8.zip name="Ueb8.zip" file="true" />
-					<ausgabe.c name="ausgabe.c" file="true" />
-					<ausgabe.h name="ausgabe.h" file="true" />
-					<auswertung.c name="auswertung.c" file="true" />
-					<auswertung.h name="auswertung.h" file="true" />
-					<hilfe.c name="hilfe.c" file="true" />
-					<hilfe.h name="hilfe.h" file="true" />
-					<makefile name="makefile" file="true" />
-					<output name="output" file="true" />
-					<struct.h name="struct.h" file="true" />
+	<studium directory="true" Host="192.168.0.3" name="studium">
+		<_punkt__sync_a7aa8dc44fd7_punkt_db name="._sync_a7aa8dc44fd7.db" file="true" Host="192.168.0.3" />
+		<_punkt_owncloudsync_punkt_log name=".owncloudsync.log" file="true" Host="192.168.0.3" />
+		<DB15_04_ASPO_punkt_pdf name="DB15_04_ASPO.pdf" file="true" Host="192.168.0.3" />
+		<Prfungsordnung_punkt_pdf name="Prfungsordnung.pdf" file="true" Host="192.168.0.3" />
+		<prog1 directory="true" Host="192.168.0.3" name="prog1">
+			<HalloWelt_punkt_c name="HalloWelt.c" file="true" Host="192.168.0.3" />
+			<head_punkt_everything name="head.everything" file="true" Host="192.168.0.3" />
+			<head_punkt_sh name="head.sh" file="true" Host="192.168.0.3" />
+			<test_punkt_c name="test.c" file="true" Host="192.168.0.3" />
+			<ueb08 directory="true" Host="192.168.0.3" name="ueb08">
+				<Ausgabedatei_punkt_txt name="Ausgabedatei.txt" file="true" Host="192.168.0.3" />
+				<Musterdatei_punkt_txt name="Musterdatei.txt" file="true" Host="192.168.0.3" />
+				<UebungenfuerUebung8_punkt_c name="UebungenfuerUebung8.c" file="true" Host="192.168.0.3" />
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<ausgabe_punkt_c name="ausgabe.c" file="true" Host="192.168.0.3" />
+				<ausgabe_punkt_h name="ausgabe.h" file="true" Host="192.168.0.3" />
+				<ausgabe_punkt_o name="ausgabe.o" file="true" Host="192.168.0.3" />
+				<auswertung name="auswertung" file="true" Host="192.168.0.3" />
+				<auswertung_punkt_c name="auswertung.c" file="true" Host="192.168.0.3" />
+				<auswertung_punkt_h name="auswertung.h" file="true" Host="192.168.0.3" />
+				<auswertung_punkt_o name="auswertung.o" file="true" Host="192.168.0.3" />
+				<hilfe_punkt_c name="hilfe.c" file="true" Host="192.168.0.3" />
+				<hilfe_punkt_h name="hilfe.h" file="true" Host="192.168.0.3" />
+				<hilfe_punkt_o name="hilfe.o" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<struct_punkt_h name="struct.h" file="true" Host="192.168.0.3" />
+				<testtarget_punkt_txt name="testtarget.txt" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<Musterdatei_punkt_txt name="Musterdatei.txt" file="true" Host="192.168.0.3" />
+					<Ueb8_punkt_zip name="Ueb8.zip" file="true" Host="192.168.0.3" />
+					<ausgabe_punkt_c name="ausgabe.c" file="true" Host="192.168.0.3" />
+					<ausgabe_punkt_h name="ausgabe.h" file="true" Host="192.168.0.3" />
+					<auswertung_punkt_c name="auswertung.c" file="true" Host="192.168.0.3" />
+					<auswertung_punkt_h name="auswertung.h" file="true" Host="192.168.0.3" />
+					<hilfe_punkt_c name="hilfe.c" file="true" Host="192.168.0.3" />
+					<hilfe_punkt_h name="hilfe.h" file="true" Host="192.168.0.3" />
+					<makefile name="makefile" file="true" Host="192.168.0.3" />
+					<output name="output" file="true" Host="192.168.0.3" />
+					<struct_punkt_h name="struct.h" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb08>
-			<ueb02 name="ueb02">
-				<a.out name="a.out" file="true" />
-				<collatz-arg-read.c name="collatz-arg-read.c" file="true" />
-				<collatz.c name="collatz.c" file="true" />
-				<collatz.txt name="collatz.txt" file="true" />
-				<dreieck.c name="dreieck.c" file="true" />
-				<pythagora.c name="pythagora.c" file="true" />
-				<waehrungrechner-extend.c name="waehrungrechner-extend.c" file="true" />
-				<waehrungrechner.c name="waehrungrechner.c" file="true" />
-				<Abgabe name="Abgabe">
-					<collatz.c name="collatz.c" file="true" />
-					<dreieck.c name="dreieck.c" file="true" />
-					<pythagora.c name="pythagora.c" file="true" />
-					<ueb02.zip name="ueb02.zip" file="true" />
-					<waehrungrechner-extend.c name="waehrungrechner-extend.c" file="true" />
-					<waehrungrechner.c name="waehrungrechner.c" file="true" />
+			<ueb02 directory="true" Host="192.168.0.3" name="ueb02">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<collatz_minus_arg_minus_read_punkt_c name="collatz-arg-read.c" file="true" Host="192.168.0.3" />
+				<collatz_punkt_c name="collatz.c" file="true" Host="192.168.0.3" />
+				<collatz_punkt_txt name="collatz.txt" file="true" Host="192.168.0.3" />
+				<dreieck_punkt_c name="dreieck.c" file="true" Host="192.168.0.3" />
+				<pythagora_punkt_c name="pythagora.c" file="true" Host="192.168.0.3" />
+				<waehrungrechner_minus_extend_punkt_c name="waehrungrechner-extend.c" file="true" Host="192.168.0.3" />
+				<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<collatz_punkt_c name="collatz.c" file="true" Host="192.168.0.3" />
+					<dreieck_punkt_c name="dreieck.c" file="true" Host="192.168.0.3" />
+					<pythagora_punkt_c name="pythagora.c" file="true" Host="192.168.0.3" />
+					<ueb02_punkt_zip name="ueb02.zip" file="true" Host="192.168.0.3" />
+					<waehrungrechner_minus_extend_punkt_c name="waehrungrechner-extend.c" file="true" Host="192.168.0.3" />
+					<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb02>
-			<ueb06 name="ueb06">
-				<Abgabe.zip name="Abgabe.zip" file="true" />
-				<a.out name="a.out" file="true" />
-				<analyse.c name="analyse.c" file="true" />
-				<berechnung.c name="berechnung.c" file="true" />
-				<Abgabe name="Abgabe">
-					<a.out name="a.out" file="true" />
-					<analyse.c name="analyse.c" file="true" />
-					<berechnung.c name="berechnung.c" file="true" />
-					<ueb06.zip name="ueb06.zip" file="true" />
+			<ueb06 directory="true" Host="192.168.0.3" name="ueb06">
+				<Abgabe_punkt_zip name="Abgabe.zip" file="true" Host="192.168.0.3" />
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<analyse_punkt_c name="analyse.c" file="true" Host="192.168.0.3" />
+				<berechnung_punkt_c name="berechnung.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+					<analyse_punkt_c name="analyse.c" file="true" Host="192.168.0.3" />
+					<berechnung_punkt_c name="berechnung.c" file="true" Host="192.168.0.3" />
+					<ueb06_punkt_zip name="ueb06.zip" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb06>
-			<ueb01 name="ueb01">
-				<a.out name="a.out" file="true" />
-				<benzinKosten name="benzinKosten" file="true" />
-				<benzinKosten.c name="benzinKosten.c" file="true" />
-				<head.everything name="head.everything" file="true" />
-				<kmToMile name="kmToMile" file="true" />
-				<kmToMile.c name="kmToMile.c" file="true" />
-				<mileToKm name="mileToKm" file="true" />
-				<mileToKm.c name="mileToKm.c" file="true" />
-				<teiler name="teiler" file="true" />
-				<teiler.c name="teiler.c" file="true" />
-				<tempRechner name="tempRechner" file="true" />
-				<tempRechner.c name="tempRechner.c" file="true" />
-				<umrechnung name="umrechnung" file="true" />
-				<umrechnung.c name="umrechnung.c" file="true" />
-				<waehrungrechner name="waehrungrechner" file="true" />
-				<waehrungrechner.c name="waehrungrechner.c" file="true" />
-				<abgabe name="abgabe">
-					<_punkt_swp name=".swp" file="true" />
-					<benzinKosten.c name="benzinKosten.c" file="true" />
-					<kmToMile.c name="kmToMile.c" file="true" />
-					<mileToKm.c name="mileToKm.c" file="true" />
-					<teiler.c name="teiler.c" file="true" />
-					<tempRechner.c name="tempRechner.c" file="true" />
-					<ueb01.pdf name="ueb01.pdf" file="true" />
-					<uebung1.tar name="uebung1.tar" file="true" />
-					<umrechnung.c name="umrechnung.c" file="true" />
-					<waehrungrechner.c name="waehrungrechner.c" file="true" />
+			<ueb01 directory="true" Host="192.168.0.3" name="ueb01">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<benzinKosten name="benzinKosten" file="true" Host="192.168.0.3" />
+				<benzinKosten_punkt_c name="benzinKosten.c" file="true" Host="192.168.0.3" />
+				<head_punkt_everything name="head.everything" file="true" Host="192.168.0.3" />
+				<kmToMile name="kmToMile" file="true" Host="192.168.0.3" />
+				<kmToMile_punkt_c name="kmToMile.c" file="true" Host="192.168.0.3" />
+				<mileToKm name="mileToKm" file="true" Host="192.168.0.3" />
+				<mileToKm_punkt_c name="mileToKm.c" file="true" Host="192.168.0.3" />
+				<teiler name="teiler" file="true" Host="192.168.0.3" />
+				<teiler_punkt_c name="teiler.c" file="true" Host="192.168.0.3" />
+				<tempRechner name="tempRechner" file="true" Host="192.168.0.3" />
+				<tempRechner_punkt_c name="tempRechner.c" file="true" Host="192.168.0.3" />
+				<umrechnung name="umrechnung" file="true" Host="192.168.0.3" />
+				<umrechnung_punkt_c name="umrechnung.c" file="true" Host="192.168.0.3" />
+				<waehrungrechner name="waehrungrechner" file="true" Host="192.168.0.3" />
+				<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
+				<abgabe directory="true" Host="192.168.0.3" name="abgabe">
+					<_punkt_swp name=".swp" file="true" Host="192.168.0.3" />
+					<benzinKosten_punkt_c name="benzinKosten.c" file="true" Host="192.168.0.3" />
+					<kmToMile_punkt_c name="kmToMile.c" file="true" Host="192.168.0.3" />
+					<mileToKm_punkt_c name="mileToKm.c" file="true" Host="192.168.0.3" />
+					<teiler_punkt_c name="teiler.c" file="true" Host="192.168.0.3" />
+					<tempRechner_punkt_c name="tempRechner.c" file="true" Host="192.168.0.3" />
+					<ueb01_punkt_pdf name="ueb01.pdf" file="true" Host="192.168.0.3" />
+					<uebung1_punkt_tar name="uebung1.tar" file="true" Host="192.168.0.3" />
+					<umrechnung_punkt_c name="umrechnung.c" file="true" Host="192.168.0.3" />
+					<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="192.168.0.3" />
 				</abgabe>
 			</ueb01>
-			<ueb04 name="ueb04">
-				<a.out name="a.out" file="true" />
-				<a_conflict-20151214-085817.out name="a_conflict-20151214-085817.out" file="true" />
-				<feldmin name="feldmin" file="true" />
-				<feldmin.c name="feldmin.c" file="true" />
-				<feldmin_2.c name="feldmin_2.c" file="true" />
-				<feldmin_conflict-20151214-113020.c name="feldmin_conflict-20151214-113020.c" file="true" />
-				<geheim name="geheim" file="true" />
-				<geheim.c name="geheim.c" file="true" />
-				<geheim.c_scurity.c name="geheim.c_scurity.c" file="true" />
-				<geheim_conflict-20151214-101109.c name="geheim_conflict-20151214-101109.c" file="true" />
-				<makefile name="makefile" file="true" />
-				<test.c name="test.c" file="true" />
-				<test_conflict-20151214-082148.c name="test_conflict-20151214-082148.c" file="true" />
-				<Abgabe name="Abgabe">
-					<_4ueb.zip name="4ueb.zip" file="true" />
-					<feldmin.c name="feldmin.c" file="true" />
-					<geheim.c name="geheim.c" file="true" />
+			<ueb04 directory="true" Host="192.168.0.3" name="ueb04">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<a_conflict_minus_20151214_minus_085817_punkt_out name="a_conflict-20151214-085817.out" file="true" Host="192.168.0.3" />
+				<feldmin name="feldmin" file="true" Host="192.168.0.3" />
+				<feldmin_punkt_c name="feldmin.c" file="true" Host="192.168.0.3" />
+				<feldmin_2_punkt_c name="feldmin_2.c" file="true" Host="192.168.0.3" />
+				<feldmin_conflict_minus_20151214_minus_113020_punkt_c name="feldmin_conflict-20151214-113020.c" file="true" Host="192.168.0.3" />
+				<geheim name="geheim" file="true" Host="192.168.0.3" />
+				<geheim_punkt_c name="geheim.c" file="true" Host="192.168.0.3" />
+				<geheim_punkt_c_scurity_punkt_c name="geheim.c_scurity.c" file="true" Host="192.168.0.3" />
+				<geheim_conflict_minus_20151214_minus_101109_punkt_c name="geheim_conflict-20151214-101109.c" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<test_punkt_c name="test.c" file="true" Host="192.168.0.3" />
+				<test_conflict_minus_20151214_minus_082148_punkt_c name="test_conflict-20151214-082148.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<_4ueb_punkt_zip name="4ueb.zip" file="true" Host="192.168.0.3" />
+					<feldmin_punkt_c name="feldmin.c" file="true" Host="192.168.0.3" />
+					<geheim_punkt_c name="geheim.c" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb04>
-			<ueb03 name="ueb03">
-				<a.out name="a.out" file="true" />
-				<ascii name="ascii" file="true" />
-				<ascii_tabelle.c name="ascii_tabelle.c" file="true" />
-				<ascii_tabelle.c.exec name="ascii_tabelle.c.exec" file="true" />
-				<compile.sh name="compile.sh" file="true" />
-				<gcc-log.txt name="gcc-log.txt" file="true" />
-				<makefile name="makefile" file="true" />
-				<sizeof name="sizeof" file="true" />
-				<sizeof.c name="sizeof.c" file="true" />
-				<sizeof.c.exec name="sizeof.c.exec" file="true" />
-				<ueberlauf name="ueberlauf" file="true" />
-				<ueberlauf.c name="ueberlauf.c" file="true" />
-				<ueberlauf.c.exec name="ueberlauf.c.exec" file="true" />
-				<Abgabe name="Abgabe">
-					<ascii_tabelle.c name="ascii_tabelle.c" file="true" />
-					<compile.sh name="compile.sh" file="true" />
-					<makefile name="makefile" file="true" />
-					<sizeof.c name="sizeof.c" file="true" />
-					<ueb03.zip name="ueb03.zip" file="true" />
-					<ueberlauf.c name="ueberlauf.c" file="true" />
+			<ueb03 directory="true" Host="192.168.0.3" name="ueb03">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<ascii name="ascii" file="true" Host="192.168.0.3" />
+				<ascii_tabelle_punkt_c name="ascii_tabelle.c" file="true" Host="192.168.0.3" />
+				<ascii_tabelle_punkt_c_punkt_exec name="ascii_tabelle.c.exec" file="true" Host="192.168.0.3" />
+				<compile_punkt_sh name="compile.sh" file="true" Host="192.168.0.3" />
+				<gcc_minus_log_punkt_txt name="gcc-log.txt" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<sizeof name="sizeof" file="true" Host="192.168.0.3" />
+				<sizeof_punkt_c name="sizeof.c" file="true" Host="192.168.0.3" />
+				<sizeof_punkt_c_punkt_exec name="sizeof.c.exec" file="true" Host="192.168.0.3" />
+				<ueberlauf name="ueberlauf" file="true" Host="192.168.0.3" />
+				<ueberlauf_punkt_c name="ueberlauf.c" file="true" Host="192.168.0.3" />
+				<ueberlauf_punkt_c_punkt_exec name="ueberlauf.c.exec" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<ascii_tabelle_punkt_c name="ascii_tabelle.c" file="true" Host="192.168.0.3" />
+					<compile_punkt_sh name="compile.sh" file="true" Host="192.168.0.3" />
+					<makefile name="makefile" file="true" Host="192.168.0.3" />
+					<sizeof_punkt_c name="sizeof.c" file="true" Host="192.168.0.3" />
+					<ueb03_punkt_zip name="ueb03.zip" file="true" Host="192.168.0.3" />
+					<ueberlauf_punkt_c name="ueberlauf.c" file="true" Host="192.168.0.3" />
 				</Abgabe>
-				<compiled name="compiled">
-					<ascii_tabelle.c.exec name="ascii_tabelle.c.exec" file="true" />
-					<sizeof.c.exec name="sizeof.c.exec" file="true" />
-					<ueberlauf.c.exec name="ueberlauf.c.exec" file="true" />
+				<compiled directory="true" Host="192.168.0.3" name="compiled">
+					<ascii_tabelle_punkt_c_punkt_exec name="ascii_tabelle.c.exec" file="true" Host="192.168.0.3" />
+					<sizeof_punkt_c_punkt_exec name="sizeof.c.exec" file="true" Host="192.168.0.3" />
+					<ueberlauf_punkt_c_punkt_exec name="ueberlauf.c.exec" file="true" Host="192.168.0.3" />
 				</compiled>
 			</ueb03>
-			<ueb07 name="ueb07">
-				<bruchrechnen.c name="bruchrechnen.c" file="true" />
-				<kuerzen.c name="kuerzen.c" file="true" />
-				<kuerzen.h name="kuerzen.h" file="true" />
-				<kuerzen.o name="kuerzen.o" file="true" />
-				<makefile name="makefile" file="true" />
-				<operationen.c name="operationen.c" file="true" />
-				<operationen.h name="operationen.h" file="true" />
-				<operationen.o name="operationen.o" file="true" />
-				<r1.out name="r1.out" file="true" />
-				<r2.out name="r2.out" file="true" />
-				<r3.out name="r3.out" file="true" />
-				<r4.out name="r4.out" file="true" />
-				<rechner.c name="rechner.c" file="true" />
-				<rechner.h name="rechner.h" file="true" />
-				<rechner3.c name="rechner3.c" file="true" />
-				<rechner3.h name="rechner3.h" file="true" />
-				<rechner3.o name="rechner3.o" file="true" />
-				<rechner4.c name="rechner4.c" file="true" />
-				<rechner4.h name="rechner4.h" file="true" />
-				<rechner4.o name="rechner4.o" file="true" />
-				<Abgabe name="Abgabe">
-					<bruchrechnen.c name="bruchrechnen.c" file="true" />
-					<kuerzen.c name="kuerzen.c" file="true" />
-					<kuerzen.h name="kuerzen.h" file="true" />
-					<makefile name="makefile" file="true" />
-					<operationen.c name="operationen.c" file="true" />
-					<operationen.h name="operationen.h" file="true" />
-					<rechner.c name="rechner.c" file="true" />
-					<rechner.h name="rechner.h" file="true" />
-					<rechner3.c name="rechner3.c" file="true" />
-					<rechner3.h name="rechner3.h" file="true" />
-					<rechner4.c name="rechner4.c" file="true" />
-					<rechner4.h name="rechner4.h" file="true" />
-					<ueb07kschultz.zip name="ueb07kschultz.zip" file="true" />
+			<ueb07 directory="true" Host="192.168.0.3" name="ueb07">
+				<bruchrechnen_punkt_c name="bruchrechnen.c" file="true" Host="192.168.0.3" />
+				<kuerzen_punkt_c name="kuerzen.c" file="true" Host="192.168.0.3" />
+				<kuerzen_punkt_h name="kuerzen.h" file="true" Host="192.168.0.3" />
+				<kuerzen_punkt_o name="kuerzen.o" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<operationen_punkt_c name="operationen.c" file="true" Host="192.168.0.3" />
+				<operationen_punkt_h name="operationen.h" file="true" Host="192.168.0.3" />
+				<operationen_punkt_o name="operationen.o" file="true" Host="192.168.0.3" />
+				<r1_punkt_out name="r1.out" file="true" Host="192.168.0.3" />
+				<r2_punkt_out name="r2.out" file="true" Host="192.168.0.3" />
+				<r3_punkt_out name="r3.out" file="true" Host="192.168.0.3" />
+				<r4_punkt_out name="r4.out" file="true" Host="192.168.0.3" />
+				<rechner_punkt_c name="rechner.c" file="true" Host="192.168.0.3" />
+				<rechner_punkt_h name="rechner.h" file="true" Host="192.168.0.3" />
+				<rechner3_punkt_c name="rechner3.c" file="true" Host="192.168.0.3" />
+				<rechner3_punkt_h name="rechner3.h" file="true" Host="192.168.0.3" />
+				<rechner3_punkt_o name="rechner3.o" file="true" Host="192.168.0.3" />
+				<rechner4_punkt_c name="rechner4.c" file="true" Host="192.168.0.3" />
+				<rechner4_punkt_h name="rechner4.h" file="true" Host="192.168.0.3" />
+				<rechner4_punkt_o name="rechner4.o" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<bruchrechnen_punkt_c name="bruchrechnen.c" file="true" Host="192.168.0.3" />
+					<kuerzen_punkt_c name="kuerzen.c" file="true" Host="192.168.0.3" />
+					<kuerzen_punkt_h name="kuerzen.h" file="true" Host="192.168.0.3" />
+					<makefile name="makefile" file="true" Host="192.168.0.3" />
+					<operationen_punkt_c name="operationen.c" file="true" Host="192.168.0.3" />
+					<operationen_punkt_h name="operationen.h" file="true" Host="192.168.0.3" />
+					<rechner_punkt_c name="rechner.c" file="true" Host="192.168.0.3" />
+					<rechner_punkt_h name="rechner.h" file="true" Host="192.168.0.3" />
+					<rechner3_punkt_c name="rechner3.c" file="true" Host="192.168.0.3" />
+					<rechner3_punkt_h name="rechner3.h" file="true" Host="192.168.0.3" />
+					<rechner4_punkt_c name="rechner4.c" file="true" Host="192.168.0.3" />
+					<rechner4_punkt_h name="rechner4.h" file="true" Host="192.168.0.3" />
+					<ueb07kschultz_punkt_zip name="ueb07kschultz.zip" file="true" Host="192.168.0.3" />
 				</Abgabe>
 			</ueb07>
-			<ueb05 name="ueb05">
-				<a.out name="a.out" file="true" />
-				<functions-case.c name="functions-case.c" file="true" />
-				<functions.c name="functions.c" file="true" />
-				<Abgabe name="Abgabe">
-					<a.out name="a.out" file="true" />
-					<functions-linux.c name="functions-linux.c" file="true" />
-					<functions-mac.c name="functions-mac.c" file="true" />
-					<ueb5.zip name="ueb5.zip" file="true" />
-					<new name="new">
-						<functions-linux.c name="functions-linux.c" file="true" />
-						<functions-mac.c name="functions-mac.c" file="true" />
-						<ueb5.zip name="ueb5.zip" file="true" />
+			<ueb05 directory="true" Host="192.168.0.3" name="ueb05">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<functions_minus_case_punkt_c name="functions-case.c" file="true" Host="192.168.0.3" />
+				<functions_punkt_c name="functions.c" file="true" Host="192.168.0.3" />
+				<Abgabe directory="true" Host="192.168.0.3" name="Abgabe">
+					<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+					<functions_minus_linux_punkt_c name="functions-linux.c" file="true" Host="192.168.0.3" />
+					<functions_minus_mac_punkt_c name="functions-mac.c" file="true" Host="192.168.0.3" />
+					<ueb5_punkt_zip name="ueb5.zip" file="true" Host="192.168.0.3" />
+					<new directory="true" Host="192.168.0.3" name="new">
+						<functions_minus_linux_punkt_c name="functions-linux.c" file="true" Host="192.168.0.3" />
+						<functions_minus_mac_punkt_c name="functions-mac.c" file="true" Host="192.168.0.3" />
+						<ueb5_punkt_zip name="ueb5.zip" file="true" Host="192.168.0.3" />
 					</new>
 				</Abgabe>
 			</ueb05>
 		</prog1>
-		<Prog_wichtig name="Prog_wichtig">
-			<Assoziativität name="Assoziativität" file="true" />
-			<Ausdruck name="Ausdruck" file="true" />
-			<Data1 name="Data1" file="true" />
-			<Data2 name="Data2" file="true" />
-			<Data3 name="Data3" file="true" />
-			<Data4 name="Data4" file="true" />
-			<Data5 name="Data5" file="true" />
-			<Data6 name="Data6" file="true" />
-			<Data7 name="Data7" file="true" />
-			<Data8 name="Data8" file="true" />
-			<Data9 name="Data9" file="true" />
-			<Dataa1 name="Dataa1" file="true" />
-			<InkDekrement name="InkDekrement" file="true" />
-			<Strukturen name="Strukturen" file="true" />
-			<Strukturen2 name="Strukturen2" file="true" />
-			<Strukturen3 name="Strukturen3" file="true" />
-			<Strukturen4 name="Strukturen4" file="true" />
-			<Strukturen5 name="Strukturen5" file="true" />
-			<array1 name="array1" file="true" />
-			<array2 name="array2" file="true" />
-			<array3 name="array3" file="true" />
-			<array4 name="array4" file="true" />
-			<beispiel-_-max-_-drei name="beispiel max drei" file="true" />
-			<enums name="enums" file="true" />
-			<enums2 name="enums2" file="true" />
-			<foliennummer name="foliennummer" file="true" />
-			<pointer name="pointer" file="true" />
-			<printf name="printf" file="true" />
-			<speicherklassen name="speicherklassen" file="true" />
-			<speicherklassen2 name="speicherklassen2" file="true" />
-			<speicherklassen3 name="speicherklassen3" file="true" />
-			<undOderNicht name="undOderNicht" file="true" />
-			<while-_-example name="while example" file="true" />
+		<Prog_wichtig directory="true" Host="192.168.0.3" name="Prog_wichtig">
+			<Assoziativität name="Assoziativität" file="true" Host="192.168.0.3" />
+			<Ausdruck name="Ausdruck" file="true" Host="192.168.0.3" />
+			<Data1 name="Data1" file="true" Host="192.168.0.3" />
+			<Data2 name="Data2" file="true" Host="192.168.0.3" />
+			<Data3 name="Data3" file="true" Host="192.168.0.3" />
+			<Data4 name="Data4" file="true" Host="192.168.0.3" />
+			<Data5 name="Data5" file="true" Host="192.168.0.3" />
+			<Data6 name="Data6" file="true" Host="192.168.0.3" />
+			<Data7 name="Data7" file="true" Host="192.168.0.3" />
+			<Data8 name="Data8" file="true" Host="192.168.0.3" />
+			<Data9 name="Data9" file="true" Host="192.168.0.3" />
+			<Dataa1 name="Dataa1" file="true" Host="192.168.0.3" />
+			<InkDekrement name="InkDekrement" file="true" Host="192.168.0.3" />
+			<Strukturen name="Strukturen" file="true" Host="192.168.0.3" />
+			<Strukturen2 name="Strukturen2" file="true" Host="192.168.0.3" />
+			<Strukturen3 name="Strukturen3" file="true" Host="192.168.0.3" />
+			<Strukturen4 name="Strukturen4" file="true" Host="192.168.0.3" />
+			<Strukturen5 name="Strukturen5" file="true" Host="192.168.0.3" />
+			<array1 name="array1" file="true" Host="192.168.0.3" />
+			<array2 name="array2" file="true" Host="192.168.0.3" />
+			<array3 name="array3" file="true" Host="192.168.0.3" />
+			<array4 name="array4" file="true" Host="192.168.0.3" />
+			<beispiel_minus___minus_max_minus___minus_drei name="beispiel max drei" file="true" Host="192.168.0.3" />
+			<enums name="enums" file="true" Host="192.168.0.3" />
+			<enums2 name="enums2" file="true" Host="192.168.0.3" />
+			<foliennummer name="foliennummer" file="true" Host="192.168.0.3" />
+			<pointer name="pointer" file="true" Host="192.168.0.3" />
+			<printf name="printf" file="true" Host="192.168.0.3" />
+			<speicherklassen name="speicherklassen" file="true" Host="192.168.0.3" />
+			<speicherklassen2 name="speicherklassen2" file="true" Host="192.168.0.3" />
+			<speicherklassen3 name="speicherklassen3" file="true" Host="192.168.0.3" />
+			<undOderNicht name="undOderNicht" file="true" Host="192.168.0.3" />
+			<while_minus___minus_example name="while example" file="true" Host="192.168.0.3" />
 		</Prog_wichtig>
-		<PTG name="PTG">
-			<doc00686320160817125107.pdf name="doc00686320160817125107.pdf" file="true" />
-			<doc00686420160817125238.pdf name="doc00686420160817125238.pdf" file="true" />
-			<doc00686620160817125516.pdf name="doc00686620160817125516.pdf" file="true" />
-			<doc00686720160817125637.pdf name="doc00686720160817125637.pdf" file="true" />
-			<doc00686820160817125721.pdf name="doc00686820160817125721.pdf" file="true" />
-			<doc00686920160817125746.pdf name="doc00686920160817125746.pdf" file="true" />
-			<doc00687020160817125806.pdf name="doc00687020160817125806.pdf" file="true" />
-			<Klausur name="Klausur">
-				<Klausur-_-PTG_II_Probe.pdf name="Klausur PTG_II_Probe.pdf" file="true" />
-				<Klausur-_-PTG_II_Probe1.doc name="Klausur PTG_II_Probe1.doc" file="true" />
-				<Klausur-_-PTG_II_Probe2.doc name="Klausur PTG_II_Probe2.doc" file="true" />
-				<Klausur-_-PTG_II_Probe3.doc name="Klausur PTG_II_Probe3.doc" file="true" />
-				<Klausur-ptg.rar name="Klausur-ptg.rar" file="true" />
-				<Loesung-_-2 name="Loesung 2" file="true" />
-				<Musterloesung-_-Probeklausur-_-PTG-_-II.pdf name="Musterloesung Probeklausur PTG II.pdf" file="true" />
-				<ProbeKlausur-_-PTG-_-II.pdf name="ProbeKlausur PTG II.pdf" file="true" />
+		<PTG directory="true" Host="192.168.0.3" name="PTG">
+			<doc00686320160817125107_punkt_pdf name="doc00686320160817125107.pdf" file="true" Host="192.168.0.3" />
+			<doc00686420160817125238_punkt_pdf name="doc00686420160817125238.pdf" file="true" Host="192.168.0.3" />
+			<doc00686620160817125516_punkt_pdf name="doc00686620160817125516.pdf" file="true" Host="192.168.0.3" />
+			<doc00686720160817125637_punkt_pdf name="doc00686720160817125637.pdf" file="true" Host="192.168.0.3" />
+			<doc00686820160817125721_punkt_pdf name="doc00686820160817125721.pdf" file="true" Host="192.168.0.3" />
+			<doc00686920160817125746_punkt_pdf name="doc00686920160817125746.pdf" file="true" Host="192.168.0.3" />
+			<doc00687020160817125806_punkt_pdf name="doc00687020160817125806.pdf" file="true" Host="192.168.0.3" />
+			<Klausur directory="true" Host="192.168.0.3" name="Klausur">
+				<Klausur_minus___minus_PTG_II_Probe_punkt_pdf name="Klausur PTG_II_Probe.pdf" file="true" Host="192.168.0.3" />
+				<Klausur_minus___minus_PTG_II_Probe1_punkt_doc name="Klausur PTG_II_Probe1.doc" file="true" Host="192.168.0.3" />
+				<Klausur_minus___minus_PTG_II_Probe2_punkt_doc name="Klausur PTG_II_Probe2.doc" file="true" Host="192.168.0.3" />
+				<Klausur_minus___minus_PTG_II_Probe3_punkt_doc name="Klausur PTG_II_Probe3.doc" file="true" Host="192.168.0.3" />
+				<Klausur_minus_ptg_punkt_rar name="Klausur-ptg.rar" file="true" Host="192.168.0.3" />
+				<Loesung_minus___minus_2 name="Loesung 2" file="true" Host="192.168.0.3" />
+				<Musterloesung_minus___minus_Probeklausur_minus___minus_PTG_minus___minus_II_punkt_pdf name="Musterloesung Probeklausur PTG II.pdf" file="true" Host="192.168.0.3" />
+				<ProbeKlausur_minus___minus_PTG_minus___minus_II_punkt_pdf name="ProbeKlausur PTG II.pdf" file="true" Host="192.168.0.3" />
 			</Klausur>
 		</PTG>
-		<rechnerarchi name="rechnerarchi">
-			<RA_Handout.pdf name="RA_Handout.pdf" file="true" />
+		<rechnerarchi directory="true" Host="192.168.0.3" name="rechnerarchi">
+			<RA_Handout_punkt_pdf name="RA_Handout.pdf" file="true" Host="192.168.0.3" />
 		</rechnerarchi>
-		<BWL name="BWL">
-			<_00_BWL1_Organisation_19102015.pdf name="00_BWL1_Organisation_19102015.pdf" file="true" />
-			<_01_BWL1_Einführung_26102015.pdf name="01_BWL1_Einführung_26102015.pdf" file="true" />
-			<_01_BWL2_Einführung_20042016.pdf name="01_BWL2_Einführung_20042016.pdf" file="true" />
-			<_02_BWL1_Produktionsfaktoren_02112015.pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" />
-			<_02_BWL2_Rechnungswesen_27042016.pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" />
-			<_03_BWL1_Unternehmen_09112015.pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" />
-			<_04_BWL1_Wirtschaftskreislauf_16112015.pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" />
-			<_04_BWL2_Geschäftsprozesse_04052016.pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" />
-			<_04_Spezielle_ITSysteme_15062016.pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" />
-			<_05_BWL1_Rechtsformen23112015.pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" />
-			<_05_Wissensmanagement_13072016.pdf name="05_Wissensmanagement_13072016.pdf" file="true" />
-			<_06_BWL1_Organisationsstrukturen_30112015.pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" />
-			<_07_BWL1_Ziele_30112015.pdf name="07_BWL1_Ziele_30112015.pdf" file="true" />
-			<_08_BWL1_Personalwirtschaft_07122015.pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" />
-			<_09_BWL1_Leisungserstellung_04012016.pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" />
-			<_10_BWL1_Kostenrechnung_18012016.pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" />
-			<BWL_NachKlausur11022010.pdf name="BWL_NachKlausur11022010.pdf" file="true" />
-			<BWL_Small.pdf name="BWL_Small.pdf" file="true" />
+		<BWL directory="true" Host="192.168.0.3" name="BWL">
+			<_00_BWL1_Organisation_19102015_punkt_pdf name="00_BWL1_Organisation_19102015.pdf" file="true" Host="192.168.0.3" />
+			<_01_BWL1_Einführung_26102015_punkt_pdf name="01_BWL1_Einführung_26102015.pdf" file="true" Host="192.168.0.3" />
+			<_01_BWL2_Einführung_20042016_punkt_pdf name="01_BWL2_Einführung_20042016.pdf" file="true" Host="192.168.0.3" />
+			<_02_BWL1_Produktionsfaktoren_02112015_punkt_pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" Host="192.168.0.3" />
+			<_02_BWL2_Rechnungswesen_27042016_punkt_pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" Host="192.168.0.3" />
+			<_03_BWL1_Unternehmen_09112015_punkt_pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" Host="192.168.0.3" />
+			<_04_BWL1_Wirtschaftskreislauf_16112015_punkt_pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" Host="192.168.0.3" />
+			<_04_BWL2_Geschäftsprozesse_04052016_punkt_pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" Host="192.168.0.3" />
+			<_04_Spezielle_ITSysteme_15062016_punkt_pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" Host="192.168.0.3" />
+			<_05_BWL1_Rechtsformen23112015_punkt_pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" Host="192.168.0.3" />
+			<_05_Wissensmanagement_13072016_punkt_pdf name="05_Wissensmanagement_13072016.pdf" file="true" Host="192.168.0.3" />
+			<_06_BWL1_Organisationsstrukturen_30112015_punkt_pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" Host="192.168.0.3" />
+			<_07_BWL1_Ziele_30112015_punkt_pdf name="07_BWL1_Ziele_30112015.pdf" file="true" Host="192.168.0.3" />
+			<_08_BWL1_Personalwirtschaft_07122015_punkt_pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" Host="192.168.0.3" />
+			<_09_BWL1_Leisungserstellung_04012016_punkt_pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" Host="192.168.0.3" />
+			<_10_BWL1_Kostenrechnung_18012016_punkt_pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" Host="192.168.0.3" />
+			<BWL_NachKlausur11022010_punkt_pdf name="BWL_NachKlausur11022010.pdf" file="true" Host="192.168.0.3" />
+			<BWL_Small_punkt_pdf name="BWL_Small.pdf" file="true" Host="192.168.0.3" />
 		</BWL>
-		<swt2 name="swt2">
-			<SWT2StuPro2017 name="SWT2StuPro2017">
-				<README.md name="README.md" file="true" />
-				<makefile name="makefile" file="true" />
-				<menu.c name="menu.c" file="true" />
-				<scanflib.c name="scanflib.c" file="true" />
-				<scanflib.h name="scanflib.h" file="true" />
+		<swt2 directory="true" Host="192.168.0.3" name="swt2">
+			<SWT2StuPro2017 directory="true" Host="192.168.0.3" name="SWT2StuPro2017">
+				<README_punkt_md name="README.md" file="true" Host="192.168.0.3" />
+				<makefile name="makefile" file="true" Host="192.168.0.3" />
+				<menu_punkt_c name="menu.c" file="true" Host="192.168.0.3" />
+				<scanflib_punkt_c name="scanflib.c" file="true" Host="192.168.0.3" />
+				<scanflib_punkt_h name="scanflib.h" file="true" Host="192.168.0.3" />
 			</SWT2StuPro2017>
-			<SWT2StuPro2016 name="SWT2StuPro2016">
-				<LICENSE name="LICENSE" file="true" />
-				<README.md name="README.md" file="true" />
-				<out name="out">
-					<production name="production">
-						<Hanse-Kontor2016 name="Hanse-Kontor2016" />
+			<SWT2StuPro2016 directory="true" Host="192.168.0.3" name="SWT2StuPro2016">
+				<LICENSE name="LICENSE" file="true" Host="192.168.0.3" />
+				<README_punkt_md name="README.md" file="true" Host="192.168.0.3" />
+				<out directory="true" Host="192.168.0.3" name="out">
+					<production directory="true" Host="192.168.0.3" name="production">
+						<Hanse_minus_Kontor2016 directory="true" Host="192.168.0.3" name="Hanse-Kontor2016" />
 					</production>
 				</out>
-				<Hanse-Kontor2016 name="Hanse-Kontor2016">
-					<Hanse-Kontor2016.iml name="Hanse-Kontor2016.iml" file="true" />
-					<src name="src">
-						<hanse name="hanse">
-							<kontor2016 name="kontor2016">
-								<Definitionen.java name="Definitionen.java" file="true" />
-								<HanseKontor2016.java name="HanseKontor2016.java" file="true" />
-								<Schiff.java name="Schiff.java" file="true" />
-								<SpielKontor.java name="SpielKontor.java" file="true" />
-								<Ware.java name="Ware.java" file="true" />
-								<kaufmann name="kaufmann">
-									<Kaufmann.java name="Kaufmann.java" file="true" />
-									<Konto.java name="Konto.java" file="true" />
+				<Hanse_minus_Kontor2016 directory="true" Host="192.168.0.3" name="Hanse-Kontor2016">
+					<Hanse_minus_Kontor2016_punkt_iml name="Hanse-Kontor2016.iml" file="true" Host="192.168.0.3" />
+					<src directory="true" Host="192.168.0.3" name="src">
+						<hanse directory="true" Host="192.168.0.3" name="hanse">
+							<kontor2016 directory="true" Host="192.168.0.3" name="kontor2016">
+								<Definitionen_punkt_java name="Definitionen.java" file="true" Host="192.168.0.3" />
+								<HanseKontor2016_punkt_java name="HanseKontor2016.java" file="true" Host="192.168.0.3" />
+								<Schiff_punkt_java name="Schiff.java" file="true" Host="192.168.0.3" />
+								<SpielKontor_punkt_java name="SpielKontor.java" file="true" Host="192.168.0.3" />
+								<Ware_punkt_java name="Ware.java" file="true" Host="192.168.0.3" />
+								<kaufmann directory="true" Host="192.168.0.3" name="kaufmann">
+									<Kaufmann_punkt_java name="Kaufmann.java" file="true" Host="192.168.0.3" />
+									<Konto_punkt_java name="Konto.java" file="true" Host="192.168.0.3" />
 								</kaufmann>
-								<schiff name="schiff">
-									<Schiff-GruppeSchiff.java name="Schiff-GruppeSchiff.java" file="true" />
-									<Schiff.java name="Schiff.java" file="true" />
-									<Schiffstyp.java name="Schiffstyp.java" file="true" />
-									<Ware-GruppeSchiff.java name="Ware-GruppeSchiff.java" file="true" />
+								<schiff directory="true" Host="192.168.0.3" name="schiff">
+									<Schiff_minus_GruppeSchiff_punkt_java name="Schiff-GruppeSchiff.java" file="true" Host="192.168.0.3" />
+									<Schiff_punkt_java name="Schiff.java" file="true" Host="192.168.0.3" />
+									<Schiffstyp_punkt_java name="Schiffstyp.java" file="true" Host="192.168.0.3" />
+									<Ware_minus_GruppeSchiff_punkt_java name="Ware-GruppeSchiff.java" file="true" Host="192.168.0.3" />
 								</schiff>
-								<kontor name="kontor">
-									<Kontor.java name="Kontor.java" file="true" />
-									<Lager.java name="Lager.java" file="true" />
-									<LagerException.java name="LagerException.java" file="true" />
-									<Ware.java name="Ware.java" file="true" />
+								<kontor directory="true" Host="192.168.0.3" name="kontor">
+									<Kontor_punkt_java name="Kontor.java" file="true" Host="192.168.0.3" />
+									<Lager_punkt_java name="Lager.java" file="true" Host="192.168.0.3" />
+									<LagerException_punkt_java name="LagerException.java" file="true" Host="192.168.0.3" />
+									<Ware_punkt_java name="Ware.java" file="true" Host="192.168.0.3" />
 								</kontor>
-								<lokalitaeten name="lokalitaeten">
-									<GeoObjekt.java name="GeoObjekt.java" file="true" />
-									<Hafen.java name="Hafen.java" file="true" />
-									<Route.java name="Route.java" file="true" />
-									<Weg.java name="Weg.java" file="true" />
-									<Werft.java name="Werft.java" file="true" />
+								<lokalitaeten directory="true" Host="192.168.0.3" name="lokalitaeten">
+									<GeoObjekt_punkt_java name="GeoObjekt.java" file="true" Host="192.168.0.3" />
+									<Hafen_punkt_java name="Hafen.java" file="true" Host="192.168.0.3" />
+									<Route_punkt_java name="Route.java" file="true" Host="192.168.0.3" />
+									<Weg_punkt_java name="Weg.java" file="true" Host="192.168.0.3" />
+									<Werft_punkt_java name="Werft.java" file="true" Host="192.168.0.3" />
 								</lokalitaeten>
 							</kontor2016>
 						</hanse>
 					</src>
-				</Hanse-Kontor2016>
+				</Hanse_minus_Kontor2016>
 			</SWT2StuPro2016>
-			<mandelbrot name="mandelbrot">
-				<Fraktal.class name="Fraktal.class" file="true" />
-				<MANIFEST.MF name="MANIFEST.MF" file="true" />
-				<MeinFraktal.class name="MeinFraktal.class" file="true" />
-				<MeinFraktal.java name="MeinFraktal.java" file="true" />
-				<SimpleImage.class name="SimpleImage.class" file="true" />
-				<apfel.jar name="apfel.jar" file="true" />
-				<apfelKschultz.jar name="apfelKschultz.jar" file="true" />
-				<mandelbrot.iml name="mandelbrot.iml" file="true" />
-				<out name="out">
-					<production name="production">
-						<mandelbrot name="mandelbrot">
-							<apfel.jar name="apfel.jar" file="true" />
-							<mandelbrot.iml name="mandelbrot.iml" file="true" />
-							<META-INF name="META-INF">
-								<MANIFEST.MF name="MANIFEST.MF" file="true" />
-							</META-INF>
-							<Mandelbrot.html name="Mandelbrot.html">
-								<Fraktal.html name="Fraktal.html" file="true" />
-								<SimpleImage.html name="SimpleImage.html" file="true" />
-								<allclasses-frame.html name="allclasses-frame.html" file="true" />
-								<allclasses-noframe.html name="allclasses-noframe.html" file="true" />
-								<constant-values.html name="constant-values.html" file="true" />
-								<deprecated-list.html name="deprecated-list.html" file="true" />
-								<help-doc.html name="help-doc.html" file="true" />
-								<index-all.html name="index-all.html" file="true" />
-								<index.html name="index.html" file="true" />
-								<overview-tree.html name="overview-tree.html" file="true" />
-								<package-frame.html name="package-frame.html" file="true" />
-								<package-list name="package-list" file="true" />
-								<package-summary.html name="package-summary.html" file="true" />
-								<package-tree.html name="package-tree.html" file="true" />
-								<script.js name="script.js" file="true" />
-								<serialized-form.html name="serialized-form.html" file="true" />
-								<stylesheet.css name="stylesheet.css" file="true" />
-							</Mandelbrot.html>
+			<mandelbrot directory="true" Host="192.168.0.3" name="mandelbrot">
+				<Fraktal_punkt_class name="Fraktal.class" file="true" Host="192.168.0.3" />
+				<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
+				<MeinFraktal_punkt_class name="MeinFraktal.class" file="true" Host="192.168.0.3" />
+				<MeinFraktal_punkt_java name="MeinFraktal.java" file="true" Host="192.168.0.3" />
+				<SimpleImage_punkt_class name="SimpleImage.class" file="true" Host="192.168.0.3" />
+				<apfel_punkt_jar name="apfel.jar" file="true" Host="192.168.0.3" />
+				<apfelKschultz_punkt_jar name="apfelKschultz.jar" file="true" Host="192.168.0.3" />
+				<mandelbrot_punkt_iml name="mandelbrot.iml" file="true" Host="192.168.0.3" />
+				<out directory="true" Host="192.168.0.3" name="out">
+					<production directory="true" Host="192.168.0.3" name="production">
+						<mandelbrot directory="true" Host="192.168.0.3" name="mandelbrot">
+							<apfel_punkt_jar name="apfel.jar" file="true" Host="192.168.0.3" />
+							<mandelbrot_punkt_iml name="mandelbrot.iml" file="true" Host="192.168.0.3" />
+							<META_minus_INF directory="true" Host="192.168.0.3" name="META-INF">
+								<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
+							</META_minus_INF>
+							<Mandelbrot_punkt_html directory="true" Host="192.168.0.3" name="Mandelbrot.html">
+								<Fraktal_punkt_html name="Fraktal.html" file="true" Host="192.168.0.3" />
+								<SimpleImage_punkt_html name="SimpleImage.html" file="true" Host="192.168.0.3" />
+								<allclasses_minus_frame_punkt_html name="allclasses-frame.html" file="true" Host="192.168.0.3" />
+								<allclasses_minus_noframe_punkt_html name="allclasses-noframe.html" file="true" Host="192.168.0.3" />
+								<constant_minus_values_punkt_html name="constant-values.html" file="true" Host="192.168.0.3" />
+								<deprecated_minus_list_punkt_html name="deprecated-list.html" file="true" Host="192.168.0.3" />
+								<help_minus_doc_punkt_html name="help-doc.html" file="true" Host="192.168.0.3" />
+								<index_minus_all_punkt_html name="index-all.html" file="true" Host="192.168.0.3" />
+								<index_punkt_html name="index.html" file="true" Host="192.168.0.3" />
+								<overview_minus_tree_punkt_html name="overview-tree.html" file="true" Host="192.168.0.3" />
+								<package_minus_frame_punkt_html name="package-frame.html" file="true" Host="192.168.0.3" />
+								<package_minus_list name="package-list" file="true" Host="192.168.0.3" />
+								<package_minus_summary_punkt_html name="package-summary.html" file="true" Host="192.168.0.3" />
+								<package_minus_tree_punkt_html name="package-tree.html" file="true" Host="192.168.0.3" />
+								<script_punkt_js name="script.js" file="true" Host="192.168.0.3" />
+								<serialized_minus_form_punkt_html name="serialized-form.html" file="true" Host="192.168.0.3" />
+								<stylesheet_punkt_css name="stylesheet.css" file="true" Host="192.168.0.3" />
+							</Mandelbrot_punkt_html>
 						</mandelbrot>
 					</production>
 				</out>
-				<META-INF name="META-INF">
-					<MANIFEST.MF name="MANIFEST.MF" file="true" />
-				</META-INF>
-				<kschultz name="kschultz">
-					<MeinFraktal.class name="MeinFraktal.class" file="true" />
-					<apfelKschultz.jar name="apfelKschultz.jar" file="true" />
-					<META-INF name="META-INF">
-						<MANIFEST.MF name="MANIFEST.MF" file="true" />
-					</META-INF>
+				<META_minus_INF directory="true" Host="192.168.0.3" name="META-INF">
+					<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
+				</META_minus_INF>
+				<kschultz directory="true" Host="192.168.0.3" name="kschultz">
+					<MeinFraktal_punkt_class name="MeinFraktal.class" file="true" Host="192.168.0.3" />
+					<apfelKschultz_punkt_jar name="apfelKschultz.jar" file="true" Host="192.168.0.3" />
+					<META_minus_INF directory="true" Host="192.168.0.3" name="META-INF">
+						<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="192.168.0.3" />
+					</META_minus_INF>
 				</kschultz>
-				<Mandelbrot.html name="Mandelbrot.html">
-					<Fraktal.html name="Fraktal.html" file="true" />
-					<SimpleImage.html name="SimpleImage.html" file="true" />
-					<allclasses-frame.html name="allclasses-frame.html" file="true" />
-					<allclasses-noframe.html name="allclasses-noframe.html" file="true" />
-					<constant-values.html name="constant-values.html" file="true" />
-					<deprecated-list.html name="deprecated-list.html" file="true" />
-					<help-doc.html name="help-doc.html" file="true" />
-					<index-all.html name="index-all.html" file="true" />
-					<index.html name="index.html" file="true" />
-					<overview-tree.html name="overview-tree.html" file="true" />
-					<package-frame.html name="package-frame.html" file="true" />
-					<package-list name="package-list" file="true" />
-					<package-summary.html name="package-summary.html" file="true" />
-					<package-tree.html name="package-tree.html" file="true" />
-					<script.js name="script.js" file="true" />
-					<serialized-form.html name="serialized-form.html" file="true" />
-					<stylesheet.css name="stylesheet.css" file="true" />
-				</Mandelbrot.html>
+				<Mandelbrot_punkt_html directory="true" Host="192.168.0.3" name="Mandelbrot.html">
+					<Fraktal_punkt_html name="Fraktal.html" file="true" Host="192.168.0.3" />
+					<SimpleImage_punkt_html name="SimpleImage.html" file="true" Host="192.168.0.3" />
+					<allclasses_minus_frame_punkt_html name="allclasses-frame.html" file="true" Host="192.168.0.3" />
+					<allclasses_minus_noframe_punkt_html name="allclasses-noframe.html" file="true" Host="192.168.0.3" />
+					<constant_minus_values_punkt_html name="constant-values.html" file="true" Host="192.168.0.3" />
+					<deprecated_minus_list_punkt_html name="deprecated-list.html" file="true" Host="192.168.0.3" />
+					<help_minus_doc_punkt_html name="help-doc.html" file="true" Host="192.168.0.3" />
+					<index_minus_all_punkt_html name="index-all.html" file="true" Host="192.168.0.3" />
+					<index_punkt_html name="index.html" file="true" Host="192.168.0.3" />
+					<overview_minus_tree_punkt_html name="overview-tree.html" file="true" Host="192.168.0.3" />
+					<package_minus_frame_punkt_html name="package-frame.html" file="true" Host="192.168.0.3" />
+					<package_minus_list name="package-list" file="true" Host="192.168.0.3" />
+					<package_minus_summary_punkt_html name="package-summary.html" file="true" Host="192.168.0.3" />
+					<package_minus_tree_punkt_html name="package-tree.html" file="true" Host="192.168.0.3" />
+					<script_punkt_js name="script.js" file="true" Host="192.168.0.3" />
+					<serialized_minus_form_punkt_html name="serialized-form.html" file="true" Host="192.168.0.3" />
+					<stylesheet_punkt_css name="stylesheet.css" file="true" Host="192.168.0.3" />
+				</Mandelbrot_punkt_html>
 			</mandelbrot>
-			<VS3_Primzahlen name="VS3_Primzahlen" />
+			<VS3_Primzahlen directory="true" Host="192.168.0.3" name="VS3_Primzahlen" />
 		</swt2>
-		<Vorlesung name="Vorlesung">
-			<_punkt_summe_punkt_c_punkt_swp name=".summe.c.swp" file="true" />
-			<a.out name="a.out" file="true" />
-			<eimaleins name="eimaleins" file="true" />
-			<eimaleins.c name="eimaleins.c" file="true" />
-			<getchar name="getchar" file="true" />
-			<getchar.c name="getchar.c" file="true" />
-			<mittelwert name="mittelwert" file="true" />
-			<mittelwert.c name="mittelwert.c" file="true" />
-			<summe.c name="summe.c" file="true" />
-			<audit_dialog name="audit_dialog">
-				<a.out name="a.out" file="true" />
-				<taschenrechner.c name="taschenrechner.c" file="true" />
+		<Vorlesung directory="true" Host="192.168.0.3" name="Vorlesung">
+			<_punkt_summe_punkt_c_punkt_swp name=".summe.c.swp" file="true" Host="192.168.0.3" />
+			<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+			<eimaleins name="eimaleins" file="true" Host="192.168.0.3" />
+			<eimaleins_punkt_c name="eimaleins.c" file="true" Host="192.168.0.3" />
+			<getchar name="getchar" file="true" Host="192.168.0.3" />
+			<getchar_punkt_c name="getchar.c" file="true" Host="192.168.0.3" />
+			<mittelwert name="mittelwert" file="true" Host="192.168.0.3" />
+			<mittelwert_punkt_c name="mittelwert.c" file="true" Host="192.168.0.3" />
+			<summe_punkt_c name="summe.c" file="true" Host="192.168.0.3" />
+			<audit_dialog directory="true" Host="192.168.0.3" name="audit_dialog">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<taschenrechner_punkt_c name="taschenrechner.c" file="true" Host="192.168.0.3" />
 			</audit_dialog>
-			<dateibearbeitung name="dateibearbeitung">
-				<a.out name="a.out" file="true" />
-				<datei.txt name="datei.txt" file="true" />
-				<dateiinfo.c name="dateiinfo.c" file="true" />
-				<dateiinfo1.c name="dateiinfo1.c" file="true" />
+			<dateibearbeitung directory="true" Host="192.168.0.3" name="dateibearbeitung">
+				<a_punkt_out name="a.out" file="true" Host="192.168.0.3" />
+				<datei_punkt_txt name="datei.txt" file="true" Host="192.168.0.3" />
+				<dateiinfo_punkt_c name="dateiinfo.c" file="true" Host="192.168.0.3" />
+				<dateiinfo1_punkt_c name="dateiinfo1.c" file="true" Host="192.168.0.3" />
 			</dateibearbeitung>
 		</Vorlesung>
-		<Informatik_1 name="Informatik_1">
-			<ueb07 name="ueb07" />
+		<Informatik_1 directory="true" Host="192.168.0.3" name="Informatik_1">
+			<ueb07 directory="true" Host="192.168.0.3" name="ueb07" />
 		</Informatik_1>
-		<Rechnernetze name="Rechnernetze">
-			<ueb02 name="ueb02">
-				<ueb02.txt name="ueb02.txt" file="true" />
-				<loesung02-daten-aufgabe_2 name="loesung02-daten-aufgabe_2">
-					<HOME-LAN-Stud-tcp_plus_STL-VPN name="HOME-LAN-Stud-tcp+STL-VPN" file="true" />
-					<HOME-LAN-Stud-udp_plus_STL-VPN name="HOME-LAN-Stud-udp+STL-VPN" file="true" />
-					<HOME-WLAN-Stud-tcp_plus_STL-VPN name="HOME-WLAN-Stud-tcp+STL-VPN" file="true" />
-					<HOME-WLAN-Stud-udp_plus_STL-VPN name="HOME-WLAN-Stud-udp+STL-VPN" file="true" />
-				</loesung02-daten-aufgabe_2>
-				<loesung02-daten-aufgabe_1 name="loesung02-daten-aufgabe_1">
-					<Eduroam-Stud_plus_STL-VPN name="Eduroam-Stud+STL-VPN" file="true" />
-					<GELBE-DOSEN-STL-Stud_plus_STL-VPN name="GELBE-DOSEN-STL-Stud+STL-VPN" file="true" />
-					<GELBE-DOSEN-STL-Stud-tcp name="GELBE-DOSEN-STL-Stud-tcp" file="true" />
-					<GELBE-DOSEN-STL-Stud-udp name="GELBE-DOSEN-STL-Stud-udp" file="true" />
-					<hiz-saarland-Stud-tcp name="hiz-saarland-Stud-tcp" file="true" />
-					<hiz-saarland-Stud-tcp_plus_STL-VPN name="hiz-saarland-Stud-tcp+STL-VPN" file="true" />
-					<hiz-saarland-Stud-udp_plus_STL-VPN name="hiz-saarland-Stud-udp+STL-VPN" file="true" />
-					<htwintern-Stud-tcp name="htwintern-Stud-tcp" file="true" />
-					<htwintern-Stud-tcp_plus_STL-VPN name="htwintern-Stud-tcp+STL-VPN" file="true" />
-					<htwintern-Stud-udp_plus_STL-VPN name="htwintern-Stud-udp+STL-VPN" file="true" />
-				</loesung02-daten-aufgabe_1>
+		<m2 directory="true" Host="192.168.0.3" name="m2">
+			<Mathematik2mit_punkt_pdf name="Mathematik2mit.pdf" file="true" Host="192.168.0.3" />
+			<s_punkt_pdf name="s.pdf" file="true" Host="192.168.0.3" />
+		</m2>
+		<Rechnernetze directory="true" Host="192.168.0.3" name="Rechnernetze">
+			<ueb02 directory="true" Host="192.168.0.3" name="ueb02">
+				<ueb02_punkt_txt name="ueb02.txt" file="true" Host="192.168.0.3" />
+				<loesung02_minus_daten_minus_aufgabe_2 directory="true" Host="192.168.0.3" name="loesung02-daten-aufgabe_2">
+					<HOME_minus_LAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-LAN-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<HOME_minus_LAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-LAN-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
+					<HOME_minus_WLAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-WLAN-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<HOME_minus_WLAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-WLAN-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
+				</loesung02_minus_daten_minus_aufgabe_2>
+				<loesung02_minus_daten_minus_aufgabe_1 directory="true" Host="192.168.0.3" name="loesung02-daten-aufgabe_1">
+					<Eduroam_minus_Stud_plus_STL_minus_VPN name="Eduroam-Stud+STL-VPN" file="true" Host="192.168.0.3" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_plus_STL_minus_VPN name="GELBE-DOSEN-STL-Stud+STL-VPN" file="true" Host="192.168.0.3" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_tcp name="GELBE-DOSEN-STL-Stud-tcp" file="true" Host="192.168.0.3" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_udp name="GELBE-DOSEN-STL-Stud-udp" file="true" Host="192.168.0.3" />
+					<hiz_minus_saarland_minus_Stud_minus_tcp name="hiz-saarland-Stud-tcp" file="true" Host="192.168.0.3" />
+					<hiz_minus_saarland_minus_Stud_minus_tcp_plus_STL_minus_VPN name="hiz-saarland-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<hiz_minus_saarland_minus_Stud_minus_udp_plus_STL_minus_VPN name="hiz-saarland-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
+					<htwintern_minus_Stud_minus_tcp name="htwintern-Stud-tcp" file="true" Host="192.168.0.3" />
+					<htwintern_minus_Stud_minus_tcp_plus_STL_minus_VPN name="htwintern-Stud-tcp+STL-VPN" file="true" Host="192.168.0.3" />
+					<htwintern_minus_Stud_minus_udp_plus_STL_minus_VPN name="htwintern-Stud-udp+STL-VPN" file="true" Host="192.168.0.3" />
+				</loesung02_minus_daten_minus_aufgabe_1>
 			</ueb02>
-			<ueb06 name="ueb06">
-				<ueb06.txt name="ueb06.txt" file="true" />
-				<Solaris-daten name="Solaris-daten">
-					<Solaris-10_netstat-r name="Solaris-10_netstat-r" file="true" />
-					<Solaris-10_netstat-rn name="Solaris-10_netstat-rn" file="true" />
-				</Solaris-daten>
+			<ueb06 directory="true" Host="192.168.0.3" name="ueb06">
+				<ueb06_punkt_txt name="ueb06.txt" file="true" Host="192.168.0.3" />
+				<Solaris_minus_daten directory="true" Host="192.168.0.3" name="Solaris-daten">
+					<Solaris_minus_10_netstat_minus_r name="Solaris-10_netstat-r" file="true" Host="192.168.0.3" />
+					<Solaris_minus_10_netstat_minus_rn name="Solaris-10_netstat-rn" file="true" Host="192.168.0.3" />
+				</Solaris_minus_daten>
 			</ueb06>
-			<ueb01 name="ueb01">
-				<loesung01.txt name="loesung01.txt" file="true" />
-				<netio132.zip name="netio132.zip" file="true" />
-				<ueb01.txt name="ueb01.txt" file="true" />
-				<netio132 name="netio132">
-					<FILE_ID.DIZ name="FILE_ID.DIZ" file="true" />
-					<Makefile name="Makefile" file="true" />
-					<getopt name="getopt" file="true" />
-					<getopt.c name="getopt.c" file="true" />
-					<getopt.h name="getopt.h" file="true" />
-					<getopt.o name="getopt.o" file="true" />
-					<netio.c name="netio.c" file="true" />
-					<netio.doc name="netio.doc" file="true" />
-					<netio.o name="netio.o" file="true" />
-					<wpy-bin name="wpy-bin">
-						<netio-CentOS name="netio-CentOS" file="true" />
-						<netio-Redhat name="netio-Redhat" file="true" />
-						<netio-Solaris-Sparc name="netio-Solaris-Sparc" file="true" />
-						<netio-XUbuntu name="netio-XUbuntu" file="true" />
-						<netio-win.exe name="netio-win.exe" file="true" />
-					</wpy-bin>
-					<bin name="bin">
-						<aix-ppc64 name="aix-ppc64" file="true" />
-						<freebsd-i386 name="freebsd-i386" file="true" />
-						<linux-i386 name="linux-i386" file="true" />
-						<linux-x86_64 name="linux-x86_64" file="true" />
-						<mac-osx-10.5.tar.gz name="mac-osx-10.5.tar.gz" file="true" />
-						<os2-i386.exe name="os2-i386.exe" file="true" />
-						<sol10-i386 name="sol10-i386" file="true" />
-						<sol9-sparc name="sol9-sparc" file="true" />
-						<win32-i386.exe name="win32-i386.exe" file="true" />
+			<ueb01 directory="true" Host="192.168.0.3" name="ueb01">
+				<loesung01_punkt_txt name="loesung01.txt" file="true" Host="192.168.0.3" />
+				<netio132_punkt_zip name="netio132.zip" file="true" Host="192.168.0.3" />
+				<ueb01_punkt_txt name="ueb01.txt" file="true" Host="192.168.0.3" />
+				<netio132 directory="true" Host="192.168.0.3" name="netio132">
+					<FILE_ID_punkt_DIZ name="FILE_ID.DIZ" file="true" Host="192.168.0.3" />
+					<Makefile name="Makefile" file="true" Host="192.168.0.3" />
+					<getopt name="getopt" file="true" Host="192.168.0.3" />
+					<getopt_punkt_c name="getopt.c" file="true" Host="192.168.0.3" />
+					<getopt_punkt_h name="getopt.h" file="true" Host="192.168.0.3" />
+					<getopt_punkt_o name="getopt.o" file="true" Host="192.168.0.3" />
+					<netio_punkt_c name="netio.c" file="true" Host="192.168.0.3" />
+					<netio_punkt_doc name="netio.doc" file="true" Host="192.168.0.3" />
+					<netio_punkt_o name="netio.o" file="true" Host="192.168.0.3" />
+					<wpy_minus_bin directory="true" Host="192.168.0.3" name="wpy-bin">
+						<netio_minus_CentOS name="netio-CentOS" file="true" Host="192.168.0.3" />
+						<netio_minus_Redhat name="netio-Redhat" file="true" Host="192.168.0.3" />
+						<netio_minus_Solaris_minus_Sparc name="netio-Solaris-Sparc" file="true" Host="192.168.0.3" />
+						<netio_minus_XUbuntu name="netio-XUbuntu" file="true" Host="192.168.0.3" />
+						<netio_minus_win_punkt_exe name="netio-win.exe" file="true" Host="192.168.0.3" />
+					</wpy_minus_bin>
+					<bin directory="true" Host="192.168.0.3" name="bin">
+						<aix_minus_ppc64 name="aix-ppc64" file="true" Host="192.168.0.3" />
+						<freebsd_minus_i386 name="freebsd-i386" file="true" Host="192.168.0.3" />
+						<linux_minus_i386 name="linux-i386" file="true" Host="192.168.0.3" />
+						<linux_minus_x86_64 name="linux-x86_64" file="true" Host="192.168.0.3" />
+						<mac_minus_osx_minus_10_punkt_5_punkt_tar_punkt_gz name="mac-osx-10.5.tar.gz" file="true" Host="192.168.0.3" />
+						<os2_minus_i386_punkt_exe name="os2-i386.exe" file="true" Host="192.168.0.3" />
+						<sol10_minus_i386 name="sol10-i386" file="true" Host="192.168.0.3" />
+						<sol9_minus_sparc name="sol9-sparc" file="true" Host="192.168.0.3" />
+						<win32_minus_i386_punkt_exe name="win32-i386.exe" file="true" Host="192.168.0.3" />
 					</bin>
 				</netio132>
-				<X11 name="X11">
-					<_punkt_dmrc name=".dmrc" file="true" />
-					<_punkt_esd_auth name=".esd_auth" file="true" />
-					<_punkt_recently-used_punkt_xbel name=".recently-used.xbel" file="true" />
-					<_punkt_recently-used_punkt_xbel-vubun name=".recently-used.xbel-vubun" file="true" />
-					<stl-s-stud.dtterm name="stl-s-stud.dtterm" file="true" />
-					<stl-s-stud.xterm name="stl-s-stud.xterm" file="true" />
-					<stl-s-ubu.xfce4 name="stl-s-ubu.xfce4" file="true" />
-					<stl-s-ubu.xterm name="stl-s-ubu.xterm" file="true" />
-					<_punkt_mozilla-vubun name=".mozilla-vubun" />
-					<_punkt_gnome2 name=".gnome2" />
-					<_punkt_tarantella name=".tarantella" />
-					<_punkt_thumbnails-vubun name=".thumbnails-vubun" />
-					<_punkt_gnome name=".gnome" />
-					<_punkt_nautilus-vubun name=".nautilus-vubun" />
-					<_punkt_config-vubun name=".config-vubun" />
-					<_punkt_thunderbird name=".thunderbird" />
-					<_punkt_gconfd-vubun name=".gconfd-vubun" />
-					<_punkt_mozilla name=".mozilla" />
-					<_punkt_gstreamer-0_punkt_10 name=".gstreamer-0.10" />
-					<_punkt_iiim-vubun name=".iiim-vubun" />
-					<_punkt_gnome-vubun name=".gnome-vubun" />
-					<_punkt_dbus name=".dbus" />
-					<_punkt_local-vubun name=".local-vubun" />
-					<_punkt_icons-vubun name=".icons-vubun" />
-					<_punkt_tarantella-vubun name=".tarantella-vubun" />
-					<_punkt_pulse name=".pulse" />
-					<_punkt_local name=".local" />
-					<_punkt_gstreamer-0_punkt_10-vubun name=".gstreamer-0.10-vubun" />
-					<_punkt_thunderbird-vubun name=".thunderbird-vubun" />
-					<_punkt_gconf name=".gconf" />
-					<_punkt_config name=".config" />
+				<X11 directory="true" Host="192.168.0.3" name="X11">
+					<_punkt_dmrc name=".dmrc" file="true" Host="192.168.0.3" />
+					<_punkt_esd_auth name=".esd_auth" file="true" Host="192.168.0.3" />
+					<_punkt_recently_minus_used_punkt_xbel name=".recently-used.xbel" file="true" Host="192.168.0.3" />
+					<_punkt_recently_minus_used_punkt_xbel_minus_vubun name=".recently-used.xbel-vubun" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_stud_punkt_dtterm name="stl-s-stud.dtterm" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_stud_punkt_xterm name="stl-s-stud.xterm" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_ubu_punkt_xfce4 name="stl-s-ubu.xfce4" file="true" Host="192.168.0.3" />
+					<stl_minus_s_minus_ubu_punkt_xterm name="stl-s-ubu.xterm" file="true" Host="192.168.0.3" />
+					<_punkt_mozilla_minus_vubun directory="true" Host="192.168.0.3" name=".mozilla-vubun" />
+					<_punkt_gnome2 directory="true" Host="192.168.0.3" name=".gnome2" />
+					<_punkt_tarantella directory="true" Host="192.168.0.3" name=".tarantella" />
+					<_punkt_thumbnails_minus_vubun directory="true" Host="192.168.0.3" name=".thumbnails-vubun" />
+					<_punkt_gnome directory="true" Host="192.168.0.3" name=".gnome" />
+					<_punkt_nautilus_minus_vubun directory="true" Host="192.168.0.3" name=".nautilus-vubun" />
+					<_punkt_config_minus_vubun directory="true" Host="192.168.0.3" name=".config-vubun" />
+					<_punkt_thunderbird directory="true" Host="192.168.0.3" name=".thunderbird" />
+					<_punkt_gconfd_minus_vubun directory="true" Host="192.168.0.3" name=".gconfd-vubun" />
+					<_punkt_mozilla directory="true" Host="192.168.0.3" name=".mozilla" />
+					<_punkt_gstreamer_minus_0_punkt_10 directory="true" Host="192.168.0.3" name=".gstreamer-0.10" />
+					<_punkt_iiim_minus_vubun directory="true" Host="192.168.0.3" name=".iiim-vubun" />
+					<_punkt_gnome_minus_vubun directory="true" Host="192.168.0.3" name=".gnome-vubun" />
+					<_punkt_dbus directory="true" Host="192.168.0.3" name=".dbus" />
+					<_punkt_local_minus_vubun directory="true" Host="192.168.0.3" name=".local-vubun" />
+					<_punkt_icons_minus_vubun directory="true" Host="192.168.0.3" name=".icons-vubun" />
+					<_punkt_tarantella_minus_vubun directory="true" Host="192.168.0.3" name=".tarantella-vubun" />
+					<_punkt_pulse directory="true" Host="192.168.0.3" name=".pulse" />
+					<_punkt_local directory="true" Host="192.168.0.3" name=".local" />
+					<_punkt_gstreamer_minus_0_punkt_10_minus_vubun directory="true" Host="192.168.0.3" name=".gstreamer-0.10-vubun" />
+					<_punkt_thunderbird_minus_vubun directory="true" Host="192.168.0.3" name=".thunderbird-vubun" />
+					<_punkt_gconf directory="true" Host="192.168.0.3" name=".gconf" />
+					<_punkt_config directory="true" Host="192.168.0.3" name=".config" />
 				</X11>
 			</ueb01>
-			<ueb04 name="ueb04">
-				<ueb04.txt name="ueb04.txt" file="true" />
-				<Linux-Netzwerk-Kommandos name="Linux-Netzwerk-Kommandos">
-					<Deprecated_Linux_networking_commands.docx name="Deprecated_Linux_networking_commands.docx" file="true" />
-					<Deprecated_Linux_networking_commands.pdf name="Deprecated_Linux_networking_commands.pdf" file="true" />
-				</Linux-Netzwerk-Kommandos>
-				<HTW-WLAN-Daten name="HTW-WLAN-Daten">
-					<HTW-WLAN-Eduroam-2015 name="HTW-WLAN-Eduroam-2015" file="true" />
-					<HTW-WLAN-hiz-saarland_plus_HTWDS-VPN-2014 name="HTW-WLAN-hiz-saarland+HTWDS-VPN-2014" file="true" />
-					<HTW-WLAN-hiz-saarland_plus_STL-VPN-2014 name="HTW-WLAN-hiz-saarland+STL-VPN-2014" file="true" />
-					<HTW-WLAN-hiz-saarland-2014 name="HTW-WLAN-hiz-saarland-2014" file="true" />
-					<HTW-WLAN-htwintern-2014 name="HTW-WLAN-htwintern-2014" file="true" />
-					<win7_HTW-LAN_ipconfig-all-neu name="win7_HTW-LAN_ipconfig-all-neu" file="true" />
-				</HTW-WLAN-Daten>
-				<Hausaufgabe name="Hausaufgabe">
-					<Subnetting-1.gif name="Subnetting-1.gif" file="true" />
-					<Subnetting-1.pdf name="Subnetting-1.pdf" file="true" />
-					<Subnetting-2.gif name="Subnetting-2.gif" file="true" />
-					<Subnetting-2.pdf name="Subnetting-2.pdf" file="true" />
+			<ueb04 directory="true" Host="192.168.0.3" name="ueb04">
+				<ueb04_punkt_txt name="ueb04.txt" file="true" Host="192.168.0.3" />
+				<Linux_minus_Netzwerk_minus_Kommandos directory="true" Host="192.168.0.3" name="Linux-Netzwerk-Kommandos">
+					<Deprecated_Linux_networking_commands_punkt_docx name="Deprecated_Linux_networking_commands.docx" file="true" Host="192.168.0.3" />
+					<Deprecated_Linux_networking_commands_punkt_pdf name="Deprecated_Linux_networking_commands.pdf" file="true" Host="192.168.0.3" />
+				</Linux_minus_Netzwerk_minus_Kommandos>
+				<HTW_minus_WLAN_minus_Daten directory="true" Host="192.168.0.3" name="HTW-WLAN-Daten">
+					<HTW_minus_WLAN_minus_Eduroam_minus_2015 name="HTW-WLAN-Eduroam-2015" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_HTWDS_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+HTWDS-VPN-2014" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_STL_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+STL-VPN-2014" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_minus_2014 name="HTW-WLAN-hiz-saarland-2014" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_htwintern_minus_2014 name="HTW-WLAN-htwintern-2014" file="true" Host="192.168.0.3" />
+					<win7_HTW_minus_LAN_ipconfig_minus_all_minus_neu name="win7_HTW-LAN_ipconfig-all-neu" file="true" Host="192.168.0.3" />
+				</HTW_minus_WLAN_minus_Daten>
+				<Hausaufgabe directory="true" Host="192.168.0.3" name="Hausaufgabe">
+					<Subnetting_minus_1_punkt_gif name="Subnetting-1.gif" file="true" Host="192.168.0.3" />
+					<Subnetting_minus_1_punkt_pdf name="Subnetting-1.pdf" file="true" Host="192.168.0.3" />
+					<Subnetting_minus_2_punkt_gif name="Subnetting-2.gif" file="true" Host="192.168.0.3" />
+					<Subnetting_minus_2_punkt_pdf name="Subnetting-2.pdf" file="true" Host="192.168.0.3" />
 				</Hausaufgabe>
 			</ueb04>
-			<ueb03 name="ueb03">
-				<loesung03.txt name="loesung03.txt" file="true" />
-				<ueb03.txt name="ueb03.txt" file="true" />
-				<loesung03-daten name="loesung03-daten">
-					<HOME-LAN-ping name="HOME-LAN-ping" file="true" />
-					<HOME-WLAN-ping name="HOME-WLAN-ping" file="true" />
-					<HTW-LAN-STL-VLAN-ping name="HTW-LAN-STL-VLAN-ping" file="true" />
-					<HTW-LAN-ping name="HTW-LAN-ping" file="true" />
-					<HTW-WLAN-Eduroam-STL-VLAN-ping name="HTW-WLAN-Eduroam-STL-VLAN-ping" file="true" />
-					<HTW-WLAN-Eduroam-ping name="HTW-WLAN-Eduroam-ping" file="true" />
-					<proz.bat name="proz.bat" file="true" />
-					<proz.bat_real_protokoll_2016_05_19 name="proz.bat_real_protokoll_2016_05_19" file="true" />
-					<wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24" file="true" />
-					<wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24" file="true" />
-					<wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09" file="true" />
-					<wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24" file="true" />
-					<wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02" file="true" />
-					<wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24" file="true" />
-					<wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02" file="true" />
-					<wpy_pinge_rechnerliste_win10_protokoll_2016_11_24 name="wpy_pinge_rechnerliste_win10_protokoll_2016_11_24" file="true" />
-				</loesung03-daten>
+			<ueb03 directory="true" Host="192.168.0.3" name="ueb03">
+				<loesung03_punkt_txt name="loesung03.txt" file="true" Host="192.168.0.3" />
+				<ueb03_punkt_txt name="ueb03.txt" file="true" Host="192.168.0.3" />
+				<loesung03_minus_daten directory="true" Host="192.168.0.3" name="loesung03-daten">
+					<HOME_minus_LAN_minus_ping name="HOME-LAN-ping" file="true" Host="192.168.0.3" />
+					<HOME_minus_WLAN_minus_ping name="HOME-WLAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_LAN_minus_STL_minus_VLAN_minus_ping name="HTW-LAN-STL-VLAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_LAN_minus_ping name="HTW-LAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_Eduroam_minus_STL_minus_VLAN_minus_ping name="HTW-WLAN-Eduroam-STL-VLAN-ping" file="true" Host="192.168.0.3" />
+					<HTW_minus_WLAN_minus_Eduroam_minus_ping name="HTW-WLAN-Eduroam-ping" file="true" Host="192.168.0.3" />
+					<proz_punkt_bat name="proz.bat" file="true" Host="192.168.0.3" />
+					<proz_punkt_bat_real_protokoll_2016_05_19 name="proz.bat_real_protokoll_2016_05_19" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv4_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_12_09 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02" file="true" Host="192.168.0.3" />
+					<wpy_pinge_rechnerliste_win10_protokoll_2016_11_24 name="wpy_pinge_rechnerliste_win10_protokoll_2016_11_24" file="true" Host="192.168.0.3" />
+				</loesung03_minus_daten>
 			</ueb03>
-			<Vorlesung name="Vorlesung">
-				<Rechnernetze-Skript.pdf name="Rechnernetze-Skript.pdf" file="true" />
+			<Vorlesung directory="true" Host="192.168.0.3" name="Vorlesung">
+				<Rechnernetze_minus_Skript_punkt_pdf name="Rechnernetze-Skript.pdf" file="true" Host="192.168.0.3" />
 			</Vorlesung>
-			<ueb05 name="ueb05">
-				<ueb05.txt name="ueb05.txt" file="true" />
-				<HTW-WLAN-Daten name="HTW-WLAN-Daten">
-					<Win7-HTW-WLAN-Eduroam-netstat-r name="Win7-HTW-WLAN-Eduroam-netstat-r" file="true" />
-					<Win7-HTW-WLAN-Eduroam-netstat-r-2014 name="Win7-HTW-WLAN-Eduroam-netstat-r-2014" file="true" />
-					<Win7-HTW-WLAN-hiz-saarland-netstat-r name="Win7-HTW-WLAN-hiz-saarland-netstat-r" file="true" />
-					<Win7-HTW-WLAN-htwintern-netstat-r name="Win7-HTW-WLAN-htwintern-netstat-r" file="true" />
-					<Win7_HTW-LAN_netstat-r name="Win7_HTW-LAN_netstat-r" file="true" />
-				</HTW-WLAN-Daten>
+			<ueb05 directory="true" Host="192.168.0.3" name="ueb05">
+				<ueb05_punkt_txt name="ueb05.txt" file="true" Host="192.168.0.3" />
+				<HTW_minus_WLAN_minus_Daten directory="true" Host="192.168.0.3" name="HTW-WLAN-Daten">
+					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r name="Win7-HTW-WLAN-Eduroam-netstat-r" file="true" Host="192.168.0.3" />
+					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r_minus_2014 name="Win7-HTW-WLAN-Eduroam-netstat-r-2014" file="true" Host="192.168.0.3" />
+					<Win7_minus_HTW_minus_WLAN_minus_hiz_minus_saarland_minus_netstat_minus_r name="Win7-HTW-WLAN-hiz-saarland-netstat-r" file="true" Host="192.168.0.3" />
+					<Win7_minus_HTW_minus_WLAN_minus_htwintern_minus_netstat_minus_r name="Win7-HTW-WLAN-htwintern-netstat-r" file="true" Host="192.168.0.3" />
+					<Win7_HTW_minus_LAN_netstat_minus_r name="Win7_HTW-LAN_netstat-r" file="true" Host="192.168.0.3" />
+				</HTW_minus_WLAN_minus_Daten>
 			</ueb05>
 		</Rechnernetze>
 	</studium>
