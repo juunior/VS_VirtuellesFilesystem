@@ -1,3 +1,5 @@
+package htw.vs.virtuellesFileSystem;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
@@ -5,7 +7,8 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.Collection;
 
-public class DirectoryStructure {
+
+public class Directory_Structure {
 
     public static String rootPath = null;
 
@@ -83,13 +86,14 @@ public class DirectoryStructure {
 
 
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
 
         rootPath = askPaths();
         String txtPath = rootPath + "\\Paths.txt";
         //Eine der nachfolgenden zwei Funktionen zum Verwenden auskommentieren
         //createPaths(txtPath);
         //createTxt(rootPath,txtPath);
-        DirWatchService.startWatcher();
+        htw.vs.virtuellesFileSystem.DirWatchService.startWatcher();
     }
+    */
 }

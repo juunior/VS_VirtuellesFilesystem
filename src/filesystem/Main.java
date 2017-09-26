@@ -1,5 +1,6 @@
 package filesystem;
 
+import htw.vs.virtuellesFileSystem.DirWatchService;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -8,10 +9,15 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
-public class Main extends Application{
+import static htw.vs.virtuellesFileSystem.Directory_Structure.askPaths;
+
+public class Main extends Application {
+
+    //Dieser rootPath fällt weg, falls Kais Methode dafür verwendet wird
+    public static String rootPath = null;
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         //(new HelpFileThread()).start(); // load to help file from the resource folder to the local temp folder.
 
         Parent root = FXMLLoader.load(getClass().getResource("/filesystem/GUI/sample.fxml"));
@@ -26,7 +32,7 @@ public class Main extends Application{
         });
     }
 
-    public static void main(String[] args) {
+    public static void launchGui(String args[]) {
         if (args.length > 2) {
             //vs1.usage();
         }
@@ -36,8 +42,7 @@ public class Main extends Application{
             if (args[1].equals("s")) {
                 mode = "server";
             }
-        }
-        else if (args.length == 1) {
+        } else if (args.length == 1) {
             // only one parameter -> default
             mode = "default";
         }
@@ -57,5 +62,21 @@ public class Main extends Application{
 
 
         launch(args);
+    }
+
+
+    public static void main(String args[]) {
+
+        //Es müssen noch die Buttons der GUI angepasst werden
+
+        //Erst GUI starten
+        launchGui(args);
+        //An dieser Stelle entweder askPaths oder Kais Zeug zum Pfade abfragen
+        //Falls Kais Zeug verwendet wird, globale Variable rootPath evtl. löschen
+        rootPath = askPaths();
+        //Hier Platzhalter für das Einlesen der Directory Informationen
+        //DirectoryWatcher starten, bereits bekannte Pfade initialisieren und Funktionalität zum automatischen Hinzufügen neuer Directories und Files starten
+        DirWatchService.startWatcher();
+
     }
 }

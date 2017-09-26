@@ -31,14 +31,9 @@ public class testRenameCreateDirectory {
         createDirectory.createFile(f2);
 
         //rename/mv File/Dorectory
-        rename.rename(f2.toPath(), RN.toPath());
 
 
 
-        Path infile = Paths.get( "./testOrdner/testOrdner/test.txt" );
-        Path outfile = Paths.get( "./testOrdner/testOrdner/testKopie.txt" );
-
-        rename.rename(infile, outfile);
 
 
     }
