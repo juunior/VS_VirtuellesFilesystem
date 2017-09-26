@@ -31,7 +31,6 @@ public class searchXML {
             if (node.getNodeType() == Node.ELEMENT_NODE) {
 
                 //Beispielausgabe, kann geloescht werden
-                //Beispielaufrufe
                 System.out.println(getAttributeByString(node, "name"));
                 System.out.println("file: " + getAttributeByString(node, "file"));
                 System.out.println("directory: " + getAttributeByString(node, "directory"));
