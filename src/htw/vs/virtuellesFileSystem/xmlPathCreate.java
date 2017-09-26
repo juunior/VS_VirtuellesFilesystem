@@ -173,7 +173,7 @@ public class xmlPathCreate {
         } catch (SocketException e) {
             e.printStackTrace();
         }
-        for (; n != null ? n.hasMoreElements() : false; ) {
+        for (; n != null && n.hasMoreElements(); ) {
             NetworkInterface e = n.nextElement();
 
             Enumeration<InetAddress> a = e.getInetAddresses();
