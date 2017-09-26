@@ -26,7 +26,7 @@ public class DirWatchService {
 
     //Methode, um Directories und Files in die Liste der zu ueberwachenden Objekte zu nehmen
     public static void registerDirs(WatchService watcher) {
-        File directory = new File(Directory_Structure.rootPath);
+        File directory = new File(DirectoryStructure.rootPath);
         Collection<File> collection = org.apache.commons.io.FileUtils.listFilesAndDirs(directory, TrueFileFilter.INSTANCE, TrueFileFilter.INSTANCE);
         for (File f : collection) {
             Path tempPath = f.toPath();

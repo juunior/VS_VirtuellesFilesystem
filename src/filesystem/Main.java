@@ -9,7 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
-import static htw.vs.virtuellesFileSystem.Directory_Structure.askPaths;
+import static htw.vs.virtuellesFileSystem.DirectoryStructure.askPaths;
 
 public class Main extends Application {
 
