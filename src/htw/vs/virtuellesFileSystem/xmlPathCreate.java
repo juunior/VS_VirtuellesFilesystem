@@ -327,24 +327,8 @@ public class xmlPathCreate {
      * @see NotDirectoryException
      */
     private static Document writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
-        String os = System.getProperty("os.name");
-        if (os.toLowerCase().contains("windows")) {
-            DELIMITER = "\\";
-        } else {
-            DELIMITER = "/";
-        }
+        detectOS();
 
-        if (!dir.endsWith(DELIMITER)) {
-            dir = dir.concat(DELIMITER);
-        }
-
-        if (!new File(dir).exists()) {
-            throw new FileNotFoundException();
-        }
-        if (!new File(dir).isDirectory()) {
-            throw new NotDirectoryException(dir);
-        }
-        File rootDir = new File(dir);
 
         String[] root;
 
@@ -354,9 +338,18 @@ public class xmlPathCreate {
             root = dir.split("/");
         }
         ROOTDIR = dir.replace(DELIMITER + root[root.length - 1] + DELIMITER, DELIMITER);
-
+        File rootDir = new File(dir);
         return getDirs(rootDir, doc);
 
+    }
+
+    static void detectOS(){
+        String os = System.getProperty("os.name");
+        if (os.toLowerCase().contains("windows")) {
+            DELIMITER = "\\";
+        } else {
+            DELIMITER = "/";
+        }
     }
 
 
