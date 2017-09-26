@@ -17,7 +17,7 @@ public class xmlSearchTest {
         Document document = docBuilder.parse(new File("xmlTest.xml"));
 
         // File Name aendern
-        String str = "Musterdatei.txt";
-        searchXML.suche(str, document);
+        String str = "dev-jan";
+        searchXML.search(str, document);
     }
 }
