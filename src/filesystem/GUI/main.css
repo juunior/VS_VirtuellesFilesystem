@@ -1,0 +1,83 @@
+#homeBtn {
+	-fx-background-image: url('images/Home/Home_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#refreshBtn {
+	-fx-background-image: url('images/Refresh/Refresh_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#mountBtn {
+	-fx-background-image: url('images/Mount/Mount_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#lockBtn {
+	-fx-background-image: url('images/Lock_Close/Lock_Closed_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#createDirBtn {
+	-fx-background-image: url('images/Folder_Add/Folder_Add_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#createFileBtn {
+	-fx-background-image: url('images/File_Add/File_Add_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#renameBtn {
+	-fx-background-image: url('images/Rename_blue/Rename_blue_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#deleteBtn {
+	-fx-background-image: url('images/Delete/Delete_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#helpBtn {
+	-fx-background-image: url('images/Help/Help_048.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 24 24;
+}
+
+#clearSelTabBtn {
+	-fx-background-image: url('images/Clear/Clear_032.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 16 16;
+}
+
+#clearSearchBtn {
+	-fx-background-image: url('images/Clear/Clear_032.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 16 16;
+}
+
+#autoMountBtn {
+	-fx-background-image: url('images/Mount/Mount_032.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 16 16;
+}
