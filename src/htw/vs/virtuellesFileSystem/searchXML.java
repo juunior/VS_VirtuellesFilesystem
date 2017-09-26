@@ -16,9 +16,9 @@ public class searchXML {
      *
      * @param str   zu suchender Name
      * @param document  zu durchsuchende Datei
-     * @throws ParserConfigurationException
-     * @throws IOException
-     * @throws SAXException
+     * @see ParserConfigurationException
+     * @see IOException
+     * @see SAXException
      */
     public static void search(String str, Document document) throws ParserConfigurationException, IOException, SAXException {
 
