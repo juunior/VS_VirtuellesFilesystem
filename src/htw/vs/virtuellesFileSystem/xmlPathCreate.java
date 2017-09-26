@@ -16,8 +16,8 @@ import java.util.*;
 
 
 public class xmlPathCreate {
-    private String ROOTDIR;
-    private String DELIMITER;
+    private static String ROOTDIR;
+    private static String DELIMITER;
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
 
     private final static String DATNAM = "xmlTest.xml";
@@ -25,14 +25,17 @@ public class xmlPathCreate {
     private final static File FILE = new File(DATNAM);
 
 
-    public Document createDoc(String rootElement) {
+    private static Document createDoc() {
         Document doc = new Document();
-        Element root = new Element(rootElement);
+        Element root = new Element("VSFS");
         doc.setRootElement(root);
         return doc;
     }
 
-    private static void setIllegalCharacter(){
+    /**
+     * Funktion die die zu ersetztenden Zeichen in die Hasmap einfuegt
+     */
+    private static void setIllegalCharacter() {
         illegalCharacterAndReplacement = new LinkedHashMap<>();
 
         illegalCharacterAndReplacement.put(" ", "-_-");
@@ -67,6 +70,12 @@ public class xmlPathCreate {
         illegalCharacterAndReplacement.put("`", "_backtick_");
     }
 
+    /**
+     * Funktion, die die nicht XML konformen Zeichen umwandelt
+     *
+     * @param tag String mit nicht zulässigen Zeichen
+     * @return XML konformer String
+     */
     static String removeIllegalCharacter(String tag) {
 
         setIllegalCharacter();
@@ -74,19 +83,27 @@ public class xmlPathCreate {
         ArrayList<String> illegal = new ArrayList<>(illegalCharacterAndReplacement.keySet());
         ArrayList<String> replacement = new ArrayList<>(illegalCharacterAndReplacement.values());
 
+        StringBuilder tagBuilder = new StringBuilder(tag);
         for (String symbol : illegal) {
-            if (tag.contains(symbol)) {
-                tag = tag.replace(symbol, replacement.get(i));
+            if (tagBuilder.toString().contains(symbol)) {
+                tagBuilder = new StringBuilder(tagBuilder.toString().replace(symbol, replacement.get(i)));
             }
-            if (Character.isDigit(tag.charAt(0))) {
-                tag = "_" + tag;
+            if (Character.isDigit(tagBuilder.charAt(0))) {
+                tagBuilder.insert(0, "_");
             }
             i++;
         }
+        tag = tagBuilder.toString();
 
         return tag;
     }
 
+    /**
+     * wandelt einen angepassten String wieder in eine normale Form zurück
+     *
+     * @param tag String mit ersetzten Zeichen
+     * @return normaliesierter lesbaere String
+     */
     static String revertIllegalCharacter(String tag) {
 
         setIllegalCharacter();
@@ -99,7 +116,7 @@ public class xmlPathCreate {
                 tag = tag.replace(symbol, illegal.get(i));
             }
             if (Character.isDigit(tag.charAt(1))) {
-                tag = tag.substring(1,tag.length());
+                tag = tag.substring(1, tag.length());
             }
             i++;
         }
@@ -108,8 +125,14 @@ public class xmlPathCreate {
     }
 
 
-
-    private Element buildElement(String[] files, String dirName) {
+    /**
+     * baut ein Element bzw einen Ordner zusammen
+     *
+     * @param files   List von Dateien in einem Ordner
+     * @param dirName Name des Ordners
+     * @return Element eines Ordners mit den zugehörigen Datein
+     */
+    private static Element buildElement(String[] files, String dirName) {
         String eDir = dirName; // eDir ist XML Konform
         if (files != null) {
             Arrays.sort(files);
@@ -138,14 +161,19 @@ public class xmlPathCreate {
         return p;
     }
 
-    private String solveIP() {
+    /**
+     * findet eine IPv4 Addresse die nicht loopback ist
+     *
+     * @return die IPv4 Addresse des Hosts
+     */
+    private static String solveIP() {
         Enumeration<NetworkInterface> n = null;
         try {
             n = NetworkInterface.getNetworkInterfaces();
         } catch (SocketException e) {
             e.printStackTrace();
         }
-        for (; n.hasMoreElements(); ) {
+        for (; n != null && n.hasMoreElements(); ) {
             NetworkInterface e = n.nextElement();
 
             Enumeration<InetAddress> a = e.getInetAddresses();
@@ -160,8 +188,14 @@ public class xmlPathCreate {
         return "IP_not_solved";
     }
 
-
-    private void readDir(Document doc, String[] files, String dirName) {
+    /**
+     * Liest die Files des ersten Directory (RootElement)
+     *
+     * @param doc     Document file
+     * @param files   Datei des Ordners
+     * @param dirName Ordnername
+     */
+    private static void readDir(Document doc, String[] files, String dirName) {
         if (files != null) {
             Arrays.sort(files);
         }
@@ -171,74 +205,108 @@ public class xmlPathCreate {
 
     }
 
-    private void readParentDir(Document doc, String[] files, String dirName, File file) {
+    /**
+     * Liest die Datein der Ordner, verpackt sie und fügt sie als Child ein
+     *
+     * @param doc     Document file
+     * @param files   Dateien des Ordners
+     * @param dirName Ordnername
+     * @param dir     Ordnerverweis
+     */
+    private static void readParentDir(Document doc, String[] files, String dirName, File dir) {
         Element p = buildElement(files, dirName);
 
         Element xml = doc.getRootElement();
-        xml = insertChild(file, xml);
+        xml = insertChild(dir, xml);
 
         xml.addContent(p);
 
 
-        File subroot = new File(file.getAbsolutePath() + DELIMITER + dirName);
+        File subroot = new File(dir.getAbsolutePath() + DELIMITER + dirName);
         String[] directories = subroot.list((current, name) -> new File(current, name).isDirectory());
         buildDirectoryWalk(directories, doc, subroot);
 
     }
 
-
-    private Element insertChild(File file, Element xml) {
-        String real = StringUtils.difference(ROOTDIR, file.getAbsolutePath());
-        String[] childs;
+    /**
+     * sucht anhand des absoluten Pfad das passende XMl Child für einen weiteren Eintrag
+     *
+     * @param dir Ordnerverweis
+     * @param xml xmlRootElement
+     * @return das gefunde Child Element
+     */
+    private static Element insertChild(File dir, Element xml) {
+        String real = StringUtils.difference(ROOTDIR, dir.getAbsolutePath());
+        String[] children;
         if (Objects.equals(DELIMITER, "\\")) {
-            childs = real.split("\\\\");
+            children = real.split("\\\\");
         } else {
-            childs = real.split("/");
+            children = real.split("/");
         }
-        if (childs.length != 0) {
-            if (!childs[0].isEmpty()) {
-                for (String child : childs) {
+        if (children.length != 0) {
+            if (!children[0].isEmpty()) {
+                for (String child : children) {
                     //gleiches Ersetzungsmuster wie in den Filtern
                     child = removeIllegalCharacter(child);
                     xml = xml.getChild(child);
                 }
             }
         } else {
-            xml = xml.getChild(file.getName());
+            xml = xml.getChild(dir.getName());
         }
-//        System.out.println("REAL :::  " + real + "\t" + "CHILD::::" + Arrays.toString(childs) + "\t FILE::::" + file.getName());
+
 
         return xml;
     }
 
-
-    private void buildDirectoryWalk(String[] directories, Document doc, File file) {
+    /**
+     * rekursiver Durchlauf aller Ordner
+     *
+     * @param directories liste mit zu durchlaufenden Ordnern
+     * @param doc         Document file
+     * @param dirs        Ordnerverweis
+     * @return Document file
+     */
+    private static Document buildDirectoryWalk(String[] directories, Document doc, File dirs) {
         File file_tmp;
         for (String dir : directories) {
-            file_tmp = new File(file.getAbsolutePath() + "/" + dir);
+            file_tmp = new File(dirs.getAbsolutePath() + "/" + dir);
             String[] files = file_tmp.list((current, name) -> new File(current, name).isFile());
-            readParentDir(doc, files, dir, file);
+            readParentDir(doc, files, dir, dirs);
 
         }
+        return doc;
     }
 
 
-    private void getDir(File file, Document doc) {
-        String[] directories = file.list((current, name) -> new File(current, name).isDirectory());
-        String[] files = file.list((current, name) -> new File(current, name).isFile());
-        readDir(doc, files, file.getName());
-
-        buildDirectoryWalk(directories, doc, file);
-
+    /**
+     * Erstellen des ersten Directories und Anstoß zum Durchlauf aller Subdirectories
+     *
+     * @param dirs Ordnerverweis
+     * @param doc  Document file
+     */
+    private static Document getDirs(File dirs, Document doc) {
+        String[] directories = dirs.list((current, name) -> new File(current, name).isDirectory());
+        String[] files = dirs.list((current, name) -> new File(current, name).isFile());
+        readDir(doc, files, dirs.getName());
 
         if (directories != null) {
             Arrays.sort(directories);
         }
 
+        return buildDirectoryWalk(directories, doc, dirs);
 
     }
 
-    public void writeXML(Document doc) {
+    /**
+     * Write XML to disk
+     */
+    public static void createXML(String dir) throws FileNotFoundException, NotDirectoryException {
+        Document doc = createDoc();
+
+        doc = writeDoc(doc, dir);
+
+
         Format format = Format.getPrettyFormat();
         format.setIndent("\t");
         try (FileOutputStream fos = new FileOutputStream(FILE)) {
@@ -249,13 +317,15 @@ public class xmlPathCreate {
         }
     }
 
-    public void writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
-        String os = System.getProperty("os.name");
-        if (os.toLowerCase().contains("windows")) {
-            DELIMITER = "\\";
-        } else {
-            DELIMITER = "/";
-        }
+    /**
+     * Create Document for generating the XML file
+     *
+     * @param doc Document file
+     * @param dir Ordnername
+     * @see FileNotFoundException
+     */
+    private static Document writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
+        detectOS();
 
         if (!dir.endsWith(DELIMITER)) {
             dir = dir.concat(DELIMITER);
@@ -267,7 +337,6 @@ public class xmlPathCreate {
         if (!new File(dir).isDirectory()) {
             throw new NotDirectoryException(dir);
         }
-        File rootDir = new File(dir);
 
         String[] root;
 
@@ -277,9 +346,18 @@ public class xmlPathCreate {
             root = dir.split("/");
         }
         ROOTDIR = dir.replace(DELIMITER + root[root.length - 1] + DELIMITER, DELIMITER);
+        File rootDir = new File(dir);
+        return getDirs(rootDir, doc);
 
-        getDir(rootDir, doc);
-        solveIP();
+    }
+
+    private static void detectOS() {
+        String os = System.getProperty("os.name");
+        if (os.toLowerCase().contains("windows")) {
+            DELIMITER = "\\";
+        } else {
+            DELIMITER = "/";
+        }
     }
 
 
