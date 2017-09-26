@@ -173,7 +173,7 @@ public class xmlPathCreate {
         } catch (SocketException e) {
             e.printStackTrace();
         }
-        for (; n.hasMoreElements(); ) {
+        for (; n != null ? n.hasMoreElements() : false; ) {
             NetworkInterface e = n.nextElement();
 
             Enumeration<InetAddress> a = e.getInetAddresses();
@@ -281,7 +281,8 @@ public class xmlPathCreate {
 
     /**
      * Erstellen des ersten Directories und Anstoß zum Durchlauf aller Subdirectories
-     *  @param dirs Ordnerverweis
+     *
+     * @param dirs Ordnerverweis
      * @param doc  Document file
      */
     private static Document getDirs(File dirs, Document doc) {
@@ -299,13 +300,11 @@ public class xmlPathCreate {
 
     /**
      * Write XML to disk
-     *
-     *
      */
     public static void createXML(String dir) throws FileNotFoundException, NotDirectoryException {
         Document doc = createDoc();
 
-        doc = writeDoc(doc,dir);
+        doc = writeDoc(doc, dir);
 
 
         Format format = Format.getPrettyFormat();
@@ -324,11 +323,20 @@ public class xmlPathCreate {
      * @param doc Document file
      * @param dir Ordnername
      * @see FileNotFoundException
-     * @see NotDirectoryException
      */
     private static Document writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
         detectOS();
 
+        if (!dir.endsWith(DELIMITER)) {
+            dir = dir.concat(DELIMITER);
+        }
+
+        if (!new File(dir).exists()) {
+            throw new FileNotFoundException();
+        }
+        if (!new File(dir).isDirectory()) {
+            throw new NotDirectoryException(dir);
+        }
 
         String[] root;
 
@@ -343,7 +351,7 @@ public class xmlPathCreate {
 
     }
 
-    static void detectOS(){
+    private static void detectOS() {
         String os = System.getProperty("os.name");
         if (os.toLowerCase().contains("windows")) {
             DELIMITER = "\\";
