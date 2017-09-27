@@ -1,49 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<VS1 directory="true" Host="192.168.56.1" name="VS1">
-		<Paths_punkt_txt name="Paths.txt" file="true" Host="192.168.56.1" />
-		<Ordner1 directory="true" Host="192.168.56.1" name="Ordner1">
-			<Ordner1_1 directory="true" Host="192.168.56.1" name="Ordner1_1">
-				<Ordner1_1_1 directory="true" Host="192.168.56.1" name="Ordner1_1_1" />
-			</Ordner1_1>
-			<Ordner1_2 directory="true" Host="192.168.56.1" name="Ordner1_2">
-				<Ordner1_2_1 directory="true" Host="192.168.56.1" name="Ordner1_2_1" />
-				<Ordner1_2_2 directory="true" Host="192.168.56.1" name="Ordner1_2_2" />
-			</Ordner1_2>
-		</Ordner1>
-		<Ordner2 directory="true" Host="192.168.56.1" name="Ordner2">
-			<Ordner2_1 directory="true" Host="192.168.56.1" name="Ordner2_1">
-				<Ordner2_1_1 directory="true" Host="192.168.56.1" name="Ordner2_1_1">
-					<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="192.168.56.1" />
-					<Ordner2_1_1_1 directory="true" Host="192.168.56.1" name="Ordner2_1_1_1" />
-					<Ordner2_1_1_2 directory="true" Host="192.168.56.1" name="Ordner2_1_1_2" />
-				</Ordner2_1_1>
-				<Ordner2_1_2 directory="true" Host="192.168.56.1" name="Ordner2_1_2">
-					<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="192.168.56.1" />
-					<neu directory="true" Host="192.168.56.1" name="neu">
-						<testordner directory="true" Host="192.168.56.1" name="testordner">
-							<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="192.168.56.1" />
-							<test directory="true" Host="192.168.56.1" name="test">
-								<test2 directory="true" Host="192.168.56.1" name="test2">
-									<test3 directory="true" Host="192.168.56.1" name="test3" />
-								</test2>
-							</test>
-						</testordner>
-					</neu>
-				</Ordner2_1_2>
-			</Ordner2_1>
-			<Ordner2_2 directory="true" Host="192.168.56.1" name="Ordner2_2">
-				<bla_punkt_txt name="bla.txt" file="true" Host="192.168.56.1" />
-				<testordner directory="true" Host="192.168.56.1" name="testordner">
-					<test_punkt_txt name="test.txt" file="true" Host="192.168.56.1" />
-					<bla directory="true" Host="192.168.56.1" name="bla">
-						<bla directory="true" Host="192.168.56.1" name="bla">
-							<test_punkt_txt name="test.txt" file="true" Host="192.168.56.1" />
-						</bla>
-					</bla>
-				</testordner>
-			</Ordner2_2>
-		</Ordner2>
-		<Ordner3 directory="true" Host="192.168.56.1" name="Ordner3" />
-	</VS1>
+	<Test directory="true" Host="192.168.0.104" name="Test">
+		<Client directory="true" Host="192.168.0.104" name="Client">
+			<Download directory="true" Host="192.168.0.104" name="Download">
+				<camera_punkt_png name="camera.png" file="true" Host="192.168.0.104" />
+			</Download>
+			<Upload directory="true" Host="192.168.0.104" name="Upload">
+				<binary_punkt_png name="binary.png" file="true" Host="192.168.0.104" />
+			</Upload>
+		</Client>
+		<Server directory="true" Host="192.168.0.104" name="Server">
+			<Download directory="true" Host="192.168.0.104" name="Download">
+				<camera_punkt_png name="camera.png" file="true" Host="192.168.0.104" />
+			</Download>
+			<Upload directory="true" Host="192.168.0.104" name="Upload">
+				<binary_punkt_png name="binary.png" file="true" Host="192.168.0.104" />
+			</Upload>
+		</Server>
+	</Test>
 </VSFS>

@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.nio.file.*;
 import java.util.Collection;
 
@@ -29,8 +30,8 @@ public class Main {
         BufferedReader br = null;
         try {
             br = new BufferedReader(new FileReader(txtPath));
-            String part = "";
-            String[] uri = null;
+            String part;
+            String[] uri;
             //Lies txt-Datei aus
             part = br.readLine();
             //Teile den Inhalt der Textdatei an Semicolons
@@ -77,7 +78,7 @@ public class Main {
         }
         //Schreibe Pfade nacheinander in txt-Datei
         try {
-            FileUtils.writeStringToFile(txtFile, list);
+            FileUtils.writeStringToFile(txtFile, list, (Charset) null);
         } catch (IOException e) {
             e.printStackTrace();
         }
