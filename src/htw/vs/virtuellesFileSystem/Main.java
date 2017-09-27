@@ -7,6 +7,9 @@ import java.io.*;
 import java.nio.charset.Charset;
 import java.nio.file.*;
 import java.util.Collection;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
 
 
 public class Main {
@@ -65,17 +68,23 @@ public class Main {
         //Lege erforderliche Dateistrukturen an
         File directory = new File(rootPath);
         File txtFile = new File(txtPath);
+        Set<String> setInput = new TreeSet<>();
         //Lies Ordnerstruktur rekursiv aus
         Collection<File> collection = org.apache.commons.io.FileUtils.listFilesAndDirs(directory, TrueFileFilter.INSTANCE, TrueFileFilter.INSTANCE);
-        String list = "";
+        String list;
         //Pruefe, ob Pfad zu Datei oder Ordner fuehrt, passe entsprechend Pfad an
         for (File file : collection) {
             if (file.isFile()) {
-                list += "FIL" + (file.getAbsolutePath()) + ";";
+                setInput.add("FIL");
+                setInput.add(file.getAbsolutePath());
+                setInput.add(";");
             } else if (file.isDirectory()) {
-                list += "DIR" + (file.getAbsolutePath()) + ";";
+                setInput.add("DIR");
+                setInput.add(file.getAbsolutePath());
+                setInput.add(";");
             }
         }
+        list = join(setInput);
         //Schreibe Pfade nacheinander in txt-Datei
         try {
             FileUtils.writeStringToFile(txtFile, list, (Charset) null);
@@ -97,4 +106,8 @@ public class Main {
         htw.vs.virtuellesFileSystem.DirWatchService.startWatcher();
     }
     */
+
+    private static String join(final Set<String> set){
+        return set.stream().collect(Collectors.joining());
+    }
 }
