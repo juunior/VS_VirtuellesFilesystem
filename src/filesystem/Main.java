@@ -13,7 +13,7 @@ import javafx.stage.WindowEvent;
 import java.io.FileNotFoundException;
 import java.nio.file.NotDirectoryException;
 
-import static htw.vs.virtuellesFileSystem.DirectoryStructure.askPaths;
+import static htw.vs.virtuellesFileSystem.Main.askPaths;
 
 public class Main extends Application {
 

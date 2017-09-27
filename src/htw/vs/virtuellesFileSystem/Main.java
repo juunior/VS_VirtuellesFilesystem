@@ -8,7 +8,7 @@ import java.nio.file.*;
 import java.util.Collection;
 
 
-public class DirectoryStructure {
+public class Main {
 
     public static String rootPath = null;
 

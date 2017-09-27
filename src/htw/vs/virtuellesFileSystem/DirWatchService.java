@@ -1,5 +1,6 @@
 package htw.vs.virtuellesFileSystem;
 
+import filesystem.Main;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
@@ -26,7 +27,7 @@ public class DirWatchService {
 
     //Methode, um Directories und Files in die Liste der zu ueberwachenden Objekte zu nehmen
     public static void registerDirs(WatchService watcher) {
-        File directory = new File(DirectoryStructure.rootPath);
+        File directory = new File(Main.rootPath);
         Collection<File> collection = org.apache.commons.io.FileUtils.listFilesAndDirs(directory, TrueFileFilter.INSTANCE, TrueFileFilter.INSTANCE);
         for (File f : collection) {
             Path tempPath = f.toPath();
@@ -40,10 +41,11 @@ public class DirWatchService {
         }
     }
 
-    public static WatchService handleEvents(WatchService watcher) {
-            WatchKey watchKey = null;
-        while (true) {
-            watchKey = watcher.poll();
+    public static void handleEvents(WatchService watcher) {
+//        WatchKey watchKey;
+        Thread thread = new Thread(() -> {
+//        while (true) {
+            WatchKey watchKey = watcher.poll();
             //Wenn Ereignis geworfen wird, gebe Ereignis aus und fuehre erneut Registrierung der Ordner und Files durch
             if (watchKey != null) {
                 watchKey.pollEvents().stream()
@@ -57,7 +59,9 @@ public class DirWatchService {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+            //      }
+        });
+        thread.start();
     }
 
     public static void startWatcher() {
