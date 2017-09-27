@@ -2,6 +2,8 @@ package filesystem.GUI;
 
 import filesystem.FileSystemManger;
 import filesystem.Log.LogEntry;
+import filesystem.Log.LogType;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -14,12 +16,16 @@ import javafx.scene.image.ImageView;
 
 import java.awt.*;
 import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.nio.file.FileSystemException;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
 import htw.vs.virtuellesFileSystem.createDirectory.*;
+import javafx.scene.layout.HBox;
+import javafx.scene.paint.Color;
+import javafx.util.Callback;
 
 import static htw.vs.virtuellesFileSystem.createDirectory.createDirectory;
 
@@ -145,6 +151,11 @@ public class Controller implements Initializable{
         dialog.setContentText("Filename:");
 
         Optional<String> result = dialog.showAndWait();
+
+        //TODO
+        result.ifPresent(name ->
+        {
+        });
     }
 
     public FileType getSelectedFileType() {
@@ -235,8 +246,92 @@ public class Controller implements Initializable{
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        /**
+         * Textfield initiate
+         */
         textFieldDirectory.setText("Current path ....");
 
+        setButtons(null);
 
+        listViewTabLog.setItems(logEntries);
+        listViewTabLog.setCellFactory(new Callback<ListView<LogEntry>, ListCell<LogEntry>>() {
+            @Override
+            public ListCell<LogEntry> call(ListView<LogEntry> param) {
+                return new ListCell<LogEntry>() {
+                    @Override
+                    protected void updateItem(LogEntry item, boolean empty) {
+
+                        super.updateItem(item, empty);
+                        if (null == item) {
+                            setText("");
+                            setGraphic(null);
+                        } else if (item.getType() == LogType.SERVER_LOG) {
+                            ImageView image = new ImageView(Controller.class.getResource("images/Button_Blue/Button_Blue_016.png").toString());
+                            setText(item.getLog());
+                            setTextFill(javafx.scene.paint.Color.BLUE);
+                            setGraphic(image);
+                        } else {
+                            ImageView image = new ImageView(Controller.class.getResource("images/Button_Red/Button_Red_016.png").toString());
+                            setText(item.toString());
+                            setTextFill(Color.RED);
+                            setGraphic(image);
+                        }
+                    }
+                };
+            }
+        });
+
+        FileSystemManger.getInstance().addNetworkLogSubscriber(
+                log -> Platform.runLater(() -> logEntries.add(log))
+        );
+
+        tableColumnIcon.setCellValueFactory(cellData -> cellData.getValue().iconProperty());
+        tableColumnIcon.setCellFactory(param -> new TableCell<FileType, Image>() {
+            ImageView imageView = new ImageView();
+
+            @Override
+            protected void updateItem(Image item, boolean empty) {
+                setGraphic(null);
+                if (item != null) {
+                    HBox box = new HBox();
+                    box.setSpacing(12);
+
+                    imageView.setFitWidth(20);
+                    imageView.setFitHeight(20);
+                    imageView.setImage(item);
+                    box.getChildren().add(imageView);
+                    setGraphic(box);
+                }
+            }
+        });
+        tableColumnName.setCellValueFactory(cellData -> cellData.getValue().fileNameProperty());
+        tableColumnType.setCellValueFactory(cellData -> cellData.getValue().fileTypeProperty());
+        tableView.setItems(currentDirectory);
+
+        /**
+         * initiate columns of tableViewSearch
+         */
+        tableColumnSearchIcon.setCellValueFactory(cellData -> cellData.getValue().iconProperty());
+        tableColumnSearchIcon.setCellFactory(param -> new TableCell<SearchItem, Image>() {
+                    ImageView imageView = new ImageView();
+
+                    @Override
+                    protected void updateItem(Image item, boolean empty) {
+                        setGraphic(null);
+                        if (item != null) {
+                            HBox box = new HBox();
+                            box.setSpacing(12);
+
+                            imageView.setFitWidth(20);
+                            imageView.setFitHeight(20);
+                            imageView.setImage(item);
+                            box.getChildren().add(imageView);
+                            setGraphic(box);
+                        }
+                    }
+                }
+        );
+        tableColumnSearchName.setCellValueFactory(cellData -> cellData.getValue().fileNameProperty());
+        tableColumnSearchDirectory.setCellValueFactory(cellData -> cellData.getValue().pathProperty());
     }
 }
