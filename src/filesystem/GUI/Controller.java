@@ -1,9 +1,7 @@
 package filesystem.GUI;
 
 import filesystem.FileSystemManger;
-import filesystem.Log.*;
-
-import filesystem.ServerStatus;
+import filesystem.Log.LogEntry;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -16,8 +14,6 @@ import javafx.scene.image.ImageView;
 
 import java.awt.*;
 import java.net.URL;
-import java.nio.file.FileSystemException;
-import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
