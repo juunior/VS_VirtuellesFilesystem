@@ -11,7 +11,7 @@ import java.io.IOException;
 public class searchXML {
 
 
-    public static void suche(String str, Document document) throws ParserConfigurationException, IOException, SAXException {
+    public static void suche(String str, Document document) {
 
         str = xmlPathCreate.removeIllegalCharacter(str);
 
@@ -24,7 +24,6 @@ public class searchXML {
             }
         }
     }
-
 
 
     private static String nodeToString(Node node) {

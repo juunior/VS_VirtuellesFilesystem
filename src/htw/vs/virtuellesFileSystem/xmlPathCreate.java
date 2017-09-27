@@ -173,7 +173,7 @@ public class xmlPathCreate {
         } catch (SocketException e) {
             e.printStackTrace();
         }
-        for (; n.hasMoreElements(); ) {
+        for (; n != null && n.hasMoreElements(); ) {
             NetworkInterface e = n.nextElement();
 
             Enumeration<InetAddress> a = e.getInetAddresses();
@@ -281,7 +281,8 @@ public class xmlPathCreate {
 
     /**
      * Erstellen des ersten Directories und Anstoß zum Durchlauf aller Subdirectories
-     *  @param dirs Ordnerverweis
+     *
+     * @param dirs Ordnerverweis
      * @param doc  Document file
      */
     private static Document getDirs(File dirs, Document doc) {
@@ -299,13 +300,11 @@ public class xmlPathCreate {
 
     /**
      * Write XML to disk
-     *
-     *
      */
     public static void createXML(String dir) throws FileNotFoundException, NotDirectoryException {
         Document doc = createDoc();
 
-        doc = writeDoc(doc,dir);
+        doc = writeDoc(doc, dir);
 
 
         Format format = Format.getPrettyFormat();
@@ -324,15 +323,9 @@ public class xmlPathCreate {
      * @param doc Document file
      * @param dir Ordnername
      * @see FileNotFoundException
-     * @see NotDirectoryException
      */
     private static Document writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
-        String os = System.getProperty("os.name");
-        if (os.toLowerCase().contains("windows")) {
-            DELIMITER = "\\";
-        } else {
-            DELIMITER = "/";
-        }
+        detectOS();
 
         if (!dir.endsWith(DELIMITER)) {
             dir = dir.concat(DELIMITER);
@@ -344,7 +337,6 @@ public class xmlPathCreate {
         if (!new File(dir).isDirectory()) {
             throw new NotDirectoryException(dir);
         }
-        File rootDir = new File(dir);
 
         String[] root;
 
@@ -354,9 +346,18 @@ public class xmlPathCreate {
             root = dir.split("/");
         }
         ROOTDIR = dir.replace(DELIMITER + root[root.length - 1] + DELIMITER, DELIMITER);
-
+        File rootDir = new File(dir);
         return getDirs(rootDir, doc);
 
+    }
+
+    private static void detectOS() {
+        String os = System.getProperty("os.name");
+        if (os.toLowerCase().contains("windows")) {
+            DELIMITER = "\\";
+        } else {
+            DELIMITER = "/";
+        }
     }
 
 
