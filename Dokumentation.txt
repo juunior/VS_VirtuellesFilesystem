@@ -155,8 +155,24 @@ Säuberungsaktion auf den GitBranches
 - Kai&Christian implementieren die Suche
 
 24.9. Themen:
-- Implementierung in den letzten Zügen
-- Stundenzettel wird Mittwoch gegen 15 Uhr ausgelinkt -> Diagramme für Präsentation erstellen, drucken
+- Implementierung in den letzten Zügen, nur noch kleinere Funktionen sind zu schreiben
+- Stundenzettel wird Mittwoch gegen 15 Uhr ausgelinkt -> Diagramme für Präsentation erstellen, drucken etc.
   bitte vorher noch ergänzen.
 - Prezi überholt
 - nächste Besprechung Dienstag
+
+25.9. 
+- Alle Funktionenn  stehen und werden morgen verbunden
+- Stundenzettel bitte fertig ausfüllen sofern noch nicht geschehen; auch für Donnerstag was einplanen!
+
+26.9. Themen:
+- ein Teil ist so weit verbunden, für den Rest wird noch die GUI benötigt.
+- wichtige Hinweise zur Funktion ergänzen: 
+    - Software verursacht nur sehr geringe Serverlast
+    - Skalierung hinsichtlich der Netzwerkgröße möglich
+    - geringer Datenübertragungsaufwand, da nur die Dateistruktur; aber nicht die Dateien übertragen werden.
+
+27.9.
+- GUI ist online und die Funktionen werden angepasst und implementiert.
+- 28.9. testen testen testen ... wer kann ommt zur HTW.
+- Christian und Marc sind für die Projhektarbeit freigestellt worden.
