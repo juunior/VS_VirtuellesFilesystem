@@ -91,21 +91,15 @@ public class Controller implements Initializable{
 
 
     public void changeDirectory (File file) {
-        boolean error = false;
-        try {
-            createDirectory(file);
-        } catch (FileSystemException e) {
-            if(FileSystemManger.DEBUG){
-                e.printStackTrace();
-            }
-            showErrorMessage(e);
-            error = true;
+
+        createDirectory(file);
         }
-    }
+
 
     public void home(ActionEvent actionEvent)
     {
-        changeDirectory("/");
+        //TODO
+        //changeDirectory();
     }
 
     public void refresh(ActionEvent actionEvent) {
@@ -201,7 +195,8 @@ public class Controller implements Initializable{
     public void changeDirectoryManually(ActionEvent actionEvent) {
         String dirStr = textFieldDirectory.getText();
         if (dirStr == null || dirStr.isEmpty()) return;
-        changeDirectory(dirStr);
+        // TODO
+        // changeDirectory(dirStr);
     }
 
     public void search(ActionEvent actionEvent) {
