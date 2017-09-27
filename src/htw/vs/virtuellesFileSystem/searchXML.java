@@ -59,15 +59,15 @@ public class searchXML {
      */
     private static String nodeToString(Node node) {
         Node tmp = node;
-        String str = "/" + node.getNodeName();
+        StringBuilder str = new StringBuilder(xmlPathCreate.DELIMITER + node.getNodeName());
 
         do {
             tmp = tmp.getParentNode();
             if (tmp != null) {
-                str = "/" + tmp.getNodeName() + str;
+                str.insert(0, xmlPathCreate.DELIMITER + tmp.getNodeName());
             }
         } while (tmp.getParentNode() != null);
-        str = str.substring(10);// cut first #document
-        return (str);
+        str = new StringBuilder(str.substring(10));// cut first #document
+        return (str.toString());
     }
 }

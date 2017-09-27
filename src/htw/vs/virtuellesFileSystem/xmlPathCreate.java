@@ -17,7 +17,7 @@ import java.util.*;
 
 public class xmlPathCreate {
     private static String ROOTDIR;
-    private static String DELIMITER;
+    public static String DELIMITER;
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
 
     private final static String DATNAM = "xmlTest.xml";
@@ -351,7 +351,7 @@ public class xmlPathCreate {
 
     }
 
-    private static void detectOS() {
+    public static void detectOS() {
         String os = System.getProperty("os.name");
         if (os.toLowerCase().contains("windows")) {
             DELIMITER = "\\";

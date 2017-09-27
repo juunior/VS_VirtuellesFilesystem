@@ -1,4 +1,4 @@
-import htw.vs.virtuellesFileSystem.searchXML;
+import htw.vs.virtuellesFileSystem.*;
 import org.w3c.dom.Document;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -17,7 +17,8 @@ public class xmlSearchTest {
         Document document = docBuilder.parse(new File("xmlTest.xml"));
 
         // File Name aendern
-        String str = "dev-jan";
+        xmlPathCreate.detectOS();
+        String str = "BWL";
         searchXML.search(str, document);
     }
 }
