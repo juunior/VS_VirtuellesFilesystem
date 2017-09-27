@@ -1,6 +1,6 @@
 package filesystem.GUI;
 
-import filesystem.FileSystem.exceptions.Permissions;
+import filesystem.GUI.exceptions.*;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.scene.image.Image;
