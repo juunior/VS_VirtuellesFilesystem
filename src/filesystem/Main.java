@@ -1,6 +1,7 @@
 package filesystem;
 
 import htw.vs.virtuellesFileSystem.DirWatchService;
+import htw.vs.virtuellesFileSystem.xmlPathCreate;
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
@@ -8,6 +9,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
+
+import java.io.FileNotFoundException;
+import java.nio.file.NotDirectoryException;
 
 import static htw.vs.virtuellesFileSystem.DirectoryStructure.askPaths;
 
@@ -69,14 +73,24 @@ public class Main extends Application {
 
         //Es müssen noch die Buttons der GUI angepasst werden
 
-        //Erst GUI starten
-        launchGui(args);
+        rootPath = askPaths();
+        try {
+            xmlPathCreate.createXML(rootPath);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (NotDirectoryException e) {
+            e.printStackTrace();
+        }
         //An dieser Stelle entweder askPaths oder Kais Zeug zum Pfade abfragen
         //Falls Kais Zeug verwendet wird, globale Variable rootPath evtl. löschen
-        rootPath = askPaths();
+
         //Hier Platzhalter für das Einlesen der Directory Informationen
         //DirectoryWatcher starten, bereits bekannte Pfade initialisieren und Funktionalität zum automatischen Hinzufügen neuer Directories und Files starten
         DirWatchService.startWatcher();
+        //Zuletzt GUI starten
+        launchGui(args);
+
+
 
     }
 }
