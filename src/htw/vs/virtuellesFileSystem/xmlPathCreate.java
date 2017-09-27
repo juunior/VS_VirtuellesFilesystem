@@ -70,6 +70,7 @@ public class xmlPathCreate {
         illegalCharacterAndReplacement.put("`", "_backtick_");
         illegalCharacterAndReplacement.put("…","_ppp_");
         illegalCharacterAndReplacement.put(";","_semic_");
+        illegalCharacterAndReplacement.put("†","_cross_");
     }
 
     /**
