@@ -1,6 +1,7 @@
 package htw;
 
 import htw.FileSystemManger;
+import htw.vs.virtuellesFileSystem.DirWatchService;
 import htw.vs.virtuellesFileSystem.xmlPathCreate;
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -86,7 +87,7 @@ public class Main extends Application {
 
         //Hier Platzhalter für das Einlesen der Directory Informationen
         //DirectoryWatcher starten, bereits bekannte Pfade initialisieren und Funktionalität zum automatischen Hinzufügen neuer Directories und Files starten
-//        DirWatchService.startWatcher();
+        DirWatchService.startWatcher();
         //Zuletzt GUI starten
 //        launchGui(args);
         System.exit(0);
