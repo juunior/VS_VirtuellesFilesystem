@@ -3,6 +3,7 @@ package filesystem.GUI;
 import filesystem.FileSystemManger;
 import filesystem.Log.LogEntry;
 import filesystem.Log.LogType;
+import htw.ws.binary.server.WebServiceServer;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -76,7 +77,7 @@ public class Controller implements Initializable{
     private ObservableList<FileType> currentDirectory = FXCollections.observableArrayList();
     private ObservableList<SearchItem> searchResults = FXCollections.observableArrayList();
     private ObservableList<LogEntry> logEntries = FXCollections.observableArrayList();
-    //private ObservableList<FileSystemServer> serverEntrys = FXCollections.observableArrayList();
+    private ObservableList<WebServiceServer> serverEntrys = FXCollections.observableArrayList();
 
     private void setButtons(FileType selectedFileType) {
         if (selectedFileType == null)
@@ -239,8 +240,7 @@ public class Controller implements Initializable{
     }
 
     private void refreshServerList(){
-        //serverEntrys.clear();
-        //serverEntrys.addAll(FileSystemManger.getInstance().listAvailableFileSystemServers());
+        serverEntrys.clear();
     }
 
     @Override
