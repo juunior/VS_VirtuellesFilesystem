@@ -13,9 +13,15 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 import java.awt.*;
+import java.io.File;
 import java.net.URL;
+import java.nio.file.FileSystemException;
 import java.util.Optional;
 import java.util.ResourceBundle;
+
+import htw.vs.virtuellesFileSystem.createDirectory.*;
+
+import static htw.vs.virtuellesFileSystem.createDirectory.createDirectory;
 
 public class Controller implements Initializable{
 
@@ -66,7 +72,35 @@ public class Controller implements Initializable{
     private ObservableList<LogEntry> logEntries = FXCollections.observableArrayList();
     //private ObservableList<FileSystemServer> serverEntrys = FXCollections.observableArrayList();
 
-    public void changeDirectory (String directory) {
+    private void setButtons(FileType selectedFileType) {
+        if (selectedFileType == null)
+        {
+            // if there is no file object selected, delete/rename/lock is not possible
+            deleteBtn.setDisable(true);
+            renameBtn.setDisable(true);
+            lockBtn.setDisable(true);
+        } else {
+            // there is an item selected, so we have to check if any of these actions are allowed
+            deleteBtn.setDisable(!selectedFileType.getPermissions().isDeleteAllowed());
+            renameBtn.setDisable(!selectedFileType.getPermissions().isRenameAllowed());
+            lockBtn.setDisable(!selectedFileType.getPermissions().isLockingAllowed());
+        }
+        createDirBtn.setDisable(false);
+        createFileBtn.setDisable(false);
+    }
+
+
+    public void changeDirectory (File file) {
+        boolean error = false;
+        try {
+            createDirectory(file);
+        } catch (FileSystemException e) {
+            if(FileSystemManger.DEBUG){
+                e.printStackTrace();
+            }
+            showErrorMessage(e);
+            error = true;
+        }
     }
 
     public void home(ActionEvent actionEvent)
@@ -205,6 +239,9 @@ public class Controller implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        textFieldDirectory.setText("Current path ....");
+
 
     }
 }
