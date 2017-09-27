@@ -97,7 +97,7 @@ public class Main {
 
 
   /*  public static void main(String[] args) {
-
+        detectOS();
         rootPath = askPaths();
         String txtPath = rootPath + "\\Paths.txt";
         //Eine der nachfolgenden zwei Funktionen zum Verwenden auskommentieren

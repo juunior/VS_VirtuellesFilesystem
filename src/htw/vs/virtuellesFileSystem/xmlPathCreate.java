@@ -325,7 +325,7 @@ public class xmlPathCreate {
      * @see FileNotFoundException
      */
     private static Document writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
-        detectOS();
+
 
         if (!dir.endsWith(DELIMITER)) {
             dir = dir.concat(DELIMITER);
