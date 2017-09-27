@@ -1,40 +1,843 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<VS1 directory="true" Host="0:0:0:0:0:0:0:1" name="VS1">
-		<Paths_punkt_txt name="Paths.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</VS1>
-	<Ordner1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner1" />
-	<Ordner1_1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner1_1" />
-	<Ordner1_1_1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner1_1_1" />
-	<Ordner1_2 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner1_2" />
-	<Ordner1_2_1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner1_2_1" />
-	<Ordner1_2_2 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner1_2_2" />
-	<Ordner2 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2" />
-	<Ordner2_1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2_1" />
-	<Ordner2_1_1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2_1_1">
-		<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</Ordner2_1_1>
-	<Ordner2_1_1_1 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2_1_1_1" />
-	<Ordner2_1_1_2 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2_1_1_2" />
-	<Ordner2_1_2 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2_1_2">
-		<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</Ordner2_1_2>
-	<neu directory="true" Host="0:0:0:0:0:0:0:1" name="neu" />
-	<testordner directory="true" Host="0:0:0:0:0:0:0:1" name="testordner">
-		<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</testordner>
-	<test directory="true" Host="0:0:0:0:0:0:0:1" name="test" />
-	<test2 directory="true" Host="0:0:0:0:0:0:0:1" name="test2" />
-	<test3 directory="true" Host="0:0:0:0:0:0:0:1" name="test3" />
-	<Ordner2_2 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner2_2">
-		<bla_punkt_txt name="bla.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</Ordner2_2>
-	<testordner directory="true" Host="0:0:0:0:0:0:0:1" name="testordner">
-		<test_punkt_txt name="test.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</testordner>
-	<bla directory="true" Host="0:0:0:0:0:0:0:1" name="bla" />
-	<bla directory="true" Host="0:0:0:0:0:0:0:1" name="bla">
-		<test_punkt_txt name="test.txt" file="true" Host="0:0:0:0:0:0:0:1" />
-	</bla>
-	<Ordner3 directory="true" Host="0:0:0:0:0:0:0:1" name="Ordner3" />
+	<studium directory="true" Host="139.19.64.144" name="studium">
+		<_punkt__sync_a7aa8dc44fd7_punkt_db name="._sync_a7aa8dc44fd7.db" file="true" Host="139.19.64.144" />
+		<_punkt_owncloudsync_punkt_log name=".owncloudsync.log" file="true" Host="139.19.64.144" />
+		<_punkt_sieb_punkt_c_punkt_swp name=".sieb.c.swp" file="true" Host="139.19.64.144" />
+		<DB15_04_ASPO_punkt_pdf name="DB15_04_ASPO.pdf" file="true" Host="139.19.64.144" />
+		<Prfungsordnung_punkt_pdf name="Prfungsordnung.pdf" file="true" Host="139.19.64.144" />
+		<BWL directory="true" Host="139.19.64.144" name="BWL">
+			<_00_BWL1_Organisation_19102015_punkt_pdf name="00_BWL1_Organisation_19102015.pdf" file="true" Host="139.19.64.144" />
+			<_01_BWL1_Einführung_26102015_punkt_pdf name="01_BWL1_Einführung_26102015.pdf" file="true" Host="139.19.64.144" />
+			<_01_BWL2_Einführung_20042016_punkt_pdf name="01_BWL2_Einführung_20042016.pdf" file="true" Host="139.19.64.144" />
+			<_02_BWL1_Produktionsfaktoren_02112015_punkt_pdf name="02_BWL1_Produktionsfaktoren_02112015.pdf" file="true" Host="139.19.64.144" />
+			<_02_BWL2_Rechnungswesen_27042016_punkt_pdf name="02_BWL2_Rechnungswesen_27042016.pdf" file="true" Host="139.19.64.144" />
+			<_03_BWL1_Unternehmen_09112015_punkt_pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" Host="139.19.64.144" />
+			<_04_BWL1_Wirtschaftskreislauf_16112015_punkt_pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" Host="139.19.64.144" />
+			<_04_BWL2_Geschäftsprozesse_04052016_punkt_pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" Host="139.19.64.144" />
+			<_04_Spezielle_ITSysteme_15062016_punkt_pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" Host="139.19.64.144" />
+			<_05_BWL1_Rechtsformen23112015_punkt_pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" Host="139.19.64.144" />
+			<_05_Wissensmanagement_13072016_punkt_pdf name="05_Wissensmanagement_13072016.pdf" file="true" Host="139.19.64.144" />
+			<_06_BWL1_Organisationsstrukturen_30112015_punkt_pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" Host="139.19.64.144" />
+			<_07_BWL1_Ziele_30112015_punkt_pdf name="07_BWL1_Ziele_30112015.pdf" file="true" Host="139.19.64.144" />
+			<_08_BWL1_Personalwirtschaft_07122015_punkt_pdf name="08_BWL1_Personalwirtschaft_07122015.pdf" file="true" Host="139.19.64.144" />
+			<_09_BWL1_Leisungserstellung_04012016_punkt_pdf name="09_BWL1_Leisungserstellung_04012016.pdf" file="true" Host="139.19.64.144" />
+			<_10_BWL1_Kostenrechnung_18012016_punkt_pdf name="10_BWL1_Kostenrechnung_18012016.pdf" file="true" Host="139.19.64.144" />
+			<BWL_NachKlausur11022010_punkt_pdf name="BWL_NachKlausur11022010.pdf" file="true" Host="139.19.64.144" />
+			<BWL_Small_punkt_pdf name="BWL_Small.pdf" file="true" Host="139.19.64.144" />
+		</BWL>
+		<Informatik_1 directory="true" Host="139.19.64.144" name="Informatik_1">
+			<ueb07 directory="true" Host="139.19.64.144" name="ueb07" />
+		</Informatik_1>
+		<PTG directory="true" Host="139.19.64.144" name="PTG">
+			<doc00686320160817125107_punkt_pdf name="doc00686320160817125107.pdf" file="true" Host="139.19.64.144" />
+			<doc00686420160817125238_punkt_pdf name="doc00686420160817125238.pdf" file="true" Host="139.19.64.144" />
+			<doc00686620160817125516_punkt_pdf name="doc00686620160817125516.pdf" file="true" Host="139.19.64.144" />
+			<doc00686720160817125637_punkt_pdf name="doc00686720160817125637.pdf" file="true" Host="139.19.64.144" />
+			<doc00686820160817125721_punkt_pdf name="doc00686820160817125721.pdf" file="true" Host="139.19.64.144" />
+			<doc00686920160817125746_punkt_pdf name="doc00686920160817125746.pdf" file="true" Host="139.19.64.144" />
+			<doc00687020160817125806_punkt_pdf name="doc00687020160817125806.pdf" file="true" Host="139.19.64.144" />
+			<Klausur directory="true" Host="139.19.64.144" name="Klausur">
+				<Klausur_minus___minus_PTG_II_Probe_punkt_pdf name="Klausur PTG_II_Probe.pdf" file="true" Host="139.19.64.144" />
+				<Klausur_minus___minus_PTG_II_Probe1_punkt_doc name="Klausur PTG_II_Probe1.doc" file="true" Host="139.19.64.144" />
+				<Klausur_minus___minus_PTG_II_Probe2_punkt_doc name="Klausur PTG_II_Probe2.doc" file="true" Host="139.19.64.144" />
+				<Klausur_minus___minus_PTG_II_Probe3_punkt_doc name="Klausur PTG_II_Probe3.doc" file="true" Host="139.19.64.144" />
+				<Klausur_minus_ptg_punkt_rar name="Klausur-ptg.rar" file="true" Host="139.19.64.144" />
+				<Loesung_minus___minus_2 name="Loesung 2" file="true" Host="139.19.64.144" />
+				<Musterloesung_minus___minus_Probeklausur_minus___minus_PTG_minus___minus_II_punkt_pdf name="Musterloesung Probeklausur PTG II.pdf" file="true" Host="139.19.64.144" />
+				<ProbeKlausur_minus___minus_PTG_minus___minus_II_punkt_pdf name="ProbeKlausur PTG II.pdf" file="true" Host="139.19.64.144" />
+			</Klausur>
+		</PTG>
+		<Prog_wichtig directory="true" Host="139.19.64.144" name="Prog_wichtig">
+			<Assoziativität name="Assoziativität" file="true" Host="139.19.64.144" />
+			<Ausdruck name="Ausdruck" file="true" Host="139.19.64.144" />
+			<Data1 name="Data1" file="true" Host="139.19.64.144" />
+			<Data2 name="Data2" file="true" Host="139.19.64.144" />
+			<Data3 name="Data3" file="true" Host="139.19.64.144" />
+			<Data4 name="Data4" file="true" Host="139.19.64.144" />
+			<Data5 name="Data5" file="true" Host="139.19.64.144" />
+			<Data6 name="Data6" file="true" Host="139.19.64.144" />
+			<Data7 name="Data7" file="true" Host="139.19.64.144" />
+			<Data8 name="Data8" file="true" Host="139.19.64.144" />
+			<Data9 name="Data9" file="true" Host="139.19.64.144" />
+			<Dataa1 name="Dataa1" file="true" Host="139.19.64.144" />
+			<InkDekrement name="InkDekrement" file="true" Host="139.19.64.144" />
+			<Strukturen name="Strukturen" file="true" Host="139.19.64.144" />
+			<Strukturen2 name="Strukturen2" file="true" Host="139.19.64.144" />
+			<Strukturen3 name="Strukturen3" file="true" Host="139.19.64.144" />
+			<Strukturen4 name="Strukturen4" file="true" Host="139.19.64.144" />
+			<Strukturen5 name="Strukturen5" file="true" Host="139.19.64.144" />
+			<array1 name="array1" file="true" Host="139.19.64.144" />
+			<array2 name="array2" file="true" Host="139.19.64.144" />
+			<array3 name="array3" file="true" Host="139.19.64.144" />
+			<array4 name="array4" file="true" Host="139.19.64.144" />
+			<beispiel_minus___minus_max_minus___minus_drei name="beispiel max drei" file="true" Host="139.19.64.144" />
+			<enums name="enums" file="true" Host="139.19.64.144" />
+			<enums2 name="enums2" file="true" Host="139.19.64.144" />
+			<foliennummer name="foliennummer" file="true" Host="139.19.64.144" />
+			<pointer name="pointer" file="true" Host="139.19.64.144" />
+			<printf name="printf" file="true" Host="139.19.64.144" />
+			<speicherklassen name="speicherklassen" file="true" Host="139.19.64.144" />
+			<speicherklassen2 name="speicherklassen2" file="true" Host="139.19.64.144" />
+			<speicherklassen3 name="speicherklassen3" file="true" Host="139.19.64.144" />
+			<undOderNicht name="undOderNicht" file="true" Host="139.19.64.144" />
+			<while_minus___minus_example name="while example" file="true" Host="139.19.64.144" />
+		</Prog_wichtig>
+		<Rechnernetze directory="true" Host="139.19.64.144" name="Rechnernetze">
+			<ueb05 directory="true" Host="139.19.64.144" name="ueb05">
+				<ueb05_punkt_txt name="ueb05.txt" file="true" Host="139.19.64.144" />
+				<HTW_minus_WLAN_minus_Daten directory="true" Host="139.19.64.144" name="HTW-WLAN-Daten">
+					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r name="Win7-HTW-WLAN-Eduroam-netstat-r" file="true" Host="139.19.64.144" />
+					<Win7_minus_HTW_minus_WLAN_minus_Eduroam_minus_netstat_minus_r_minus_2014 name="Win7-HTW-WLAN-Eduroam-netstat-r-2014" file="true" Host="139.19.64.144" />
+					<Win7_minus_HTW_minus_WLAN_minus_hiz_minus_saarland_minus_netstat_minus_r name="Win7-HTW-WLAN-hiz-saarland-netstat-r" file="true" Host="139.19.64.144" />
+					<Win7_minus_HTW_minus_WLAN_minus_htwintern_minus_netstat_minus_r name="Win7-HTW-WLAN-htwintern-netstat-r" file="true" Host="139.19.64.144" />
+					<Win7_HTW_minus_LAN_netstat_minus_r name="Win7_HTW-LAN_netstat-r" file="true" Host="139.19.64.144" />
+				</HTW_minus_WLAN_minus_Daten>
+			</ueb05>
+			<ueb01 directory="true" Host="139.19.64.144" name="ueb01">
+				<loesung01_punkt_txt name="loesung01.txt" file="true" Host="139.19.64.144" />
+				<netio132_punkt_zip name="netio132.zip" file="true" Host="139.19.64.144" />
+				<ueb01_punkt_txt name="ueb01.txt" file="true" Host="139.19.64.144" />
+				<netio132 directory="true" Host="139.19.64.144" name="netio132">
+					<FILE_ID_punkt_DIZ name="FILE_ID.DIZ" file="true" Host="139.19.64.144" />
+					<Makefile name="Makefile" file="true" Host="139.19.64.144" />
+					<getopt name="getopt" file="true" Host="139.19.64.144" />
+					<getopt_punkt_c name="getopt.c" file="true" Host="139.19.64.144" />
+					<getopt_punkt_h name="getopt.h" file="true" Host="139.19.64.144" />
+					<getopt_punkt_o name="getopt.o" file="true" Host="139.19.64.144" />
+					<netio_punkt_c name="netio.c" file="true" Host="139.19.64.144" />
+					<netio_punkt_doc name="netio.doc" file="true" Host="139.19.64.144" />
+					<netio_punkt_o name="netio.o" file="true" Host="139.19.64.144" />
+					<wpy_minus_bin directory="true" Host="139.19.64.144" name="wpy-bin">
+						<netio_minus_CentOS name="netio-CentOS" file="true" Host="139.19.64.144" />
+						<netio_minus_Redhat name="netio-Redhat" file="true" Host="139.19.64.144" />
+						<netio_minus_Solaris_minus_Sparc name="netio-Solaris-Sparc" file="true" Host="139.19.64.144" />
+						<netio_minus_XUbuntu name="netio-XUbuntu" file="true" Host="139.19.64.144" />
+						<netio_minus_win_punkt_exe name="netio-win.exe" file="true" Host="139.19.64.144" />
+					</wpy_minus_bin>
+					<bin directory="true" Host="139.19.64.144" name="bin">
+						<aix_minus_ppc64 name="aix-ppc64" file="true" Host="139.19.64.144" />
+						<freebsd_minus_i386 name="freebsd-i386" file="true" Host="139.19.64.144" />
+						<linux_minus_i386 name="linux-i386" file="true" Host="139.19.64.144" />
+						<linux_minus_x86_64 name="linux-x86_64" file="true" Host="139.19.64.144" />
+						<mac_minus_osx_minus_10_punkt_5_punkt_tar_punkt_gz name="mac-osx-10.5.tar.gz" file="true" Host="139.19.64.144" />
+						<os2_minus_i386_punkt_exe name="os2-i386.exe" file="true" Host="139.19.64.144" />
+						<sol10_minus_i386 name="sol10-i386" file="true" Host="139.19.64.144" />
+						<sol9_minus_sparc name="sol9-sparc" file="true" Host="139.19.64.144" />
+						<win32_minus_i386_punkt_exe name="win32-i386.exe" file="true" Host="139.19.64.144" />
+					</bin>
+				</netio132>
+				<X11 directory="true" Host="139.19.64.144" name="X11">
+					<_punkt_dmrc name=".dmrc" file="true" Host="139.19.64.144" />
+					<_punkt_dmrc_minus_vubun name=".dmrc-vubun" file="true" Host="139.19.64.144" />
+					<_punkt_esd_auth name=".esd_auth" file="true" Host="139.19.64.144" />
+					<_punkt_esd_auth_minus_vubun name=".esd_auth-vubun" file="true" Host="139.19.64.144" />
+					<_punkt_pulse_minus_cookie name=".pulse-cookie" file="true" Host="139.19.64.144" />
+					<_punkt_pulse_minus_cookie_minus_vubun name=".pulse-cookie-vubun" file="true" Host="139.19.64.144" />
+					<_punkt_recently_minus_used_punkt_xbel name=".recently-used.xbel" file="true" Host="139.19.64.144" />
+					<_punkt_recently_minus_used_punkt_xbel_minus_vubun name=".recently-used.xbel-vubun" file="true" Host="139.19.64.144" />
+					<stl_minus_s_minus_stud_punkt_dtterm name="stl-s-stud.dtterm" file="true" Host="139.19.64.144" />
+					<stl_minus_s_minus_stud_punkt_xterm name="stl-s-stud.xterm" file="true" Host="139.19.64.144" />
+					<stl_minus_s_minus_ubu_punkt_xfce4 name="stl-s-ubu.xfce4" file="true" Host="139.19.64.144" />
+					<stl_minus_s_minus_ubu_punkt_xterm name="stl-s-ubu.xterm" file="true" Host="139.19.64.144" />
+					<_punkt_gnome2 directory="true" Host="139.19.64.144" name=".gnome2" />
+					<_punkt_gconfd directory="true" Host="139.19.64.144" name=".gconfd" />
+					<_punkt_iiim_minus_vubun directory="true" Host="139.19.64.144" name=".iiim-vubun" />
+					<_punkt_gnome2_private directory="true" Host="139.19.64.144" name=".gnome2_private" />
+					<_punkt_mozilla_minus_vubun directory="true" Host="139.19.64.144" name=".mozilla-vubun" />
+					<_punkt_pulse directory="true" Host="139.19.64.144" name=".pulse" />
+					<_punkt_thumbnails directory="true" Host="139.19.64.144" name=".thumbnails" />
+					<_punkt_local directory="true" Host="139.19.64.144" name=".local" />
+					<_punkt_gstreamer_minus_0_punkt_10 directory="true" Host="139.19.64.144" name=".gstreamer-0.10" />
+					<_punkt_gstreamer_minus_0_punkt_10_minus_vubun directory="true" Host="139.19.64.144" name=".gstreamer-0.10-vubun" />
+					<_punkt_gvfs_minus_vubun directory="true" Host="139.19.64.144" name=".gvfs-vubun" />
+					<_punkt_mozilla directory="true" Host="139.19.64.144" name=".mozilla" />
+					<_punkt_local_minus_vubun directory="true" Host="139.19.64.144" name=".local-vubun" />
+					<_punkt_iiim directory="true" Host="139.19.64.144" name=".iiim" />
+					<_punkt_dbus_minus_vubun directory="true" Host="139.19.64.144" name=".dbus-vubun" />
+					<_punkt_dbus directory="true" Host="139.19.64.144" name=".dbus" />
+					<_punkt_nautilus directory="true" Host="139.19.64.144" name=".nautilus" />
+					<_punkt_gvfs directory="true" Host="139.19.64.144" name=".gvfs" />
+					<_punkt_thunderbird_minus_vubun directory="true" Host="139.19.64.144" name=".thunderbird-vubun" />
+					<_punkt_gnome2_minus_vubun directory="true" Host="139.19.64.144" name=".gnome2-vubun" />
+					<_punkt_thumbnails_minus_vubun directory="true" Host="139.19.64.144" name=".thumbnails-vubun" />
+					<_punkt_icons_minus_vubun directory="true" Host="139.19.64.144" name=".icons-vubun" />
+					<_punkt_gconfd_minus_vubun directory="true" Host="139.19.64.144" name=".gconfd-vubun" />
+					<_punkt_config directory="true" Host="139.19.64.144" name=".config" />
+					<_punkt_icons directory="true" Host="139.19.64.144" name=".icons" />
+					<_punkt_tarantella_minus_vubun directory="true" Host="139.19.64.144" name=".tarantella-vubun" />
+					<_punkt_gconf directory="true" Host="139.19.64.144" name=".gconf" />
+					<_punkt_gnome2_private_minus_vubun directory="true" Host="139.19.64.144" name=".gnome2_private-vubun" />
+					<_punkt_gconf_minus_vubun directory="true" Host="139.19.64.144" name=".gconf-vubun" />
+					<_punkt_pulse_minus_vubun directory="true" Host="139.19.64.144" name=".pulse-vubun" />
+					<_punkt_nautilus_minus_vubun directory="true" Host="139.19.64.144" name=".nautilus-vubun" />
+					<_punkt_thunderbird directory="true" Host="139.19.64.144" name=".thunderbird" />
+					<_punkt_config_minus_vubun directory="true" Host="139.19.64.144" name=".config-vubun" />
+					<_punkt_tarantella directory="true" Host="139.19.64.144" name=".tarantella" />
+					<_punkt_gnome_minus_vubun directory="true" Host="139.19.64.144" name=".gnome-vubun" />
+					<_punkt_gnome directory="true" Host="139.19.64.144" name=".gnome" />
+				</X11>
+			</ueb01>
+			<ueb06 directory="true" Host="139.19.64.144" name="ueb06">
+				<ueb06_punkt_txt name="ueb06.txt" file="true" Host="139.19.64.144" />
+				<Solaris_minus_daten directory="true" Host="139.19.64.144" name="Solaris-daten">
+					<Solaris_minus_10_netstat_minus_r name="Solaris-10_netstat-r" file="true" Host="139.19.64.144" />
+					<Solaris_minus_10_netstat_minus_rn name="Solaris-10_netstat-rn" file="true" Host="139.19.64.144" />
+				</Solaris_minus_daten>
+			</ueb06>
+			<ueb03 directory="true" Host="139.19.64.144" name="ueb03">
+				<loesung03_punkt_txt name="loesung03.txt" file="true" Host="139.19.64.144" />
+				<ueb03_punkt_txt name="ueb03.txt" file="true" Host="139.19.64.144" />
+				<loesung03_minus_daten directory="true" Host="139.19.64.144" name="loesung03-daten">
+					<HOME_minus_LAN_minus_ping name="HOME-LAN-ping" file="true" Host="139.19.64.144" />
+					<HOME_minus_WLAN_minus_ping name="HOME-WLAN-ping" file="true" Host="139.19.64.144" />
+					<HTW_minus_LAN_minus_STL_minus_VLAN_minus_ping name="HTW-LAN-STL-VLAN-ping" file="true" Host="139.19.64.144" />
+					<HTW_minus_LAN_minus_ping name="HTW-LAN-ping" file="true" Host="139.19.64.144" />
+					<HTW_minus_WLAN_minus_Eduroam_minus_STL_minus_VLAN_minus_ping name="HTW-WLAN-Eduroam-STL-VLAN-ping" file="true" Host="139.19.64.144" />
+					<HTW_minus_WLAN_minus_Eduroam_minus_ping name="HTW-WLAN-Eduroam-ping" file="true" Host="139.19.64.144" />
+					<proz_punkt_bat name="proz.bat" file="true" Host="139.19.64.144" />
+					<proz_punkt_bat_real_protokoll_2016_05_19 name="proz.bat_real_protokoll_2016_05_19" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv4_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4-numeric_protokoll_2016_11_24" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_11_24" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv4_protokoll_2016_12_09 name="wpy_pinge_rechnerliste-ipv4_protokoll_2016_12_09" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_11_24" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv6_minus_numeric_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6-numeric_protokoll_2016_12_02" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_11_24 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_11_24" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_minus_ipv6_protokoll_2016_12_02 name="wpy_pinge_rechnerliste-ipv6_protokoll_2016_12_02" file="true" Host="139.19.64.144" />
+					<wpy_pinge_rechnerliste_win10_protokoll_2016_11_24 name="wpy_pinge_rechnerliste_win10_protokoll_2016_11_24" file="true" Host="139.19.64.144" />
+				</loesung03_minus_daten>
+			</ueb03>
+			<ueb04 directory="true" Host="139.19.64.144" name="ueb04">
+				<ueb04_punkt_txt name="ueb04.txt" file="true" Host="139.19.64.144" />
+				<Hausaufgabe directory="true" Host="139.19.64.144" name="Hausaufgabe">
+					<Subnetting_minus_1_punkt_gif name="Subnetting-1.gif" file="true" Host="139.19.64.144" />
+					<Subnetting_minus_1_punkt_pdf name="Subnetting-1.pdf" file="true" Host="139.19.64.144" />
+					<Subnetting_minus_2_punkt_gif name="Subnetting-2.gif" file="true" Host="139.19.64.144" />
+					<Subnetting_minus_2_punkt_pdf name="Subnetting-2.pdf" file="true" Host="139.19.64.144" />
+				</Hausaufgabe>
+				<HTW_minus_WLAN_minus_Daten directory="true" Host="139.19.64.144" name="HTW-WLAN-Daten">
+					<HTW_minus_WLAN_minus_Eduroam_minus_2015 name="HTW-WLAN-Eduroam-2015" file="true" Host="139.19.64.144" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_HTWDS_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+HTWDS-VPN-2014" file="true" Host="139.19.64.144" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_plus_STL_minus_VPN_minus_2014 name="HTW-WLAN-hiz-saarland+STL-VPN-2014" file="true" Host="139.19.64.144" />
+					<HTW_minus_WLAN_minus_hiz_minus_saarland_minus_2014 name="HTW-WLAN-hiz-saarland-2014" file="true" Host="139.19.64.144" />
+					<HTW_minus_WLAN_minus_htwintern_minus_2014 name="HTW-WLAN-htwintern-2014" file="true" Host="139.19.64.144" />
+					<win7_HTW_minus_LAN_ipconfig_minus_all_minus_neu name="win7_HTW-LAN_ipconfig-all-neu" file="true" Host="139.19.64.144" />
+				</HTW_minus_WLAN_minus_Daten>
+				<Linux_minus_Netzwerk_minus_Kommandos directory="true" Host="139.19.64.144" name="Linux-Netzwerk-Kommandos">
+					<Deprecated_Linux_networking_commands_punkt_docx name="Deprecated_Linux_networking_commands.docx" file="true" Host="139.19.64.144" />
+					<Deprecated_Linux_networking_commands_punkt_pdf name="Deprecated_Linux_networking_commands.pdf" file="true" Host="139.19.64.144" />
+				</Linux_minus_Netzwerk_minus_Kommandos>
+			</ueb04>
+			<ueb02 directory="true" Host="139.19.64.144" name="ueb02">
+				<ueb02_punkt_txt name="ueb02.txt" file="true" Host="139.19.64.144" />
+				<loesung02_minus_daten_minus_aufgabe_2 directory="true" Host="139.19.64.144" name="loesung02-daten-aufgabe_2">
+					<HOME_minus_LAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-LAN-Stud-tcp+STL-VPN" file="true" Host="139.19.64.144" />
+					<HOME_minus_LAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-LAN-Stud-udp+STL-VPN" file="true" Host="139.19.64.144" />
+					<HOME_minus_WLAN_minus_Stud_minus_tcp_plus_STL_minus_VPN name="HOME-WLAN-Stud-tcp+STL-VPN" file="true" Host="139.19.64.144" />
+					<HOME_minus_WLAN_minus_Stud_minus_udp_plus_STL_minus_VPN name="HOME-WLAN-Stud-udp+STL-VPN" file="true" Host="139.19.64.144" />
+				</loesung02_minus_daten_minus_aufgabe_2>
+				<loesung02_minus_daten_minus_aufgabe_1 directory="true" Host="139.19.64.144" name="loesung02-daten-aufgabe_1">
+					<Eduroam_minus_Stud_plus_STL_minus_VPN name="Eduroam-Stud+STL-VPN" file="true" Host="139.19.64.144" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_plus_STL_minus_VPN name="GELBE-DOSEN-STL-Stud+STL-VPN" file="true" Host="139.19.64.144" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_tcp name="GELBE-DOSEN-STL-Stud-tcp" file="true" Host="139.19.64.144" />
+					<GELBE_minus_DOSEN_minus_STL_minus_Stud_minus_udp name="GELBE-DOSEN-STL-Stud-udp" file="true" Host="139.19.64.144" />
+					<hiz_minus_saarland_minus_Stud_minus_tcp name="hiz-saarland-Stud-tcp" file="true" Host="139.19.64.144" />
+					<hiz_minus_saarland_minus_Stud_minus_tcp_plus_STL_minus_VPN name="hiz-saarland-Stud-tcp+STL-VPN" file="true" Host="139.19.64.144" />
+					<hiz_minus_saarland_minus_Stud_minus_udp_plus_STL_minus_VPN name="hiz-saarland-Stud-udp+STL-VPN" file="true" Host="139.19.64.144" />
+					<htwintern_minus_Stud_minus_tcp name="htwintern-Stud-tcp" file="true" Host="139.19.64.144" />
+					<htwintern_minus_Stud_minus_tcp_plus_STL_minus_VPN name="htwintern-Stud-tcp+STL-VPN" file="true" Host="139.19.64.144" />
+					<htwintern_minus_Stud_minus_udp_plus_STL_minus_VPN name="htwintern-Stud-udp+STL-VPN" file="true" Host="139.19.64.144" />
+				</loesung02_minus_daten_minus_aufgabe_1>
+			</ueb02>
+			<Vorlesung directory="true" Host="139.19.64.144" name="Vorlesung">
+				<Rechnernetze_minus_Skript_punkt_pdf name="Rechnernetze-Skript.pdf" file="true" Host="139.19.64.144" />
+			</Vorlesung>
+		</Rechnernetze>
+		<Vorlesung directory="true" Host="139.19.64.144" name="Vorlesung">
+			<_punkt_summe_punkt_c_punkt_swp name=".summe.c.swp" file="true" Host="139.19.64.144" />
+			<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+			<eimaleins name="eimaleins" file="true" Host="139.19.64.144" />
+			<eimaleins_punkt_c name="eimaleins.c" file="true" Host="139.19.64.144" />
+			<getchar name="getchar" file="true" Host="139.19.64.144" />
+			<getchar_punkt_c name="getchar.c" file="true" Host="139.19.64.144" />
+			<mittelwert name="mittelwert" file="true" Host="139.19.64.144" />
+			<mittelwert_punkt_c name="mittelwert.c" file="true" Host="139.19.64.144" />
+			<summe_punkt_c name="summe.c" file="true" Host="139.19.64.144" />
+			<dateibearbeitung directory="true" Host="139.19.64.144" name="dateibearbeitung">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<datei_punkt_txt name="datei.txt" file="true" Host="139.19.64.144" />
+				<dateiinfo_punkt_c name="dateiinfo.c" file="true" Host="139.19.64.144" />
+				<dateiinfo1_punkt_c name="dateiinfo1.c" file="true" Host="139.19.64.144" />
+			</dateibearbeitung>
+			<audit_dialog directory="true" Host="139.19.64.144" name="audit_dialog">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<taschenrechner_punkt_c name="taschenrechner.c" file="true" Host="139.19.64.144" />
+			</audit_dialog>
+		</Vorlesung>
+		<m2 directory="true" Host="139.19.64.144" name="m2">
+			<Mathematik2mit_punkt_pdf name="Mathematik2mit.pdf" file="true" Host="139.19.64.144" />
+			<s_punkt_pdf name="s.pdf" file="true" Host="139.19.64.144" />
+		</m2>
+		<prog1 directory="true" Host="139.19.64.144" name="prog1">
+			<HalloWelt_punkt_c name="HalloWelt.c" file="true" Host="139.19.64.144" />
+			<head_punkt_everything name="head.everything" file="true" Host="139.19.64.144" />
+			<head_punkt_sh name="head.sh" file="true" Host="139.19.64.144" />
+			<test_punkt_c name="test.c" file="true" Host="139.19.64.144" />
+			<ueb05 directory="true" Host="139.19.64.144" name="ueb05">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<functions_minus_case_punkt_c name="functions-case.c" file="true" Host="139.19.64.144" />
+				<functions_punkt_c name="functions.c" file="true" Host="139.19.64.144" />
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+					<functions_minus_linux_punkt_c name="functions-linux.c" file="true" Host="139.19.64.144" />
+					<functions_minus_mac_punkt_c name="functions-mac.c" file="true" Host="139.19.64.144" />
+					<ueb5_punkt_zip name="ueb5.zip" file="true" Host="139.19.64.144" />
+					<new directory="true" Host="139.19.64.144" name="new">
+						<functions_minus_linux_punkt_c name="functions-linux.c" file="true" Host="139.19.64.144" />
+						<functions_minus_mac_punkt_c name="functions-mac.c" file="true" Host="139.19.64.144" />
+						<ueb5_punkt_zip name="ueb5.zip" file="true" Host="139.19.64.144" />
+					</new>
+				</Abgabe>
+			</ueb05>
+			<ueb07 directory="true" Host="139.19.64.144" name="ueb07">
+				<bruchrechnen_punkt_c name="bruchrechnen.c" file="true" Host="139.19.64.144" />
+				<kuerzen_punkt_c name="kuerzen.c" file="true" Host="139.19.64.144" />
+				<kuerzen_punkt_h name="kuerzen.h" file="true" Host="139.19.64.144" />
+				<kuerzen_punkt_o name="kuerzen.o" file="true" Host="139.19.64.144" />
+				<makefile name="makefile" file="true" Host="139.19.64.144" />
+				<operationen_punkt_c name="operationen.c" file="true" Host="139.19.64.144" />
+				<operationen_punkt_h name="operationen.h" file="true" Host="139.19.64.144" />
+				<operationen_punkt_o name="operationen.o" file="true" Host="139.19.64.144" />
+				<r1_punkt_out name="r1.out" file="true" Host="139.19.64.144" />
+				<r2_punkt_out name="r2.out" file="true" Host="139.19.64.144" />
+				<r3_punkt_out name="r3.out" file="true" Host="139.19.64.144" />
+				<r4_punkt_out name="r4.out" file="true" Host="139.19.64.144" />
+				<rechner_punkt_c name="rechner.c" file="true" Host="139.19.64.144" />
+				<rechner_punkt_h name="rechner.h" file="true" Host="139.19.64.144" />
+				<rechner3_punkt_c name="rechner3.c" file="true" Host="139.19.64.144" />
+				<rechner3_punkt_h name="rechner3.h" file="true" Host="139.19.64.144" />
+				<rechner3_punkt_o name="rechner3.o" file="true" Host="139.19.64.144" />
+				<rechner4_punkt_c name="rechner4.c" file="true" Host="139.19.64.144" />
+				<rechner4_punkt_h name="rechner4.h" file="true" Host="139.19.64.144" />
+				<rechner4_punkt_o name="rechner4.o" file="true" Host="139.19.64.144" />
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<bruchrechnen_punkt_c name="bruchrechnen.c" file="true" Host="139.19.64.144" />
+					<kuerzen_punkt_c name="kuerzen.c" file="true" Host="139.19.64.144" />
+					<kuerzen_punkt_h name="kuerzen.h" file="true" Host="139.19.64.144" />
+					<makefile name="makefile" file="true" Host="139.19.64.144" />
+					<operationen_punkt_c name="operationen.c" file="true" Host="139.19.64.144" />
+					<operationen_punkt_h name="operationen.h" file="true" Host="139.19.64.144" />
+					<rechner_punkt_c name="rechner.c" file="true" Host="139.19.64.144" />
+					<rechner_punkt_h name="rechner.h" file="true" Host="139.19.64.144" />
+					<rechner3_punkt_c name="rechner3.c" file="true" Host="139.19.64.144" />
+					<rechner3_punkt_h name="rechner3.h" file="true" Host="139.19.64.144" />
+					<rechner4_punkt_c name="rechner4.c" file="true" Host="139.19.64.144" />
+					<rechner4_punkt_h name="rechner4.h" file="true" Host="139.19.64.144" />
+					<ueb07kschultz_punkt_zip name="ueb07kschultz.zip" file="true" Host="139.19.64.144" />
+				</Abgabe>
+			</ueb07>
+			<ueb01 directory="true" Host="139.19.64.144" name="ueb01">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<benzinKosten name="benzinKosten" file="true" Host="139.19.64.144" />
+				<benzinKosten_punkt_c name="benzinKosten.c" file="true" Host="139.19.64.144" />
+				<head_punkt_everything name="head.everything" file="true" Host="139.19.64.144" />
+				<kmToMile name="kmToMile" file="true" Host="139.19.64.144" />
+				<kmToMile_punkt_c name="kmToMile.c" file="true" Host="139.19.64.144" />
+				<mileToKm name="mileToKm" file="true" Host="139.19.64.144" />
+				<mileToKm_punkt_c name="mileToKm.c" file="true" Host="139.19.64.144" />
+				<teiler name="teiler" file="true" Host="139.19.64.144" />
+				<teiler_punkt_c name="teiler.c" file="true" Host="139.19.64.144" />
+				<tempRechner name="tempRechner" file="true" Host="139.19.64.144" />
+				<tempRechner_punkt_c name="tempRechner.c" file="true" Host="139.19.64.144" />
+				<umrechnung name="umrechnung" file="true" Host="139.19.64.144" />
+				<umrechnung_punkt_c name="umrechnung.c" file="true" Host="139.19.64.144" />
+				<waehrungrechner name="waehrungrechner" file="true" Host="139.19.64.144" />
+				<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="139.19.64.144" />
+				<abgabe directory="true" Host="139.19.64.144" name="abgabe">
+					<_punkt_swp name=".swp" file="true" Host="139.19.64.144" />
+					<benzinKosten_punkt_c name="benzinKosten.c" file="true" Host="139.19.64.144" />
+					<kmToMile_punkt_c name="kmToMile.c" file="true" Host="139.19.64.144" />
+					<mileToKm_punkt_c name="mileToKm.c" file="true" Host="139.19.64.144" />
+					<teiler_punkt_c name="teiler.c" file="true" Host="139.19.64.144" />
+					<tempRechner_punkt_c name="tempRechner.c" file="true" Host="139.19.64.144" />
+					<ueb01_punkt_pdf name="ueb01.pdf" file="true" Host="139.19.64.144" />
+					<uebung1_punkt_tar name="uebung1.tar" file="true" Host="139.19.64.144" />
+					<umrechnung_punkt_c name="umrechnung.c" file="true" Host="139.19.64.144" />
+					<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="139.19.64.144" />
+				</abgabe>
+			</ueb01>
+			<ueb06 directory="true" Host="139.19.64.144" name="ueb06">
+				<Abgabe_punkt_zip name="Abgabe.zip" file="true" Host="139.19.64.144" />
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<analyse_punkt_c name="analyse.c" file="true" Host="139.19.64.144" />
+				<berechnung_punkt_c name="berechnung.c" file="true" Host="139.19.64.144" />
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+					<analyse_punkt_c name="analyse.c" file="true" Host="139.19.64.144" />
+					<berechnung_punkt_c name="berechnung.c" file="true" Host="139.19.64.144" />
+					<ueb06_punkt_zip name="ueb06.zip" file="true" Host="139.19.64.144" />
+				</Abgabe>
+			</ueb06>
+			<ueb03 directory="true" Host="139.19.64.144" name="ueb03">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<ascii name="ascii" file="true" Host="139.19.64.144" />
+				<ascii_tabelle_punkt_c name="ascii_tabelle.c" file="true" Host="139.19.64.144" />
+				<ascii_tabelle_punkt_c_punkt_exec name="ascii_tabelle.c.exec" file="true" Host="139.19.64.144" />
+				<compile_punkt_sh name="compile.sh" file="true" Host="139.19.64.144" />
+				<gcc_minus_log_punkt_txt name="gcc-log.txt" file="true" Host="139.19.64.144" />
+				<makefile name="makefile" file="true" Host="139.19.64.144" />
+				<sizeof name="sizeof" file="true" Host="139.19.64.144" />
+				<sizeof_punkt_c name="sizeof.c" file="true" Host="139.19.64.144" />
+				<sizeof_punkt_c_punkt_exec name="sizeof.c.exec" file="true" Host="139.19.64.144" />
+				<ueberlauf name="ueberlauf" file="true" Host="139.19.64.144" />
+				<ueberlauf_punkt_c name="ueberlauf.c" file="true" Host="139.19.64.144" />
+				<ueberlauf_punkt_c_punkt_exec name="ueberlauf.c.exec" file="true" Host="139.19.64.144" />
+				<compiled directory="true" Host="139.19.64.144" name="compiled">
+					<ascii_tabelle_punkt_c_punkt_exec name="ascii_tabelle.c.exec" file="true" Host="139.19.64.144" />
+					<sizeof_punkt_c_punkt_exec name="sizeof.c.exec" file="true" Host="139.19.64.144" />
+					<ueberlauf_punkt_c_punkt_exec name="ueberlauf.c.exec" file="true" Host="139.19.64.144" />
+				</compiled>
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<ascii_tabelle_punkt_c name="ascii_tabelle.c" file="true" Host="139.19.64.144" />
+					<compile_punkt_sh name="compile.sh" file="true" Host="139.19.64.144" />
+					<makefile name="makefile" file="true" Host="139.19.64.144" />
+					<sizeof_punkt_c name="sizeof.c" file="true" Host="139.19.64.144" />
+					<ueb03_punkt_zip name="ueb03.zip" file="true" Host="139.19.64.144" />
+					<ueberlauf_punkt_c name="ueberlauf.c" file="true" Host="139.19.64.144" />
+				</Abgabe>
+			</ueb03>
+			<ueb04 directory="true" Host="139.19.64.144" name="ueb04">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<feldmin name="feldmin" file="true" Host="139.19.64.144" />
+				<feldmin_punkt_c name="feldmin.c" file="true" Host="139.19.64.144" />
+				<feldmin_2_punkt_c name="feldmin_2.c" file="true" Host="139.19.64.144" />
+				<geheim name="geheim" file="true" Host="139.19.64.144" />
+				<geheim_punkt_c name="geheim.c" file="true" Host="139.19.64.144" />
+				<geheim_punkt_c_scurity_punkt_c name="geheim.c_scurity.c" file="true" Host="139.19.64.144" />
+				<geheim_punkt_c_tilde_ name="geheim.c~" file="true" Host="139.19.64.144" />
+				<makefile name="makefile" file="true" Host="139.19.64.144" />
+				<test_punkt_c name="test.c" file="true" Host="139.19.64.144" />
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<_4ueb_punkt_zip name="4ueb.zip" file="true" Host="139.19.64.144" />
+					<feldmin_punkt_c name="feldmin.c" file="true" Host="139.19.64.144" />
+					<geheim_punkt_c name="geheim.c" file="true" Host="139.19.64.144" />
+				</Abgabe>
+			</ueb04>
+			<ueb08 directory="true" Host="139.19.64.144" name="ueb08">
+				<Ausgabedatei_punkt_txt name="Ausgabedatei.txt" file="true" Host="139.19.64.144" />
+				<Musterdatei_punkt_txt name="Musterdatei.txt" file="true" Host="139.19.64.144" />
+				<UebungenfuerUebung8_punkt_c name="UebungenfuerUebung8.c" file="true" Host="139.19.64.144" />
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<ausgabe_punkt_c name="ausgabe.c" file="true" Host="139.19.64.144" />
+				<ausgabe_punkt_h name="ausgabe.h" file="true" Host="139.19.64.144" />
+				<ausgabe_punkt_o name="ausgabe.o" file="true" Host="139.19.64.144" />
+				<auswertung name="auswertung" file="true" Host="139.19.64.144" />
+				<auswertung_punkt_c name="auswertung.c" file="true" Host="139.19.64.144" />
+				<auswertung_punkt_h name="auswertung.h" file="true" Host="139.19.64.144" />
+				<auswertung_punkt_o name="auswertung.o" file="true" Host="139.19.64.144" />
+				<hilfe_punkt_c name="hilfe.c" file="true" Host="139.19.64.144" />
+				<hilfe_punkt_h name="hilfe.h" file="true" Host="139.19.64.144" />
+				<hilfe_punkt_o name="hilfe.o" file="true" Host="139.19.64.144" />
+				<makefile name="makefile" file="true" Host="139.19.64.144" />
+				<struct_punkt_h name="struct.h" file="true" Host="139.19.64.144" />
+				<testtarget_punkt_txt name="testtarget.txt" file="true" Host="139.19.64.144" />
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<Musterdatei_punkt_txt name="Musterdatei.txt" file="true" Host="139.19.64.144" />
+					<Ueb8_punkt_zip name="Ueb8.zip" file="true" Host="139.19.64.144" />
+					<ausgabe_punkt_c name="ausgabe.c" file="true" Host="139.19.64.144" />
+					<ausgabe_punkt_h name="ausgabe.h" file="true" Host="139.19.64.144" />
+					<auswertung_punkt_c name="auswertung.c" file="true" Host="139.19.64.144" />
+					<auswertung_punkt_h name="auswertung.h" file="true" Host="139.19.64.144" />
+					<hilfe_punkt_c name="hilfe.c" file="true" Host="139.19.64.144" />
+					<hilfe_punkt_h name="hilfe.h" file="true" Host="139.19.64.144" />
+					<makefile name="makefile" file="true" Host="139.19.64.144" />
+					<output name="output" file="true" Host="139.19.64.144" />
+					<struct_punkt_h name="struct.h" file="true" Host="139.19.64.144" />
+				</Abgabe>
+			</ueb08>
+			<ueb02 directory="true" Host="139.19.64.144" name="ueb02">
+				<a_punkt_out name="a.out" file="true" Host="139.19.64.144" />
+				<collatz_minus_arg_minus_read_punkt_c name="collatz-arg-read.c" file="true" Host="139.19.64.144" />
+				<collatz_punkt_c name="collatz.c" file="true" Host="139.19.64.144" />
+				<collatz_punkt_txt name="collatz.txt" file="true" Host="139.19.64.144" />
+				<dreieck_punkt_c name="dreieck.c" file="true" Host="139.19.64.144" />
+				<pythagora_punkt_c name="pythagora.c" file="true" Host="139.19.64.144" />
+				<waehrungrechner_minus_extend_punkt_c name="waehrungrechner-extend.c" file="true" Host="139.19.64.144" />
+				<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="139.19.64.144" />
+				<Abgabe directory="true" Host="139.19.64.144" name="Abgabe">
+					<collatz_punkt_c name="collatz.c" file="true" Host="139.19.64.144" />
+					<dreieck_punkt_c name="dreieck.c" file="true" Host="139.19.64.144" />
+					<pythagora_punkt_c name="pythagora.c" file="true" Host="139.19.64.144" />
+					<ueb02_punkt_zip name="ueb02.zip" file="true" Host="139.19.64.144" />
+					<waehrungrechner_minus_extend_punkt_c name="waehrungrechner-extend.c" file="true" Host="139.19.64.144" />
+					<waehrungrechner_punkt_c name="waehrungrechner.c" file="true" Host="139.19.64.144" />
+				</Abgabe>
+			</ueb02>
+		</prog1>
+		<rechnerarchi directory="true" Host="139.19.64.144" name="rechnerarchi">
+			<RA_Handout_punkt_pdf name="RA_Handout.pdf" file="true" Host="139.19.64.144" />
+		</rechnerarchi>
+		<swt2 directory="true" Host="139.19.64.144" name="swt2">
+			<SWT2StuPro2016 directory="true" Host="139.19.64.144" name="SWT2StuPro2016">
+				<LICENSE name="LICENSE" file="true" Host="139.19.64.144" />
+				<README_punkt_md name="README.md" file="true" Host="139.19.64.144" />
+				<out directory="true" Host="139.19.64.144" name="out">
+					<production directory="true" Host="139.19.64.144" name="production">
+						<Hanse_minus_Kontor2016 directory="true" Host="139.19.64.144" name="Hanse-Kontor2016" />
+					</production>
+				</out>
+				<_punkt_idea directory="true" Host="139.19.64.144" name=".idea">
+					<kotlinc_punkt_xml name="kotlinc.xml" file="true" Host="139.19.64.144" />
+					<misc_punkt_xml name="misc.xml" file="true" Host="139.19.64.144" />
+					<modules_punkt_xml name="modules.xml" file="true" Host="139.19.64.144" />
+					<workspace_punkt_xml name="workspace.xml" file="true" Host="139.19.64.144" />
+				</_punkt_idea>
+				<Hanse_minus_Kontor2016 directory="true" Host="139.19.64.144" name="Hanse-Kontor2016">
+					<Hanse_minus_Kontor2016_punkt_iml name="Hanse-Kontor2016.iml" file="true" Host="139.19.64.144" />
+					<src directory="true" Host="139.19.64.144" name="src">
+						<hanse directory="true" Host="139.19.64.144" name="hanse">
+							<kontor2016 directory="true" Host="139.19.64.144" name="kontor2016">
+								<Definitionen_punkt_java name="Definitionen.java" file="true" Host="139.19.64.144" />
+								<HanseKontor2016_punkt_java name="HanseKontor2016.java" file="true" Host="139.19.64.144" />
+								<Schiff_punkt_java name="Schiff.java" file="true" Host="139.19.64.144" />
+								<SpielKontor_punkt_java name="SpielKontor.java" file="true" Host="139.19.64.144" />
+								<Ware_punkt_java name="Ware.java" file="true" Host="139.19.64.144" />
+								<kontor directory="true" Host="139.19.64.144" name="kontor">
+									<Kontor_punkt_java name="Kontor.java" file="true" Host="139.19.64.144" />
+									<Lager_punkt_java name="Lager.java" file="true" Host="139.19.64.144" />
+									<LagerException_punkt_java name="LagerException.java" file="true" Host="139.19.64.144" />
+									<Ware_punkt_java name="Ware.java" file="true" Host="139.19.64.144" />
+								</kontor>
+								<schiff directory="true" Host="139.19.64.144" name="schiff">
+									<Schiff_minus_GruppeSchiff_punkt_java name="Schiff-GruppeSchiff.java" file="true" Host="139.19.64.144" />
+									<Schiff_punkt_java name="Schiff.java" file="true" Host="139.19.64.144" />
+									<Schiffstyp_punkt_java name="Schiffstyp.java" file="true" Host="139.19.64.144" />
+									<Ware_minus_GruppeSchiff_punkt_java name="Ware-GruppeSchiff.java" file="true" Host="139.19.64.144" />
+								</schiff>
+								<lokalitaeten directory="true" Host="139.19.64.144" name="lokalitaeten">
+									<GeoObjekt_punkt_java name="GeoObjekt.java" file="true" Host="139.19.64.144" />
+									<Hafen_punkt_java name="Hafen.java" file="true" Host="139.19.64.144" />
+									<Route_punkt_java name="Route.java" file="true" Host="139.19.64.144" />
+									<Weg_punkt_java name="Weg.java" file="true" Host="139.19.64.144" />
+									<Werft_punkt_java name="Werft.java" file="true" Host="139.19.64.144" />
+								</lokalitaeten>
+								<kaufmann directory="true" Host="139.19.64.144" name="kaufmann">
+									<Kaufmann_punkt_java name="Kaufmann.java" file="true" Host="139.19.64.144" />
+									<Konto_punkt_java name="Konto.java" file="true" Host="139.19.64.144" />
+								</kaufmann>
+							</kontor2016>
+						</hanse>
+					</src>
+				</Hanse_minus_Kontor2016>
+				<_punkt_git directory="true" Host="139.19.64.144" name=".git">
+					<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+					<config name="config" file="true" Host="139.19.64.144" />
+					<description name="description" file="true" Host="139.19.64.144" />
+					<index name="index" file="true" Host="139.19.64.144" />
+					<packed_minus_refs name="packed-refs" file="true" Host="139.19.64.144" />
+					<hooks directory="true" Host="139.19.64.144" name="hooks">
+						<applypatch_minus_msg_punkt_sample name="applypatch-msg.sample" file="true" Host="139.19.64.144" />
+						<commit_minus_msg_punkt_sample name="commit-msg.sample" file="true" Host="139.19.64.144" />
+						<post_minus_update_punkt_sample name="post-update.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_applypatch_punkt_sample name="pre-applypatch.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_commit_punkt_sample name="pre-commit.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_push_punkt_sample name="pre-push.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_rebase_punkt_sample name="pre-rebase.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_receive_punkt_sample name="pre-receive.sample" file="true" Host="139.19.64.144" />
+						<prepare_minus_commit_minus_msg_punkt_sample name="prepare-commit-msg.sample" file="true" Host="139.19.64.144" />
+						<update_punkt_sample name="update.sample" file="true" Host="139.19.64.144" />
+					</hooks>
+					<logs directory="true" Host="139.19.64.144" name="logs">
+						<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+						<refs directory="true" Host="139.19.64.144" name="refs">
+							<remotes directory="true" Host="139.19.64.144" name="remotes">
+								<origin directory="true" Host="139.19.64.144" name="origin">
+									<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+								</origin>
+							</remotes>
+							<heads directory="true" Host="139.19.64.144" name="heads">
+								<master name="master" file="true" Host="139.19.64.144" />
+							</heads>
+						</refs>
+					</logs>
+					<branches directory="true" Host="139.19.64.144" name="branches" />
+					<info directory="true" Host="139.19.64.144" name="info">
+						<exclude name="exclude" file="true" Host="139.19.64.144" />
+					</info>
+					<objects directory="true" Host="139.19.64.144" name="objects">
+						<info directory="true" Host="139.19.64.144" name="info" />
+						<pack directory="true" Host="139.19.64.144" name="pack">
+							<pack_minus_9e30026e1ff9efa711d2786d74fe66974a788061_punkt_idx name="pack-9e30026e1ff9efa711d2786d74fe66974a788061.idx" file="true" Host="139.19.64.144" />
+							<pack_minus_9e30026e1ff9efa711d2786d74fe66974a788061_punkt_pack name="pack-9e30026e1ff9efa711d2786d74fe66974a788061.pack" file="true" Host="139.19.64.144" />
+						</pack>
+					</objects>
+					<refs directory="true" Host="139.19.64.144" name="refs">
+						<remotes directory="true" Host="139.19.64.144" name="remotes">
+							<origin directory="true" Host="139.19.64.144" name="origin">
+								<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+							</origin>
+						</remotes>
+						<tags directory="true" Host="139.19.64.144" name="tags" />
+						<heads directory="true" Host="139.19.64.144" name="heads">
+							<master name="master" file="true" Host="139.19.64.144" />
+						</heads>
+					</refs>
+				</_punkt_git>
+			</SWT2StuPro2016>
+			<SWT2StuPro2017 directory="true" Host="139.19.64.144" name="SWT2StuPro2017">
+				<README_punkt_md name="README.md" file="true" Host="139.19.64.144" />
+				<makefile name="makefile" file="true" Host="139.19.64.144" />
+				<menu_punkt_c name="menu.c" file="true" Host="139.19.64.144" />
+				<scanflib_punkt_c name="scanflib.c" file="true" Host="139.19.64.144" />
+				<scanflib_punkt_h name="scanflib.h" file="true" Host="139.19.64.144" />
+				<_punkt_idea directory="true" Host="139.19.64.144" name=".idea">
+					<vcs_punkt_xml name="vcs.xml" file="true" Host="139.19.64.144" />
+					<workspace_punkt_xml name="workspace.xml" file="true" Host="139.19.64.144" />
+				</_punkt_idea>
+				<_punkt_git directory="true" Host="139.19.64.144" name=".git">
+					<FETCH_HEAD name="FETCH_HEAD" file="true" Host="139.19.64.144" />
+					<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+					<ORIG_HEAD name="ORIG_HEAD" file="true" Host="139.19.64.144" />
+					<config name="config" file="true" Host="139.19.64.144" />
+					<description name="description" file="true" Host="139.19.64.144" />
+					<index name="index" file="true" Host="139.19.64.144" />
+					<packed_minus_refs name="packed-refs" file="true" Host="139.19.64.144" />
+					<hooks directory="true" Host="139.19.64.144" name="hooks">
+						<applypatch_minus_msg_punkt_sample name="applypatch-msg.sample" file="true" Host="139.19.64.144" />
+						<commit_minus_msg_punkt_sample name="commit-msg.sample" file="true" Host="139.19.64.144" />
+						<post_minus_update_punkt_sample name="post-update.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_applypatch_punkt_sample name="pre-applypatch.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_commit_punkt_sample name="pre-commit.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_push_punkt_sample name="pre-push.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_rebase_punkt_sample name="pre-rebase.sample" file="true" Host="139.19.64.144" />
+						<pre_minus_receive_punkt_sample name="pre-receive.sample" file="true" Host="139.19.64.144" />
+						<prepare_minus_commit_minus_msg_punkt_sample name="prepare-commit-msg.sample" file="true" Host="139.19.64.144" />
+						<update_punkt_sample name="update.sample" file="true" Host="139.19.64.144" />
+					</hooks>
+					<logs directory="true" Host="139.19.64.144" name="logs">
+						<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+						<refs directory="true" Host="139.19.64.144" name="refs">
+							<remotes directory="true" Host="139.19.64.144" name="remotes">
+								<origin directory="true" Host="139.19.64.144" name="origin">
+									<C_minus_Menue name="C-Menue" file="true" Host="139.19.64.144" />
+									<C_minus_Menue_minus_Niro name="C-Menue-Niro" file="true" Host="139.19.64.144" />
+									<C_minus_Menue_minus_TimMeyer name="C-Menue-TimMeyer" file="true" Host="139.19.64.144" />
+									<C_minus_Menue_minus_nedwrardcesaire name="C-Menue-nedwrardcesaire" file="true" Host="139.19.64.144" />
+									<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+									<maser name="maser" file="true" Host="139.19.64.144" />
+									<master name="master" file="true" Host="139.19.64.144" />
+								</origin>
+							</remotes>
+							<heads directory="true" Host="139.19.64.144" name="heads">
+								<master name="master" file="true" Host="139.19.64.144" />
+							</heads>
+						</refs>
+					</logs>
+					<branches directory="true" Host="139.19.64.144" name="branches" />
+					<info directory="true" Host="139.19.64.144" name="info">
+						<exclude name="exclude" file="true" Host="139.19.64.144" />
+					</info>
+					<objects directory="true" Host="139.19.64.144" name="objects">
+						<_9a directory="true" Host="139.19.64.144" name="9a">
+							<_43b3f94c45c38d7bc59b0944d1793c3d91d25a name="43b3f94c45c38d7bc59b0944d1793c3d91d25a" file="true" Host="139.19.64.144" />
+						</_9a>
+						<de directory="true" Host="139.19.64.144" name="de">
+							<_1759697cc8a2c2e7ef8c91c6b4dd2d9612fa2d name="1759697cc8a2c2e7ef8c91c6b4dd2d9612fa2d" file="true" Host="139.19.64.144" />
+						</de>
+						<_88 directory="true" Host="139.19.64.144" name="88">
+							<_08bf426ae592cc743142a5bf0cdb6a2f1f806f name="08bf426ae592cc743142a5bf0cdb6a2f1f806f" file="true" Host="139.19.64.144" />
+						</_88>
+						<f0 directory="true" Host="139.19.64.144" name="f0">
+							<_03de36d9ae92186588f930a5e624e878665cd7 name="03de36d9ae92186588f930a5e624e878665cd7" file="true" Host="139.19.64.144" />
+						</f0>
+						<_60 directory="true" Host="139.19.64.144" name="60">
+							<_5bdc9720eda605f25d55186358d77293039652 name="5bdc9720eda605f25d55186358d77293039652" file="true" Host="139.19.64.144" />
+						</_60>
+						<_18 directory="true" Host="139.19.64.144" name="18">
+							<_4adf2f614b003b414ce74d75fb3951cf73140b name="4adf2f614b003b414ce74d75fb3951cf73140b" file="true" Host="139.19.64.144" />
+						</_18>
+						<_1d directory="true" Host="139.19.64.144" name="1d">
+							<b521ba1834aee6e88b91fb166bd037e4eb470c name="b521ba1834aee6e88b91fb166bd037e4eb470c" file="true" Host="139.19.64.144" />
+						</_1d>
+						<ac directory="true" Host="139.19.64.144" name="ac">
+							<df69d437eebc583f2fca1d25497980761057bb name="df69d437eebc583f2fca1d25497980761057bb" file="true" Host="139.19.64.144" />
+						</ac>
+						<d8 directory="true" Host="139.19.64.144" name="d8">
+							<_3bf40e5be95cfbefb42fc9162a8b215796a54d name="3bf40e5be95cfbefb42fc9162a8b215796a54d" file="true" Host="139.19.64.144" />
+						</d8>
+						<info directory="true" Host="139.19.64.144" name="info" />
+						<_07 directory="true" Host="139.19.64.144" name="07">
+							<_7c28eb51e31856b72484a6a1d87463512f94ca name="7c28eb51e31856b72484a6a1d87463512f94ca" file="true" Host="139.19.64.144" />
+						</_07>
+						<_8e directory="true" Host="139.19.64.144" name="8e">
+							<_500dba1b7e56928b93d81e9578d249bfe9308b name="500dba1b7e56928b93d81e9578d249bfe9308b" file="true" Host="139.19.64.144" />
+						</_8e>
+						<ef directory="true" Host="139.19.64.144" name="ef">
+							<_635d9f302dfbe2c0d8aab582d40fcf56702b6e name="635d9f302dfbe2c0d8aab582d40fcf56702b6e" file="true" Host="139.19.64.144" />
+						</ef>
+						<_3c directory="true" Host="139.19.64.144" name="3c">
+							<_75d600bce8fb09d7e982c2ba69e2f29b217d7f name="75d600bce8fb09d7e982c2ba69e2f29b217d7f" file="true" Host="139.19.64.144" />
+						</_3c>
+						<b7 directory="true" Host="139.19.64.144" name="b7">
+							<_5fda25be79b9eddb4a875b26eeaf3df32f1f6b name="5fda25be79b9eddb4a875b26eeaf3df32f1f6b" file="true" Host="139.19.64.144" />
+						</b7>
+						<f2 directory="true" Host="139.19.64.144" name="f2">
+							<_5b968ec6a4aba1ecc37b9277638c663ee210f0 name="5b968ec6a4aba1ecc37b9277638c663ee210f0" file="true" Host="139.19.64.144" />
+						</f2>
+						<ae directory="true" Host="139.19.64.144" name="ae">
+							<e913fd2a26538d62fccc96299183b95d587aa2 name="e913fd2a26538d62fccc96299183b95d587aa2" file="true" Host="139.19.64.144" />
+						</ae>
+						<_53 directory="true" Host="139.19.64.144" name="53">
+							<_01ad128de2ec580a6bcc2980cfedbfd4810f40 name="01ad128de2ec580a6bcc2980cfedbfd4810f40" file="true" Host="139.19.64.144" />
+						</_53>
+						<_5c directory="true" Host="139.19.64.144" name="5c">
+							<e809f115753bf842028a91a0dbaba1d3ddea84 name="e809f115753bf842028a91a0dbaba1d3ddea84" file="true" Host="139.19.64.144" />
+						</_5c>
+						<_51 directory="true" Host="139.19.64.144" name="51">
+							<_112e41b13a78acb471ac066a4c5e5d04b95d5d name="112e41b13a78acb471ac066a4c5e5d04b95d5d" file="true" Host="139.19.64.144" />
+						</_51>
+						<f1 directory="true" Host="139.19.64.144" name="f1">
+							<f525e08e1d0212cd545f4b2f82eb670687c1b3 name="f525e08e1d0212cd545f4b2f82eb670687c1b3" file="true" Host="139.19.64.144" />
+						</f1>
+						<fb directory="true" Host="139.19.64.144" name="fb">
+							<bda5f781f2971b79d28892af25d674d98aeab8 name="bda5f781f2971b79d28892af25d674d98aeab8" file="true" Host="139.19.64.144" />
+						</fb>
+						<pack directory="true" Host="139.19.64.144" name="pack">
+							<pack_minus_997de984c8f57b8b848792ac71383f36f85f368a_punkt_idx name="pack-997de984c8f57b8b848792ac71383f36f85f368a.idx" file="true" Host="139.19.64.144" />
+							<pack_minus_997de984c8f57b8b848792ac71383f36f85f368a_punkt_pack name="pack-997de984c8f57b8b848792ac71383f36f85f368a.pack" file="true" Host="139.19.64.144" />
+						</pack>
+						<_1f directory="true" Host="139.19.64.144" name="1f">
+							<e2610e7d29bafba4df68d1873b6c9db388f2e8 name="e2610e7d29bafba4df68d1873b6c9db388f2e8" file="true" Host="139.19.64.144" />
+						</_1f>
+						<b4 directory="true" Host="139.19.64.144" name="b4">
+							<_1f5769af64be5f6159ef96632dbbf67577f840 name="1f5769af64be5f6159ef96632dbbf67577f840" file="true" Host="139.19.64.144" />
+						</b4>
+						<b5 directory="true" Host="139.19.64.144" name="b5">
+							<bf6623b90ec15d9f5e7929171b2b5c556194bf name="bf6623b90ec15d9f5e7929171b2b5c556194bf" file="true" Host="139.19.64.144" />
+						</b5>
+						<_83 directory="true" Host="139.19.64.144" name="83">
+							<f11741f654737ab2000823e08fa83e4ea9ebd9 name="f11741f654737ab2000823e08fa83e4ea9ebd9" file="true" Host="139.19.64.144" />
+						</_83>
+						<_58 directory="true" Host="139.19.64.144" name="58">
+							<b0212b5d2c2ec02fd738df6238c337eb32f37a name="b0212b5d2c2ec02fd738df6238c337eb32f37a" file="true" Host="139.19.64.144" />
+						</_58>
+						<_6b directory="true" Host="139.19.64.144" name="6b">
+							<faf1b8205b2459e6a40280029ba6e1cd28738e name="faf1b8205b2459e6a40280029ba6e1cd28738e" file="true" Host="139.19.64.144" />
+						</_6b>
+						<a0 directory="true" Host="139.19.64.144" name="a0">
+							<_40d30509c1578adc8442db99ea21df5406bf65 name="40d30509c1578adc8442db99ea21df5406bf65" file="true" Host="139.19.64.144" />
+						</a0>
+					</objects>
+					<refs directory="true" Host="139.19.64.144" name="refs">
+						<remotes directory="true" Host="139.19.64.144" name="remotes">
+							<origin directory="true" Host="139.19.64.144" name="origin">
+								<C_minus_Menue name="C-Menue" file="true" Host="139.19.64.144" />
+								<C_minus_Menue_minus_Niro name="C-Menue-Niro" file="true" Host="139.19.64.144" />
+								<C_minus_Menue_minus_TimMeyer name="C-Menue-TimMeyer" file="true" Host="139.19.64.144" />
+								<C_minus_Menue_minus_nedwrardcesaire name="C-Menue-nedwrardcesaire" file="true" Host="139.19.64.144" />
+								<HEAD name="HEAD" file="true" Host="139.19.64.144" />
+								<maser name="maser" file="true" Host="139.19.64.144" />
+								<master name="master" file="true" Host="139.19.64.144" />
+							</origin>
+						</remotes>
+						<tags directory="true" Host="139.19.64.144" name="tags" />
+						<heads directory="true" Host="139.19.64.144" name="heads">
+							<master name="master" file="true" Host="139.19.64.144" />
+						</heads>
+					</refs>
+				</_punkt_git>
+			</SWT2StuPro2017>
+			<mandelbrot directory="true" Host="139.19.64.144" name="mandelbrot">
+				<Fraktal_punkt_class name="Fraktal.class" file="true" Host="139.19.64.144" />
+				<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="139.19.64.144" />
+				<MeinFraktal_punkt_class name="MeinFraktal.class" file="true" Host="139.19.64.144" />
+				<MeinFraktal_punkt_java name="MeinFraktal.java" file="true" Host="139.19.64.144" />
+				<SimpleImage_punkt_class name="SimpleImage.class" file="true" Host="139.19.64.144" />
+				<apfel_punkt_jar name="apfel.jar" file="true" Host="139.19.64.144" />
+				<apfelKschultz_punkt_jar name="apfelKschultz.jar" file="true" Host="139.19.64.144" />
+				<mandelbrot_punkt_iml name="mandelbrot.iml" file="true" Host="139.19.64.144" />
+				<META_minus_INF directory="true" Host="139.19.64.144" name="META-INF">
+					<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="139.19.64.144" />
+				</META_minus_INF>
+				<out directory="true" Host="139.19.64.144" name="out">
+					<production directory="true" Host="139.19.64.144" name="production">
+						<mandelbrot directory="true" Host="139.19.64.144" name="mandelbrot">
+							<apfel_punkt_jar name="apfel.jar" file="true" Host="139.19.64.144" />
+							<mandelbrot_punkt_iml name="mandelbrot.iml" file="true" Host="139.19.64.144" />
+							<META_minus_INF directory="true" Host="139.19.64.144" name="META-INF">
+								<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="139.19.64.144" />
+							</META_minus_INF>
+							<_punkt_idea directory="true" Host="139.19.64.144" name=".idea">
+								<misc_punkt_xml name="misc.xml" file="true" Host="139.19.64.144" />
+								<modules_punkt_xml name="modules.xml" file="true" Host="139.19.64.144" />
+								<workspace_punkt_xml name="workspace.xml" file="true" Host="139.19.64.144" />
+								<libraries directory="true" Host="139.19.64.144" name="libraries">
+									<apfel_punkt_xml name="apfel.xml" file="true" Host="139.19.64.144" />
+								</libraries>
+							</_punkt_idea>
+							<Mandelbrot_punkt_html directory="true" Host="139.19.64.144" name="Mandelbrot.html">
+								<Fraktal_punkt_html name="Fraktal.html" file="true" Host="139.19.64.144" />
+								<SimpleImage_punkt_html name="SimpleImage.html" file="true" Host="139.19.64.144" />
+								<allclasses_minus_frame_punkt_html name="allclasses-frame.html" file="true" Host="139.19.64.144" />
+								<allclasses_minus_noframe_punkt_html name="allclasses-noframe.html" file="true" Host="139.19.64.144" />
+								<constant_minus_values_punkt_html name="constant-values.html" file="true" Host="139.19.64.144" />
+								<deprecated_minus_list_punkt_html name="deprecated-list.html" file="true" Host="139.19.64.144" />
+								<help_minus_doc_punkt_html name="help-doc.html" file="true" Host="139.19.64.144" />
+								<index_minus_all_punkt_html name="index-all.html" file="true" Host="139.19.64.144" />
+								<index_punkt_html name="index.html" file="true" Host="139.19.64.144" />
+								<overview_minus_tree_punkt_html name="overview-tree.html" file="true" Host="139.19.64.144" />
+								<package_minus_frame_punkt_html name="package-frame.html" file="true" Host="139.19.64.144" />
+								<package_minus_list name="package-list" file="true" Host="139.19.64.144" />
+								<package_minus_summary_punkt_html name="package-summary.html" file="true" Host="139.19.64.144" />
+								<package_minus_tree_punkt_html name="package-tree.html" file="true" Host="139.19.64.144" />
+								<script_punkt_js name="script.js" file="true" Host="139.19.64.144" />
+								<serialized_minus_form_punkt_html name="serialized-form.html" file="true" Host="139.19.64.144" />
+								<stylesheet_punkt_css name="stylesheet.css" file="true" Host="139.19.64.144" />
+							</Mandelbrot_punkt_html>
+						</mandelbrot>
+					</production>
+				</out>
+				<_punkt_idea directory="true" Host="139.19.64.144" name=".idea">
+					<kotlinc_punkt_xml name="kotlinc.xml" file="true" Host="139.19.64.144" />
+					<misc_punkt_xml name="misc.xml" file="true" Host="139.19.64.144" />
+					<modules_punkt_xml name="modules.xml" file="true" Host="139.19.64.144" />
+					<workspace_punkt_xml name="workspace.xml" file="true" Host="139.19.64.144" />
+					<libraries directory="true" Host="139.19.64.144" name="libraries">
+						<apfel_punkt_xml name="apfel.xml" file="true" Host="139.19.64.144" />
+					</libraries>
+				</_punkt_idea>
+				<kschultz directory="true" Host="139.19.64.144" name="kschultz">
+					<MeinFraktal_punkt_class name="MeinFraktal.class" file="true" Host="139.19.64.144" />
+					<apfelKschultz_punkt_jar name="apfelKschultz.jar" file="true" Host="139.19.64.144" />
+					<META_minus_INF directory="true" Host="139.19.64.144" name="META-INF">
+						<MANIFEST_punkt_MF name="MANIFEST.MF" file="true" Host="139.19.64.144" />
+					</META_minus_INF>
+				</kschultz>
+				<Mandelbrot_punkt_html directory="true" Host="139.19.64.144" name="Mandelbrot.html">
+					<Fraktal_punkt_html name="Fraktal.html" file="true" Host="139.19.64.144" />
+					<SimpleImage_punkt_html name="SimpleImage.html" file="true" Host="139.19.64.144" />
+					<allclasses_minus_frame_punkt_html name="allclasses-frame.html" file="true" Host="139.19.64.144" />
+					<allclasses_minus_noframe_punkt_html name="allclasses-noframe.html" file="true" Host="139.19.64.144" />
+					<constant_minus_values_punkt_html name="constant-values.html" file="true" Host="139.19.64.144" />
+					<deprecated_minus_list_punkt_html name="deprecated-list.html" file="true" Host="139.19.64.144" />
+					<help_minus_doc_punkt_html name="help-doc.html" file="true" Host="139.19.64.144" />
+					<index_minus_all_punkt_html name="index-all.html" file="true" Host="139.19.64.144" />
+					<index_punkt_html name="index.html" file="true" Host="139.19.64.144" />
+					<overview_minus_tree_punkt_html name="overview-tree.html" file="true" Host="139.19.64.144" />
+					<package_minus_frame_punkt_html name="package-frame.html" file="true" Host="139.19.64.144" />
+					<package_minus_list name="package-list" file="true" Host="139.19.64.144" />
+					<package_minus_summary_punkt_html name="package-summary.html" file="true" Host="139.19.64.144" />
+					<package_minus_tree_punkt_html name="package-tree.html" file="true" Host="139.19.64.144" />
+					<script_punkt_js name="script.js" file="true" Host="139.19.64.144" />
+					<serialized_minus_form_punkt_html name="serialized-form.html" file="true" Host="139.19.64.144" />
+					<stylesheet_punkt_css name="stylesheet.css" file="true" Host="139.19.64.144" />
+				</Mandelbrot_punkt_html>
+			</mandelbrot>
+			<VS3_Primzahlen directory="true" Host="139.19.64.144" name="VS3_Primzahlen">
+				<_punkt_idea directory="true" Host="139.19.64.144" name=".idea">
+					<workspace_punkt_xml name="workspace.xml" file="true" Host="139.19.64.144" />
+				</_punkt_idea>
+			</VS3_Primzahlen>
+		</swt2>
+	</studium>
 </VSFS>
