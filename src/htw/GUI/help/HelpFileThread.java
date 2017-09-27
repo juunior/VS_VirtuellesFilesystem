@@ -1,8 +1,8 @@
-package filesystem.GUI.help;
+package htw.GUI.help;
 
-import filesystem.FileSystemManger;
-import filesystem.GUI.Controller;
-import filesystem.GUI.Tools;
+import htw.FileSystemManger;
+import htw.GUI.Controller;
+import htw.GUI.Tools;
 
 import java.io.File;
 import java.io.FileOutputStream;

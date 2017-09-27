@@ -1,4 +1,4 @@
-package filesystem.GUI;
+package htw.GUI;
 
 import java.io.IOException;
 import java.io.InputStream;

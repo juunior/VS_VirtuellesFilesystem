@@ -1,7 +1,7 @@
-package filesystem;
+package htw;
 
-import filesystem.Log.LogSubscriber;
-import filesystem.Log.NetworkLog;
+import htw.Log.LogSubscriber;
+import htw.Log.NetworkLog;
 
 import java.io.File;
 

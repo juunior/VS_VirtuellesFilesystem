@@ -1,6 +1,6 @@
 package htw.vs.virtuellesFileSystem;
 
-import filesystem.Main;
+import htw.Main;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;

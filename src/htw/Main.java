@@ -1,6 +1,6 @@
-package filesystem;
+package htw;
 
-import htw.vs.virtuellesFileSystem.DirWatchService;
+import htw.FileSystemManger;
 import htw.vs.virtuellesFileSystem.xmlPathCreate;
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -24,7 +24,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         //(new HelpFileThread()).start(); // load to help file from the resource folder to the local temp folder.
 
-        Parent root = FXMLLoader.load(getClass().getResource("/filesystem/GUI/sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/htw/GUI/sample.fxml"));
         primaryStage.setTitle("Virtuelles Filesystem");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
@@ -89,8 +89,7 @@ public class Main extends Application {
 //        DirWatchService.startWatcher();
         //Zuletzt GUI starten
 //        launchGui(args);
-
-
+        System.exit(0);
 
     }
 }

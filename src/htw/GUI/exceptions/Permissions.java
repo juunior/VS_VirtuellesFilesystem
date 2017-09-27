@@ -1,4 +1,4 @@
-package filesystem.GUI.exceptions;
+package htw.GUI.exceptions;
 
 public class Permissions {
 

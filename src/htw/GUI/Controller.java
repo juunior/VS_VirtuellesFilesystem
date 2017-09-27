@@ -1,8 +1,8 @@
-package filesystem.GUI;
+package htw.GUI;
 
-import filesystem.FileSystemManger;
-import filesystem.Log.LogEntry;
-import filesystem.Log.LogType;
+import htw.FileSystemManger;
+import htw.Log.LogEntry;
+import htw.Log.LogType;
 import htw.ws.binary.server.WebServiceServer;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
@@ -17,13 +17,10 @@ import javafx.scene.image.ImageView;
 
 import java.awt.*;
 import java.io.File;
-import java.io.IOException;
 import java.net.URL;
-import java.nio.file.FileSystemException;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
-import htw.vs.virtuellesFileSystem.createDirectory.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.util.Callback;

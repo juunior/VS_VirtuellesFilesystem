@@ -1,6 +1,6 @@
-package filesystem.GUI;
+package htw.GUI;
 
-import filesystem.GUI.exceptions.*;
+import htw.GUI.exceptions.*;
 import javafx.scene.image.Image;
 
 public class Resources {

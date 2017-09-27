@@ -1,4 +1,4 @@
-package filesystem.Log;
+package htw.Log;
 
 public interface LogSubscriber {
 

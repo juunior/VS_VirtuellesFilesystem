@@ -1,4 +1,4 @@
-package filesystem.GUI;
+package htw.GUI;
 
 public enum ServerStatus {
     RUNNING,
