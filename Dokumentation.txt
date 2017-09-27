@@ -175,4 +175,4 @@ Säuberungsaktion auf den GitBranches
 27.9.
 - GUI ist online und die Funktionen werden angepasst und implementiert.
 - 28.9. testen testen testen ... wer kann ommt zur HTW.
-- Christian und Marc sind für die Projhektarbeit freigestellt worden.
+- Christian, Marc und Thomas wurden für die Projhektarbeit freigestellt.
