@@ -70,7 +70,7 @@ public class Main extends Application {
 
 
     public static void main(String args[]) {
-
+        xmlPathCreate.detectOS();
         //Es müssen noch die Buttons der GUI angepasst werden
 
         rootPath = askPaths();
@@ -86,9 +86,9 @@ public class Main extends Application {
 
         //Hier Platzhalter für das Einlesen der Directory Informationen
         //DirectoryWatcher starten, bereits bekannte Pfade initialisieren und Funktionalität zum automatischen Hinzufügen neuer Directories und Files starten
-        DirWatchService.startWatcher();
+//        DirWatchService.startWatcher();
         //Zuletzt GUI starten
-        launchGui(args);
+//        launchGui(args);
 
 
 

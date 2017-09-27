@@ -351,7 +351,7 @@ public class xmlPathCreate {
 
     }
 
-    private static void detectOS() {
+    public static void detectOS() {
         String os = System.getProperty("os.name");
         if (os.toLowerCase().contains("windows")) {
             DELIMITER = "\\";
