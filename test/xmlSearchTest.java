@@ -1,3 +1,4 @@
+import com.google.common.hash.HashCode;
 import htw.vs.virtuellesFileSystem.*;
 import org.w3c.dom.Document;
 
@@ -16,8 +17,11 @@ public class xmlSearchTest {
         xmlPathCreate.detectOS();
         String str = "Klausur";
         searchXML.search(str);
-        searchXML.addID();
-        searchXML.xmlDiffs();
+//        searchXML.addID();
+//        searchXML.xmlDiffs();
 //        searchXML.findRename();
+
+        HashCode h = searchXML.hashC();
+        System.out.println(searchXML.hash(h));
     }
 }

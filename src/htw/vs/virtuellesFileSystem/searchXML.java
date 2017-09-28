@@ -2,6 +2,9 @@ package htw.vs.virtuellesFileSystem;
 
 import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
+import com.google.common.hash.*;
+import static com.google.common.io.Files.asByteSource;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -188,5 +191,29 @@ public class searchXML {
         } while (tmp.getParentNode() != null);
         str = new StringBuilder(str.substring(10));// cut first #document
         return (str.toString());
+    }
+
+    public static HashCode hashC() {
+        File fileC = new File("xmlTest.xml");
+        HashFunction hfC = Hashing.sha256();
+        HashCode hcC = null;
+        try {
+            hcC = asByteSource(fileC).hash(hfC);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return hcC;
+    }
+
+    public static boolean hash(HashCode message) {
+        File file = new File("xmlTest.xml");
+        HashFunction hf = Hashing.sha256();
+        HashCode hc = null;
+        try {
+            hc = asByteSource(file).hash(hf);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return message.equals(hc);
     }
 }
