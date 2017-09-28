@@ -15,7 +15,7 @@
 			<_03_BWL1_Unternehmen_09112015_punkt_pdf name="03_BWL1_Unternehmen_09112015.pdf" file="true" Host="139.19.64.94" />
 			<_04_BWL1_Wirtschaftskreislauf_16112015_punkt_pdf name="04_BWL1_Wirtschaftskreislauf_16112015.pdf" file="true" Host="139.19.64.94" />
 			<_04_BWL2_Geschäftsprozesse_04052016_punkt_pdf name="04_BWL2_Geschäftsprozesse_04052016.pdf" file="true" Host="139.19.64.94" />
-			<_04_Spezielle_ITSysteme_15062016_punkt_pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" Host="139.19.64.94" />
+			<_04_Spezielle_ITSysteme_15062016_punkt_pdf name="04_Spezielle_ITSysteme_15062016.pdf" file="true" Host="139.19.64.94" id="getRenamed" newName="Peter Pan"/>
 			<_05_BWL1_Rechtsformen23112015_punkt_pdf name="05_BWL1_Rechtsformen23112015.pdf" file="true" Host="139.19.64.94" />
 			<_05_Wissensmanagement_13072016_punkt_pdf name="05_Wissensmanagement_13072016.pdf" file="true" Host="139.19.64.94" />
 			<_06_BWL1_Organisationsstrukturen_30112015_punkt_pdf name="06_BWL1_Organisationsstrukturen_30112015.pdf" file="true" Host="139.19.64.94" />

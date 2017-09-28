@@ -6,6 +6,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import javax.print.Doc;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -31,9 +32,7 @@ public class searchXML {
     //TODO kann man als liveSuche verwenden, in Verbindung mit KeyEvents im Searchfield
     public static void search(String str) throws ParserConfigurationException, IOException, SAXException {
 
-        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        Document document = docBuilder.parse(new File("xmlTest.xml"));
+        Document document = getxmlFile();
 
         Set<String> substringmapping = new HashSet<>();
         str = xmlPathCreate.removeIllegalCharacter(str);
@@ -65,6 +64,19 @@ public class searchXML {
                 }
             }
         }
+    }
+
+    static Document getxmlFile() throws IOException, SAXException, ParserConfigurationException {
+        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+        return docBuilder.parse(new File("xmlTest.xml"));
+    }
+
+    public static void findRename() throws ParserConfigurationException, SAXException, IOException {
+        Document document = getxmlFile();
+        Element e = document.getElementById("getRenamed");
+
+        System.out.println(e.getAttribute("name"));
     }
 
     /**
