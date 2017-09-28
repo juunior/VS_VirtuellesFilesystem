@@ -12,13 +12,9 @@ public class xmlSearchTest {
     public static void main(String[] args) throws org.xml.sax.SAXException, IOException,
             ParserConfigurationException, TransformerException {
 
-        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        Document document = docBuilder.parse(new File("xmlTest.xml"));
 
-        // File Name aendern
         xmlPathCreate.detectOS();
-        String str = "BWL";
-        searchXML.search(str, document);
+        String str = "Klausur";
+        searchXML.search(str);
     }
 }

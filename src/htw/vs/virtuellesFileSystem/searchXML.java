@@ -6,8 +6,17 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class searchXML {
 
@@ -15,27 +24,45 @@ public class searchXML {
      * search sucht in xml-Datei nach Datei/Ordnernamen
      *
      * @param str   zu suchender Name
-     * @param document  zu durchsuchende Datei
      * @see ParserConfigurationException
      * @see IOException
      * @see SAXException
      */
-    public static void search(String str, Document document) throws ParserConfigurationException, IOException, SAXException {
+    //TODO kann man als liveSuche verwenden, in Verbindung mit KeyEvents im Searchfield
+    public static void search(String str) throws ParserConfigurationException, IOException, SAXException {
 
+        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+        Document document = docBuilder.parse(new File("xmlTest.xml"));
+
+        Set<String> substringmapping = new HashSet<>();
         str = xmlPathCreate.removeIllegalCharacter(str);
-        NodeList nodeList = document.getElementsByTagName(str);
 
-        //Geht die Datei durch und ueberprueft String
-        for (int i = 0; i < nodeList.getLength(); i++) {
-            Node node = nodeList.item(i);
-            if (node.getNodeType() == Node.ELEMENT_NODE) {
+        try(BufferedReader br = new BufferedReader(new FileReader("xmlTest.xml"))) {
+            for(String line; (line = br.readLine()) != null; ) {
+                if (line.contains(str) && line.contains("name=\"")){
+                    substringmapping.add(line.substring((line.indexOf("<") + 1),line.indexOf("name") - 1));
+                }
+            }
+        }
 
-                //Beispielausgabe, kann geloescht werden
-                System.out.println(getAttributeByString(node, "name"));
-                System.out.println("file: " + getAttributeByString(node, "file"));
-                System.out.println("directory: " + getAttributeByString(node, "directory"));
-                System.out.print(getAttributeByString(node, "Host") + ":");
-                System.out.println(xmlPathCreate.revertIllegalCharacter(nodeToString(node)));
+        for (String search : substringmapping) {
+
+            NodeList nodeList = document.getElementsByTagName(search);
+
+            //Geht die Datei durch und ueberprueft String
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node node = nodeList.item(i);
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+
+                    //Beispielausgabe, kann geloescht werden
+                    System.out.println(getAttributeByString(node, "name"));
+                    System.out.println("file: " + getAttributeByString(node, "file"));
+                    System.out.println("directory: " + getAttributeByString(node, "directory"));
+                    System.out.print(getAttributeByString(node, "Host") + ":");
+                    System.out.println(xmlPathCreate.revertIllegalCharacter(nodeToString(node)));
+                    System.out.println("-------------------------------------------------------------------------------");
+                }
             }
         }
     }

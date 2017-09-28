@@ -11,6 +11,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.*;
+import java.nio.file.AccessDeniedException;
 import java.nio.file.NotDirectoryException;
 import java.util.*;
 
@@ -68,6 +69,8 @@ public class xmlPathCreate {
         illegalCharacterAndReplacement.put("?", "_ask_");
         illegalCharacterAndReplacement.put("¶", "_newL_");
         illegalCharacterAndReplacement.put("`", "_backtick_");
+        illegalCharacterAndReplacement.put("^","_roof_");
+        illegalCharacterAndReplacement.put("\\", "_backsl_");
     }
 
     /**
@@ -140,9 +143,10 @@ public class xmlPathCreate {
 
         Element p = new Element(removeIllegalCharacter(eDir));
 
+        p.setAttribute("name", dirName);
         p.setAttribute("directory", "true");
         p.setAttribute("Host", solveIP());
-        p.setAttribute("name", dirName);
+
 
 
         if (files != null) {
@@ -268,7 +272,7 @@ public class xmlPathCreate {
      * @return Document file
      */
     private static Document buildDirectoryWalk(String[] directories, Document doc, File dirs) {
-        File file_tmp;
+        File file_tmp = null;
         for (String dir : directories) {
             file_tmp = new File(dirs.getAbsolutePath() + "/" + dir);
             String[] files = file_tmp.list((current, name) -> new File(current, name).isFile());
