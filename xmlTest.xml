@@ -1,105 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<Music directory="true" Host="192.168.0.104" name="Music">
-		<Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Inquisition_minus___minus_EP directory="true" Host="192.168.0.104" name="Code Pandorum - Inquisition EP">
-			<Code_minus___minus_Pandorum_minus___minus__and__minus___minus_Mastadon_minus___minus__minus__minus___minus_Blood_minus___minus_Pressure_minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum &amp; Mastadon - Blood Pressure (Original Mix).mp3" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus__and__minus___minus_Moth_minus___minus__minus__minus___minus_De_minus___minus_Lancre_minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum &amp; Moth - De Lancre (Original Mix).mp3" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus__and__minus___minus_Qoiet_minus___minus__minus__minus___minus_Ex_minus___minus_Inferis_minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum &amp; Qoiet - Ex Inferis (Original Mix).mp3" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_I_punkt_N_punkt_R_punkt_I_punkt__minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum - I.N.R.I. (Original Mix).mp3" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Inquisition_minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum - Inquisition (Original Mix).mp3" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Inquisition_minus___minus_EP_punkt_jpg name="Code Pandorum - Inquisition EP.jpg" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Salem_minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum - Salem (Original Mix).mp3" file="true" Host="192.168.0.104" />
-			<Code_minus___minus_Pandorum_minus___minus_feat_punkt__minus___minus_Gravity_minus___minus__minus__minus___minus_Second_minus___minus_to_minus___minus_None_minus___minus__braco_Original_minus___minus_Mix_bracc__punkt_mp3 name="Code Pandorum feat. Gravity - Second to None (Original Mix).mp3" file="true" Host="192.168.0.104" />
-		</Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Inquisition_minus___minus_EP>
-		<Crowsnest_minus___minus__minus__minus___minus_Kill_minus___minus_List_minus___minus_Chapter_minus___minus_1 directory="true" Host="192.168.0.104" name="Crowsnest - Kill List Chapter 1">
-			<_12th_minus___minus_Hour_minus___minus_x_minus___minus_Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Legion_punkt_mp3 name="12th Hour x Code Pandorum - Legion.mp3" file="true" Host="192.168.0.104" />
-			<Architekt_minus___minus__minus__minus___minus_Scythe_punkt_mp3 name="Architekt - Scythe.mp3" file="true" Host="192.168.0.104" />
-			<Cruel_minus___minus_Reaction_minus___minus__minus__minus___minus_The_minus___minus_Book_minus___minus_of_minus___minus_the_minus___minus_Dead_punkt_mp3 name="Cruel Reaction - The Book of the Dead.mp3" file="true" Host="192.168.0.104" />
-			<Deathmatics_minus___minus__minus__minus___minus_Evil_minus___minus_Med_punkt_mp3 name="Deathmatics - Evil Med.mp3" file="true" Host="192.168.0.104" />
-			<Exodite_minus___minus__minus__minus___minus_Trilodite_punkt_mp3 name="Exodite - Trilodite.mp3" file="true" Host="192.168.0.104" />
-			<Facesplit_minus___minus__minus__minus___minus_Soma_punkt_mp3 name="Facesplit - Soma.mp3" file="true" Host="192.168.0.104" />
-			<Kill_minus___minus_List_minus___minus_Chapter_minus___minus_1_punkt_jpg name="Kill List Chapter 1.jpg" file="true" Host="192.168.0.104" />
-			<Lūx_minus___minus__minus__minus___minus_Coal_punkt_mp3 name="Lūx - Coal.mp3" file="true" Host="192.168.0.104" />
-			<Mashok_minus___minus__minus__minus___minus_Netherworld_punkt_mp3 name="Mashok - Netherworld.mp3" file="true" Host="192.168.0.104" />
-			<Misfit_minus___minus_Massacre_minus___minus__minus__minus___minus_War_minus___minus_Zone_punkt_mp3 name="Misfit Massacre - War Zone.mp3" file="true" Host="192.168.0.104" />
-			<Mits_minus___minus_feat_punkt__minus___minus_Lazey_minus___minus__minus__minus___minus_Bricks_minus___minus__braco_feat_punkt__minus___minus_Lazey_bracc__punkt_mp3 name="Mits feat. Lazey - Bricks (feat. Lazey).mp3" file="true" Host="192.168.0.104" />
-			<MurDa_minus___minus__minus__minus___minus_Biomechanic_punkt_mp3 name="MurDa - Biomechanic.mp3" file="true" Host="192.168.0.104" />
-			<Ohmie_minus___minus__minus__minus___minus_Scorpion_punkt_mp3 name="Ohmie - Scorpion.mp3" file="true" Host="192.168.0.104" />
-			<Sadhu_minus___minus_x_minus___minus_Code_minus___minus_Pandorum_minus___minus__minus__minus___minus_Christianity_minus___minus_is_minus___minus_Dead_punkt_mp3 name="Sadhu x Code Pandorum - Christianity is Dead.mp3" file="true" Host="192.168.0.104" />
-			<Savory_minus___minus__minus__minus___minus_Gutted_punkt_mp3 name="Savory - Gutted.mp3" file="true" Host="192.168.0.104" />
-			<Sudden_minus___minus_Death_minus___minus__minus__minus___minus_Party_minus___minus_Song_punkt_mp3 name="Sudden Death - Party Song.mp3" file="true" Host="192.168.0.104" />
-			<TenGraphs_minus___minus_x_minus___minus_Contra_minus___minus_Scandal_minus___minus__minus__minus___minus_The_minus___minus_Abyss_punkt_mp3 name="TenGraphs x Contra Scandal - The Abyss.mp3" file="true" Host="192.168.0.104" />
-		</Crowsnest_minus___minus__minus__minus___minus_Kill_minus___minus_List_minus___minus_Chapter_minus___minus_1>
-		<Crowsnest_minus___minus__minus__minus___minus_Kill_minus___minus_List_minus___minus_Chapter_minus___minus_2 directory="true" Host="192.168.0.104" name="Crowsnest - Kill List Chapter 2">
-			<_100hurts_minus___minus__and__minus___minus__minus___minus_Lord_minus___minus_Swan3x_minus___minus__minus__minus___minus_Final_minus___minus_Battle_punkt_mp3 name="100hurts &amp;  Lord Swan3x - Final Battle.mp3" file="true" Host="192.168.0.104" />
-			<Aimless_minus___minus__minus__minus___minus_Pathetic_punkt_mp3 name="Aimless - Pathetic.mp3" file="true" Host="192.168.0.104" />
-			<Antima_minus___minus__minus__minus___minus_All_minus___minus_Of_minus___minus_A_minus___minus_Sudden_punkt_mp3 name="Antima - All Of A Sudden.mp3" file="true" Host="192.168.0.104" />
-			<AstralOnE_minus___minus__and__minus___minus_TenGraphs_minus___minus__minus__minus___minus_Spectre_punkt_mp3 name="AstralOnE &amp; TenGraphs - Spectre.mp3" file="true" Host="192.168.0.104" />
-			<Astrex_minus___minus__minus__minus___minus_Space_minus___minus_Mission_punkt_mp3 name="Astrex - Space Mission.mp3" file="true" Host="192.168.0.104" />
-			<Autodrive_minus___minus__minus__minus___minus_Virtual_minus___minus_Dimension_punkt_mp3 name="Autodrive - Virtual Dimension.mp3" file="true" Host="192.168.0.104" />
-			<Breezer_minus___minus__minus__minus___minus_Demons_minus___minus__braco_feat_punkt__minus___minus_MagMag_bracc__punkt_mp3 name="Breezer - Demons (feat. MagMag).mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Khaimera_punkt_mp3 name="CodePandorum - Khaimera.mp3" file="true" Host="192.168.0.104" />
-			<Cruel_minus___minus_Reaction_minus___minus__minus__minus___minus_Hello_minus___minus_Friend_punkt_mp3 name="Cruel Reaction - Hello Friend.mp3" file="true" Host="192.168.0.104" />
-			<Cubism_minus___minus__minus__minus___minus_Omega_punkt_mp3 name="Cubism - Omega.mp3" file="true" Host="192.168.0.104" />
-			<CyberSex_minus___minus__minus__minus___minus_I_minus___minus_Need_minus___minus_Blood_punkt_mp3 name="CyberSex - I Need Blood.mp3" file="true" Host="192.168.0.104" />
-			<Digitist_minus___minus__minus__minus___minus_Witness_punkt_mp3 name="Digitist - Witness.mp3" file="true" Host="192.168.0.104" />
-			<Diskirz_minus___minus__minus__minus___minus_Corrupt_minus___minus_Souls_punkt_mp3 name="Diskirz - Corrupt Souls.mp3" file="true" Host="192.168.0.104" />
-			<Evilwave_minus___minus__minus__minus___minus_9th_minus___minus_Circle_punkt_mp3 name="Evilwave - 9th Circle.mp3" file="true" Host="192.168.0.104" />
-			<Facesplit_minus___minus__minus__minus___minus_Heeled_punkt_mp3 name="Facesplit - Heeled.mp3" file="true" Host="192.168.0.104" />
-			<Goregotron_minus___minus__minus__minus___minus_Illuminati_minus___minus_Elite_punkt_mp3 name="Goregotron - Illuminati Elite.mp3" file="true" Host="192.168.0.104" />
-			<KILL_minus___minus_LIST_minus___minus_CHAPTER_minus___minus_2_punkt_jpg name="KILL LIST CHAPTER 2.jpg" file="true" Host="192.168.0.104" />
-			<Lūx_minus___minus__minus__minus___minus_Diablo_punkt_mp3 name="Lūx - Diablo.mp3" file="true" Host="192.168.0.104" />
-			<Lūx_minus___minus__minus__minus___minus_Sacred_minus___minus_Shard_punkt_mp3 name="Lūx - Sacred Shard.mp3" file="true" Host="192.168.0.104" />
-			<MaddFace_minus___minus__minus__minus___minus_Samuraii_punkt_mp3 name="MaddFace - Samuraii.mp3" file="true" Host="192.168.0.104" />
-			<Misfit_minus___minus_Massacre_minus___minus__minus__minus___minus_Die_minus___minus__braco_feat_punkt__minus___minus_MagMag_bracc__punkt_mp3 name="Misfit Massacre - Die (feat. MagMag).mp3" file="true" Host="192.168.0.104" />
-			<Mits_minus___minus__minus__minus___minus_Aggressor_minus___minus_VIP_punkt_mp3 name="Mits - Aggressor VIP.mp3" file="true" Host="192.168.0.104" />
-			<Moth_minus___minus__minus__minus___minus_Necronomicon_punkt_mp3 name="Moth - Necronomicon.mp3" file="true" Host="192.168.0.104" />
-			<Ohmie_minus___minus__minus__minus___minus_Smooth_minus___minus_Rock_punkt_mp3 name="Ohmie - Smooth Rock.mp3" file="true" Host="192.168.0.104" />
-			<PsychoticMinds_minus___minus__minus__minus___minus_Pandemonium_punkt_mp3 name="PsychoticMinds - Pandemonium.mp3" file="true" Host="192.168.0.104" />
-			<Qoiet_minus___minus__minus__minus___minus_Leeloo_punkt_mp3 name="Qoiet - Leeloo.mp3" file="true" Host="192.168.0.104" />
-			<Ranga_hochkomma__minus___minus__minus__minus___minus_Laceration_punkt_mp3 name="Ranga' - Laceration.mp3" file="true" Host="192.168.0.104" />
-			<Savory_minus___minus__minus__minus___minus_Don_hochkomma_t_minus___minus_Test_minus___minus_Me_punkt_mp3 name="Savory - Don't Test Me.mp3" file="true" Host="192.168.0.104" />
-			<Soberts_minus___minus__minus__minus___minus_Stitch_punkt_mp3 name="Soberts - Stitch.mp3" file="true" Host="192.168.0.104" />
-			<Squnto_minus___minus__minus__minus___minus_Sayim_punkt_mp3 name="Squnto - Sayim.mp3" file="true" Host="192.168.0.104" />
-			<Subject_minus___minus_31_minus___minus__minus__minus___minus_Amnesia_punkt_mp3 name="Subject 31 - Amnesia.mp3" file="true" Host="192.168.0.104" />
-			<Subtronics_minus___minus__minus__minus___minus_Nightmare_minus___minus_VIP_punkt_mp3 name="Subtronics - Nightmare VIP.mp3" file="true" Host="192.168.0.104" />
-			<Sudden_minus___minus_Death_minus___minus__minus__minus___minus_Beyond_minus___minus_The_minus___minus_Veil_punkt_mp3 name="Sudden Death - Beyond The Veil.mp3" file="true" Host="192.168.0.104" />
-			<TenGraphs_minus___minus__minus__minus___minus_Assassins_punkt_mp3 name="TenGraphs - Assassins.mp3" file="true" Host="192.168.0.104" />
-			<The_minus___minus_Again_minus___minus_Walkers_minus___minus__minus__minus___minus_Bolverk_punkt_mp3 name="The Again Walkers - Bolverk.mp3" file="true" Host="192.168.0.104" />
-			<Vexis_minus___minus__minus__minus___minus_Redwood_punkt_mp3 name="Vexis - Redwood.mp3" file="true" Host="192.168.0.104" />
-			<WH_cross_TE_minus___minus__minus__minus___minus_Corruption_punkt_mp3 name="WH†TE - Corruption.mp3" file="true" Host="192.168.0.104" />
-			<White_minus___minus_Eyes_minus___minus__minus__minus___minus_Russian_minus___minus_Sleep_minus___minus_Experiment_punkt_mp3 name="White Eyes - Russian Sleep Experiment.mp3" file="true" Host="192.168.0.104" />
-		</Crowsnest_minus___minus__minus__minus___minus_Kill_minus___minus_List_minus___minus_Chapter_minus___minus_2>
-		<The_minus___minus_Lovecraftion_minus___minus_Horrors directory="true" Host="192.168.0.104" name="The Lovecraftion Horrors">
-			<CodePandorum_minus___minus__and__minus___minus_Aimless_minus___minus__minus__minus___minus_Severed_minus___minus__punkt_mp3 name="CodePandorum &amp; Aimless - Severed .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Bratkilla_minus___minus__minus__minus___minus_Overseers_minus___minus__punkt_mp3 name="CodePandorum &amp; Bratkilla - Overseers .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_D_minus_Jahsta_minus___minus__minus__minus___minus_Blasphemy_minus___minus__punkt_mp3 name="CodePandorum &amp; D-Jahsta - Blasphemy .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Digitist_minus___minus__minus__minus___minus_De_minus_Void_minus___minus__punkt_mp3 name="CodePandorum &amp; Digitist - De-Void .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Facesplit_minus___minus__minus__minus___minus_Paralysis_minus___minus__punkt_mp3 name="CodePandorum &amp; Facesplit - Paralysis .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Hi_minus___minus_I_hochkomma_m_minus___minus_Ghost_minus___minus__minus__minus___minus_Call_minus___minus_for_minus___minus_Help_minus___minus__punkt_mp3 name="CodePandorum &amp; Hi I'm Ghost - Call for Help .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Kaiser_minus___minus__minus__minus___minus_The_minus___minus_Sickness_minus___minus__punkt_mp3 name="CodePandorum &amp; Kaiser - The Sickness .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Lūx_minus___minus__minus__minus___minus_Indifferent_punkt_mp3 name="CodePandorum &amp; Lūx - Indifferent.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_MurDa_minus___minus__minus__minus___minus_Madness_minus___minus__punkt_mp3 name="CodePandorum &amp; MurDa - Madness .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Nimda_minus___minus__minus__minus___minus_Atheist_hochkomma_s_minus___minus_Cookbook_minus___minus__punkt_mp3 name="CodePandorum &amp; Nimda - Atheist's Cookbook .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Qoiet_minus___minus__minus__minus___minus_Dungeon_minus___minus__punkt_mp3 name="CodePandorum &amp; Qoiet - Dungeon .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Subtronics_minus___minus__minus__minus___minus_The_minus___minus_Abyss_minus___minus__punkt_mp3 name="CodePandorum &amp; Subtronics - The Abyss .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_TenGraphs_minus___minus__minus__minus___minus_Death_minus___minus_Awakens_minus___minus__punkt_mp3 name="CodePandorum &amp; TenGraphs - Death Awakens .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__and__minus___minus_Villain_minus___minus__minus__minus___minus_Resistance_minus___minus__punkt_mp3 name="CodePandorum &amp; Villain - Resistance .mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Cthulhu_minus___minus__braco_God_minus___minus_Complex_minus___minus_VIP_bracc__punkt_mp3 name="CodePandorum - Cthulhu (God Complex VIP).mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Dagon_punkt_mp3 name="CodePandorum - Dagon.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Deadly_minus___minus_Dolls_punkt_mp3 name="CodePandorum - Deadly Dolls.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Delusion_punkt_mp3 name="CodePandorum - Delusion.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Dunwich_punkt_mp3 name="CodePandorum - Dunwich.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_From_minus___minus_Beyond_punkt_mp3 name="CodePandorum - From Beyond.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Ink_punkt_mp3 name="CodePandorum - Ink.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Insane_punkt_mp3 name="CodePandorum - Insane.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Leech_punkt_mp3 name="CodePandorum - Leech.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Neo_punkt_mp3 name="CodePandorum - Neo.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Phantasm_punkt_mp3 name="CodePandorum - Phantasm.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_Snuff_punkt_mp3 name="CodePandorum - Snuff.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_The_minus___minus_Lovecraftian_minus___minus_Horrors_punkt_mp3 name="CodePandorum - The Lovecraftian Horrors.mp3" file="true" Host="192.168.0.104" />
-			<CodePandorum_minus___minus__minus__minus___minus_The_minus___minus_Lurking_minus___minus_Fear_punkt_mp3 name="CodePandorum - The Lurking Fear.mp3" file="true" Host="192.168.0.104" />
-			<cover_punkt_jpg name="cover.jpg" file="true" Host="192.168.0.104" />
-		</The_minus___minus_Lovecraftion_minus___minus_Horrors>
-	</Music>
+	<VS1 directory="true" Host="10.9.40.53" name="VS1">
+		<Neuer_minus___minus_Ordner directory="true" Host="10.9.40.53" name="Neuer Ordner" />
+		<Ordner1 directory="true" Host="10.9.40.53" name="Ordner1">
+			<Ordner1_1 directory="true" Host="10.9.40.53" name="Ordner1_1" />
+		</Ordner1>
+		<Ordner2 directory="true" Host="10.9.40.53" name="Ordner2">
+			<Ordner2_1 directory="true" Host="10.9.40.53" name="Ordner2_1">
+				<Ordner2_1_1 directory="true" Host="10.9.40.53" name="Ordner2_1_1">
+					<Neues_minus___minus_Textdokument_minus___minus__braco_2_bracc__punkt_txt name="Neues Textdokument (2).txt" file="true" Host="10.9.40.53" />
+					<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="10.9.40.53" />
+					<Ordner2_1_1_1 directory="true" Host="10.9.40.53" name="Ordner2_1_1_1" />
+					<Ordner2_1_1_2 directory="true" Host="10.9.40.53" name="Ordner2_1_1_2" />
+				</Ordner2_1_1>
+				<Ordner2_1_2 directory="true" Host="10.9.40.53" name="Ordner2_1_2">
+					<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="10.9.40.53" />
+					<neu directory="true" Host="10.9.40.53" name="neu">
+						<testordner directory="true" Host="10.9.40.53" name="testordner">
+							<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="10.9.40.53" />
+							<test directory="true" Host="10.9.40.53" name="test">
+								<test2 directory="true" Host="10.9.40.53" name="test2">
+									<test3 directory="true" Host="10.9.40.53" name="test3" />
+								</test2>
+							</test>
+						</testordner>
+					</neu>
+				</Ordner2_1_2>
+			</Ordner2_1>
+			<Ordner2_2 directory="true" Host="10.9.40.53" name="Ordner2_2">
+				<bla_punkt_txt name="bla.txt" file="true" Host="10.9.40.53" />
+				<testordner directory="true" Host="10.9.40.53" name="testordner">
+					<test_punkt_txt name="test.txt" file="true" Host="10.9.40.53" />
+					<bla directory="true" Host="10.9.40.53" name="bla">
+						<bla directory="true" Host="10.9.40.53" name="bla">
+							<test_punkt_txt name="test.txt" file="true" Host="10.9.40.53" />
+						</bla>
+					</bla>
+				</testordner>
+			</Ordner2_2>
+		</Ordner2>
+		<Ordner3 directory="true" Host="10.9.40.53" name="Ordner3" />
+		<test directory="true" Host="10.9.40.53" name="test" />
+	</VS1>
 </VSFS>

@@ -1,5 +1,6 @@
 package htw.vs.virtuellesFileSystem;
 
+import com.sun.media.sound.EmergencySoundbank;
 import htw.Main;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
@@ -8,6 +9,7 @@ import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;
 import static java.nio.file.StandardWatchEventKinds.ENTRY_MODIFY;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.*;
 import java.util.Collection;
@@ -43,16 +45,25 @@ public class DirWatchService {
 
     public static void handleEvents(WatchService watcher) {
 //        WatchKey watchKey;
-        Thread thread = new Thread(() -> {
-//        while (true) {
+//        Thread thread = new Thread(() -> {
+
+
+        while (true) {
             WatchKey watchKey = watcher.poll();
             //Wenn Ereignis geworfen wird, gebe Ereignis aus und fuehre erneut Registrierung der Ordner und Files durch
             if (watchKey != null) {
                 watchKey.pollEvents().stream()
                         .forEach(e -> System.out.println(e.context() + " (" + e.kind() + ")"));
                 watchKey.reset();
-                registerDirs(watcher);
-            }
+                //TODO:Neuerstellung der XML nur bei CREATE und DELETE, nicht bei MODIFY
+                //if ((watchKey.pollEvents().stream().toString().equals("ENTRY_CREATE")) || (watchKey.pollEvents().stream().toString().equals("ENTRY_DELETE"))) {
+                    try {
+                        xmlPathCreate.createXML(Main.rootPath);
+                    } catch (FileNotFoundException | NotDirectoryException e) {
+                        e.printStackTrace();
+                    }
+                    registerDirs(watcher);
+                }
             try {
                 //An dieser Stelle das Intervall bestimmen, in dem auf Aenderungen geprueft werden soll
                 Thread.sleep(200);
@@ -60,8 +71,8 @@ public class DirWatchService {
                 e.printStackTrace();
             }
             //      }
-        });
-        thread.start();
+        }
+//        thread.start();
     }
 
     public static void startWatcher() {

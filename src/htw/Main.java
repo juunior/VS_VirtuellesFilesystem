@@ -1,6 +1,5 @@
 package htw;
 
-import htw.FileSystemManger;
 import htw.vs.virtuellesFileSystem.DirWatchService;
 import htw.vs.virtuellesFileSystem.xmlPathCreate;
 import javafx.application.Application;
@@ -16,59 +15,10 @@ import java.nio.file.NotDirectoryException;
 
 import static htw.vs.virtuellesFileSystem.Main.askPaths;
 
-public class Main extends Application {
+public class Main {
 
     //Dieser rootPath fällt weg, falls Kais Methode dafür verwendet wird
     public static String rootPath = null;
-
-    @Override
-    public void start(Stage primaryStage) throws Exception {
-        //(new HelpFileThread()).start(); // load to help file from the resource folder to the local temp folder.
-
-        Parent root = FXMLLoader.load(getClass().getResource("/htw/GUI/sample.fxml"));
-        primaryStage.setTitle("Virtuelles Filesystem");
-        primaryStage.setScene(new Scene(root, 800, 600));
-        primaryStage.show();
-        primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
-            @Override
-            public void handle(WindowEvent event) {
-                FileSystemManger.getInstance().close();
-            }
-        });
-    }
-
-    public static void launchGui(String args[]) {
-        if (args.length > 2) {
-            //vs1.usage();
-        }
-        String mode = "client";
-        if (args.length > 1) {
-            // second parameter equals "s"
-            if (args[1].equals("s")) {
-                mode = "server";
-            }
-        } else if (args.length == 1) {
-            // only one parameter -> default
-            mode = "default";
-        }
-
-        /*switch (mode) {
-            case "client":
-                FileSystemManger.getInstance().initClientOnlyMode();
-                break;
-
-            case "server":
-                FileSystemManger.getInstance().initServerOnlyMode(args[0], TCPParallelServer.DEFAULT_PORT);
-                break;
-
-            default:
-                FileSystemManger.getInstance().init(args[0], TCPParallelServer.DEFAULT_PORT);
-        }*/
-
-
-        launch(args);
-    }
-
 
     public static void main(String args[]) {
         xmlPathCreate.detectOS();
@@ -77,20 +27,10 @@ public class Main extends Application {
         rootPath = askPaths();
         try {
             xmlPathCreate.createXML(rootPath);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (NotDirectoryException e) {
+        } catch (FileNotFoundException | NotDirectoryException e) {
             e.printStackTrace();
         }
-        //An dieser Stelle entweder askPaths oder Kais Zeug zum Pfade abfragen
-        //Falls Kais Zeug verwendet wird, globale Variable rootPath evtl. löschen
-
-        //Hier Platzhalter für das Einlesen der Directory Informationen
         //DirectoryWatcher starten, bereits bekannte Pfade initialisieren und Funktionalität zum automatischen Hinzufügen neuer Directories und Files starten
         DirWatchService.startWatcher();
-        //Zuletzt GUI starten
-//        launchGui(args);
-        System.exit(0);
-
     }
 }

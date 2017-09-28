@@ -38,7 +38,7 @@ public class xmlPathCreate {
     private static void setIllegalCharacter() {
         illegalCharacterAndReplacement = new LinkedHashMap<>();
 
-        illegalCharacterAndReplacement.put(" ", "-_-");
+        illegalCharacterAndReplacement.put(" ", "_space_");
         illegalCharacterAndReplacement.put("+", "_plus_");
         illegalCharacterAndReplacement.put("[", "_sbracc_");
         illegalCharacterAndReplacement.put("]", "_sbraco_");
