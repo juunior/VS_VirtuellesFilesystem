@@ -2,6 +2,7 @@ package htw.vs.virtuellesFileSystem;
 
 import com.sun.media.sound.EmergencySoundbank;
 import htw.Main;
+import htw.ws.binary.client.WebServiceClient;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
@@ -59,6 +60,7 @@ public class DirWatchService {
                 //if ((watchKey.pollEvents().stream().toString().equals("ENTRY_CREATE")) || (watchKey.pollEvents().stream().toString().equals("ENTRY_DELETE"))) {
                     try {
                         xmlPathCreate.createXML(Main.rootPath);
+                        WebServiceClient.communication(true,"directoryStructure.xml",Main.rootPath);
                     } catch (FileNotFoundException | NotDirectoryException e) {
                         e.printStackTrace();
                     }

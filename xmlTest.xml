@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<VS1 directory="true" Host="10.9.40.53" name="VS1">
-		<Neuer_minus___minus_Ordner directory="true" Host="10.9.40.53" name="Neuer Ordner" />
-		<Ordner1 directory="true" Host="10.9.40.53" name="Ordner1">
-			<Ordner1_1 directory="true" Host="10.9.40.53" name="Ordner1_1" />
-		</Ordner1>
-		<Ordner2 directory="true" Host="10.9.40.53" name="Ordner2">
-			<Ordner2_1 directory="true" Host="10.9.40.53" name="Ordner2_1">
-				<Ordner2_1_1 directory="true" Host="10.9.40.53" name="Ordner2_1_1">
-					<Neues_minus___minus_Textdokument_minus___minus__braco_2_bracc__punkt_txt name="Neues Textdokument (2).txt" file="true" Host="10.9.40.53" />
-					<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="10.9.40.53" />
-					<Ordner2_1_1_1 directory="true" Host="10.9.40.53" name="Ordner2_1_1_1" />
-					<Ordner2_1_1_2 directory="true" Host="10.9.40.53" name="Ordner2_1_1_2" />
-				</Ordner2_1_1>
-				<Ordner2_1_2 directory="true" Host="10.9.40.53" name="Ordner2_1_2">
-					<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="10.9.40.53" />
-					<neu directory="true" Host="10.9.40.53" name="neu">
-						<testordner directory="true" Host="10.9.40.53" name="testordner">
-							<Neues_minus___minus_Textdokument_punkt_txt name="Neues Textdokument.txt" file="true" Host="10.9.40.53" />
-							<test directory="true" Host="10.9.40.53" name="test">
-								<test2 directory="true" Host="10.9.40.53" name="test2">
-									<test3 directory="true" Host="10.9.40.53" name="test3" />
-								</test2>
-							</test>
-						</testordner>
-					</neu>
-				</Ordner2_1_2>
-			</Ordner2_1>
-			<Ordner2_2 directory="true" Host="10.9.40.53" name="Ordner2_2">
-				<bla_punkt_txt name="bla.txt" file="true" Host="10.9.40.53" />
-				<testordner directory="true" Host="10.9.40.53" name="testordner">
-					<test_punkt_txt name="test.txt" file="true" Host="10.9.40.53" />
-					<bla directory="true" Host="10.9.40.53" name="bla">
-						<bla directory="true" Host="10.9.40.53" name="bla">
-							<test_punkt_txt name="test.txt" file="true" Host="10.9.40.53" />
-						</bla>
-					</bla>
-				</testordner>
-			</Ordner2_2>
-		</Ordner2>
-		<Ordner3 directory="true" Host="10.9.40.53" name="Ordner3" />
-		<test directory="true" Host="10.9.40.53" name="test" />
+	<VS1 directory="true" Host="192.168.15.1" name="VS1">
+		<directoryStructure_punkt_xml name="directoryStructure.xml" file="true" Host="192.168.15.1" />
 	</VS1>
 </VSFS>

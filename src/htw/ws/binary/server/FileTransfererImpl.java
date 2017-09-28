@@ -1,5 +1,7 @@
 package htw.ws.binary.server;
 
+import htw.Main;
+
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import javax.xml.ws.WebServiceException;
@@ -13,7 +15,7 @@ public class FileTransfererImpl implements FileTransferer {
     @WebMethod
     public void upload(String fileName, byte[] imageBytes) {
 
-        String filePath = "c:/Test/Server/Upload/" + fileName;
+        String filePath = Main.rootPath + fileName;
 
         try {
             FileOutputStream fos = new FileOutputStream(filePath);
@@ -31,7 +33,7 @@ public class FileTransfererImpl implements FileTransferer {
 
     @WebMethod
     public byte[] download(String fileName) {
-        String filePath = "c:/Test/Server/Download/" + fileName;
+        String filePath = Main.rootPath + fileName;
         System.out.println("Sending file: " + filePath);
 
         try {
