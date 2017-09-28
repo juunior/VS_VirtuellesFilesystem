@@ -1,7 +1,5 @@
 package htw.vs.virtuellesFileSystem;
 
-import org.jdom2.JDOMException;
-import org.jdom2.input.SAXBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -18,10 +16,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class searchXML {
 
@@ -36,7 +31,7 @@ public class searchXML {
     //TODO kann man als liveSuche verwenden, in Verbindung mit KeyEvents im Searchfield
     public static void search(String str) throws ParserConfigurationException, IOException, SAXException {
 
-        Document document = getxmlFile();
+        Document document = getxmlFile("xmlTest.xml");
 
         Set<String> substringmapping = new HashSet<>();
         str = xmlPathCreate.removeIllegalCharacter(str);
@@ -44,7 +39,7 @@ public class searchXML {
         try (BufferedReader br = new BufferedReader(new FileReader("xmlTest.xml"))) {
             for (String line; (line = br.readLine()) != null; ) {
                 if (line.contains(str) && line.contains("name=\"")) {
-                    substringmapping.add(line.substring((line.indexOf("<") + 1), line.indexOf("name") - 1));
+                    substringmapping.add(line.substring((line.indexOf("<") + 1), line.indexOf("Host") - 1));
                 }
             }
         }
@@ -70,27 +65,69 @@ public class searchXML {
         }
     }
 
-    static Document getxmlFile() throws IOException, SAXException, ParserConfigurationException {
+    static Document getxmlFile(String xml) throws IOException, SAXException, ParserConfigurationException {
         DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        return docBuilder.parse(new File("xmlTest.xml"));
+        return docBuilder.parse(new File(xml));
     }
 
     public static void findRename() throws ParserConfigurationException, SAXException, IOException {
-        Document document = getxmlFile();
-        Element e = document.getElementById("rename");
+        String toRename = xmlDiffs();
+        if (!(toRename == null)) {
+            String path = "";
+            String newName = "";
+            String name = "";
+            Document doc = getxmlFile("output.xml");
+            NodeList nodeList = doc.getElementsByTagName(toRename);
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node node = nodeList.item(i);
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+                    path = xmlPathCreate.revertIllegalCharacter(nodeToString(node));
+                    newName = getAttributeByString(node, "rename");
+                    name = getAttributeByString(node, "name");
+                    System.out.println(path);
+                    System.out.println(xmlPathCreate.solveIP());
+                    System.out.println(getAttributeByString(node, "Host"));
+                    if (Objects.equals(xmlPathCreate.solveIP(), getAttributeByString(node, "Host"))) {
+                        rename(name, path, newName);
+                    }
 
-        System.out.println(e.getAttribute("name"));
+
+                }
+            }
+        }
+
     }
 
-    public static void addID() throws ParserConfigurationException, SAXException, IOException {
+    private static void rename(String name, String path, String newName) {
+        String newPath = path.substring(0, path.lastIndexOf(xmlPathCreate.DELIMITER) + 1) + newName;
+
+        File file = new File(path);
+//
+        File file2 = new File(newPath);
+//
+//
+        boolean success = file.renameTo(file2);
+
+        if (!success) {
+            System.out.println("Datei nicht umbenannt");
+        } else {
+            System.out.println("Datei umbenannt");
+        }
+
+
+    }
+
+    public static void setToRename(String str, String newName) throws ParserConfigurationException, SAXException, IOException {
+        str = xmlPathCreate.removeIllegalCharacter(str);
+        String toRename = new String();
         Transformer transformer = null;
         try {
             transformer = TransformerFactory.newInstance().newTransformer();
         } catch (TransformerConfigurationException e) {
             e.printStackTrace();
         }
-        Document doc = getxmlFile();
+        Document doc = getxmlFile("xmlTest.xml");
         Result output = new StreamResult(new File("xmlTest.xml"));
         Source input = new DOMSource(doc);
 
@@ -100,12 +137,13 @@ public class searchXML {
             e.printStackTrace();
         }
 
-        NodeList nodeList = doc.getElementsByTagName("netio132_punkt_zip");
+        NodeList nodeList = doc.getElementsByTagName(str);
 
         Element rename = (Element) nodeList.item(0);
-        rename.setIdAttribute("rename", true);
-        rename.setAttribute("rename", "netio");
-        System.out.println(rename.getTagName());
+        if (!(rename == null)) {
+            rename.setIdAttribute("rename", true);
+            rename.setAttribute("rename", newName);
+        }
 
         output = new StreamResult(new File("output.xml"));
         input = new DOMSource(doc);
@@ -143,7 +181,7 @@ public class searchXML {
         return lines;
     }
 
-    public static void xmlDiffs() {
+    public static String xmlDiffs() {
         List<String> original = fileToLines("xmlTest.xml");
         List<String> newer = fileToLines("output.xml");
 
@@ -154,7 +192,18 @@ public class searchXML {
                 diff.add(line);
             }
         }
-        System.out.println(diff);
+        String different = null;
+        if (diff.size() > 0) {
+            different = diff.get(0);
+        }
+        if (!(different == null)) {
+            if (!different.contains("rename=\"false\"")) {
+                return null;
+            } else {
+                return different.substring((different.indexOf("<") + 1), different.indexOf("Host") - 1);
+            }
+        }
+        return null;
     }
 
     /**
@@ -187,6 +236,8 @@ public class searchXML {
             }
         } while (tmp.getParentNode() != null);
         str = new StringBuilder(str.substring(10));// cut first #document
-        return (str.toString());
+        String dir = str.toString();
+        dir = dir.replace("/VSFS/", xmlPathCreate.ROOTDIR);
+        return (dir);
     }
 }
