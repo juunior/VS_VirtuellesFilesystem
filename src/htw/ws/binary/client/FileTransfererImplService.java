@@ -13,7 +13,7 @@ import java.net.URL;
  * JAX-WS RI 2.2.9-b130926.1035
  * Generated source version: 2.2
  */
-@WebServiceClient(name = "FileTransfererImplService", targetNamespace = "http://server.binary.ws.htw/", wsdlLocation = "http://192.168.15.4/vsFS/fileService?wsdl")
+@WebServiceClient(name = "FileTransfererImplService", targetNamespace = "http://server.binary.ws.htw/", wsdlLocation = "http://192.168.15.1/vsFS/fileService?wsdl")
 public class FileTransfererImplService
         extends Service {
 
@@ -25,7 +25,7 @@ public class FileTransfererImplService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://192.168.15.4/vsFS/fileService?wsdl");
+            url = new URL("http://192.168.15.1/vsFS/fileService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
