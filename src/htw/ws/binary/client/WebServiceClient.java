@@ -12,11 +12,12 @@ import java.io.*;
 public class WebServiceClient {
 
     //if action == true -> upload
-    public static void communication(boolean action, String fileName, String filePath) {
+    public static void communication(boolean action, String filePath) {
         // connects to the web service
         FileTransfererImplService client = new FileTransfererImplService();
         FileTransfererImpl service = client.getFileTransfererImplPort();
-
+        String fileName = "xmlTest.xml";
+        filePath+=fileName;
         if (action) {
             //uploads a file
             File file = new File(filePath);
@@ -35,6 +36,7 @@ public class WebServiceClient {
             }
         } else {
             // downloads another file
+
             byte[] fileBytes = service.download(fileName);
             try {
                 FileOutputStream fos = new FileOutputStream(filePath);

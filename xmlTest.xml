@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><VSFS>
+<?xml version="1.0" encoding="UTF-8"?>
+<VSFS>
 	<VS1 Host="192.168.15.1" directory="true" name="VS1" rename="false">
-		<directoryStructure_punkt_xml Host="192.168.15.1" file="true" name="directoryStructure.xml" rename="false"/>
+		<Neue_minus___minus_Bitmap_punkt_bmp Host="192.168.15.1" file="true" name="Neue Bitmap.bmp" rename="false" />
+		<Neues_minus___minus_RTF_minus_Dokument_punkt_rtf Host="192.168.15.1" file="true" name="Neues RTF-Dokument.rtf" rename="false" />
+		<Neues_minus___minus_Textdokument_minus___minus__braco_2_bracc__punkt_txt Host="192.168.15.1" file="true" name="Neues Textdokument (2).txt" rename="false" />
+		<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.1" file="true" name="Neues Textdokument.txt" rename="false" />
+		<anton_punkt_txt Host="192.168.15.1" file="true" name="anton.txt" rename="false" />
+		<fdsatiozvap_komma_srgvas_punkt_txt Host="192.168.15.1" file="true" name="fdsatiozvap,srgvas.txt" rename="false" />
+		<gullilecker_punkt_txt Host="192.168.15.1" file="true" name="gullilecker.txt" rename="false" />
+		<sa_punkt_txt Host="192.168.15.1" file="true" name="sa.txt" rename="false" />
 	</VS1>
 </VSFS>

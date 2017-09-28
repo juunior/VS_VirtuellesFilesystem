@@ -59,8 +59,8 @@ public class DirWatchService {
                 //TODO:Neuerstellung der XML nur bei CREATE und DELETE, nicht bei MODIFY
                 //if ((watchKey.pollEvents().stream().toString().equals("ENTRY_CREATE")) || (watchKey.pollEvents().stream().toString().equals("ENTRY_DELETE"))) {
                     try {
-                        xmlPathCreate.createXML(Main.rootPath);
-                        WebServiceClient.communication(true,"directoryStructure.xml",Main.rootPath);
+                        xmlPathCreate.createXML("c:\\VS1");
+                        WebServiceClient.communication(true, xmlPathCreate.detectOS());
                     } catch (FileNotFoundException | NotDirectoryException e) {
                         e.printStackTrace();
                     }

@@ -20,8 +20,9 @@ public class xmlPathCreate {
     static String ROOTDIR;
     public static String DELIMITER;
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
-
-    private final static String DATNAM = "xmlTest.xml";
+    public static String xmlPathWindows = System.getenv("AppData") + "\\";
+    public static String xmlPathUnix = "/tmp/";
+    private final static String DATNAM = System.getenv("AppData") + "\\xmlTest.xml";
 
     private final static File FILE = new File(DATNAM);
 
@@ -357,12 +358,14 @@ public class xmlPathCreate {
 
     }
 
-    public static void detectOS() {
+    public static String detectOS() {
         String os = System.getProperty("os.name");
         if (os.toLowerCase().contains("windows")) {
             DELIMITER = "\\";
+            return xmlPathWindows;
         } else {
             DELIMITER = "/";
+            return xmlPathUnix;
         }
     }
 

@@ -22,9 +22,7 @@ public class Main {
     public static String rootPath = "";
 
     public static void main(String args[]) {
-        xmlPathCreate.detectOS();
-        //Es müssen noch die Buttons der GUI angepasst werden
-
+        //xmlPathCreate.detectOS();
         rootPath = "C:\\VS1";
         try {
             xmlPathCreate.createXML(rootPath);
