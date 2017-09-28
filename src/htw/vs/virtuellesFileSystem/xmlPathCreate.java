@@ -186,7 +186,7 @@ public class xmlPathCreate {
             for (; a.hasMoreElements(); ) {
                 InetAddress addr = a.nextElement();
                 if (addr.getHostAddress().length() <= 16) {
-                    if (!addr.getHostAddress().contains("127"))
+                    if (!addr.getHostAddress().contains("127") && (!addr.getHostAddress().contains(":")))
                         return addr.getHostAddress();
                 }
             }
