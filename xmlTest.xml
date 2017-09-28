@@ -95,7 +95,7 @@
 			</ueb05>
 			<ueb01 Host="10.9.40.39" directory="true" name="ueb01" rename="false">
 				<loesung01_punkt_txt Host="10.9.40.39" file="true" name="loesung01.txt" rename="false"/>
-				<netio132_punkt_zip Host="10.9.40.39" file="true" name="netio132.zip" rename="netio"/>
+				<netio132_punkt_zip Host="10.9.40.39" file="true" name="netio132.zip" rename="false"/>
 				<ueb01_punkt_txt Host="10.9.40.39" file="true" name="ueb01.txt" rename="false"/>
 				<netio132 Host="10.9.40.39" directory="true" name="netio132" rename="false">
 					<FILE_ID_punkt_DIZ Host="10.9.40.39" file="true" name="FILE_ID.DIZ" rename="false"/>

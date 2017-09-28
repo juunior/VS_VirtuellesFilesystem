@@ -143,9 +143,9 @@ public class xmlPathCreate {
 
         Element p = new Element(removeIllegalCharacter(eDir));
 
-        p.setAttribute("name", dirName);
-        p.setAttribute("directory", "true");
         p.setAttribute("Host", solveIP());
+        p.setAttribute("directory", "true");
+        p.setAttribute("name", dirName);
         p.setAttribute("rename","false");
 
 
@@ -156,9 +156,9 @@ public class xmlPathCreate {
                 Element e1 = new Element(removeIllegalCharacter(eDir));
 
 
-                e1.setAttribute("name", file);
-                e1.setAttribute("file", "true");
                 e1.setAttribute("Host", solveIP());
+                e1.setAttribute("file", "true");
+                e1.setAttribute("name", file);
                 e1.setAttribute("rename", "false");
                 p.addContent(e1);
             }

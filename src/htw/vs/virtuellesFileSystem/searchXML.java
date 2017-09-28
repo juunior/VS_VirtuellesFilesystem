@@ -1,13 +1,13 @@
 package htw.vs.virtuellesFileSystem;
 
-import difflib.*;
+import org.jdom2.JDOMException;
+import org.jdom2.input.SAXBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import javax.sound.midi.Patch;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -18,7 +18,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -85,7 +84,22 @@ public class searchXML {
     }
 
     public static void addID() throws ParserConfigurationException, SAXException, IOException {
+        Transformer transformer = null;
+        try {
+            transformer = TransformerFactory.newInstance().newTransformer();
+        } catch (TransformerConfigurationException e) {
+            e.printStackTrace();
+        }
         Document doc = getxmlFile();
+        Result output = new StreamResult(new File("xmlTest.xml"));
+        Source input = new DOMSource(doc);
+
+        try {
+            transformer.transform(input, output);
+        } catch (TransformerException e) {
+            e.printStackTrace();
+        }
+
         NodeList nodeList = doc.getElementsByTagName("netio132_punkt_zip");
 
         Element rename = (Element) nodeList.item(0);
@@ -93,14 +107,8 @@ public class searchXML {
         rename.setAttribute("rename", "netio");
         System.out.println(rename.getTagName());
 
-        Transformer transformer = null;
-        try {
-            transformer = TransformerFactory.newInstance().newTransformer();
-        } catch (TransformerConfigurationException e) {
-            e.printStackTrace();
-        }
-        Result output = new StreamResult(new File("xmlTest.xml"));
-        Source input = new DOMSource(doc);
+        output = new StreamResult(new File("output.xml"));
+        input = new DOMSource(doc);
 
         try {
             transformer.transform(input, output);
@@ -120,7 +128,7 @@ public class searchXML {
         //TODO try with jdom also
     }
 
-    static List<String> fileToLines(String filename){
+    static List<String> fileToLines(String filename) {
         List<String> lines = new ArrayList<>();
 
 
@@ -135,11 +143,18 @@ public class searchXML {
         return lines;
     }
 
-    public static void xmlDiffs(){
+    public static void xmlDiffs() {
         List<String> original = fileToLines("xmlTest.xml");
-        List<String> revised  = fileToLines("output.xml");
+        List<String> newer = fileToLines("output.xml");
 
-        for(String line:)
+        List<String> diff = new ArrayList<>();
+        for (int i = 0; i < original.size(); i++) {
+            String line = original.get(i);
+            if (!line.equals(newer.get(i))) {
+                diff.add(line);
+            }
+        }
+        System.out.println(diff);
     }
 
     /**
