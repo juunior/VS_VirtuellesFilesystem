@@ -15,17 +15,14 @@ public class xmlSearchTest {
             ParserConfigurationException, TransformerException {
 
         try {
-            xmlPathCreate.createXML("/home/kai/studium/");
+            xmlPathCreate.createXML("/home/wolf");
         } catch (FileNotFoundException e) {
             System.out.println("File nicht gefunden");
         } catch (NotDirectoryException e) {
             System.out.println("Pfad ist kein Ordner");
         }
         xmlPathCreate.detectOS();
-        String str = "Klausur";
-        searchXML.search(str);
-        searchXML.setToRename("PTG.pdf", "PTG II.pdf");
-        searchXML.xmlDiffs();
-        searchXML.findRename();
+        String str = "*";
+        DirectoryStructure.search(str);
     }
 }

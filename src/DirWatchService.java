@@ -1,3 +1,4 @@
+import htw.vs.virtuellesFileSystem.DirectoryStructure;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
