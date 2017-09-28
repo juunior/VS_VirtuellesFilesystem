@@ -73,6 +73,7 @@ public class DirWatchService {
             if(WebServiceServer.hash(hc))
             {
                 WebServiceClient.communication(false,xmlPathCreate.detectOS());
+                hc = searchXML.hashC();
             }
             try {
                 //An dieser Stelle das Intervall bestimmen, in dem auf Aenderungen geprueft werden soll

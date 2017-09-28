@@ -33,6 +33,6 @@ public class WebServiceServer {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return message.equals(hc);
+		return hc.equals(message);
 	}
 }

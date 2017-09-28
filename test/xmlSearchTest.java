@@ -30,6 +30,6 @@ public class xmlSearchTest {
 //        searchXML.findRename();
 
         HashCode h = searchXML.hashC();
-        System.out.println(searchXML.hash(h));
+        //System.out.println(searchXML.hash(h));
     }
 }
