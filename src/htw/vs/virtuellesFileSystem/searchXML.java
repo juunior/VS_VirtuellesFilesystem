@@ -237,7 +237,7 @@ public class searchXML {
         } while (tmp.getParentNode() != null);
         str = new StringBuilder(str.substring(10));// cut first #document
         String dir = str.toString();
-        dir = dir.replace("/VSFS/", xmlPathCreate.ROOTDIR);
+        dir = dir.replace(xmlPathCreate.DELIMITER + "VSFS" + xmlPathCreate.DELIMITER, xmlPathCreate.ROOTDIR);
         return (dir);
     }
 }
