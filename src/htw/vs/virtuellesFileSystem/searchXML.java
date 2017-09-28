@@ -16,10 +16,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class searchXML {
 
@@ -89,7 +86,9 @@ public class searchXML {
                     newName = getAttributeByString(node, "rename");
                     name = getAttributeByString(node, "name");
                     System.out.println(path);
-                    if (xmlPathCreate.solveIP() == getAttributeByString(node, "Host")) {
+                    System.out.println(xmlPathCreate.solveIP());
+                    System.out.println(getAttributeByString(node, "Host"));
+                    if (Objects.equals(xmlPathCreate.solveIP(), getAttributeByString(node, "Host"))) {
                         rename(name, path, newName);
                     }
 

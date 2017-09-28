@@ -29,10 +29,10 @@
 			<ueb07 Host="192.168.178.99" directory="true" name="ueb07" rename="false"/>
 		</Informatik_1>
 		<PTG Host="192.168.178.99" directory="true" name="PTG" rename="false">
+			<PTG_punkt_pdf Host="192.168.178.99" file="true" name="PTG.pdf" rename="false"/>
 			<doc00686320160817125107_punkt_pdf Host="192.168.178.99" file="true" name="doc00686320160817125107.pdf" rename="false"/>
 			<doc00686420160817125238_punkt_pdf Host="192.168.178.99" file="true" name="doc00686420160817125238.pdf" rename="false"/>
 			<doc00686620160817125516_punkt_pdf Host="192.168.178.99" file="true" name="doc00686620160817125516.pdf" rename="false"/>
-			<doc00686820160817125721_punkt_pdf Host="192.168.178.99" file="true" name="doc00686820160817125721.pdf" rename="false"/>
 			<doc00686920160817125746_punkt_pdf Host="192.168.178.99" file="true" name="doc00686920160817125746.pdf" rename="false"/>
 			<doc00687020160817125806_punkt_pdf Host="192.168.178.99" file="true" name="doc00687020160817125806.pdf" rename="false"/>
 			<ichwerdenneu Host="192.168.178.99" file="true" name="ichwerdenneu" rename="false"/>

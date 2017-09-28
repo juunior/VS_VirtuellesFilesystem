@@ -24,7 +24,7 @@ public class xmlSearchTest {
         xmlPathCreate.detectOS();
         String str = "Klausur";
         searchXML.search(str);
-        searchXML.setToRename("doc00686720160817125637.pdf", "ichwerdenneu");
+        searchXML.setToRename("PTG.pdf", "PTG II.pdf");
         searchXML.xmlDiffs();
         searchXML.findRename();
     }
