@@ -193,6 +193,10 @@ public class searchXML {
         return (str.toString());
     }
 
+    /**
+     * generiert Hashcode
+     * @return  HashCode
+     */
     public static HashCode hashC() {
         File fileC = new File("xmlTest.xml");
         HashFunction hfC = Hashing.sha256();
@@ -205,6 +209,11 @@ public class searchXML {
         return hcC;
     }
 
+    /**
+     * ueberprueft uebergebenen Hashcode mit angegebenem File
+     * @param message
+     * @return
+     */
     public static boolean hash(HashCode message) {
         File file = new File("xmlTest.xml");
         HashFunction hf = Hashing.sha256();
