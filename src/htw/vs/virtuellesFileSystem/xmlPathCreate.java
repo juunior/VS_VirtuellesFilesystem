@@ -17,7 +17,7 @@ import java.util.*;
 
 
 public class xmlPathCreate {
-    private static String ROOTDIR;
+    static String ROOTDIR;
     public static String DELIMITER;
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
 
@@ -172,7 +172,7 @@ public class xmlPathCreate {
      *
      * @return die IPv4 Addresse des Hosts
      */
-    private static String solveIP() {
+     static String solveIP() {
         Enumeration<NetworkInterface> n = null;
         try {
             n = NetworkInterface.getNetworkInterfaces();
