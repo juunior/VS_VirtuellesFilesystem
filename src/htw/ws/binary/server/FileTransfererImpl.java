@@ -13,7 +13,7 @@ public class FileTransfererImpl implements FileTransferer {
     @WebMethod
     public void upload(String fileName, byte[] imageBytes) {
 
-        String filePath = "e:/Test/Server/Upload/" + fileName;
+        String filePath = "c:/Test/Server/Upload/" + fileName;
 
         try {
             FileOutputStream fos = new FileOutputStream(filePath);
@@ -31,7 +31,7 @@ public class FileTransfererImpl implements FileTransferer {
 
     @WebMethod
     public byte[] download(String fileName) {
-        String filePath = "e:/Test/Server/Download/" + fileName;
+        String filePath = "c:/Test/Server/Download/" + fileName;
         System.out.println("Sending file: " + filePath);
 
         try {

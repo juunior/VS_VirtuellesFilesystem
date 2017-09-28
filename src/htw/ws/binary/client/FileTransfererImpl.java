@@ -16,7 +16,7 @@ import javax.xml.ws.ResponseWrapper;
  * JAX-WS RI 2.2.9-b130926.1035
  * Generated source version: 2.2
  */
-@WebService(name = "FileTransfererImpl", targetNamespace = "http://server.binary.ws.vsFS.net/")
+@WebService(name = "FileTransfererImpl", targetNamespace = "http://server.binary.ws.htw/")
 @XmlSeeAlso({
         ObjectFactory.class
 })
@@ -29,9 +29,9 @@ public interface FileTransfererImpl {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "download", targetNamespace = "http://server.binary.ws.vsFS.net/", className = "htw.ws.binary.client.Download")
-    @ResponseWrapper(localName = "downloadResponse", targetNamespace = "http://server.binary.ws.vsFS.net/", className = "htw.ws.binary.client.DownloadResponse")
-    @Action(input = "http://server.binary.ws.vsFS.net/FileTransfererImpl/downloadRequest", output = "http://server.binary.ws.vsFS.net/FileTransfererImpl/downloadResponse")
+    @RequestWrapper(localName = "download", targetNamespace = "http://server.binary.ws.htw/", className = "htw.ws.binary.client.Download")
+    @ResponseWrapper(localName = "downloadResponse", targetNamespace = "http://server.binary.ws.htw/", className = "htw.ws.binary.client.DownloadResponse")
+    @Action(input = "http://server.binary.ws.htw/FileTransfererImpl/downloadRequest", output = "http://server.binary.ws.htw/FileTransfererImpl/downloadResponse")
     byte[] download(
             @WebParam(name = "arg0", targetNamespace = "")
                     String arg0);
@@ -41,9 +41,9 @@ public interface FileTransfererImpl {
      * @param arg0
      */
     @WebMethod
-    @RequestWrapper(localName = "upload", targetNamespace = "http://server.binary.ws.vsFS.net/", className = "htw.ws.binary.client.Upload")
-    @ResponseWrapper(localName = "uploadResponse", targetNamespace = "http://server.binary.ws.vsFS.net/", className = "htw.ws.binary.client.UploadResponse")
-    @Action(input = "http://server.binary.ws.vsFS.net/FileTransfererImpl/uploadRequest", output = "http://server.binary.ws.vsFS.net/FileTransfererImpl/uploadResponse")
+    @RequestWrapper(localName = "upload", targetNamespace = "http://server.binary.ws.htw/", className = "htw.ws.binary.client.Upload")
+    @ResponseWrapper(localName = "uploadResponse", targetNamespace = "http://server.binary.ws.htw/", className = "htw.ws.binary.client.UploadResponse")
+    @Action(input = "http://server.binary.ws.htw/FileTransfererImpl/uploadRequest", output = "http://server.binary.ws.htw/FileTransfererImpl/uploadResponse")
     void upload(
             @WebParam(name = "arg0", targetNamespace = "")
                     String arg0,

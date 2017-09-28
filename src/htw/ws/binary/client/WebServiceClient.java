@@ -14,7 +14,7 @@ public class WebServiceClient {
         FileTransfererImpl service = client.getFileTransfererImplPort();
 
         String fileName = "binary.png";
-        String filePath = "e:/Test/Client/Upload/" + fileName;
+        String filePath = "c:/Test/Client/Upload/" + fileName;
         File file = new File(filePath);
 
         // uploads a file
@@ -34,7 +34,7 @@ public class WebServiceClient {
 
         // downloads another file
         fileName = "camera.png";
-        filePath = "E:/Test/Client/Download/" + fileName;
+        filePath = "c:/Test/Client/Download/" + fileName;
         byte[] fileBytes = service.download(fileName);
 
         try {

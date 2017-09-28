@@ -13,19 +13,19 @@ import java.net.URL;
  * JAX-WS RI 2.2.9-b130926.1035
  * Generated source version: 2.2
  */
-@WebServiceClient(name = "FileTransfererImplService", targetNamespace = "http://server.binary.ws.vsFS.net/", wsdlLocation = "http://localhost:9898/vsFS/fileService?wsdl")
+@WebServiceClient(name = "FileTransfererImplService", targetNamespace = "http://server.binary.ws.htw/", wsdlLocation = "http://192.168.15.4/vsFS/fileService?wsdl")
 public class FileTransfererImplService
         extends Service {
 
     private final static URL FILETRANSFERERIMPLSERVICE_WSDL_LOCATION;
     private final static WebServiceException FILETRANSFERERIMPLSERVICE_EXCEPTION;
-    private final static QName FILETRANSFERERIMPLSERVICE_QNAME = new QName("http://server.binary.ws.vsFS.net/", "FileTransfererImplService");
+    private final static QName FILETRANSFERERIMPLSERVICE_QNAME = new QName("http://server.binary.ws.htw/", "FileTransfererImplService");
 
     static {
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:9898/vsFS/fileService?wsdl");
+            url = new URL("http://192.168.15.4/vsFS/fileService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
@@ -69,7 +69,7 @@ public class FileTransfererImplService
      */
     @WebEndpoint(name = "FileTransfererImplPort")
     public FileTransfererImpl getFileTransfererImplPort() {
-        return super.getPort(new QName("http://server.binary.ws.vsFS.net/", "FileTransfererImplPort"), FileTransfererImpl.class);
+        return super.getPort(new QName("http://server.binary.ws.htw/", "FileTransfererImplPort"), FileTransfererImpl.class);
     }
 
     /**
@@ -78,7 +78,7 @@ public class FileTransfererImplService
      */
     @WebEndpoint(name = "FileTransfererImplPort")
     public FileTransfererImpl getFileTransfererImplPort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://server.binary.ws.vsFS.net/", "FileTransfererImplPort"), FileTransfererImpl.class, features);
+        return super.getPort(new QName("http://server.binary.ws.htw/", "FileTransfererImplPort"), FileTransfererImpl.class, features);
     }
 
 }
