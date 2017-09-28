@@ -16,6 +16,8 @@ public class xmlSearchTest {
         xmlPathCreate.detectOS();
         String str = "Klausur";
         searchXML.search(str);
-        searchXML.findRename();
+        searchXML.addID();
+        searchXML.xmlDiffs();
+//        searchXML.findRename();
     }
 }
