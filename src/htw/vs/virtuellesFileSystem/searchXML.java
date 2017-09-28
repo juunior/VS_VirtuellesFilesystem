@@ -1,5 +1,8 @@
 package htw.vs.virtuellesFileSystem;
 
+import com.google.common.hash.HashCode;
+import com.google.common.hash.HashFunction;
+import com.google.common.hash.Hashing;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -17,6 +20,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
+
+import static com.google.common.io.Files.asByteSource;
 
 public class searchXML {
 
@@ -239,5 +244,38 @@ public class searchXML {
         String dir = str.toString();
         dir = dir.replace(xmlPathCreate.DELIMITER + "VSFS" + xmlPathCreate.DELIMITER, xmlPathCreate.ROOTDIR);
         return (dir);
+    }
+
+    /**
+     * generiert Hashcode
+     * @return  HashCode
+     */
+    public static HashCode hashC() {
+        File fileC = new File("xmlTest.xml");
+        HashFunction hfC = Hashing.sha256();
+        HashCode hcC = null;
+        try {
+            hcC = asByteSource(fileC).hash(hfC);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return hcC;
+    }
+
+    /**
+     * ueberprueft uebergebenen Hashcode mit angegebenem File
+     * @param message
+     * @return
+     */
+    public static boolean hash(HashCode message) {
+        File file = new File("xmlTest.xml");
+        HashFunction hf = Hashing.sha256();
+        HashCode hc = null;
+        try {
+            hc = asByteSource(file).hash(hf);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return message.equals(hc);
     }
 }

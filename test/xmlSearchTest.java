@@ -1,3 +1,4 @@
+import com.google.common.hash.HashCode;
 import htw.vs.virtuellesFileSystem.*;
 import org.w3c.dom.Document;
 
