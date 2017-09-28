@@ -24,8 +24,11 @@ public class xmlSearchTest {
         xmlPathCreate.detectOS();
         String str = "directoryStructure.xml";
         searchXML.search(str);
-        searchXML.setToRename(str, "PTG II.pdf");
-        searchXML.xmlDiffs();
-        searchXML.findRename();
+//        searchXML.addID();
+//        searchXML.xmlDiffs();
+//        searchXML.findRename();
+
+        HashCode h = searchXML.hashC();
+        System.out.println(searchXML.hash(h));
     }
 }
