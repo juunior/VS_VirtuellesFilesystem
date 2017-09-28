@@ -11,13 +11,14 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.*;
+import java.nio.file.AccessDeniedException;
 import java.nio.file.NotDirectoryException;
 import java.util.*;
 
 
 public class xmlPathCreate {
-    private static String ROOTDIR;
-    private static String DELIMITER;
+    static String ROOTDIR;
+    public static String DELIMITER;
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
 
     private final static String DATNAM = "xmlTest.xml";
@@ -38,7 +39,7 @@ public class xmlPathCreate {
     private static void setIllegalCharacter() {
         illegalCharacterAndReplacement = new LinkedHashMap<>();
 
-        illegalCharacterAndReplacement.put(" ", "_space_");
+        illegalCharacterAndReplacement.put(" ", "-_-");
         illegalCharacterAndReplacement.put("+", "_plus_");
         illegalCharacterAndReplacement.put("[", "_sbracc_");
         illegalCharacterAndReplacement.put("]", "_sbraco_");
@@ -68,9 +69,8 @@ public class xmlPathCreate {
         illegalCharacterAndReplacement.put("?", "_ask_");
         illegalCharacterAndReplacement.put("¶", "_newL_");
         illegalCharacterAndReplacement.put("`", "_backtick_");
-        illegalCharacterAndReplacement.put("…","_ppp_");
-        illegalCharacterAndReplacement.put(";","_semic_");
-        illegalCharacterAndReplacement.put("†","_cross_");
+        illegalCharacterAndReplacement.put("^","_roof_");
+        illegalCharacterAndReplacement.put("\\", "_backsl_");
     }
 
     /**
@@ -143,9 +143,11 @@ public class xmlPathCreate {
 
         Element p = new Element(removeIllegalCharacter(eDir));
 
-        p.setAttribute("directory", "true");
         p.setAttribute("Host", solveIP());
+        p.setAttribute("directory", "true");
         p.setAttribute("name", dirName);
+        p.setAttribute("rename","false");
+
 
 
         if (files != null) {
@@ -154,9 +156,10 @@ public class xmlPathCreate {
                 Element e1 = new Element(removeIllegalCharacter(eDir));
 
 
-                e1.setAttribute("name", file);
-                e1.setAttribute("file", "true");
                 e1.setAttribute("Host", solveIP());
+                e1.setAttribute("file", "true");
+                e1.setAttribute("name", file);
+                e1.setAttribute("rename", "false");
                 p.addContent(e1);
             }
 
@@ -169,7 +172,7 @@ public class xmlPathCreate {
      *
      * @return die IPv4 Addresse des Hosts
      */
-    private static String solveIP() {
+     static String solveIP() {
         Enumeration<NetworkInterface> n = null;
         try {
             n = NetworkInterface.getNetworkInterfaces();
@@ -183,7 +186,7 @@ public class xmlPathCreate {
             for (; a.hasMoreElements(); ) {
                 InetAddress addr = a.nextElement();
                 if (addr.getHostAddress().length() <= 16) {
-                    if (!addr.getHostAddress().contains("127") && !addr.getHostAddress().contains(":"))
+                    if (!addr.getHostAddress().contains("127"))
                         return addr.getHostAddress();
                 }
             }
@@ -271,7 +274,7 @@ public class xmlPathCreate {
      * @return Document file
      */
     private static Document buildDirectoryWalk(String[] directories, Document doc, File dirs) {
-        File file_tmp;
+        File file_tmp = null;
         for (String dir : directories) {
             file_tmp = new File(dirs.getAbsolutePath() + "/" + dir);
             String[] files = file_tmp.list((current, name) -> new File(current, name).isFile());
@@ -328,7 +331,7 @@ public class xmlPathCreate {
      * @see FileNotFoundException
      */
     private static Document writeDoc(Document doc, String dir) throws FileNotFoundException, NotDirectoryException {
-
+        detectOS();
 
         if (!dir.endsWith(DELIMITER)) {
             dir = dir.concat(DELIMITER);
