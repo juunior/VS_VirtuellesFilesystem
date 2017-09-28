@@ -267,6 +267,7 @@ public class searchXML {
      * @param message
      * @return
      */
+    /*
     public static boolean hash(HashCode message) {
         File file = new File("xmlTest.xml");
         HashFunction hf = Hashing.sha256();
@@ -278,4 +279,5 @@ public class searchXML {
         }
         return message.equals(hc);
     }
+    */
 }

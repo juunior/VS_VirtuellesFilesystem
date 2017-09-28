@@ -1,8 +1,10 @@
 package htw.vs.virtuellesFileSystem;
 
+import com.google.common.hash.HashCode;
 import com.sun.media.sound.EmergencySoundbank;
 import htw.Main;
 import htw.ws.binary.client.WebServiceClient;
+import htw.ws.binary.server.WebServiceServer;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
@@ -48,6 +50,7 @@ public class DirWatchService {
 //        WatchKey watchKey;
 //        Thread thread = new Thread(() -> {
 
+        HashCode hc = null;
 
         while (true) {
             WatchKey watchKey = watcher.poll();
@@ -60,12 +63,17 @@ public class DirWatchService {
                 //if ((watchKey.pollEvents().stream().toString().equals("ENTRY_CREATE")) || (watchKey.pollEvents().stream().toString().equals("ENTRY_DELETE"))) {
                     try {
                         xmlPathCreate.createXML("c:\\VS1");
+                        hc = searchXML.hashC();
                         WebServiceClient.communication(true, xmlPathCreate.detectOS());
                     } catch (FileNotFoundException | NotDirectoryException e) {
                         e.printStackTrace();
                     }
                     registerDirs(watcher);
                 }
+            if(WebServiceServer.hash(hc))
+            {
+                WebServiceClient.communication(false,xmlPathCreate.detectOS());
+            }
             try {
                 //An dieser Stelle das Intervall bestimmen, in dem auf Aenderungen geprueft werden soll
                 Thread.sleep(200);

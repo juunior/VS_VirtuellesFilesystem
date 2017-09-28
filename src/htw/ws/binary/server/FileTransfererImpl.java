@@ -24,6 +24,7 @@ public class FileTransfererImpl implements FileTransferer {
             outputStream.close();
 
             System.out.println("Received file: " + filePath);
+            hashCode();
 
         } catch (IOException ex) {
             System.err.println(ex);

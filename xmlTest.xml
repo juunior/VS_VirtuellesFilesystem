@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VSFS>
-	<VS1 Host="192.168.15.1" directory="true" name="VS1" rename="false">
-		<Neue_minus___minus_Bitmap_punkt_bmp Host="192.168.15.1" file="true" name="Neue Bitmap.bmp" rename="false" />
-		<Neues_minus___minus_RTF_minus_Dokument_punkt_rtf Host="192.168.15.1" file="true" name="Neues RTF-Dokument.rtf" rename="false" />
-		<Neues_minus___minus_Textdokument_minus___minus__braco_2_bracc__punkt_txt Host="192.168.15.1" file="true" name="Neues Textdokument (2).txt" rename="false" />
-		<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.1" file="true" name="Neues Textdokument.txt" rename="false" />
-		<anton_punkt_txt Host="192.168.15.1" file="true" name="anton.txt" rename="false" />
-		<fdsatiozvap_komma_srgvas_punkt_txt Host="192.168.15.1" file="true" name="fdsatiozvap,srgvas.txt" rename="false" />
-		<gullilecker_punkt_txt Host="192.168.15.1" file="true" name="gullilecker.txt" rename="false" />
-		<sa_punkt_txt Host="192.168.15.1" file="true" name="sa.txt" rename="false" />
+	<VS1 Host="192.168.15.3" directory="true" name="VS1" rename="false">
+		<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.3" file="true" name="Neues Textdokument.txt" rename="false" />
+		<robert_minus___minus_hat_minus___minus_nen_minus___minus_kleinen_minus___minus_penis_punkt_txt Host="192.168.15.3" file="true" name="robert hat nen kleinen penis.txt" rename="false" />
+		<Neuer_minus___minus_Ordner Host="192.168.15.3" directory="true" name="Neuer Ordner" rename="false" />
+		<Ordner1 Host="192.168.15.3" directory="true" name="Ordner1" rename="false">
+			<Ordner1_1 Host="192.168.15.3" directory="true" name="Ordner1_1" rename="false" />
+		</Ordner1>
+		<Ordner2 Host="192.168.15.3" directory="true" name="Ordner2" rename="false">
+			<Ordner2_1 Host="192.168.15.3" directory="true" name="Ordner2_1" rename="false">
+				<Ordner2_1_1 Host="192.168.15.3" directory="true" name="Ordner2_1_1" rename="false">
+					<Neues_minus___minus_Textdokument_minus___minus__braco_2_bracc__punkt_txt Host="192.168.15.3" file="true" name="Neues Textdokument (2).txt" rename="false" />
+					<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.3" file="true" name="Neues Textdokument.txt" rename="false" />
+					<Neuer_minus___minus_Ordner Host="192.168.15.3" directory="true" name="Neuer Ordner" rename="false">
+						<Neuer_minus___minus_Ordner Host="192.168.15.3" directory="true" name="Neuer Ordner" rename="false">
+							<Neuer_minus___minus_Ordner Host="192.168.15.3" directory="true" name="Neuer Ordner" rename="false">
+								<Neuer_minus___minus_Ordner Host="192.168.15.3" directory="true" name="Neuer Ordner" rename="false" />
+							</Neuer_minus___minus_Ordner>
+						</Neuer_minus___minus_Ordner>
+					</Neuer_minus___minus_Ordner>
+					<Ordner2_1_1_1 Host="192.168.15.3" directory="true" name="Ordner2_1_1_1" rename="false" />
+					<Ordner2_1_1_2 Host="192.168.15.3" directory="true" name="Ordner2_1_1_2" rename="false" />
+				</Ordner2_1_1>
+				<Ordner2_1_2 Host="192.168.15.3" directory="true" name="Ordner2_1_2" rename="false">
+					<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.3" file="true" name="Neues Textdokument.txt" rename="false" />
+					<neu Host="192.168.15.3" directory="true" name="neu" rename="false">
+						<testordner Host="192.168.15.3" directory="true" name="testordner" rename="false">
+							<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.3" file="true" name="Neues Textdokument.txt" rename="false" />
+							<test Host="192.168.15.3" directory="true" name="test" rename="false">
+								<test2 Host="192.168.15.3" directory="true" name="test2" rename="false">
+									<test3 Host="192.168.15.3" directory="true" name="test3" rename="false" />
+								</test2>
+							</test>
+						</testordner>
+					</neu>
+				</Ordner2_1_2>
+			</Ordner2_1>
+			<Ordner2_2 Host="192.168.15.3" directory="true" name="Ordner2_2" rename="false">
+				<bla_punkt_txt Host="192.168.15.3" file="true" name="bla.txt" rename="false" />
+				<testordner Host="192.168.15.3" directory="true" name="testordner" rename="false">
+					<test_punkt_txt Host="192.168.15.3" file="true" name="test.txt" rename="false" />
+					<bla Host="192.168.15.3" directory="true" name="bla" rename="false">
+						<bla Host="192.168.15.3" directory="true" name="bla" rename="false">
+							<test_punkt_txt Host="192.168.15.3" file="true" name="test.txt" rename="false" />
+						</bla>
+					</bla>
+				</testordner>
+			</Ordner2_2>
+		</Ordner2>
+		<Ordner3 Host="192.168.15.3" directory="true" name="Ordner3" rename="false" />
+		<test Host="192.168.15.3" directory="true" name="test" rename="false" />
 	</VS1>
 </VSFS>
