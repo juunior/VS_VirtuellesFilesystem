@@ -1,4 +1,4 @@
-import htw.vs.virtuellesFileSystem.searchXML;
+import htw.vs.virtuellesFileSystem.*;
 import org.w3c.dom.Document;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -12,12 +12,12 @@ public class xmlSearchTest {
     public static void main(String[] args) throws org.xml.sax.SAXException, IOException,
             ParserConfigurationException, TransformerException {
 
-        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        Document document = docBuilder.parse(new File("xmlTest.xml"));
 
-        // File Name aendern
-        String str = "Musterdatei.txt";
-        searchXML.suche(str, document);
+        xmlPathCreate.detectOS();
+        String str = "Klausur";
+        searchXML.search(str);
+        searchXML.addID();
+        searchXML.xmlDiffs();
+//        searchXML.findRename();
     }
 }
