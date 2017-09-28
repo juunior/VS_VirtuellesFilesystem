@@ -1,7 +1,5 @@
 package htw.vs.virtuellesFileSystem;
 
-import org.jdom2.JDOMException;
-import org.jdom2.input.SAXBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -78,8 +76,8 @@ public class searchXML {
 
     public static void findRename() throws ParserConfigurationException, SAXException, IOException {
         String toRename = xmlDiffs();
-        if(!(toRename == null)){
-            String path  = "";
+        if (!(toRename == null)) {
+            String path = "";
             String newName = "";
             String name = "";
             Document doc = getxmlFile("output.xml");
@@ -91,8 +89,8 @@ public class searchXML {
                     newName = getAttributeByString(node, "rename");
                     name = getAttributeByString(node, "name");
                     System.out.println(path);
-                    if(xmlPathCreate.solveIP() == getAttributeByString(node, "Host")){
-                        rename(name,path,newName);
+                    if (xmlPathCreate.solveIP() == getAttributeByString(node, "Host")) {
+                        rename(name, path, newName);
                     }
 
 
@@ -103,7 +101,7 @@ public class searchXML {
     }
 
     private static void rename(String name, String path, String newName) {
-        String newPath = path.substring(0,path.lastIndexOf(xmlPathCreate.DELIMITER)+1) + newName;
+        String newPath = path.substring(0, path.lastIndexOf(xmlPathCreate.DELIMITER) + 1) + newName;
 
         File file = new File(path);
 //
@@ -114,7 +112,7 @@ public class searchXML {
 
         if (!success) {
             System.out.println("Datei nicht umbenannt");
-        }else {
+        } else {
             System.out.println("Datei umbenannt");
         }
 
@@ -143,8 +141,10 @@ public class searchXML {
         NodeList nodeList = doc.getElementsByTagName(str);
 
         Element rename = (Element) nodeList.item(0);
-        rename.setIdAttribute("rename", true);
-        rename.setAttribute("rename", newName);
+        if (!(rename == null)) {
+            rename.setIdAttribute("rename", true);
+            rename.setAttribute("rename", newName);
+        }
 
         output = new StreamResult(new File("output.xml"));
         input = new DOMSource(doc);
@@ -193,12 +193,18 @@ public class searchXML {
                 diff.add(line);
             }
         }
-        String different = diff.get(0);
-        if(!different.contains("rename=\"false\"")){
-            return null;
-        }else {
-            return different.substring((different.indexOf("<") + 1), different.indexOf("Host") - 1);
+        String different = null;
+        if (diff.size() > 0) {
+            different = diff.get(0);
         }
+        if (!(different == null)) {
+            if (!different.contains("rename=\"false\"")) {
+                return null;
+            } else {
+                return different.substring((different.indexOf("<") + 1), different.indexOf("Host") - 1);
+            }
+        }
+        return null;
     }
 
     /**
