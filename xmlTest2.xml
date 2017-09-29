@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VSFS>
+	<PTG Host="192.168.0.3" directory="true" name="PTG" rename="false">
+		<doc00686320160817125107_punkt_pdf Host="192.168.0.3" file="true" name="doc00686320160817125107.pdf" rename="false" />
+		<doc00686420160817125238_punkt_pdf Host="192.168.0.3" file="true" name="doc00686420160817125238.pdf" rename="false" />
+		<doc00686620160817125516_punkt_pdf Host="192.168.0.3" file="true" name="doc00686620160817125516.pdf" rename="false" />
+		<doc00686720160817125637_punkt_pdf Host="192.168.0.3" file="true" name="doc00686720160817125637.pdf" rename="false" />
+		<doc00686820160817125721_punkt_pdf Host="192.168.0.3" file="true" name="doc00686820160817125721.pdf" rename="false" />
+		<doc00686920160817125746_punkt_pdf Host="192.168.0.3" file="true" name="doc00686920160817125746.pdf" rename="false" />
+		<doc00687020160817125806_punkt_pdf Host="192.168.0.3" file="true" name="doc00687020160817125806.pdf" rename="false" />
+		<Klausur Host="192.168.0.3" directory="true" name="Klausur" rename="false">
+			<Klausur_minus___minus_PTG_II_Probe_punkt_pdf Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe.pdf" rename="false" />
+			<Klausur_minus___minus_PTG_II_Probe1_punkt_doc Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe1.doc" rename="false" />
+			<Klausur_minus___minus_PTG_II_Probe2_punkt_doc Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe2.doc" rename="false" />
+			<Klausur_minus___minus_PTG_II_Probe3_punkt_doc Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe3.doc" rename="false" />
+			<Klausur_minus_ptg_punkt_rar Host="192.168.0.3" file="true" name="Klausur-ptg.rar" rename="false" />
+			<Loesung_minus___minus_2 Host="192.168.0.3" file="true" name="Loesung 2" rename="false" />
+			<Musterloesung_minus___minus_Probeklausur_minus___minus_PTG_minus___minus_II_punkt_pdf Host="192.168.0.3" file="true" name="Musterloesung Probeklausur PTG II.pdf" rename="false" />
+			<ProbeKlausur_minus___minus_PTG_minus___minus_II_punkt_pdf Host="192.168.0.3" file="true" name="ProbeKlausur PTG II.pdf" rename="false" />
+		</Klausur>
+	</PTG>
+</VSFS>

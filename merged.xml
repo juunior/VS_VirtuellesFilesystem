@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<VSFS>
+	<VS1 Host="192.168.15.1" directory="true" name="VS1" rename="false">
+		<Neue_minus___minus_Bitmap_punkt_bmp Host="192.168.15.1" file="true" name="Neue Bitmap.bmp" rename="false" />
+		<Neues_minus___minus_RTF_minus_Dokument_punkt_rtf Host="192.168.15.1" file="true" name="Neues RTF-Dokument.rtf" rename="false" />
+		<Neues_minus___minus_Textdokument_punkt_txt Host="192.168.15.1" file="true" name="Neues Textdokument.txt" rename="false" />
+		<aa_punkt_txt Host="192.168.15.1" file="true" name="aa.txt" rename="false" />
+		<anton_punkt_txt Host="192.168.15.1" file="true" name="anton.txt" rename="false" />
+		<fdsatiozvap_komma_srgvas_punkt_txt Host="192.168.15.1" file="true" name="fdsatiozvap,srgvas.txt" rename="false" />
+		<gullilecker_punkt_txt Host="192.168.15.1" file="true" name="gullilecker.txt" rename="false" />
+		<ztoip_punkt_txt Host="192.168.15.1" file="true" name="ztoip.txt" rename="false" />
+	</VS1>
+<PTG Host="192.168.0.3" directory="true" name="PTG" rename="false">
+		<doc00686320160817125107_punkt_pdf Host="192.168.0.3" file="true" name="doc00686320160817125107.pdf" rename="false" />
+		<doc00686420160817125238_punkt_pdf Host="192.168.0.3" file="true" name="doc00686420160817125238.pdf" rename="false" />
+		<doc00686620160817125516_punkt_pdf Host="192.168.0.3" file="true" name="doc00686620160817125516.pdf" rename="false" />
+		<doc00686720160817125637_punkt_pdf Host="192.168.0.3" file="true" name="doc00686720160817125637.pdf" rename="false" />
+		<doc00686820160817125721_punkt_pdf Host="192.168.0.3" file="true" name="doc00686820160817125721.pdf" rename="false" />
+		<doc00686920160817125746_punkt_pdf Host="192.168.0.3" file="true" name="doc00686920160817125746.pdf" rename="false" />
+		<doc00687020160817125806_punkt_pdf Host="192.168.0.3" file="true" name="doc00687020160817125806.pdf" rename="false" />
+		<Klausur Host="192.168.0.3" directory="true" name="Klausur" rename="false">
+			<Klausur_minus___minus_PTG_II_Probe_punkt_pdf Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe.pdf" rename="false" />
+			<Klausur_minus___minus_PTG_II_Probe1_punkt_doc Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe1.doc" rename="false" />
+			<Klausur_minus___minus_PTG_II_Probe2_punkt_doc Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe2.doc" rename="false" />
+			<Klausur_minus___minus_PTG_II_Probe3_punkt_doc Host="192.168.0.3" file="true" name="Klausur PTG_II_Probe3.doc" rename="false" />
+			<Klausur_minus_ptg_punkt_rar Host="192.168.0.3" file="true" name="Klausur-ptg.rar" rename="false" />
+			<Loesung_minus___minus_2 Host="192.168.0.3" file="true" name="Loesung 2" rename="false" />
+			<Musterloesung_minus___minus_Probeklausur_minus___minus_PTG_minus___minus_II_punkt_pdf Host="192.168.0.3" file="true" name="Musterloesung Probeklausur PTG II.pdf" rename="false" />
+			<ProbeKlausur_minus___minus_PTG_minus___minus_II_punkt_pdf Host="192.168.0.3" file="true" name="ProbeKlausur PTG II.pdf" rename="false" />
+		</Klausur>
+	</PTG>
+</VSFS>

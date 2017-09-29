@@ -367,11 +367,13 @@ public class xmlPathCreate {
     }
 
     public static void joinXML(String oldXml, String newXml) throws IOException {
-        String[] cmd ={"/bin/bash", "-c", "\"cd /home/kai/VS_VirtuellesFilesystem ;\" "," \"python2.7 merge.py " + oldXml + " " + newXml + " " + "merged.xml" + "\"" };
-
-        Process pr = Runtime.getRuntime().exec(cmd);
-        BufferedReader in = new BufferedReader(new InputStreamReader(pr.getErrorStream()));
-        System.out.println(in.readLine());
+        ProcessBuilder pb = new ProcessBuilder("python","merge.py",""+oldXml,""+newXml,"merged.xml");
+        Process p = pb.start();
+        BufferedReader in = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+        String line;
+        while ((line = in.readLine()) != null) {
+            System.out.println(line);
+        }
     }
 
 
