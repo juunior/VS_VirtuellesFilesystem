@@ -6,10 +6,7 @@ import org.jdom2.Element;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.*;
 import java.nio.file.AccessDeniedException;
 import java.nio.file.NotDirectoryException;
@@ -22,7 +19,7 @@ public class xmlPathCreate {
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
     public static String xmlPathWindows = System.getenv("AppData") + "\\";
     public static String xmlPathUnix = "/tmp/";
-    private final static String DATNAM = System.getenv("AppData") + "\\xmlTest.xml";
+    private final static String DATNAM = "xmlTest.xml";
 
     private final static File FILE = new File(DATNAM);
 
@@ -367,6 +364,14 @@ public class xmlPathCreate {
             DELIMITER = "/";
             return xmlPathUnix;
         }
+    }
+
+    public static void joinXML(String oldXml, String newXml) throws IOException {
+        String[] cmd ={"/bin/bash", "-c", "\"cd /home/kai/VS_VirtuellesFilesystem ;\" "," \"python2.7 merge.py " + oldXml + " " + newXml + " " + "merged.xml" + "\"" };
+
+        Process pr = Runtime.getRuntime().exec(cmd);
+        BufferedReader in = new BufferedReader(new InputStreamReader(pr.getErrorStream()));
+        System.out.println(in.readLine());
     }
 
 
