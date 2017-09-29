@@ -62,7 +62,7 @@ public class DirWatchService {
                 //TODO:Neuerstellung der XML nur bei CREATE und DELETE, nicht bei MODIFY
                 //if ((watchKey.pollEvents().stream().toString().equals("ENTRY_CREATE")) || (watchKey.pollEvents().stream().toString().equals("ENTRY_DELETE"))) {
                     try {
-                        xmlPathCreate.createXML("c:\\VS1");
+                        xmlPathCreate.createXML("/home/wolf/Documents/");
                         hc = searchXML.hashC();
                         WebServiceClient.communication(true, xmlPathCreate.detectOS());
                     } catch (FileNotFoundException | NotDirectoryException e) {
@@ -70,7 +70,7 @@ public class DirWatchService {
                     }
                     registerDirs(watcher);
                 }
-            if(WebServiceServer.hash(hc))
+            if(!WebServiceServer.hash(hc))
             {
                 WebServiceClient.communication(false,xmlPathCreate.detectOS());
                 hc = searchXML.hashC();

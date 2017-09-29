@@ -23,7 +23,7 @@ public class Main {
 
     public static void main(String args[]) {
         //xmlPathCreate.detectOS();
-        rootPath = "C:\\VS1";
+        rootPath = "/home/wolf/Documents/";
         try {
             xmlPathCreate.createXML(rootPath);
         } catch (FileNotFoundException | NotDirectoryException e) {

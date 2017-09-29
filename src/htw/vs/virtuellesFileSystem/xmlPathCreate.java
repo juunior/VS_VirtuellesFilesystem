@@ -21,8 +21,9 @@ public class xmlPathCreate {
     public static String DELIMITER;
     private static LinkedHashMap<String, String> illegalCharacterAndReplacement;
     public static String xmlPathWindows = System.getenv("AppData") + "\\";
-    public static String xmlPathUnix = "/tmp/";
-    private final static String DATNAM = System.getenv("AppData") + "\\xmlTest.xml";
+    public static String xmlPathUnix = "/home/wolf/IdeaProjects/VS_VirtuellesFilesystem/";
+    private final static String DATNAM = xmlPathUnix + "xmlTest.xml";
+//    private final static String DATNAM = System.getenv("AppData") + "\\xmlTest.xml";
 
     private final static File FILE = new File(DATNAM);
 
