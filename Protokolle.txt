@@ -1,0 +1,16 @@
+Dokumentation VS2 - Virtuelles Dateisystem
+- Treffen 24.10.17:
+Punkte: 
+. Infrastruktur
+   - WhatsApp, Discord, Github   
+   - Verspätete Anmeldung an Herr Esch ging noch in der Stunde raus.
+. Update Patrick Theis
+   - Um was gehts überhaupt bzw. um was gings in VS1?
+   - Gruppenaustausch - Lessons Leraned
+. Kommunikation
+   - Muss komplett neu geschrieben werden, da Umstieg von C-S auf P2P
+. Recycling
+   - Die meisten Funktionen *müssten* portierbar sein
+   - Infrastruktur bleibt bestehen
+. Nächstes (Arbeits-)Treffen: Freitag 2.Std. // 9 Uhr
+Anwesend: Alle, Zeit: 1h
