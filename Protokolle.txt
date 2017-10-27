@@ -14,3 +14,32 @@ Punkte:
    - Infrastruktur bleibt bestehen
 . Nächstes (Arbeits-)Treffen: Freitag 2.Std. // 9 Uhr
 Anwesend: Alle, Zeit: 1h
+
+
+Protokoll  27.10.17:10:00- 13:00
+Besprochene Themen:
+Struktureller Aufbau:
+- Filesharing Service(Dateiübertragung)
+- Backup lokal auf PC (in Eigenverantwortuung)
+- evtl noch Logs senden-  Informationen über Sync Meldungen
+- Gui/Nogui
+- 2 Vlans (Wan) -Logische Verbindungen als mehrere Verbindungen
+- random link
+- Vertrag
+- P2P einlesen(pro/contra)
+- nächstes Treffen
+- Definition Ausfallsicherheit(Systemweit, aber nicht Rechnerweit)
+- Git /discord /wa
+- Stundenzettel
+- Prezi
+- trello?
+Beschlüsse bzw. in näherer Auswahl:
+- Connection P2P neu (anpassen)
+- Explorervariante bleibt bestehen, XML bleibt bestehen, Funktionen bleiben erhalten
+- Python/Java
+- Nogui (Feature:Gui)
+- Nächstes Treffen Donnerstag ab Mittagspause Raum 5205 
+- Freitag 4. Stunde freihalten für Besprechung /Esch
+- Git aufräumen nicht dazu gekommen
+Fragen an Esch:
+- Was ist mit 2 Verbindugen gemeint? 
