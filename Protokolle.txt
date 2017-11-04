@@ -42,4 +42,14 @@ Beschlüsse bzw. in näherer Auswahl:
 - Freitag 4. Stunde freihalten für Besprechung /Esch
 - Git aufräumen nicht dazu gekommen
 Fragen an Esch:
-- Was ist mit 2 Verbindugen gemeint? 
+- Was ist mit 2 Verbindugen gemeint?
+
+Protokoll Strategieplanung 4.11.17
+.Basis: jxta "intern: jtags"
+.Kommunikation 
+  - beim Eintritt ins Netz -> Broadcast
+  - bei Austritt aus dem Netz (unbeabsichtigt) ->timeout
+  - FileServer!=FileSystem -> Frage an Esch: Was macht in dem Fall Sinn
+  - Supernodes/Superpeers -benötigt?
+  - Aufbauend auf p2p oder doppelte Arbeit? 
+ 
